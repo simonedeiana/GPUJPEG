@@ -495,8 +495,9 @@ gpujpeg_encoder_encode(struct gpujpeg_encoder* encoder, const struct gpujpeg_par
         return -1;
     }
 
-    // If restart interval is 0 then the GPU processing is in the end (even huffman coder will be performed on CPU)
-    if (coder->param.restart_interval == 0) {
+    const int cpu_huffman = coder->param.restart_interval == 0 &&
+        !gpujpeg_huffman_gpu_encoder_no_restart_supported(encoder);
+    if (cpu_huffman) {
         GPUJPEG_CUSTOM_TIMER_STOP(coder->duration_in_gpu, coder->param.perf_stats, coder->stream, return -1);
     }
 
@@ -508,8 +509,8 @@ gpujpeg_encoder_encode(struct gpujpeg_encoder* encoder, const struct gpujpeg_par
 
     GPUJPEG_CUSTOM_TIMER_STOP(coder->duration_dct_quantization, coder->param.perf_stats, coder->stream, return -1);
 
-    // Perform huffman coding on CPU (when restart interval is not set)
-    if ( coder->param.restart_interval == 0 ) {
+    // Keep the CPU fallback for unsupported restart-free GPU configurations.
+    if (cpu_huffman) {
         GPUJPEG_CUSTOM_TIMER_START(coder->duration_memory_from, coder->param.perf_stats, coder->stream, return -1);
         if (coder->data_quantized == NULL) {
             if (gpujpeg_coder_allocate_cpu_huffman_buf(coder) != 0) {
@@ -532,12 +533,15 @@ gpujpeg_encoder_encode(struct gpujpeg_encoder* encoder, const struct gpujpeg_par
         }
         GPUJPEG_CUSTOM_TIMER_STOP(coder->duration_huffman_coder, coder->param.perf_stats, coder->stream, return -1);
     }
-    // Perform huffman coding on GPU (when restart interval is set)
+    // Encode restart segments or a complete restart-free scan on the GPU.
     else {
         GPUJPEG_CUSTOM_TIMER_START(coder->duration_huffman_coder, coder->param.perf_stats, coder->stream, return -1);
         // Perform huffman coding
         unsigned int output_size;
-        if ( gpujpeg_huffman_gpu_encoder_encode(encoder, encoder->huffman_gpu_encoder, &output_size) != 0 ) {
+        const int huffman_rc = coder->param.restart_interval == 0 ?
+            gpujpeg_huffman_gpu_encoder_no_restart(encoder, encoder->huffman_gpu_encoder, &output_size) :
+            gpujpeg_huffman_gpu_encoder_encode(encoder, encoder->huffman_gpu_encoder, &output_size);
+        if (huffman_rc != 0) {
             fprintf(stderr, "[GPUJPEG] [Error] Huffman encoder on GPU failed!\n");
             return -1;
         }
@@ -572,7 +576,7 @@ gpujpeg_encoder_encode(struct gpujpeg_encoder* encoder, const struct gpujpeg_par
             for ( int segment_index = 0; segment_index < coder->segment_count; segment_index++ ) {
                 struct gpujpeg_segment* segment = &coder->segment[segment_index];
 
-                gpujpeg_writer_write_segment_info(encoder);
+                if (coder->param.restart_interval > 0) gpujpeg_writer_write_segment_info(encoder);
 
                 // Copy compressed data to writer
                 memcpy(
@@ -584,9 +588,9 @@ gpujpeg_encoder_encode(struct gpujpeg_encoder* encoder, const struct gpujpeg_par
                 //printf("Compressed data %d bytes\n", segment->data_compressed_size);
             }
             // Remove last restart marker in scan (is not needed)
-            encoder->writer->buffer_current -= 2;
+            if (coder->param.restart_interval > 0) encoder->writer->buffer_current -= 2;
 
-            gpujpeg_writer_write_segment_info(encoder);
+            if (coder->param.restart_interval > 0) gpujpeg_writer_write_segment_info(encoder);
         }
         else {
             // Write huffman coder results as one scan for each color component
@@ -598,7 +602,7 @@ gpujpeg_encoder_encode(struct gpujpeg_encoder* encoder, const struct gpujpeg_par
                 for ( int index = 0; index < coder->component[comp].segment_count; index++ ) {
                     struct gpujpeg_segment* segment = &coder->segment[segment_index];
 
-                    gpujpeg_writer_write_segment_info(encoder);
+                    if (coder->param.restart_interval > 0) gpujpeg_writer_write_segment_info(encoder);
 
                     assert(encoder->writer->buffer_current +
                                segment->data_compressed_size <=
@@ -616,9 +620,9 @@ gpujpeg_encoder_encode(struct gpujpeg_encoder* encoder, const struct gpujpeg_par
                     segment_index++;
                 }
                 // Remove last restart marker in scan (is not needed)
-                encoder->writer->buffer_current -= 2;
+                if (coder->param.restart_interval > 0) encoder->writer->buffer_current -= 2;
 
-                gpujpeg_writer_write_segment_info(encoder);
+                if (coder->param.restart_interval > 0) gpujpeg_writer_write_segment_info(encoder);
             }
         }
         GPUJPEG_CUSTOM_TIMER_STOP(coder->duration_stream, coder->param.perf_stats, coder->stream, return -1);

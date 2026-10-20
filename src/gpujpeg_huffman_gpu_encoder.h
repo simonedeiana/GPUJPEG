@@ -39,6 +39,13 @@ extern "C" {
 
 struct gpujpeg_huffman_gpu_encoder;
 
+/** Whether the restart-free GPU implementation supports this image/device/build. */
+int gpujpeg_huffman_gpu_encoder_no_restart_supported(const struct gpujpeg_encoder *encoder);
+
+/** Encode independent blocks then concatenate their bits and stuff bytes, without RST markers. */
+int gpujpeg_huffman_gpu_encoder_no_restart(struct gpujpeg_encoder *encoder,
+        struct gpujpeg_huffman_gpu_encoder *state, unsigned int *output_byte_count);
+
 /**
  * Destroy huffman GPU encoder.
  *

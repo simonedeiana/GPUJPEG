@@ -10,6 +10,7 @@ option(CMAKE_CUDA_ARCHITECTURES "CUDA architectures to build for (needs CMake 3.
 option(ENABLE_FPNGE "Enable fpnge - requires c++ and sse4" OFF)
 option(USE_NATIVE_CPU_ARCH "Use -march=native for compilation (Linux only)" OFF)
 option(HUFFMAN_GPU_CONST_TABLES "Enable Huffman GPU decoder quick const tables" OFF)
+option(HUFFMAN_GPU_NO_RESTART "Encode restart-free scans on GPU (CUDA 11+, SM 3+)" ON)
 set(OPENGL_CONTEXT AUTO CACHE STRING "Use specifiedn OpenGL context creation, options are: AUTO GLX GLFW NONE")
 set_property(CACHE OPENGL_CONTEXT PROPERTY STRINGS AUTO GLX GLFW NONE)
 
@@ -171,6 +172,17 @@ endif()
 if(HUFFMAN_GPU_CONST_TABLES)
     add_definitions("-DHUFFMAN_GPU_CONST_TABLES")
     set(COMPILED_OPTIONS "${COMPILED_OPTIONS} Huffman_const_tables")
+endif()
+
+if(HUFFMAN_GPU_NO_RESTART AND CMAKE_CUDA_COMPILER_VERSION VERSION_GREATER_EQUAL 11)
+    add_definitions("-DGPUJPEG_NO_RESTART_GPU")
+    set(COMPILED_OPTIONS "${COMPILED_OPTIONS} Huffman_no_restart_gpu")
+    set_source_files_properties(src/gpujpeg_huffman_gpu_encoder.cu PROPERTIES
+        COMPILE_OPTIONS "--std=c++17")
+    if(MSVC AND MSVC_VERSION GREATER_EQUAL 1914)
+        set_property(SOURCE src/gpujpeg_huffman_gpu_encoder.cu APPEND PROPERTY
+            COMPILE_OPTIONS "-Xcompiler=/Zc:preprocessor")
+    endif()
 endif()
 
 if(DEFINED GLEW_USE_STATIC_LIBS)

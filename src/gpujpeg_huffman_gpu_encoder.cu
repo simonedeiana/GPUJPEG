@@ -31,6 +31,9 @@
 #include "gpujpeg_huffman_gpu_encoder.h"
 #include "gpujpeg_marker.h"
 #include "gpujpeg_util.h"
+#ifdef GPUJPEG_NO_RESTART_GPU
+#include <cub/device/device_scan.cuh>
+#endif
 
 #define WARPS_NUM 8
 
@@ -60,6 +63,12 @@ struct gpujpeg_huffman_gpu_encoder
 {
     /** Size of occupied part of output buffer */
     unsigned int * d_gpujpeg_huffman_output_byte_count;
+#ifdef GPUJPEG_NO_RESTART_GPU
+    unsigned int *r0_bits, *r0_offsets, *r0_tile_counts, *r0_tile_offsets, *r0_raw;
+    void *r0_scan_temp;
+    size_t r0_scan_temp_bytes;
+    int r0_capacity;
+#endif
 };
 
 /**
@@ -1043,9 +1052,19 @@ gpujpeg_huffman_gpu_encoder_destroy(struct gpujpeg_huffman_gpu_encoder * huffman
     if (huffman_gpu_encoder->d_gpujpeg_huffman_output_byte_count != NULL) {
         cudaFree(huffman_gpu_encoder->d_gpujpeg_huffman_output_byte_count);
     }
+#ifdef GPUJPEG_NO_RESTART_GPU
+    cudaFree(huffman_gpu_encoder->r0_bits);
+    cudaFree(huffman_gpu_encoder->r0_offsets);
+    cudaFree(huffman_gpu_encoder->r0_tile_counts);
+    cudaFree(huffman_gpu_encoder->r0_tile_offsets);
+    cudaFree(huffman_gpu_encoder->r0_raw);
+    cudaFree(huffman_gpu_encoder->r0_scan_temp);
+#endif
 
     free(huffman_gpu_encoder);
 }
+
+#include "gpujpeg_huffman_no_restart.cuh"
 
 
 /**
