@@ -266,13 +266,22 @@ gpujpeg_decoder_decode(struct gpujpeg_decoder* decoder, uint8_t* image, size_t i
     }
 
     if ( coder->segment_count < 32 ) { // the CPU Huffman implementation will be likely faster
-        VERBOSE_MSG(decoder->coder.param.verbose, "Huffman has only %d segments. Using CPU decoder, which is slower!\n",
+        VERBOSE_MSG(decoder->coder.param.verbose, "Huffman has only %d segments; insufficient for the legacy GPU path.\n",
                     coder->segment_count);
         use_cpu_huffman_decoder = true;
     }
 
-    // Perform huffman decoding on CPU (when there are not enough segments to saturate GPU)
-    if ( use_cpu_huffman_decoder ) {
+    if (gpujpeg_huffman_gpu_decoder_no_restart_supported(decoder)) {
+        GPUJPEG_CUSTOM_TIMER_START(coder->duration_in_gpu, coder->param.perf_stats, coder->stream, return -1);
+        GPUJPEG_CUSTOM_TIMER_START(coder->duration_huffman_coder, coder->param.perf_stats, coder->stream, return -1);
+        if (gpujpeg_huffman_gpu_decoder_no_restart(decoder) != 0) {
+            fprintf(stderr, "[GPUJPEG] Restart-free GPU decoder failed\n");
+            return -1;
+        }
+        GPUJPEG_CUSTOM_TIMER_STOP(coder->duration_huffman_coder, coder->param.perf_stats, coder->stream, return -1);
+    }
+    // Retain CPU decoding for unsupported configurations and short restart streams.
+    else if ( use_cpu_huffman_decoder ) {
         GPUJPEG_CUSTOM_TIMER_START(coder->duration_huffman_coder, coder->param.perf_stats, coder->stream, return -1);
         if (coder->data_quantized == NULL) {
             if (gpujpeg_coder_allocate_cpu_huffman_buf(coder) != 0) {

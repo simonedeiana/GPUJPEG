@@ -30,6 +30,10 @@
 
 #include "gpujpeg_huffman_gpu_decoder.h"
 #include "gpujpeg_util.h"
+#ifdef GPUJPEG_NO_RESTART_DECODER
+#include <algorithm>
+struct gpujpeg_decoder_r0_state;
+#endif
 
 /**
  * Entry of pre-built Huffman fast-decoding table.
@@ -45,6 +49,9 @@ struct gpujpeg_table_huffman_decoder_entry {
 // TODO: try to tweak QUICK table size and memory space
 
 struct gpujpeg_huffman_gpu_decoder {
+#ifdef GPUJPEG_NO_RESTART_DECODER
+    gpujpeg_decoder_r0_state *r0;
+#endif
     /**
      * 4 pre-built tables for faster Huffman decoding (codewords up-to 16 bit length):
      *   - 0x00000 to 0x0ffff: luminance DC table
@@ -609,6 +616,8 @@ gpujpeg_huffman_decoder_table_kernel(
     gpujpeg_huffman_gpu_decoder_table_setup(huffman_gpu_decoder, idx, d_table_cbcr_ac, 3);
 }
 
+#include "gpujpeg_huffman_no_restart_decoder.cuh"
+
 /* Documented at declaration */
 struct gpujpeg_huffman_gpu_decoder *
 gpujpeg_huffman_gpu_decoder_init()
@@ -656,6 +665,9 @@ gpujpeg_huffman_gpu_decoder_destroy(struct gpujpeg_huffman_gpu_decoder *huffman_
     cudaFree(huffman_gpu_decoder->d_order_natural);
     cudaFree(huffman_gpu_decoder->d_tables_full);
     cudaFree(huffman_gpu_decoder->d_tables_quick);
+#ifdef GPUJPEG_NO_RESTART_DECODER
+    dr0_release(huffman_gpu_decoder->r0);
+#endif
     free(huffman_gpu_decoder);
 }
 

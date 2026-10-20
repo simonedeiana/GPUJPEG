@@ -39,6 +39,9 @@ extern "C" {
 
 struct gpujpeg_huffman_gpu_decoder;
 
+int gpujpeg_huffman_gpu_decoder_no_restart_supported(const struct gpujpeg_decoder *decoder);
+int gpujpeg_huffman_gpu_decoder_no_restart(struct gpujpeg_decoder *decoder);
+
 /**
  * Init huffman decoder
  * 
