@@ -1,0 +1,752 @@
+[
+  {
+    "path": "logs/4k420-r0-r0-baseline.txt",
+    "bytes": 65762,
+    "sha256": "0ef5b21f21d94c5c23d36d89b1e65436723b908a2e4c703f3e9373583561a788"
+  },
+  {
+    "path": "logs/4k420-r0-r0-fastvideo.qpc.tsv",
+    "bytes": 12255,
+    "sha256": "7ecddf295147e9be0f2fa1c00129a2c59055b65a34c51ac77b5930348d6805cc"
+  },
+  {
+    "path": "logs/4k420-r0-r0-fastvideo.txt",
+    "bytes": 16665,
+    "sha256": "6c4d74a61420008080d6854be0e43ad03b32f32858d761f4f3f9b50500a00640"
+  },
+  {
+    "path": "logs/4k420-r0-r1-baseline.txt",
+    "bytes": 65762,
+    "sha256": "6bacc94da6287157a7bbadeeff98fa12a0d81f0bcdf125384e71c3999fba7ff3"
+  },
+  {
+    "path": "logs/4k420-r0-r1-fastvideo.qpc.tsv",
+    "bytes": 12254,
+    "sha256": "23369108cd03ec742a7bf44a841840b012534034a7ab19a3ae9104941bdae2c4"
+  },
+  {
+    "path": "logs/4k420-r0-r1-fastvideo.txt",
+    "bytes": 16665,
+    "sha256": "390e5318481b8a2e7e86b8838acd99b27a45ca43bc000ad7f2a6c18e4e7e379e"
+  },
+  {
+    "path": "logs/4k420-r0-r2-baseline.txt",
+    "bytes": 65762,
+    "sha256": "8ba4f26ec52c256d27fa12df48e5f3ab307d8c08d8b666b431d2a830d4ef711b"
+  },
+  {
+    "path": "logs/4k420-r0-r2-fastvideo.qpc.tsv",
+    "bytes": 12254,
+    "sha256": "319b35f0063f577b812692a6e550d114ae675f4d41276e7f3827c033153fc1b7"
+  },
+  {
+    "path": "logs/4k420-r0-r2-fastvideo.txt",
+    "bytes": 16665,
+    "sha256": "8eeeb2b922eddbb2bda9c30e8f651817ebedcda707483c4f433ea094d524c883"
+  },
+  {
+    "path": "logs/4k420-r0-r3-baseline.txt",
+    "bytes": 65762,
+    "sha256": "433e88eb05f30d7baaa33d60d398e58d2d2b65465e80f978c3bf099edc9e07bb"
+  },
+  {
+    "path": "logs/4k420-r0-r3-fastvideo.qpc.tsv",
+    "bytes": 12254,
+    "sha256": "a5e5916c78ee0fe77914c543cedd482a86bc783835a66e27309c29af790ba35e"
+  },
+  {
+    "path": "logs/4k420-r0-r3-fastvideo.txt",
+    "bytes": 16665,
+    "sha256": "dd3ab946ab5286eb91981cfbb7c49f7b917a18cffb1038d1b37b771fcbb8766e"
+  },
+  {
+    "path": "logs/4k420-r0-r4-baseline.txt",
+    "bytes": 65762,
+    "sha256": "ec9a3f189d2902566b684d4c3c0f8b34dab937724e4b1683f801a9542aa7aba5"
+  },
+  {
+    "path": "logs/4k420-r0-r4-fastvideo.qpc.tsv",
+    "bytes": 12255,
+    "sha256": "b42c44dbef06a69fe8583a1927aebfaea7e8b7fbddcc133b98d1c63e663812cf"
+  },
+  {
+    "path": "logs/4k420-r0-r4-fastvideo.txt",
+    "bytes": 16665,
+    "sha256": "969d5c496029200d557cde61b16df7dbf7eea12120bfef36d8a167af5718362d"
+  },
+  {
+    "path": "logs/4k420-r10-r0-baseline.txt",
+    "bytes": 56309,
+    "sha256": "37ef27b437b3c8f08362a8f3ce57b5981614bfccbb9cc9dc2d11a78a85ee1b81"
+  },
+  {
+    "path": "logs/4k420-r10-r0-fastvideo.qpc.tsv",
+    "bytes": 12145,
+    "sha256": "991f2dc0ec08175476f771d5301ed86ee8e5d73cc22b4230d264bb478dec5504"
+  },
+  {
+    "path": "logs/4k420-r10-r0-fastvideo.txt",
+    "bytes": 16554,
+    "sha256": "c60ce4daa5553c58eceda0c0dd4238accfa25f07350846ba42db716f29010cde"
+  },
+  {
+    "path": "logs/4k420-r10-r1-baseline.txt",
+    "bytes": 56309,
+    "sha256": "8fda57b1e719128b674f1de05e0d264b2f9be6f69c0c7a8fec2238d318b8e34f"
+  },
+  {
+    "path": "logs/4k420-r10-r1-fastvideo.qpc.tsv",
+    "bytes": 12145,
+    "sha256": "9f81f8fb681be7b7cd30612941df8e33e8ba0aba09d1ccb4ccb0c15417303680"
+  },
+  {
+    "path": "logs/4k420-r10-r1-fastvideo.txt",
+    "bytes": 16554,
+    "sha256": "d82aca148a97b86d3a6296d33bd04a21c52fba81033ff60063f7cac1eafce36a"
+  },
+  {
+    "path": "logs/4k420-r10-r2-baseline.txt",
+    "bytes": 56309,
+    "sha256": "cb47f010042670e5c09d37f44b9011d2059fb3fe61a091eb1169aa645e08374b"
+  },
+  {
+    "path": "logs/4k420-r10-r2-fastvideo.qpc.tsv",
+    "bytes": 12145,
+    "sha256": "b402531f07e5c141ae55aff3113945c1630dd225162ec2f0f56677df571f8542"
+  },
+  {
+    "path": "logs/4k420-r10-r2-fastvideo.txt",
+    "bytes": 16554,
+    "sha256": "9467d9d44a721a847c06f2e486808603e84c842e4b88602024017453545b8b6f"
+  },
+  {
+    "path": "logs/4k420-r10-r3-baseline.txt",
+    "bytes": 56309,
+    "sha256": "d66e3c8ce70afa6461f5be84f823fa205530bd9ba052bcb0a400698fd2aaf434"
+  },
+  {
+    "path": "logs/4k420-r10-r3-fastvideo.qpc.tsv",
+    "bytes": 12145,
+    "sha256": "4962ce54cfea9939c4633b0f6d57eb79848d4e4d073396fc0778cc587ec929e0"
+  },
+  {
+    "path": "logs/4k420-r10-r3-fastvideo.txt",
+    "bytes": 16554,
+    "sha256": "586e1c5f6a50f765a534579d1d5cd0a26c4a837df05afbe8248fe978e1c6e2c3"
+  },
+  {
+    "path": "logs/4k420-r10-r4-baseline.txt",
+    "bytes": 56309,
+    "sha256": "6eece5e0316474a59dfd950a5a91f44098b10f90d0e577d9b9c13b84a5f5d547"
+  },
+  {
+    "path": "logs/4k420-r10-r4-fastvideo.qpc.tsv",
+    "bytes": 12145,
+    "sha256": "456d7a2dd1c61443f6cf07db7fc49cf1c3aa8ad6ee044eb311a1f08478f9effd"
+  },
+  {
+    "path": "logs/4k420-r10-r4-fastvideo.txt",
+    "bytes": 16554,
+    "sha256": "db13882704f40268ff31d90f9aaba80378b944c895ccab7c8199519d149726d5"
+  },
+  {
+    "path": "logs/4k444-r10-r0-baseline.txt",
+    "bytes": 56312,
+    "sha256": "275e24e20935a68016cd3b603b1730e9dd4e9d162a26151f3557ba4b934d3da3"
+  },
+  {
+    "path": "logs/4k444-r10-r0-fastvideo.qpc.tsv",
+    "bytes": 12145,
+    "sha256": "2879e36ec04ce95acff4c1221e92f268be7ffdb4bfd1909f37ee8e9ae7cfeb8f"
+  },
+  {
+    "path": "logs/4k444-r10-r0-fastvideo.txt",
+    "bytes": 16554,
+    "sha256": "445366ea78069286c18097a9ba9c6ecebe2f1edeb06035c733122a5866c386b6"
+  },
+  {
+    "path": "logs/4k444-r10-r1-baseline.txt",
+    "bytes": 56312,
+    "sha256": "ebb1dbdc4da924d9e478d4292294bb67ba45f803ef686f15087e7f7fe4c1ff08"
+  },
+  {
+    "path": "logs/4k444-r10-r1-fastvideo.qpc.tsv",
+    "bytes": 12145,
+    "sha256": "d21170ae46c3ab592fca72af9db4e9fc5255453f55c0c8ab239a76afd613cd4b"
+  },
+  {
+    "path": "logs/4k444-r10-r1-fastvideo.txt",
+    "bytes": 16554,
+    "sha256": "005cf520457be707693bad2929b5f15e21255823079125121ac535b67d62a8a5"
+  },
+  {
+    "path": "logs/4k444-r10-r2-baseline.txt",
+    "bytes": 56312,
+    "sha256": "b72b8d49d7525ae253c5eb57d0db7a97f15c13f6190434263f1bfc06abb7e31b"
+  },
+  {
+    "path": "logs/4k444-r10-r2-fastvideo.qpc.tsv",
+    "bytes": 11925,
+    "sha256": "8dd6ea237175c318666d072ed7ebd0715e15aa607ecf33672cd57b0efa75e4ca"
+  },
+  {
+    "path": "logs/4k444-r10-r2-fastvideo.txt",
+    "bytes": 16554,
+    "sha256": "4e0595e0f68ec20a84c3c4e4700cecd8e63aec41230284055d002f758907bd8d"
+  },
+  {
+    "path": "logs/4k444-r10-r3-baseline.txt",
+    "bytes": 56312,
+    "sha256": "6b668c43e3bfc2552d624fa6fcbf6a9ddc6abb5f4ced90545eca55c0c45d1556"
+  },
+  {
+    "path": "logs/4k444-r10-r3-fastvideo.qpc.tsv",
+    "bytes": 12145,
+    "sha256": "c01676fbf49ba62742a07234288c1727b111d01c0ae28ac30152dfb093e79f51"
+  },
+  {
+    "path": "logs/4k444-r10-r3-fastvideo.txt",
+    "bytes": 16554,
+    "sha256": "c23af47116298cfa6b2dcaefbe878e8e00aef98d94bdca6eab5cb5d099f3f096"
+  },
+  {
+    "path": "logs/4k444-r10-r4-baseline.txt",
+    "bytes": 56312,
+    "sha256": "6932277278d213f98046dd680ff909feedae3763f0740681d8ba6daa0ba42ec2"
+  },
+  {
+    "path": "logs/4k444-r10-r4-fastvideo.qpc.tsv",
+    "bytes": 12145,
+    "sha256": "6799671b205a1875e021a35678995b0ef9ce2407f30b62f698bdf07ab62d33e8"
+  },
+  {
+    "path": "logs/4k444-r10-r4-fastvideo.txt",
+    "bytes": 16554,
+    "sha256": "ac94373a4909ee2c25d56d8ba60cc46854a2d7c8b478d5ad09a4a2c7474ce8d1"
+  },
+  {
+    "path": "logs/hd420-r10-r0-baseline.txt",
+    "bytes": 56303,
+    "sha256": "0a56900ac8efd93a4b8e11cf3857b84f26cf3a92bfacc9a38d5015404e9bac58"
+  },
+  {
+    "path": "logs/hd420-r10-r0-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "a11d9660790eda7ea6acb30e2dd868cc482cba75f148445a7e45aee6ab168c89"
+  },
+  {
+    "path": "logs/hd420-r10-r0-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "fca8598485472c55d13355ad14e4689fe399238d40b621a2c25534b9eda6f5ee"
+  },
+  {
+    "path": "logs/hd420-r10-r1-baseline.txt",
+    "bytes": 56303,
+    "sha256": "6d714cb40441513930bf93583e284b8a711c06c5fae1e3faede0d290dc21d962"
+  },
+  {
+    "path": "logs/hd420-r10-r1-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "b908b2b86e67ebda1ea10d8d599920a5ce42f915a9e2c2a8826752a874964e39"
+  },
+  {
+    "path": "logs/hd420-r10-r1-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "b9a86367ead9431ea6721c6e7698e7ebcb4da73aefe145257517513ae9ee148c"
+  },
+  {
+    "path": "logs/hd420-r10-r2-baseline.txt",
+    "bytes": 56303,
+    "sha256": "150aa92a8b0d4e8e54b75b2070bef131e0deb19fc54a45c65d71d875f4fd8063"
+  },
+  {
+    "path": "logs/hd420-r10-r2-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "542dc9efdd0bbffa7742f41ee5ccfc50ba91c7d4104af637c7239d2411617c90"
+  },
+  {
+    "path": "logs/hd420-r10-r2-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "f8d4fffe4e77d3c023906edae6d4b3b109724d1244d06d1fb4c98cb5df16caf8"
+  },
+  {
+    "path": "logs/hd420-r10-r3-baseline.txt",
+    "bytes": 56303,
+    "sha256": "a95d44fd4861a65731bcf2c7b486595b5aa8eb87daa246776445bdb0c654ed85"
+  },
+  {
+    "path": "logs/hd420-r10-r3-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "5937f72576d78efa6151ed86f735dee092b45e33ba84cc962f51ce379bf94f9a"
+  },
+  {
+    "path": "logs/hd420-r10-r3-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "3718867e16b664250e7f27a384743c30c1a37df2550fd03fabd3d342c3c316c5"
+  },
+  {
+    "path": "logs/hd420-r10-r4-baseline.txt",
+    "bytes": 56303,
+    "sha256": "555644ad349ecffa32be0accb887e7e3dc8b99b74fe57c23c62911df27dbf48f"
+  },
+  {
+    "path": "logs/hd420-r10-r4-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "91010c46dd4a8320a57ab38c7f84284b52ea434663e14fad684b51953418ea93"
+  },
+  {
+    "path": "logs/hd420-r10-r4-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "f48a569b1fcfc48524636c8b134096f338fff6add5e46a775957ee752978d981"
+  },
+  {
+    "path": "logs/hd422-r10-r0-baseline.txt",
+    "bytes": 56304,
+    "sha256": "3956f1c1a1799357dd9e84af9d702bda4af4dcabd827f6716a59b810bf46eec3"
+  },
+  {
+    "path": "logs/hd422-r10-r0-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "32ccfa5731641321371e1b8f1dc64ad207578c95b723bcc2084c5ef31cc4063d"
+  },
+  {
+    "path": "logs/hd422-r10-r0-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "2e0b28d7bf115c3a26078c3b10b08cbfabd02670428cd4a406eb8a4d1d48c589"
+  },
+  {
+    "path": "logs/hd422-r10-r1-baseline.txt",
+    "bytes": 56304,
+    "sha256": "472d709dc4e2c6a63be6f778b3913f69dd5ccc8e172a3dbaa0bf3463e47cc9e6"
+  },
+  {
+    "path": "logs/hd422-r10-r1-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "450fc71f94a81860c8c05e03dbc05de82734ff55412b0c3180b0f8e7134957d0"
+  },
+  {
+    "path": "logs/hd422-r10-r1-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "3080b9aba6c3c374690faf8cccff1ffd536d12cf10e33e920eb6d7f26d9a3ce9"
+  },
+  {
+    "path": "logs/hd422-r10-r2-baseline.txt",
+    "bytes": 56304,
+    "sha256": "8ac7b88ff864e465b94a6eaa08cbca91a27ff74a447fb2c2711c2eda4bceabef"
+  },
+  {
+    "path": "logs/hd422-r10-r2-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "5b7371ad95b91d5bb39882d4034fe32b33ab5488353dcd73263d7a24eb73ec25"
+  },
+  {
+    "path": "logs/hd422-r10-r2-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "cf97e047ded2472d0190bde7dbce1da1247dd286c2a207b13b205673fb0df38b"
+  },
+  {
+    "path": "logs/hd422-r10-r3-baseline.txt",
+    "bytes": 56304,
+    "sha256": "7a1b96251f2e875f49aac874614559d1ab9d9556dff25213c6420799727c9665"
+  },
+  {
+    "path": "logs/hd422-r10-r3-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "53445c7611195ed06790e93613f145c4ffb0d1ab695ead56acbc5b65c3be155d"
+  },
+  {
+    "path": "logs/hd422-r10-r3-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "b7b2b9a951ad87b2219cfc01d648f8fac60e90ac22ca91eb7daf4becdfd763d0"
+  },
+  {
+    "path": "logs/hd422-r10-r4-baseline.txt",
+    "bytes": 56304,
+    "sha256": "d8d89df5fd7c64d8785eafcb8a5b7d6d0fdd1384abbc916a684861d2463d1fdc"
+  },
+  {
+    "path": "logs/hd422-r10-r4-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "0ac2661dd1c78dc3ba6b2da452bb72b72b7e5dd66f3571ceeffa3f3c31e81c0b"
+  },
+  {
+    "path": "logs/hd422-r10-r4-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "ea1bec979a83e3ea6d2c6261b60edcd31146a8cd43867bf87906fd1896c19d97"
+  },
+  {
+    "path": "logs/hd444-r0-r0-baseline.txt",
+    "bytes": 65760,
+    "sha256": "7eb26130daed79f3797a9a218d476c947134235e15478401c205df41d9b5b9fd"
+  },
+  {
+    "path": "logs/hd444-r0-r0-fastvideo.qpc.tsv",
+    "bytes": 12254,
+    "sha256": "4a81937a66debc0393c1641f32c3167cf325d62e57efe899bc3c639bc007a930"
+  },
+  {
+    "path": "logs/hd444-r0-r0-fastvideo.txt",
+    "bytes": 16664,
+    "sha256": "b1a8682892ac711ae2898feb2776658f7ed890cf63067b7e52eaaa1d38b32c32"
+  },
+  {
+    "path": "logs/hd444-r0-r1-baseline.txt",
+    "bytes": 65760,
+    "sha256": "f2b2904c4e7ab4519071be8f0615105e4e65e3809a50a0cbfad129bb5f4e6dd3"
+  },
+  {
+    "path": "logs/hd444-r0-r1-fastvideo.qpc.tsv",
+    "bytes": 12254,
+    "sha256": "eb4818e6602a9235d903eb5a3560c92c4e7b58901b82e2e607bc1a7bb6324b39"
+  },
+  {
+    "path": "logs/hd444-r0-r1-fastvideo.txt",
+    "bytes": 16664,
+    "sha256": "9d78855f4429705d6011ac8d4ea7d9133f931d5c0444cf221656f2989cce6bf2"
+  },
+  {
+    "path": "logs/hd444-r0-r2-baseline.txt",
+    "bytes": 65760,
+    "sha256": "e3dea1b97e2ef23de165f0d719551388ea4c687047993bc4685b977dec283c46"
+  },
+  {
+    "path": "logs/hd444-r0-r2-fastvideo.qpc.tsv",
+    "bytes": 12254,
+    "sha256": "13ffca5bea2a848168a00a03b1cfe59d33273219c762b5193c5db0793094cc2d"
+  },
+  {
+    "path": "logs/hd444-r0-r2-fastvideo.txt",
+    "bytes": 16664,
+    "sha256": "376d3504fbe417c874dc27a2ac7a8a3daa3b9a00877340feca196344d655760e"
+  },
+  {
+    "path": "logs/hd444-r0-r3-baseline.txt",
+    "bytes": 65760,
+    "sha256": "01a64e6e26ece2d71a109c577254651a0fdc71d6f20ca4564e835ee311b2d507"
+  },
+  {
+    "path": "logs/hd444-r0-r3-fastvideo.qpc.tsv",
+    "bytes": 12254,
+    "sha256": "74370491997bf71fc04a33c2b1cdbeebe6111beae2450fd2dde18c309cc7b9dc"
+  },
+  {
+    "path": "logs/hd444-r0-r3-fastvideo.txt",
+    "bytes": 16664,
+    "sha256": "a17ad31403a1e9f6bd311b96ce6a4f972b6763cfac1f94a420d6f28a4ba6e868"
+  },
+  {
+    "path": "logs/hd444-r0-r4-baseline.txt",
+    "bytes": 65760,
+    "sha256": "56741e50ecb025b001c1f18aa6db21d0d4787bcfcc89d25f3f6e826c4d66c5de"
+  },
+  {
+    "path": "logs/hd444-r0-r4-fastvideo.qpc.tsv",
+    "bytes": 12254,
+    "sha256": "f768999673b11e7be3c9b00039b6cca528283f443ee5f73aa0b742d4d25aef61"
+  },
+  {
+    "path": "logs/hd444-r0-r4-fastvideo.txt",
+    "bytes": 16664,
+    "sha256": "63ad55356c5441742c88a11daee02bcc692b9cf0935849ee6f2162bd241975f1"
+  },
+  {
+    "path": "logs/hd444-r1-r0-baseline.txt",
+    "bytes": 56307,
+    "sha256": "662dd9deba03634d9b068c46f1da1897d9368a2d5e2dd204d0a7197ad951fdfe"
+  },
+  {
+    "path": "logs/hd444-r1-r0-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "d7c8890d0d7c691f13c9b1b30ab1adc01858b48ba4f1c7603d9c5e8ebb09a8d8"
+  },
+  {
+    "path": "logs/hd444-r1-r0-fastvideo.txt",
+    "bytes": 16551,
+    "sha256": "a7c216f6fb566104f3f1ad03258aaaabdb45454033b7cd028174d74820c3cfdc"
+  },
+  {
+    "path": "logs/hd444-r1-r1-baseline.txt",
+    "bytes": 56307,
+    "sha256": "84eb113f1f7441ac87bbee208d60a47ee5ac73d693ecc836bb2d185eeb9afba7"
+  },
+  {
+    "path": "logs/hd444-r1-r1-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "6e27e2e45b0834d0fd0884d97a12ddbb79061d93463cb28a1b24b756c183d212"
+  },
+  {
+    "path": "logs/hd444-r1-r1-fastvideo.txt",
+    "bytes": 16552,
+    "sha256": "886f1c357fe5c768cb4ec191a76786e0d52b9d65f497383d41e07449946c771b"
+  },
+  {
+    "path": "logs/hd444-r1-r2-baseline.txt",
+    "bytes": 56307,
+    "sha256": "7e531c15cff6e5f3dd5c7bafaf8ccddd06b6d972d5bc6fcd05419ca11a3cdd48"
+  },
+  {
+    "path": "logs/hd444-r1-r2-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "bd5c235a78fbe2233d98a396bf35c658c8386fe01a9dffaf080d2732a6c1d276"
+  },
+  {
+    "path": "logs/hd444-r1-r2-fastvideo.txt",
+    "bytes": 16552,
+    "sha256": "6d7632e7ff600d4f7d8995470bc6889f5aca235f143e5cc5038d5bbdd443ba55"
+  },
+  {
+    "path": "logs/hd444-r1-r3-baseline.txt",
+    "bytes": 56307,
+    "sha256": "3d525b21df90eb37957c42d0f88e6ed7bccda0fd189c3c7189484f83d5fb5f71"
+  },
+  {
+    "path": "logs/hd444-r1-r3-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "8fd5501a7cf1f957d88315a93c7e411995f4f3704c34ef5c09c5e6ce638985db"
+  },
+  {
+    "path": "logs/hd444-r1-r3-fastvideo.txt",
+    "bytes": 16552,
+    "sha256": "cc53d38e95df26f59d7bc8bddc34bc165002c5ee675593b0e434402e28aee11c"
+  },
+  {
+    "path": "logs/hd444-r1-r4-baseline.txt",
+    "bytes": 56307,
+    "sha256": "fd957aaaad8ec00bea1d1558caaef11da93d8faf66c8e27977e36116afe34241"
+  },
+  {
+    "path": "logs/hd444-r1-r4-fastvideo.qpc.tsv",
+    "bytes": 11924,
+    "sha256": "db83601e9ac6b1b7f752aa3ee5600286ffd9b4383db0c6dc47e69c699634c9ff"
+  },
+  {
+    "path": "logs/hd444-r1-r4-fastvideo.txt",
+    "bytes": 16552,
+    "sha256": "aa18597fc949c1e4aedcb6ccd12d4f4bdfcb60bc391f45b33472375e75a5e199"
+  },
+  {
+    "path": "logs/hd444-r10-r0-baseline.txt",
+    "bytes": 56307,
+    "sha256": "5b5b7d1bfc3efd25c394dde40924e84033a5e798791a40d286c9132c6920bfbf"
+  },
+  {
+    "path": "logs/hd444-r10-r0-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "80a2ed9ce573731cb18502628ac89ca659b2fa38084564b64018e3961ee44bb2"
+  },
+  {
+    "path": "logs/hd444-r10-r0-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "7bf2f29181ff5c48409b926cfbc04b8858e26968da736f5f1694cd97e578953c"
+  },
+  {
+    "path": "logs/hd444-r10-r1-baseline.txt",
+    "bytes": 56307,
+    "sha256": "a7f5e9e49fda09ebb8dc65cce360673c447b18c890946e5324161e0086556393"
+  },
+  {
+    "path": "logs/hd444-r10-r1-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "de52e69df62df02899b7cf6bef8a207489cf6a4e9771f57c69c659de11201e55"
+  },
+  {
+    "path": "logs/hd444-r10-r1-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "80584ba72c5a6d82857331c9899c1c30e74242d220541e1f7acf2e980c76e5df"
+  },
+  {
+    "path": "logs/hd444-r10-r2-baseline.txt",
+    "bytes": 56307,
+    "sha256": "cd45ba50cfb2290fb2ef3fd7fa3bde448a9d3825a7bfb7a5388b6c8413154694"
+  },
+  {
+    "path": "logs/hd444-r10-r2-fastvideo.qpc.tsv",
+    "bytes": 11924,
+    "sha256": "a71c52b61a80a81e99aa199872cd7f77032e5bcc580aee2b0c5ca253a936a9d6"
+  },
+  {
+    "path": "logs/hd444-r10-r2-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "5b54f19c3843827ac7b9fdd24fa0f7548662f7008f752f5130189dd1974f1fc9"
+  },
+  {
+    "path": "logs/hd444-r10-r3-baseline.txt",
+    "bytes": 56307,
+    "sha256": "9dcb334e346ef6293b2f61dc3fca65c26f1cdfab4c1ca19ae371d12ca053fa7f"
+  },
+  {
+    "path": "logs/hd444-r10-r3-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "343c653780cd6364859ffa30244097b7c26f0e2b10431f4a0c4abb2704ddc0ac"
+  },
+  {
+    "path": "logs/hd444-r10-r3-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "fe80043a542cbc457d8caf8284c87d3e2393a09a729703efaee8f5a001e8d537"
+  },
+  {
+    "path": "logs/hd444-r10-r4-baseline.txt",
+    "bytes": 56307,
+    "sha256": "9fc611c6ded3a58866cac7525020e2cfd3d7ff1e8d589c1e270dc53b57eaa8e0"
+  },
+  {
+    "path": "logs/hd444-r10-r4-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "42870de2c158cb338c965c52397473f766d0a14b64ef20a88f4dbfcfa94a19bf"
+  },
+  {
+    "path": "logs/hd444-r10-r4-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "bd0d273e971d3b4e09dfe5736b786be6387633d60b95e8686288e86e77cc2101"
+  },
+  {
+    "path": "logs/hd444-r32-r0-baseline.txt",
+    "bytes": 56306,
+    "sha256": "3643607387d64c144354e37939cafefbe073543ed35834260327a734426b6e9a"
+  },
+  {
+    "path": "logs/hd444-r32-r0-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "fd20729fd23720acafedc941e88c717b3d1ef3a0607f72f8670d81742f4576ce"
+  },
+  {
+    "path": "logs/hd444-r32-r0-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "cd7421c204ad93bb5efe257a1eaf7d84a3fdfdebaca2d31e92f8bf029c446a31"
+  },
+  {
+    "path": "logs/hd444-r32-r1-baseline.txt",
+    "bytes": 56306,
+    "sha256": "ee16072c4c2eacf182c16529673d64857f0855efac400d0287ffb3970d5e7750"
+  },
+  {
+    "path": "logs/hd444-r32-r1-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "f9dcb5cb4b3b9f3e165aff41ea520c3d9dbaa69c984399b774187fb5f1703208"
+  },
+  {
+    "path": "logs/hd444-r32-r1-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "239593a59090a792cb9ac5375bc3ce27b6b4554daa86d1a4884eaaf3b2e0f909"
+  },
+  {
+    "path": "logs/hd444-r32-r2-baseline.txt",
+    "bytes": 56306,
+    "sha256": "da2cc8494c5da7f8cffb018ce6829a21d83a7c211c75d06fd6bd24feadb31e4b"
+  },
+  {
+    "path": "logs/hd444-r32-r2-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "5a7f0c1e85a8ac67bf33aec35608fb1f9b3f2b834fa8e7c90974828e549b4b4b"
+  },
+  {
+    "path": "logs/hd444-r32-r2-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "0e3f7665f7f667c79e703c58b69133942713c4c64467787425a60d613fa27863"
+  },
+  {
+    "path": "logs/hd444-r32-r3-baseline.txt",
+    "bytes": 56306,
+    "sha256": "218e665b6266a148992ebab57ad5777c7848fd3a87bfbcb062f665aaf5517c5c"
+  },
+  {
+    "path": "logs/hd444-r32-r3-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "db6959a44ba4ba8e068a643443055c040b31e6eccf9814ca827a3890a8c0b26f"
+  },
+  {
+    "path": "logs/hd444-r32-r3-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "179c362bd211b474a452e69a04b7575885cb63a767f35231461c5e04dff727e4"
+  },
+  {
+    "path": "logs/hd444-r32-r4-baseline.txt",
+    "bytes": 56306,
+    "sha256": "5c850f2513367ad1357ee226fd015a87c9d1f2be318ff619c84ce00925e210e8"
+  },
+  {
+    "path": "logs/hd444-r32-r4-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "4e2c8032399a1c7d42fa60f7f4428c0bf75e282c230212ddb9c812e2a3b8470d"
+  },
+  {
+    "path": "logs/hd444-r32-r4-fastvideo.txt",
+    "bytes": 16553,
+    "sha256": "4f5ce5ab544b44afab3a41bc2d34df10305d9f7e6f6e0fe07490a1f00cecd8d4"
+  },
+  {
+    "path": "logs/hdgray-r10-r0-baseline.txt",
+    "bytes": 58898,
+    "sha256": "3a2e5094dc351113583b08028d9fde4c0762bc58801fe61d7fd417a69cf36bdd"
+  },
+  {
+    "path": "logs/hdgray-r10-r0-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "1cadd868c5af8d6a78ab9bae7ba5ca7a24ae51704a35c84cfa350725fa2cddea"
+  },
+  {
+    "path": "logs/hdgray-r10-r0-fastvideo.txt",
+    "bytes": 16561,
+    "sha256": "c9decdc7074e1c5b5a07815452e5ac04582a567e543501920a9b5532142685b2"
+  },
+  {
+    "path": "logs/hdgray-r10-r1-baseline.txt",
+    "bytes": 58898,
+    "sha256": "dcb448b78c177d6965bc7319655ad170ba39c2e60174cfc4414872d12983ed4d"
+  },
+  {
+    "path": "logs/hdgray-r10-r1-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "d681f66495406ca264816a497dcb139f891191a46588d7c24f5bc6d5ad2e8a7f"
+  },
+  {
+    "path": "logs/hdgray-r10-r1-fastvideo.txt",
+    "bytes": 16561,
+    "sha256": "a9d9264b2ecdbeee5d09a0b34e9cd23dcfe4e04eea0f8cd8c2b22b9349c590ae"
+  },
+  {
+    "path": "logs/hdgray-r10-r2-baseline.txt",
+    "bytes": 58898,
+    "sha256": "dd6945dd23e59a8fa22159692e15d67fda079c274450101f773ed60619c7325d"
+  },
+  {
+    "path": "logs/hdgray-r10-r2-fastvideo.qpc.tsv",
+    "bytes": 11924,
+    "sha256": "2f922d73264a98759753e416ab3741c3cd93e9d2e9a242d3e8a82c5db5b2a8af"
+  },
+  {
+    "path": "logs/hdgray-r10-r2-fastvideo.txt",
+    "bytes": 16561,
+    "sha256": "4733a81437d287879a56a59a71a23007a0b5712b29ae80e23ad281d8cbb7ad67"
+  },
+  {
+    "path": "logs/hdgray-r10-r3-baseline.txt",
+    "bytes": 58898,
+    "sha256": "6d72413df1dc849fb4b322704e7dc8ef89f4dab5623b185d3b06bf2bd55ef6e2"
+  },
+  {
+    "path": "logs/hdgray-r10-r3-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "1bc249b5643f255ee9fb3a5f1c83788604bc9c71dbf1e04698723f4d1dfa5cfa"
+  },
+  {
+    "path": "logs/hdgray-r10-r3-fastvideo.txt",
+    "bytes": 16561,
+    "sha256": "e0ab6c2ec3f886cd9b1ade75507a8bd92cddfb9225db78e0ffb1ae2c96e4f801"
+  },
+  {
+    "path": "logs/hdgray-r10-r4-baseline.txt",
+    "bytes": 58898,
+    "sha256": "471b1d124222b28cfe2d231150462da1e9936bcb46e1c64932e3ed48e85d03d5"
+  },
+  {
+    "path": "logs/hdgray-r10-r4-fastvideo.qpc.tsv",
+    "bytes": 12144,
+    "sha256": "48e035ecbde046a0a7401215770505038dc8e12476acfaa0c2a6141264461946"
+  },
+  {
+    "path": "logs/hdgray-r10-r4-fastvideo.txt",
+    "bytes": 16561,
+    "sha256": "f6e798198b5c17c5d870508e82a4226d00c57560d7d6928c7748152ea9c0aa0d"
+  }
+]

@@ -1,0 +1,5 @@
+Time (%),Total Time (ns),Instances,Avg (ns),Med (ns),Min (ns),Max (ns),StdDev (ns),Name
+75.0,20595858,40,514896.5,494274.0,487682,923780,79810.6,"void gpujpeg_huffman_decoder_decode_kernel<(bool)0, (int)192>(gpujpeg_huffman_gpu_decoder, gpujpeg_component *, gpujpeg_segment *, int, int, unsigned char *, const unsigned long long *, short *)"
+13.8,3782155,120,31518.0,31104.0,30528,37856,1661.1,"gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)"
+11.2,3067663,40,76691.6,76192.0,76032,83297,1599.6,"void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)"
+0.0,11712,1,11712.0,11712.0,11712,11712,0.0,"gpujpeg_huffman_decoder_table_kernel(gpujpeg_huffman_gpu_decoder, const gpujpeg_table_huffman_decoder *, const gpujpeg_table_huffman_decoder *, const gpujpeg_table_huffman_decoder *, const gpujpeg_table_huffman_decoder *)"

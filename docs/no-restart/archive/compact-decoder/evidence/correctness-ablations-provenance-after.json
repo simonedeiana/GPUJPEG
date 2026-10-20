@@ -1,0 +1,50 @@
+{
+  "recorded_at_utc": "2026-10-20T16:55:39.356527+00:00",
+  "files": {
+    "reference_harness": {
+      "path": "<WORKSPACE>\\work\\compact-decode\\correctness\\dump-baseline.exe",
+      "bytes": 10690048,
+      "sha256": "068dc715e85c829754cef2da2ccf395db44161ccad26902c3dc35c1893e6e9a4"
+    },
+    "control": {
+      "path": "<WORKSPACE>\\work\\compact-decode\\correctness\\dump-control.exe",
+      "bytes": 10739200,
+      "sha256": "b3a176c522badde49e94c143ad2097629b57098e0b64bf9396b6a4ee928c2aed"
+    },
+    "compact": {
+      "path": "<WORKSPACE>\\work\\compact-decode\\correctness\\dump-compact.exe",
+      "bytes": 10744832,
+      "sha256": "e4d207e8385baf79d72f39ffc0f30c54a8a28be08ce2b4870f106bbc4968bc49"
+    },
+    "unstuff": {
+      "path": "<WORKSPACE>\\work\\compact-decode\\correctness\\dump-unstuff.exe",
+      "bytes": 10733056,
+      "sha256": "91f3f2b3f7b624055396cb050337674d68dcd37dc8c8616fa2089088b2b096d5"
+    },
+    "decoder_source": {
+      "path": "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_huffman_gpu_decoder.cu",
+      "bytes": 48453,
+      "sha256": "06543355a74a31cc9b5bd271b7791f1e7a491d5594b2bbafbb6003d99afe7f53"
+    },
+    "input_helper": {
+      "path": "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_huffman_staged_input.cuh",
+      "bytes": 6575,
+      "sha256": "80fb03ca56c04c8d8237e80c7df5493f824e2b8c9134089b56b15080ad831d45"
+    },
+    "control_lib": {
+      "path": "<WORKSPACE>\\work\\build-compact-control\\gpujpeg.lib",
+      "bytes": 21858078,
+      "sha256": "eed66f7bd15e1ab02ed007930f05a1c1f22f2e36a54c39322d4772615e733246"
+    },
+    "compact_lib": {
+      "path": "<WORKSPACE>\\work\\build-compact-only\\gpujpeg.lib",
+      "bytes": 21865296,
+      "sha256": "392376a8787f72135a96fa09e846f3497a2a5e73040eb7804d6388882fe49529"
+    },
+    "unstuff_lib": {
+      "path": "<WORKSPACE>\\work\\build-unstuff-only\\gpujpeg.lib",
+      "bytes": 21860134,
+      "sha256": "615322cc2c8ba40e2d11e9a548b90de44f42a0314076a3c4dc0d4c84b406ecf0"
+    }
+  }
+}

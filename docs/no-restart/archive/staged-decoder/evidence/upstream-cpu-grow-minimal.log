@@ -1,0 +1,5 @@
+Worker 0 pass 0 input 0 <WORKSPACE>\work\new-decode-benchmark\corpus\4k420-r10.jpg
+Worker 0 pass 0 input 1 <WORKSPACE>\work\new-decode-benchmark\corpus\hd444-r0.jpg
+[GPUJPEG] [Info] Reinitializing decoder.
+Worker 0 pass 0 input 2 <WORKSPACE>\work\new-decode-benchmark\corpus\4k420-r0.jpg
+[GPUJPEG] [Info] Reinitializing decoder.

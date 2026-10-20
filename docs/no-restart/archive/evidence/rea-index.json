@@ -1,0 +1,225 @@
+[
+  {
+    "file": "rea-artifact.json",
+    "evidence_id": "ev_023ef7d89f927dd1b61efa2d3e99c6d9da4b7ed1c053cbd0cdf072a84ff4a90c",
+    "subject": {
+      "name": "fast_jpeg.zip",
+      "digest": {
+        "sha256": "85fca1592b6cfff2b0919c9db3c08cb239ccf1674ee08f15d00559bc1a00c94f"
+      },
+      "local_path": "<USER_PROFILE>/Downloads\\fast_jpeg.zip",
+      "format": "zip",
+      "architecture": null
+    },
+    "operation": "inspect_artifact",
+    "provider": {
+      "id": "rea-artifact-graph",
+      "name": "REA safe artifact graph provider",
+      "version": "1"
+    },
+    "limitations": [
+      "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+      "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+    ]
+  },
+  {
+    "file": "rea-cpu-exports.json",
+    "evidence_id": "ev_198b88581c6c1bd54ed24e4e5add9f5368dd78c6243b91dcdb5836748a4af5b0",
+    "subject": {
+      "name": "fastvideo_jpegCpuDecoder.dll",
+      "digest": {
+        "sha256": "bb4e83b23511c5bebfe81ce6c08214cfea2e1d5dd16533d722c96fce0c8e43ae"
+      },
+      "local_path": "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fastvideo_jpegCpuDecoder.dll",
+      "format": "unknown",
+      "architecture": null
+    },
+    "operation": "execute_rizin_command",
+    "provider": {
+      "id": "rizin",
+      "name": "Rizin",
+      "version": null
+    },
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "Rizin commands and retained plugins may read files or access network resources outside the selected artifact; those external inputs are not bound to Evidence.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "file": "rea-cpu-imports.json",
+    "evidence_id": "ev_40d328d00dabb2ebdc278b5352a0d0a4942fcc5842c878b4f7016ab220dd234c",
+    "subject": {
+      "name": "fastvideo_jpegCpuDecoder.dll",
+      "digest": {
+        "sha256": "bb4e83b23511c5bebfe81ce6c08214cfea2e1d5dd16533d722c96fce0c8e43ae"
+      },
+      "local_path": "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fastvideo_jpegCpuDecoder.dll",
+      "format": "unknown",
+      "architecture": null
+    },
+    "operation": "execute_rizin_command",
+    "provider": {
+      "id": "rizin",
+      "name": "Rizin",
+      "version": null
+    },
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "Rizin commands and retained plugins may read files or access network resources outside the selected artifact; those external inputs are not bound to Evidence.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "file": "rea-native-imports.json",
+    "evidence_id": "ev_da583f0f027bc9e40197e181fa56ed9cbe4effe265fd712080cea6f04d8b62c3",
+    "subject": {
+      "name": "fast_jpeg.exe",
+      "digest": {
+        "sha256": "01735bf880587184119d70d56bda433ef01516e8d1139d880c765afca34dbac3"
+      },
+      "local_path": "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+      "format": "unknown",
+      "architecture": null
+    },
+    "operation": "execute_rizin_command",
+    "provider": {
+      "id": "rizin",
+      "name": "Rizin",
+      "version": null
+    },
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "Rizin commands and retained plugins may read files or access network resources outside the selected artifact; those external inputs are not bound to Evidence.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "file": "rea-native-info.json",
+    "evidence_id": "ev_96f3d053b3924f7476eeab80de238c9d6413bb9c901da453bb1bf5f9dccad1c8",
+    "subject": {
+      "name": "fast_jpeg.exe",
+      "digest": {
+        "sha256": "01735bf880587184119d70d56bda433ef01516e8d1139d880c765afca34dbac3"
+      },
+      "local_path": "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+      "format": "unknown",
+      "architecture": null
+    },
+    "operation": "execute_rizin_command",
+    "provider": {
+      "id": "rizin",
+      "name": "Rizin",
+      "version": null
+    },
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "Rizin commands and retained plugins may read files or access network resources outside the selected artifact; those external inputs are not bound to Evidence.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "file": "rea-native-strings.json",
+    "evidence_id": "ev_79b39a8d455ffcc509709f5ad4a46ad97e482e8aa46c395405d068c85058807e",
+    "subject": {
+      "name": "fast_jpeg.exe",
+      "digest": {
+        "sha256": "01735bf880587184119d70d56bda433ef01516e8d1139d880c765afca34dbac3"
+      },
+      "local_path": "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+      "format": "unknown",
+      "architecture": null
+    },
+    "operation": "execute_rizin_command",
+    "provider": {
+      "id": "rizin",
+      "name": "Rizin",
+      "version": null
+    },
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "Rizin commands and retained plugins may read files or access network resources outside the selected artifact; those external inputs are not bound to Evidence.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "file": "rea-native-symbols.json",
+    "evidence_id": "ev_d7df67bb31ce1e1bac3ffc329f63833faa7de389094078dd2462aa6a7a7b2d7a",
+    "subject": {
+      "name": "fast_jpeg.exe",
+      "digest": {
+        "sha256": "01735bf880587184119d70d56bda433ef01516e8d1139d880c765afca34dbac3"
+      },
+      "local_path": "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+      "format": "unknown",
+      "architecture": null
+    },
+    "operation": "execute_rizin_command",
+    "provider": {
+      "id": "rizin",
+      "name": "Rizin",
+      "version": null
+    },
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "Rizin commands and retained plugins may read files or access network resources outside the selected artifact; those external inputs are not bound to Evidence.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "file": "rea-print-candidate.json",
+    "evidence_id": "ev_c00bc05df6b3f42576c08e3005d115046b1f58bf54af500611b228bcc7a61f33",
+    "subject": {
+      "name": "fast_jpeg.exe",
+      "digest": {
+        "sha256": "01735bf880587184119d70d56bda433ef01516e8d1139d880c765afca34dbac3"
+      },
+      "local_path": "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+      "format": "unknown",
+      "architecture": null
+    },
+    "operation": "execute_rizin_command",
+    "provider": {
+      "id": "rizin",
+      "name": "Rizin",
+      "version": null
+    },
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "Rizin commands and retained plugins may read files or access network resources outside the selected artifact; those external inputs are not bound to Evidence.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "file": "rea-restart-xrefs.json",
+    "evidence_id": "ev_2696ef32fe0957f6b0278306d65cddcbcb6063db7f2108a75f4e19ad397465db",
+    "subject": {
+      "name": "fast_jpeg.exe",
+      "digest": {
+        "sha256": "01735bf880587184119d70d56bda433ef01516e8d1139d880c765afca34dbac3"
+      },
+      "local_path": "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+      "format": "unknown",
+      "architecture": null
+    },
+    "operation": "execute_rizin_command",
+    "provider": {
+      "id": "rizin",
+      "name": "Rizin",
+      "version": null
+    },
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "Rizin commands and retained plugins may read files or access network resources outside the selected artifact; those external inputs are not bound to Evidence.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  }
+]

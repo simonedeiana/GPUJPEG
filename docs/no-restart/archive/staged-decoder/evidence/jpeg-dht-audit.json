@@ -1,0 +1,1408 @@
+[
+  {
+    "name": "hd444-r10",
+    "sha256": "c513302440d505f846808347ea15a8629a0b5727226cbee834bbe945f9c77c70",
+    "frame": {
+      "precision": 8,
+      "height": 1080,
+      "width": 1920,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 10,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 3239
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "hd420-r10",
+    "sha256": "9ac03460b511df96cbfea22dec890600c07830e5a4e7b94cebb721b8b28451de",
+    "frame": {
+      "precision": 8,
+      "height": 1080,
+      "width": 1920,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          34,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 10,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 815
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "hd422-r10",
+    "sha256": "a7ebce24abd6260570a46867e42a311b2a9cf98bceb9a03c691cb804f2ec9846",
+    "frame": {
+      "precision": 8,
+      "height": 1080,
+      "width": 1920,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          33,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 10,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 1619
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "4k444-r10",
+    "sha256": "f1bca76162bfec4bda4996e7684298446a3ec867494bdc4bc02ea6612d9e55dd",
+    "frame": {
+      "precision": 8,
+      "height": 2160,
+      "width": 3840,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 10,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 12959
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "4k420-r10",
+    "sha256": "7ea93a4fd14aaf1fff4d520520f9859daf379b84a75d3302a27e2e47992fb1bd",
+    "frame": {
+      "precision": 8,
+      "height": 2160,
+      "width": 3840,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          34,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 10,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 3239
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "hdgray-r10",
+    "sha256": "394d00970b39bc8b8a561c21d50f6331b067ce675dd7e34069e3b0add2df36e2",
+    "frame": {
+      "precision": 8,
+      "height": 1080,
+      "width": 1920,
+      "components": 1,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ]
+      ]
+    },
+    "dri": 10,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          }
+        ],
+        "restart_markers": 3239
+      }
+    ],
+    "dht_sha256": "a811c2965454c769a416476088df6e55c001719c05742209ab58b75b82215c25",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "hd444-r1",
+    "sha256": "1d3788b8326e79edee3d0fa2bdd505343a11adab0fe6cb7d55ba35997f1950d7",
+    "frame": {
+      "precision": 8,
+      "height": 1080,
+      "width": 1920,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 1,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 32399
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "hd444-r32",
+    "sha256": "f209220787e5391ba14fa1a8065b5eeae5083ffeff396e4abaee22c676a3645c",
+    "frame": {
+      "precision": 8,
+      "height": 1080,
+      "width": 1920,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 32,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 1012
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "hd444-r0",
+    "sha256": "c93dc4d7230c3f8646b886a56f5c666fddd60c8a7712d94bfd3b6cbc75ac83e8",
+    "frame": {
+      "precision": 8,
+      "height": 1080,
+      "width": 1920,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 0,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 0
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "4k420-r0",
+    "sha256": "bc6a2477f7ce6844e077f0901417cf6e9ca42f76d9fca6c3b374ec76e4c79cac",
+    "frame": {
+      "precision": 8,
+      "height": 2160,
+      "width": 3840,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          34,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 0,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 0
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "odd-444-opt0",
+    "sha256": "4d5674c3d0f12163b6b3bba34e25d5cf6643f4bbe92050112dd77641be554c2f",
+    "frame": {
+      "precision": 8,
+      "height": 479,
+      "width": 641,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 7,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 694
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "odd-444-opt1",
+    "sha256": "6175c985436e28bbc8df9084bdc5cf7c6401df982d2329ed5e9d143c29fd76fa",
+    "frame": {
+      "precision": 8,
+      "height": 479,
+      "width": 641,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 7,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 694
+      }
+    ],
+    "dht_sha256": "23b55d4a2cf29b724db30f38ae7b639b858de037356b87365ed9a7c035ac2d2e",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "odd-422-opt0",
+    "sha256": "4ec30fe0faa2eab16dcde6cc57b31d25337280f03b09541f93c6643b9da40deb",
+    "frame": {
+      "precision": 8,
+      "height": 479,
+      "width": 641,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          33,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 7,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 351
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "odd-422-opt1",
+    "sha256": "d7f31c8217401a0c686b0b9e193de0ef0660b6dda820cd0774971d2c9fd387ec",
+    "frame": {
+      "precision": 8,
+      "height": 479,
+      "width": 641,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          33,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 7,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 351
+      }
+    ],
+    "dht_sha256": "0f210dec2ac68addfd99668973ad790affedf5679f75c5f4a54156be12ff1a35",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "odd-420-opt0",
+    "sha256": "891575c30672d34e947dc579c4664f9dc6465572d0680fc89d80653768c47b74",
+    "frame": {
+      "precision": 8,
+      "height": 479,
+      "width": 641,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          34,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 7,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 175
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "odd-420-opt1",
+    "sha256": "8635d0da0e2115308fa1426262e91472e27aa060b703ba8650454dfdc258375d",
+    "frame": {
+      "precision": 8,
+      "height": 479,
+      "width": 641,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          34,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 7,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 175
+      }
+    ],
+    "dht_sha256": "89be29b358230a84c2d28e5a83d6de873f901e60de23119a90aa9d18d3a5c51a",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "threshold-gray-31",
+    "sha256": "3159d6df060b76a12743c7d67f1ad75819f3aff45539bde7207d8f4504ab1acf",
+    "frame": {
+      "precision": 8,
+      "height": 248,
+      "width": 8,
+      "components": 1,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ]
+      ]
+    },
+    "dri": 1,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          }
+        ],
+        "restart_markers": 30
+      }
+    ],
+    "dht_sha256": "a811c2965454c769a416476088df6e55c001719c05742209ab58b75b82215c25",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "threshold-gray-32",
+    "sha256": "a42042f3c6ea9078ceb844421749a0a37f4ff87d46c0e89a35feee10b9345dcd",
+    "frame": {
+      "precision": 8,
+      "height": 256,
+      "width": 8,
+      "components": 1,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ]
+      ]
+    },
+    "dri": 1,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          }
+        ],
+        "restart_markers": 31
+      }
+    ],
+    "dht_sha256": "a811c2965454c769a416476088df6e55c001719c05742209ab58b75b82215c25",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "threshold-gray-33",
+    "sha256": "f7ed5c4aad51746199925d3887e3d2bab5b7ad5dc8b661c1caf89da1fda28e3d",
+    "frame": {
+      "precision": 8,
+      "height": 264,
+      "width": 8,
+      "components": 1,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ]
+      ]
+    },
+    "dri": 1,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          }
+        ],
+        "restart_markers": 32
+      }
+    ],
+    "dht_sha256": "a811c2965454c769a416476088df6e55c001719c05742209ab58b75b82215c25",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "dc-tile-carry-420",
+    "sha256": "7d17738b52853d81336fa9eead82b4914572239ad89dc96ee0d5d62f519fbf16",
+    "frame": {
+      "precision": 8,
+      "height": 479,
+      "width": 641,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          34,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 33,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 37
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "dc-tile-carry-444",
+    "sha256": "580c49a99b01b70103bf62e7031af06b861b50529aeef790a67d66fdb29eefdd",
+    "frame": {
+      "precision": 8,
+      "height": 479,
+      "width": 641,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 33,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 147
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "dense64tokens",
+    "sha256": "ffb8f0b6c9efce32c104d5e95470797943d541ce10e5975c4cadd04536251b38",
+    "frame": {
+      "precision": 8,
+      "height": 256,
+      "width": 256,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 1,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 1023
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "dense-opt-custom-dht",
+    "sha256": "0ef8666f250da00ec2af5e91a48eaf2f1fcd3fcaf70a88e40ed8b4eca4d6f952",
+    "frame": {
+      "precision": 8,
+      "height": 256,
+      "width": 256,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 3,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 341
+      }
+    ],
+    "dht_sha256": "9305da1f955547e4dff40fcd2f0309d8cac47a094e5058aef6e36074e4e738c6",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "sparse-eob",
+    "sha256": "832da1bcc4e7a0970213eab184d86101054bdf4556ed8f14bc706dc44a9e4d37",
+    "frame": {
+      "precision": 8,
+      "height": 479,
+      "width": 641,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 3,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 1619
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "no-restart-optimized",
+    "sha256": "ca16d34303e0413e776c0994beac1839ffcc9a0eed4e47e2e8f729aaf434fdb8",
+    "frame": {
+      "precision": 8,
+      "height": 479,
+      "width": 641,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": null,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          },
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          },
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 0
+      }
+    ],
+    "dht_sha256": "c0f881be2263945593031f82e1fe2db7680b99681f8665aee11577092591ad61",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "planar-444",
+    "sha256": "ab92273bca3f76f0a306ba5cddca48e0b7a44ceea1de8ed1e577b71d841ccd86",
+    "frame": {
+      "precision": 8,
+      "height": 479,
+      "width": 641,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          17,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 3,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          }
+        ],
+        "restart_markers": 1619
+      },
+      {
+        "mappings": [
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 1619
+      },
+      {
+        "mappings": [
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 1619
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "planar-422",
+    "sha256": "d3a1ffda1d61d4587fc972d6baa3614368f7aebb8eee930a1b23c499ba67a55b",
+    "frame": {
+      "precision": 8,
+      "height": 479,
+      "width": 641,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          33,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 3,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          }
+        ],
+        "restart_markers": 1619
+      },
+      {
+        "mappings": [
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 819
+      },
+      {
+        "mappings": [
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 819
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  },
+  {
+    "name": "planar-420",
+    "sha256": "bb0430d96ae0a41b351eb00d0aca57b9fe67c9fe7bd96f5549562cce2a4ad258",
+    "frame": {
+      "precision": 8,
+      "height": 479,
+      "width": 641,
+      "components": 3,
+      "sampling": [
+        [
+          1,
+          34,
+          0
+        ],
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          3,
+          17,
+          1
+        ]
+      ]
+    },
+    "dri": 3,
+    "scans": [
+      {
+        "mappings": [
+          {
+            "component": 1,
+            "dc": 0,
+            "ac": 0
+          }
+        ],
+        "restart_markers": 1619
+      },
+      {
+        "mappings": [
+          {
+            "component": 2,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 409
+      },
+      {
+        "mappings": [
+          {
+            "component": 3,
+            "dc": 1,
+            "ac": 1
+          }
+        ],
+        "restart_markers": 409
+      }
+    ],
+    "dht_sha256": "f361ab42f71ff019275c522494accedf9fadd13f16af71632ca28255a7554a15",
+    "supported_gpu_tables": true
+  }
+]

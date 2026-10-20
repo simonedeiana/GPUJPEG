@@ -6,6 +6,18 @@ GPUJPEG
 
 ![GPUJPEG Logo](logo.svg)
 
+## Restart-free development branch
+
+This `no-restart` branch adds parallel GPU encoding for restart interval zero
+and an opt-in experimental GPU decoder for JPEGs without restart markers.
+The encoder defaults ON; build with
+`-DHUFFMAN_GPU_NO_RESTART_DECODER=ON` to enable the decoder prototype.
+See the [branch guide, research, benchmarks and reproduction documentation](docs/no-restart/README.md)
+and the [encoder](HUFFMAN_NO_RESTART.md)/[decoder](HUFFMAN_NO_RESTART_DECODER.md)
+implementation notes. Tiny images can regress; decoder eligibility and
+synchronization limits are documented. Upstream performance tables below
+describe the original implementation.
+
 **JPEG** encoder and decoder library and console application for **NVIDIA GPUs**
 for high-performance image encoding and decoding. The software runs also on
 **AMD GPUs** using [ZLUDA](https://github.com/vosen/ZLUDA) (see
@@ -79,14 +91,14 @@ and they are implemented on CPU or/and GPU as follows:
  - CPU:
     - Input data loading
     - Parsing codestream
-    - Huffman encoder/decoder (when restart flags are disabled)
+  - Huffman fallback for restart-free scans when the corresponding GPU path is disabled or ineligible
     - Output data formatting
  - GPU:
     - Preprocessing/Postprocessing (color component parsing,
       color transformation RGB <-> YCbCr)
     - Forward/Inverse DCT (discrete cosine transform)
     - De/Quantization
-    - Huffman encoder/decoder (when restart flags are enabled)
+  - Huffman encoder/decoder with restart markers, plus the eligible restart-free GPU paths enabled in this branch
 
 Performance
 -----------
@@ -414,9 +426,13 @@ All supported parameters for console application are following:
 Restart interval is important for parallel huffman encoding and decoding.
 When `--restart=N` is used (default is 8), the coder can process each
 N MCUs independently, and so he can code each N MCUs in parallel. When
-`--restart=0` is specified, restart interval is disabled and the coder
-must use CPU version of huffman coder (because on GPU would run only one
-thread, which is very slow).
+`--restart=0` is specified, restart markers are disabled. This branch uses
+the parallel GPU encoder for eligible configurations when
+`HUFFMAN_GPU_NO_RESTART` is enabled. The experimental restart-free GPU decoder
+requires `HUFFMAN_GPU_NO_RESTART_DECODER=ON`; otherwise decoding retains the
+original CPU entropy route. Unsupported configurations use the documented
+fallback. See [restart-free development](docs/no-restart/README.md) for limits
+and transfer-inclusive measurements.
 
 The console application can encode/decode multiple images by following
 command:

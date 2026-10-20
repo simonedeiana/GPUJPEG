@@ -1,0 +1,18 @@
+{
+  "reference": {
+    "path": "<WORKSPACE>\\work\\encode-r0-validation\\gpujpeg-baseline.exe",
+    "sha256": "2e5e0373deee179fd8edc2f3c276a4483ef4524aaf50a790ea0535d09545d5f1"
+  },
+  "candidate": {
+    "path": "<WORKSPACE>\\work\\encode-r0-validation\\gpujpeg-candidate.exe",
+    "sha256": "f11692097089eaba117fb7ee531eea5c954418461bc4233c746b71e3f7149692"
+  },
+  "candidate_lib": {
+    "path": "work/build-encode-r0/gpujpeg.lib",
+    "sha256": "1e440031b21c010450b55b00b2704bd077113b7352a34c92bf7fa680758dfea8"
+  },
+  "encoder_source": {
+    "path": "work/GPUJPEG/src/gpujpeg_huffman_no_restart.cuh",
+    "sha256": "20499e59f88855db876d948b66e16602306bc7dfbd2654bc32b21dcc30ff29e4"
+  }
+}

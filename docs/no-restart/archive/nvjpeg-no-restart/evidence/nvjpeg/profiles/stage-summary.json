@@ -1,0 +1,4826 @@
+{
+  "unit": "milliseconds",
+  "boundary": "Kernel stage values and active DMA durations are independent profiled diagnostics; unprofiled host timing separately includes CPU/API gaps. Category medians must not be added to claim a median total.",
+  "cases": [
+    {
+      "case": "hd444",
+      "warm_frames": 20,
+      "warmup": 10,
+      "stage_median_ms": {
+        "color": 0.0753765,
+        "dct": 0.0974885,
+        "ac": 0.261536,
+        "dc": 0.035888,
+        "bit_offset_scan": 0.015088,
+        "assemble": 0.028768,
+        "stuff_length_scan": 0.022848,
+        "stuff": 0.012096
+      },
+      "median_entropy_kernel_sum_ms": 0.375921,
+      "median_all_kernel_sum_ms": 0.549378,
+      "transfer_medians": {
+        "raw_h2d_bytes": 6220800.0,
+        "raw_h2d_ms": 1.4140679999999999,
+        "all_h2d_bytes": 6233088.0,
+        "all_h2d_ms": 1.417252,
+        "all_d2h_bytes": 685570.0,
+        "all_d2h_ms": 0.107984,
+        "raw_h2d_through_last_d2h_ms": 2.532471
+      },
+      "unprofiled_complete_host": {
+        "count": 30,
+        "median_ms": 2.7657,
+        "mean_ms": 2.80213,
+        "min_ms": 2.5722,
+        "max_ms": 3.3057
+      },
+      "rows": [
+        {
+          "iteration": 0,
+          "kernel_stages_ms": {
+            "color": 0.075712,
+            "dct": 0.09798400000000002,
+            "ac": 0.26432,
+            "dc": 0.035776,
+            "bit_offset_scan": 0.015328,
+            "assemble": 0.029248,
+            "stuff_length_scan": 0.026848,
+            "stuff": 0.011872
+          },
+          "entropy_kernel_sum_ms": 0.383392,
+          "all_kernel_sum_ms": 0.557088,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 5.460047,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 5.463215,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.116833,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002016,
+              "correlationId": 199
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002272,
+              "correlationId": 219
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.112545,
+              "correlationId": 227
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 10.784126
+        },
+        {
+          "iteration": 1,
+          "kernel_stages_ms": {
+            "color": 0.075648,
+            "dct": 0.097025,
+            "ac": 0.26144100000000003,
+            "dc": 0.035488,
+            "bit_offset_scan": 0.0152,
+            "assemble": 0.02896,
+            "stuff_length_scan": 0.022976,
+            "stuff": 0.012288
+          },
+          "entropy_kernel_sum_ms": 0.37635300000000005,
+          "all_kernel_sum_ms": 0.549026,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.473316,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.476612,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.10816,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 274
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 291
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104576,
+              "correlationId": 298
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.594791
+        },
+        {
+          "iteration": 2,
+          "kernel_stages_ms": {
+            "color": 0.075232,
+            "dct": 0.097056,
+            "ac": 0.26112,
+            "dc": 0.036448,
+            "bit_offset_scan": 0.015168,
+            "assemble": 0.028864,
+            "stuff_length_scan": 0.023104,
+            "stuff": 0.011968
+          },
+          "entropy_kernel_sum_ms": 0.376672,
+          "all_kernel_sum_ms": 0.54896,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.42826,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.431492,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.107937,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 345
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 362
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104577,
+              "correlationId": 369
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.481031
+        },
+        {
+          "iteration": 3,
+          "kernel_stages_ms": {
+            "color": 0.075169,
+            "dct": 0.097216,
+            "ac": 0.262209,
+            "dc": 0.036096,
+            "bit_offset_scan": 0.015072,
+            "assemble": 0.02912,
+            "stuff_length_scan": 0.023232,
+            "stuff": 0.01232
+          },
+          "entropy_kernel_sum_ms": 0.378049,
+          "all_kernel_sum_ms": 0.550434,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.407236,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.410532,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.109984,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 416
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 433
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.106624,
+              "correlationId": 440
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.581863
+        },
+        {
+          "iteration": 4,
+          "kernel_stages_ms": {
+            "color": 0.075489,
+            "dct": 0.097248,
+            "ac": 0.261121,
+            "dc": 0.035808,
+            "bit_offset_scan": 0.015199999999999998,
+            "assemble": 0.028544,
+            "stuff_length_scan": 0.022208,
+            "stuff": 0.012001
+          },
+          "entropy_kernel_sum_ms": 0.374882,
+          "all_kernel_sum_ms": 0.547619,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.415844,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.418948,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.108384,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00176,
+              "correlationId": 487
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 504
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104992,
+              "correlationId": 511
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.521735
+        },
+        {
+          "iteration": 5,
+          "kernel_stages_ms": {
+            "color": 0.07504,
+            "dct": 0.09756800000000002,
+            "ac": 0.262433,
+            "dc": 0.03808,
+            "bit_offset_scan": 0.015136,
+            "assemble": 0.028832,
+            "stuff_length_scan": 0.022752,
+            "stuff": 0.01216
+          },
+          "entropy_kernel_sum_ms": 0.37939300000000004,
+          "all_kernel_sum_ms": 0.5520010000000001,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.375043,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.378243,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.108448,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 558
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.0016,
+              "correlationId": 575
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.10512,
+              "correlationId": 582
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.460326
+        },
+        {
+          "iteration": 6,
+          "kernel_stages_ms": {
+            "color": 0.076064,
+            "dct": 0.09711999999999998,
+            "ac": 0.261409,
+            "dc": 0.036192,
+            "bit_offset_scan": 0.01504,
+            "assemble": 0.028576,
+            "stuff_length_scan": 0.022752,
+            "stuff": 0.011968
+          },
+          "entropy_kernel_sum_ms": 0.375937,
+          "all_kernel_sum_ms": 0.549121,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.411012,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.414244,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.108,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00176,
+              "correlationId": 629
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.0016,
+              "correlationId": 646
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.10464,
+              "correlationId": 653
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.625095
+        },
+        {
+          "iteration": 7,
+          "kernel_stages_ms": {
+            "color": 0.075168,
+            "dct": 0.097344,
+            "ac": 0.261025,
+            "dc": 0.036128,
+            "bit_offset_scan": 0.015168000000000001,
+            "assemble": 0.0288,
+            "stuff_length_scan": 0.022272,
+            "stuff": 0.01216
+          },
+          "entropy_kernel_sum_ms": 0.375553,
+          "all_kernel_sum_ms": 0.548065,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.598532,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.60186,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.107872,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001696,
+              "correlationId": 700
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001664,
+              "correlationId": 717
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104512,
+              "correlationId": 724
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.646247
+        },
+        {
+          "iteration": 8,
+          "kernel_stages_ms": {
+            "color": 0.075232,
+            "dct": 0.09795200000000001,
+            "ac": 0.260225,
+            "dc": 0.036096,
+            "bit_offset_scan": 0.015136,
+            "assemble": 0.02864,
+            "stuff_length_scan": 0.023808,
+            "stuff": 0.011968
+          },
+          "entropy_kernel_sum_ms": 0.375873,
+          "all_kernel_sum_ms": 0.549057,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.38186,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.385061,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.107905,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 771
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 788
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104545,
+              "correlationId": 795
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.396199
+        },
+        {
+          "iteration": 9,
+          "kernel_stages_ms": {
+            "color": 0.075008,
+            "dct": 0.097121,
+            "ac": 0.26195199999999996,
+            "dc": 0.035649,
+            "bit_offset_scan": 0.015104,
+            "assemble": 0.029024,
+            "stuff_length_scan": 0.022463999999999998,
+            "stuff": 0.01248
+          },
+          "entropy_kernel_sum_ms": 0.376673,
+          "all_kernel_sum_ms": 0.548802,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.339364,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.342724,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.107649,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 842
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 859
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104289,
+              "correlationId": 866
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.379367
+        },
+        {
+          "iteration": 10,
+          "kernel_stages_ms": {
+            "color": 0.0752,
+            "dct": 0.097728,
+            "ac": 0.264513,
+            "dc": 0.03776,
+            "bit_offset_scan": 0.015104,
+            "assemble": 0.028512,
+            "stuff_length_scan": 0.023391999999999996,
+            "stuff": 0.012128
+          },
+          "entropy_kernel_sum_ms": 0.381409,
+          "all_kernel_sum_ms": 0.554337,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.386596,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.38986,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.116,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00176,
+              "correlationId": 913
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.0016,
+              "correlationId": 930
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.11264,
+              "correlationId": 937
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.506055
+        },
+        {
+          "iteration": 11,
+          "kernel_stages_ms": {
+            "color": 0.075488,
+            "dct": 0.098049,
+            "ac": 0.261601,
+            "dc": 0.036351999999999995,
+            "bit_offset_scan": 0.01504,
+            "assemble": 0.028992,
+            "stuff_length_scan": 0.022368,
+            "stuff": 0.012096
+          },
+          "entropy_kernel_sum_ms": 0.376449,
+          "all_kernel_sum_ms": 0.549986,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.408516,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.411844,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.108032,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001696,
+              "correlationId": 984
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1001
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104704,
+              "correlationId": 1008
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.460775
+        },
+        {
+          "iteration": 12,
+          "kernel_stages_ms": {
+            "color": 0.07536,
+            "dct": 0.09667200000000001,
+            "ac": 0.261633,
+            "dc": 0.035776,
+            "bit_offset_scan": 0.015104,
+            "assemble": 0.028544,
+            "stuff_length_scan": 0.022752,
+            "stuff": 0.011936
+          },
+          "entropy_kernel_sum_ms": 0.375745,
+          "all_kernel_sum_ms": 0.547777,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.401155,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.404323,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.107937,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 1055
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1072
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104577,
+              "correlationId": 1079
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.599015
+        },
+        {
+          "iteration": 13,
+          "kernel_stages_ms": {
+            "color": 0.075104,
+            "dct": 0.09718399999999999,
+            "ac": 0.260544,
+            "dc": 0.036288,
+            "bit_offset_scan": 0.015168,
+            "assemble": 0.028576,
+            "stuff_length_scan": 0.022784000000000002,
+            "stuff": 0.012096
+          },
+          "entropy_kernel_sum_ms": 0.375456,
+          "all_kernel_sum_ms": 0.547744,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.469956,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.473188,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.107841,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 1126
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1143
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104481,
+              "correlationId": 1150
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.542567
+        },
+        {
+          "iteration": 14,
+          "kernel_stages_ms": {
+            "color": 0.075456,
+            "dct": 0.097024,
+            "ac": 0.261313,
+            "dc": 0.03536,
+            "bit_offset_scan": 0.014976,
+            "assemble": 0.028672,
+            "stuff_length_scan": 0.026912000000000002,
+            "stuff": 0.012
+          },
+          "entropy_kernel_sum_ms": 0.37923300000000004,
+          "all_kernel_sum_ms": 0.551713,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.441316,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.444612,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.107872,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001696,
+              "correlationId": 1197
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1214
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104544,
+              "correlationId": 1221
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.470599
+        },
+        {
+          "iteration": 15,
+          "kernel_stages_ms": {
+            "color": 0.08192,
+            "dct": 0.13475299999999998,
+            "ac": 0.260961,
+            "dc": 0.035392,
+            "bit_offset_scan": 0.01504,
+            "assemble": 0.028768,
+            "stuff_length_scan": 0.02256,
+            "stuff": 0.011648
+          },
+          "entropy_kernel_sum_ms": 0.374369,
+          "all_kernel_sum_ms": 0.591042,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.413988,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.417188,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.108032,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001792,
+              "correlationId": 1268
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 1285
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104352,
+              "correlationId": 1292
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.593223
+        },
+        {
+          "iteration": 16,
+          "kernel_stages_ms": {
+            "color": 0.07552,
+            "dct": 0.097121,
+            "ac": 0.261665,
+            "dc": 0.036064,
+            "bit_offset_scan": 0.015136,
+            "assemble": 0.028768,
+            "stuff_length_scan": 0.023232,
+            "stuff": 0.012352
+          },
+          "entropy_kernel_sum_ms": 0.37721699999999997,
+          "all_kernel_sum_ms": 0.549858,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.414148,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.417316,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.107968,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00176,
+              "correlationId": 1339
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1356
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104576,
+              "correlationId": 1363
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.566663
+        },
+        {
+          "iteration": 17,
+          "kernel_stages_ms": {
+            "color": 0.07536,
+            "dct": 0.09766399999999999,
+            "ac": 0.260672,
+            "dc": 0.035808,
+            "bit_offset_scan": 0.015136,
+            "assemble": 0.02864,
+            "stuff_length_scan": 0.023008,
+            "stuff": 0.012224
+          },
+          "entropy_kernel_sum_ms": 0.375488,
+          "all_kernel_sum_ms": 0.548512,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.379395,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.382595,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.107617,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001696,
+              "correlationId": 1410
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1427
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104289,
+              "correlationId": 1434
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.576327
+        },
+        {
+          "iteration": 18,
+          "kernel_stages_ms": {
+            "color": 0.075425,
+            "dct": 0.09737599999999999,
+            "ac": 0.261536,
+            "dc": 0.035393,
+            "bit_offset_scan": 0.015263999999999998,
+            "assemble": 0.028385,
+            "stuff_length_scan": 0.022463999999999998,
+            "stuff": 0.012384
+          },
+          "entropy_kernel_sum_ms": 0.375426,
+          "all_kernel_sum_ms": 0.548227,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.551972,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.555172,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.108,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00176,
+              "correlationId": 1481
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1498
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104608,
+              "correlationId": 1505
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.730311
+        },
+        {
+          "iteration": 19,
+          "kernel_stages_ms": {
+            "color": 0.07536,
+            "dct": 0.097345,
+            "ac": 0.26083300000000004,
+            "dc": 0.036095999999999996,
+            "bit_offset_scan": 0.015072,
+            "assemble": 0.028544,
+            "stuff_length_scan": 0.023072,
+            "stuff": 0.012256
+          },
+          "entropy_kernel_sum_ms": 0.375873,
+          "all_kernel_sum_ms": 0.548578,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.39594,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.399268,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.107937,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001984,
+              "correlationId": 1552
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1569
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104321,
+              "correlationId": 1576
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.487111
+        },
+        {
+          "iteration": 20,
+          "kernel_stages_ms": {
+            "color": 0.0752,
+            "dct": 0.09750400000000001,
+            "ac": 0.262241,
+            "dc": 0.035712,
+            "bit_offset_scan": 0.015008,
+            "assemble": 0.028992,
+            "stuff_length_scan": 0.023072000000000002,
+            "stuff": 0.012096
+          },
+          "entropy_kernel_sum_ms": 0.377121,
+          "all_kernel_sum_ms": 0.549825,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.405795,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.408931,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.10832,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00176,
+              "correlationId": 1623
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1640
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104928,
+              "correlationId": 1647
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.521478
+        },
+        {
+          "iteration": 21,
+          "kernel_stages_ms": {
+            "color": 0.075361,
+            "dct": 0.097664,
+            "ac": 0.261633,
+            "dc": 0.035904000000000005,
+            "bit_offset_scan": 0.015008,
+            "assemble": 0.029088,
+            "stuff_length_scan": 0.023265,
+            "stuff": 0.012224
+          },
+          "entropy_kernel_sum_ms": 0.377122,
+          "all_kernel_sum_ms": 0.550147,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.398116,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.401316,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.107904,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 1694
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1711
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104544,
+              "correlationId": 1718
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.522343
+        },
+        {
+          "iteration": 22,
+          "kernel_stages_ms": {
+            "color": 0.075616,
+            "dct": 0.097696,
+            "ac": 0.262016,
+            "dc": 0.035905,
+            "bit_offset_scan": 0.01504,
+            "assemble": 0.029696,
+            "stuff_length_scan": 0.026624000000000002,
+            "stuff": 0.011136
+          },
+          "entropy_kernel_sum_ms": 0.380417,
+          "all_kernel_sum_ms": 0.553729,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.416132,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.419365,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.107937,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 1765
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1782
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104577,
+              "correlationId": 1789
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.534055
+        },
+        {
+          "iteration": 23,
+          "kernel_stages_ms": {
+            "color": 0.075392,
+            "dct": 0.097633,
+            "ac": 0.261409,
+            "dc": 0.035936,
+            "bit_offset_scan": 0.015040000000000001,
+            "assemble": 0.028832,
+            "stuff_length_scan": 0.022528,
+            "stuff": 0.012224
+          },
+          "entropy_kernel_sum_ms": 0.375969,
+          "all_kernel_sum_ms": 0.548994,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.627908,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.631588,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.10816,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 1836
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001664,
+              "correlationId": 1853
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104768,
+              "correlationId": 1860
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.712647
+        },
+        {
+          "iteration": 24,
+          "kernel_stages_ms": {
+            "color": 0.075392,
+            "dct": 0.097345,
+            "ac": 0.26188900000000004,
+            "dc": 0.036032,
+            "bit_offset_scan": 0.015008,
+            "assemble": 0.02896,
+            "stuff_length_scan": 0.022912000000000002,
+            "stuff": 0.012224
+          },
+          "entropy_kernel_sum_ms": 0.37702500000000005,
+          "all_kernel_sum_ms": 0.5497620000000001,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.468516,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.47162,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.108416,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 1907
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1924
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.105056,
+              "correlationId": 1931
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.575623
+        },
+        {
+          "iteration": 25,
+          "kernel_stages_ms": {
+            "color": 0.075136,
+            "dct": 0.097473,
+            "ac": 0.260961,
+            "dc": 0.035872,
+            "bit_offset_scan": 0.015135999999999998,
+            "assemble": 0.029216,
+            "stuff_length_scan": 0.022656000000000003,
+            "stuff": 0.011968
+          },
+          "entropy_kernel_sum_ms": 0.375809,
+          "all_kernel_sum_ms": 0.548418,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.459556,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.462852,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.107873,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001696,
+              "correlationId": 1978
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1995
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104545,
+              "correlationId": 2002
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.530887
+        },
+        {
+          "iteration": 26,
+          "kernel_stages_ms": {
+            "color": 0.074912,
+            "dct": 0.09772800000000001,
+            "ac": 0.261249,
+            "dc": 0.035776,
+            "bit_offset_scan": 0.015008,
+            "assemble": 0.028096,
+            "stuff_length_scan": 0.022464,
+            "stuff": 0.012096
+          },
+          "entropy_kernel_sum_ms": 0.374689,
+          "all_kernel_sum_ms": 0.5473290000000001,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.381155,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.384323,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.107936,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00176,
+              "correlationId": 2049
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.0016,
+              "correlationId": 2066
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104576,
+              "correlationId": 2073
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.446406
+        },
+        {
+          "iteration": 27,
+          "kernel_stages_ms": {
+            "color": 0.07536,
+            "dct": 0.09753599999999998,
+            "ac": 0.26534399999999997,
+            "dc": 0.036417000000000005,
+            "bit_offset_scan": 0.015136,
+            "assemble": 0.029216,
+            "stuff_length_scan": 0.02256,
+            "stuff": 0.011808
+          },
+          "entropy_kernel_sum_ms": 0.38048099999999996,
+          "all_kernel_sum_ms": 0.553377,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.361316,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.364516,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.108001,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 2120
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.0016,
+              "correlationId": 2137
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104673,
+              "correlationId": 2144
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.452487
+        },
+        {
+          "iteration": 28,
+          "kernel_stages_ms": {
+            "color": 0.075776,
+            "dct": 0.097312,
+            "ac": 0.261536,
+            "dc": 0.035456,
+            "bit_offset_scan": 0.015137,
+            "assemble": 0.028896,
+            "stuff_length_scan": 0.022496000000000002,
+            "stuff": 0.012288
+          },
+          "entropy_kernel_sum_ms": 0.375809,
+          "all_kernel_sum_ms": 0.548897,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.445571,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.448739,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.108321,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002144,
+              "correlationId": 2191
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.0016,
+              "correlationId": 2208
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.104577,
+              "correlationId": 2215
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.650887
+        },
+        {
+          "iteration": 29,
+          "kernel_stages_ms": {
+            "color": 0.075456,
+            "dct": 0.09695999999999999,
+            "ac": 0.261056,
+            "dc": 0.03584,
+            "bit_offset_scan": 0.015136,
+            "assemble": 0.028448,
+            "stuff_length_scan": 0.023039999999999998,
+            "stuff": 0.011968
+          },
+          "entropy_kernel_sum_ms": 0.375488,
+          "all_kernel_sum_ms": 0.547904,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.436004,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.439172,
+          "all_d2h_bytes": 685570,
+          "all_d2h_ms": 0.10848,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001696,
+              "correlationId": 2262
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.0016,
+              "correlationId": 2279
+            },
+            {
+              "bytes": 685554,
+              "duration_ms": 0.105184,
+              "correlationId": 2286
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.515622
+        }
+      ]
+    },
+    {
+      "case": "hd420",
+      "warm_frames": 20,
+      "warmup": 10,
+      "stage_median_ms": {
+        "color": 0.049888,
+        "dct": 0.052976,
+        "ac": 0.1520805,
+        "dc": 0.020448,
+        "bit_offset_scan": 0.009792,
+        "assemble": 0.01904,
+        "stuff_length_scan": 0.012784,
+        "stuff": 0.008879999999999999
+      },
+      "median_entropy_kernel_sum_ms": 0.22286500000000004,
+      "median_all_kernel_sum_ms": 0.32606500000000005,
+      "transfer_medians": {
+        "raw_h2d_bytes": 6220800.0,
+        "raw_h2d_ms": 1.404516,
+        "all_h2d_bytes": 6233088.0,
+        "all_h2d_ms": 1.407844,
+        "all_d2h_bytes": 524014.0,
+        "all_d2h_ms": 0.083872,
+        "raw_h2d_through_last_d2h_ms": 2.2714619999999996
+      },
+      "unprofiled_complete_host": {
+        "count": 30,
+        "median_ms": 2.5022,
+        "mean_ms": 2.534263333,
+        "min_ms": 2.2919,
+        "max_ms": 2.9949
+      },
+      "rows": [
+        {
+          "iteration": 0,
+          "kernel_stages_ms": {
+            "color": 0.049569,
+            "dct": 0.053312000000000005,
+            "ac": 0.154816,
+            "dc": 0.02128,
+            "bit_offset_scan": 0.00992,
+            "assemble": 0.019072,
+            "stuff_length_scan": 0.012927999999999999,
+            "stuff": 0.009536
+          },
+          "entropy_kernel_sum_ms": 0.227552,
+          "all_kernel_sum_ms": 0.33043300000000003,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 5.382991,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 5.386191,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.084897,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 199
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002272,
+              "correlationId": 219
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080673,
+              "correlationId": 227
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 10.429341
+        },
+        {
+          "iteration": 1,
+          "kernel_stages_ms": {
+            "color": 0.049536,
+            "dct": 0.053632,
+            "ac": 0.15203200000000003,
+            "dc": 0.019936,
+            "bit_offset_scan": 0.009824,
+            "assemble": 0.019297,
+            "stuff_length_scan": 0.013152,
+            "stuff": 0.00848
+          },
+          "entropy_kernel_sum_ms": 0.22272100000000003,
+          "all_kernel_sum_ms": 0.32588900000000004,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.462116,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.465284,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083424,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 274
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001696,
+              "correlationId": 291
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.079776,
+              "correlationId": 298
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.265958
+        },
+        {
+          "iteration": 2,
+          "kernel_stages_ms": {
+            "color": 0.049536,
+            "dct": 0.052896000000000006,
+            "ac": 0.15142499999999998,
+            "dc": 0.020191999999999998,
+            "bit_offset_scan": 0.009824000000000001,
+            "assemble": 0.018656,
+            "stuff_length_scan": 0.012864,
+            "stuff": 0.009025
+          },
+          "entropy_kernel_sum_ms": 0.22198599999999996,
+          "all_kernel_sum_ms": 0.324418,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.412964,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.416196,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083392,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 345
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 362
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080032,
+              "correlationId": 369
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.516423
+        },
+        {
+          "iteration": 3,
+          "kernel_stages_ms": {
+            "color": 0.049792,
+            "dct": 0.052544,
+            "ac": 0.151968,
+            "dc": 0.020416,
+            "bit_offset_scan": 0.009696,
+            "assemble": 0.018976,
+            "stuff_length_scan": 0.012799999999999999,
+            "stuff": 0.0088
+          },
+          "entropy_kernel_sum_ms": 0.222656,
+          "all_kernel_sum_ms": 0.324992,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.420484,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.423684,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083648,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 416
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 433
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080288,
+              "correlationId": 440
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.257702
+        },
+        {
+          "iteration": 4,
+          "kernel_stages_ms": {
+            "color": 0.051617,
+            "dct": 0.052896,
+            "ac": 0.152481,
+            "dc": 0.020992,
+            "bit_offset_scan": 0.00992,
+            "assemble": 0.019552,
+            "stuff_length_scan": 0.012799999999999999,
+            "stuff": 0.008832
+          },
+          "entropy_kernel_sum_ms": 0.224577,
+          "all_kernel_sum_ms": 0.32909,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.372644,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.37578,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083488,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00176,
+              "correlationId": 487
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 504
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080096,
+              "correlationId": 511
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.498311
+        },
+        {
+          "iteration": 5,
+          "kernel_stages_ms": {
+            "color": 0.05008,
+            "dct": 0.053056,
+            "ac": 0.15254500000000001,
+            "dc": 0.020768000000000002,
+            "bit_offset_scan": 0.009792,
+            "assemble": 0.01904,
+            "stuff_length_scan": 0.0128,
+            "stuff": 0.00896
+          },
+          "entropy_kernel_sum_ms": 0.22390500000000002,
+          "all_kernel_sum_ms": 0.327041,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.422692,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.42586,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.08384,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 558
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001984,
+              "correlationId": 575
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080128,
+              "correlationId": 582
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.242886
+        },
+        {
+          "iteration": 6,
+          "kernel_stages_ms": {
+            "color": 0.049792,
+            "dct": 0.052767999999999995,
+            "ac": 0.152417,
+            "dc": 0.020928000000000002,
+            "bit_offset_scan": 0.009792,
+            "assemble": 0.018752,
+            "stuff_length_scan": 0.012768,
+            "stuff": 0.008704
+          },
+          "entropy_kernel_sum_ms": 0.223361,
+          "all_kernel_sum_ms": 0.325921,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.399876,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.403076,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083936,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 629
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 646
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080576,
+              "correlationId": 653
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.214758
+        },
+        {
+          "iteration": 7,
+          "kernel_stages_ms": {
+            "color": 0.04992,
+            "dct": 0.053183999999999995,
+            "ac": 0.152065,
+            "dc": 0.020832,
+            "bit_offset_scan": 0.009760000000000001,
+            "assemble": 0.018944,
+            "stuff_length_scan": 0.012672000000000001,
+            "stuff": 0.0088
+          },
+          "entropy_kernel_sum_ms": 0.22307300000000002,
+          "all_kernel_sum_ms": 0.326177,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.388963,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.392163,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.091232,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 700
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 717
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.087872,
+              "correlationId": 724
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.23463
+        },
+        {
+          "iteration": 8,
+          "kernel_stages_ms": {
+            "color": 0.050016,
+            "dct": 0.053248000000000004,
+            "ac": 0.153696,
+            "dc": 0.020673,
+            "bit_offset_scan": 0.00976,
+            "assemble": 0.01904,
+            "stuff_length_scan": 0.012832,
+            "stuff": 0.008928
+          },
+          "entropy_kernel_sum_ms": 0.224929,
+          "all_kernel_sum_ms": 0.328193,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.353795,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.356963,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083936,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 771
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 788
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080576,
+              "correlationId": 795
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.26007
+        },
+        {
+          "iteration": 9,
+          "kernel_stages_ms": {
+            "color": 0.049984,
+            "dct": 0.053248000000000004,
+            "ac": 0.152352,
+            "dc": 0.020416,
+            "bit_offset_scan": 0.00976,
+            "assemble": 0.019712,
+            "stuff_length_scan": 0.012832,
+            "stuff": 0.00832
+          },
+          "entropy_kernel_sum_ms": 0.22339199999999998,
+          "all_kernel_sum_ms": 0.32662399999999997,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.440804,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.444004,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083168,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 842
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001664,
+              "correlationId": 859
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.079776,
+              "correlationId": 866
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.241702
+        },
+        {
+          "iteration": 10,
+          "kernel_stages_ms": {
+            "color": 0.04992,
+            "dct": 0.053313,
+            "ac": 0.151552,
+            "dc": 0.020224,
+            "bit_offset_scan": 0.00976,
+            "assemble": 0.018784,
+            "stuff_length_scan": 0.012896000000000001,
+            "stuff": 0.008832
+          },
+          "entropy_kernel_sum_ms": 0.222048,
+          "all_kernel_sum_ms": 0.325281,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.404004,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.407172,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083424,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 913
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 930
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080064,
+              "correlationId": 937
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.228582
+        },
+        {
+          "iteration": 11,
+          "kernel_stages_ms": {
+            "color": 0.049952,
+            "dct": 0.052767999999999995,
+            "ac": 0.151808,
+            "dc": 0.020352000000000002,
+            "bit_offset_scan": 0.009824,
+            "assemble": 0.018912,
+            "stuff_length_scan": 0.012704,
+            "stuff": 0.008896
+          },
+          "entropy_kernel_sum_ms": 0.222496,
+          "all_kernel_sum_ms": 0.325216,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.36954,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.37274,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.08336,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 984
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1001
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.08,
+              "correlationId": 1008
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.192902
+        },
+        {
+          "iteration": 12,
+          "kernel_stages_ms": {
+            "color": 0.05824,
+            "dct": 0.066272,
+            "ac": 0.15174400000000002,
+            "dc": 0.020448,
+            "bit_offset_scan": 0.009824000000000001,
+            "assemble": 0.0192,
+            "stuff_length_scan": 0.012672,
+            "stuff": 0.008736
+          },
+          "entropy_kernel_sum_ms": 0.22262400000000002,
+          "all_kernel_sum_ms": 0.347136,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.359172,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.362244,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083808,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00176,
+              "correlationId": 1055
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001824,
+              "correlationId": 1072
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080224,
+              "correlationId": 1079
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.236582
+        },
+        {
+          "iteration": 13,
+          "kernel_stages_ms": {
+            "color": 0.049792,
+            "dct": 0.052928,
+            "ac": 0.152576,
+            "dc": 0.020256000000000003,
+            "bit_offset_scan": 0.009760000000000001,
+            "assemble": 0.018784,
+            "stuff_length_scan": 0.0128,
+            "stuff": 0.008608
+          },
+          "entropy_kernel_sum_ms": 0.22278399999999998,
+          "all_kernel_sum_ms": 0.325504,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.421988,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.425188,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083648,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 1126
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1143
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080288,
+              "correlationId": 1150
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.26103
+        },
+        {
+          "iteration": 14,
+          "kernel_stages_ms": {
+            "color": 0.049888,
+            "dct": 0.05296,
+            "ac": 0.15216100000000002,
+            "dc": 0.020544,
+            "bit_offset_scan": 0.009696,
+            "assemble": 0.019264,
+            "stuff_length_scan": 0.012799999999999999,
+            "stuff": 0.008896
+          },
+          "entropy_kernel_sum_ms": 0.223361,
+          "all_kernel_sum_ms": 0.326209,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.405028,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.408516,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.092032,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00176,
+              "correlationId": 1197
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1214
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.08864,
+              "correlationId": 1221
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.383526
+        },
+        {
+          "iteration": 15,
+          "kernel_stages_ms": {
+            "color": 0.049665,
+            "dct": 0.053056,
+            "ac": 0.15171300000000001,
+            "dc": 0.020448,
+            "bit_offset_scan": 0.009760000000000001,
+            "assemble": 0.019552,
+            "stuff_length_scan": 0.012704,
+            "stuff": 0.008736
+          },
+          "entropy_kernel_sum_ms": 0.22291300000000003,
+          "all_kernel_sum_ms": 0.32563400000000003,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.403268,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.406404,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083584,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00176,
+              "correlationId": 1268
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1285
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080192,
+              "correlationId": 1292
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.228326
+        },
+        {
+          "iteration": 16,
+          "kernel_stages_ms": {
+            "color": 0.049696,
+            "dct": 0.052320000000000005,
+            "ac": 0.15315299999999998,
+            "dc": 0.020447999999999997,
+            "bit_offset_scan": 0.009888000000000001,
+            "assemble": 0.019296,
+            "stuff_length_scan": 0.012704,
+            "stuff": 0.008832
+          },
+          "entropy_kernel_sum_ms": 0.224321,
+          "all_kernel_sum_ms": 0.326337,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.409444,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.412644,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.084192,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00176,
+              "correlationId": 1339
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1356
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.0808,
+              "correlationId": 1363
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.320519
+        },
+        {
+          "iteration": 17,
+          "kernel_stages_ms": {
+            "color": 0.049984,
+            "dct": 0.052768,
+            "ac": 0.151937,
+            "dc": 0.020448,
+            "bit_offset_scan": 0.009760000000000001,
+            "assemble": 0.01904,
+            "stuff_length_scan": 0.0128,
+            "stuff": 0.009024
+          },
+          "entropy_kernel_sum_ms": 0.22300899999999999,
+          "all_kernel_sum_ms": 0.325761,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.401603,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.404771,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083616,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 1410
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1427
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080256,
+              "correlationId": 1434
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.347718
+        },
+        {
+          "iteration": 18,
+          "kernel_stages_ms": {
+            "color": 0.049632,
+            "dct": 0.052608,
+            "ac": 0.15251199999999998,
+            "dc": 0.020833,
+            "bit_offset_scan": 0.009951999999999999,
+            "assemble": 0.01904,
+            "stuff_length_scan": 0.012864,
+            "stuff": 0.008992
+          },
+          "entropy_kernel_sum_ms": 0.22419299999999998,
+          "all_kernel_sum_ms": 0.326433,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.502596,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.505796,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.084001,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00176,
+              "correlationId": 1481
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1498
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080609,
+              "correlationId": 1505
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.389575
+        },
+        {
+          "iteration": 19,
+          "kernel_stages_ms": {
+            "color": 0.049888,
+            "dct": 0.053216,
+            "ac": 0.151617,
+            "dc": 0.020864,
+            "bit_offset_scan": 0.009824,
+            "assemble": 0.018592,
+            "stuff_length_scan": 0.012896000000000001,
+            "stuff": 0.009024
+          },
+          "entropy_kernel_sum_ms": 0.22281700000000002,
+          "all_kernel_sum_ms": 0.325921,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.4433,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.4465,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083904,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 1552
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1569
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080544,
+              "correlationId": 1576
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.279783
+        },
+        {
+          "iteration": 20,
+          "kernel_stages_ms": {
+            "color": 0.049824,
+            "dct": 0.055072,
+            "ac": 0.155169,
+            "dc": 0.021152,
+            "bit_offset_scan": 0.009824000000000001,
+            "assemble": 0.01904,
+            "stuff_length_scan": 0.012768,
+            "stuff": 0.008832
+          },
+          "entropy_kernel_sum_ms": 0.22678500000000001,
+          "all_kernel_sum_ms": 0.331681,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.362499,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.365955,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083456,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 1623
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1640
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080096,
+              "correlationId": 1647
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.318758
+        },
+        {
+          "iteration": 21,
+          "kernel_stages_ms": {
+            "color": 0.050112,
+            "dct": 0.053313,
+            "ac": 0.15167999999999998,
+            "dc": 0.020736,
+            "bit_offset_scan": 0.009728,
+            "assemble": 0.018976,
+            "stuff_length_scan": 0.012799999999999999,
+            "stuff": 0.008896
+          },
+          "entropy_kernel_sum_ms": 0.222816,
+          "all_kernel_sum_ms": 0.326241,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.4377,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.4409,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083648,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 1694
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1711
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080288,
+              "correlationId": 1718
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.272102
+        },
+        {
+          "iteration": 22,
+          "kernel_stages_ms": {
+            "color": 0.049952,
+            "dct": 0.052449,
+            "ac": 0.15212799999999999,
+            "dc": 0.02064,
+            "bit_offset_scan": 0.009760000000000001,
+            "assemble": 0.019264,
+            "stuff_length_scan": 0.012672,
+            "stuff": 0.008864
+          },
+          "entropy_kernel_sum_ms": 0.22332799999999997,
+          "all_kernel_sum_ms": 0.325729,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.40058,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.403748,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083968,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 1765
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1782
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080608,
+              "correlationId": 1789
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.225574
+        },
+        {
+          "iteration": 23,
+          "kernel_stages_ms": {
+            "color": 0.049696,
+            "dct": 0.053152000000000005,
+            "ac": 0.15049600000000002,
+            "dc": 0.020256,
+            "bit_offset_scan": 0.00992,
+            "assemble": 0.019232,
+            "stuff_length_scan": 0.012673,
+            "stuff": 0.009088
+          },
+          "entropy_kernel_sum_ms": 0.22166500000000003,
+          "all_kernel_sum_ms": 0.324513,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.34346,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.34666,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.084416,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002144,
+              "correlationId": 1836
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1853
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.08064,
+              "correlationId": 1860
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.122694
+        },
+        {
+          "iteration": 24,
+          "kernel_stages_ms": {
+            "color": 0.049696,
+            "dct": 0.052736000000000005,
+            "ac": 0.15225699999999998,
+            "dc": 0.020319999999999998,
+            "bit_offset_scan": 0.009792,
+            "assemble": 0.018624,
+            "stuff_length_scan": 0.012672000000000001,
+            "stuff": 0.008896
+          },
+          "entropy_kernel_sum_ms": 0.22256099999999998,
+          "all_kernel_sum_ms": 0.324993,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.369251,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.372387,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083936,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001728,
+              "correlationId": 1907
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1924
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080576,
+              "correlationId": 1931
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.214214
+        },
+        {
+          "iteration": 25,
+          "kernel_stages_ms": {
+            "color": 0.049952,
+            "dct": 0.053183999999999995,
+            "ac": 0.152865,
+            "dc": 0.020768000000000002,
+            "bit_offset_scan": 0.009760000000000001,
+            "assemble": 0.01872,
+            "stuff_length_scan": 0.012768,
+            "stuff": 0.008864
+          },
+          "entropy_kernel_sum_ms": 0.223745,
+          "all_kernel_sum_ms": 0.326881,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.363875,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.367043,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083297,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00176,
+              "correlationId": 1978
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 1995
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.079905,
+              "correlationId": 2002
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.170758
+        },
+        {
+          "iteration": 26,
+          "kernel_stages_ms": {
+            "color": 0.049888,
+            "dct": 0.0536,
+            "ac": 0.15270399999999998,
+            "dc": 0.019905000000000003,
+            "bit_offset_scan": 0.009760000000000001,
+            "assemble": 0.018784,
+            "stuff_length_scan": 0.012832,
+            "stuff": 0.008832
+          },
+          "entropy_kernel_sum_ms": 0.222817,
+          "all_kernel_sum_ms": 0.32630499999999996,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.423396,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.426628,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.084384,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001696,
+              "correlationId": 2049
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 2066
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.081056,
+              "correlationId": 2073
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.283943
+        },
+        {
+          "iteration": 27,
+          "kernel_stages_ms": {
+            "color": 0.049504,
+            "dct": 0.052512,
+            "ac": 0.15257600000000002,
+            "dc": 0.021217,
+            "bit_offset_scan": 0.009888,
+            "assemble": 0.019744,
+            "stuff_length_scan": 0.012768,
+            "stuff": 0.008992
+          },
+          "entropy_kernel_sum_ms": 0.22518500000000002,
+          "all_kernel_sum_ms": 0.327201,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.468164,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.471332,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.083969,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001792,
+              "correlationId": 2120
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 2137
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080545,
+              "correlationId": 2144
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.364263
+        },
+        {
+          "iteration": 28,
+          "kernel_stages_ms": {
+            "color": 0.05008,
+            "dct": 0.052576,
+            "ac": 0.152033,
+            "dc": 0.020512,
+            "bit_offset_scan": 0.009792,
+            "assemble": 0.019936,
+            "stuff_length_scan": 0.012927999999999999,
+            "stuff": 0.008608
+          },
+          "entropy_kernel_sum_ms": 0.223809,
+          "all_kernel_sum_ms": 0.326465,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.408355,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.411459,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.08384,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00208,
+              "correlationId": 2191
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001632,
+              "correlationId": 2208
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080128,
+              "correlationId": 2215
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.270822
+        },
+        {
+          "iteration": 29,
+          "kernel_stages_ms": {
+            "color": 0.049985,
+            "dct": 0.052992000000000004,
+            "ac": 0.15203200000000003,
+            "dc": 0.020352000000000002,
+            "bit_offset_scan": 0.009824000000000001,
+            "assemble": 0.018656,
+            "stuff_length_scan": 0.012864,
+            "stuff": 0.008928
+          },
+          "entropy_kernel_sum_ms": 0.22265600000000002,
+          "all_kernel_sum_ms": 0.32563300000000006,
+          "raw_h2d_bytes": 6220800,
+          "raw_h2d_ms": 1.451332,
+          "all_h2d_bytes": 6233088,
+          "all_h2d_ms": 1.454532,
+          "all_d2h_bytes": 524014,
+          "all_d2h_ms": 0.084064,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00176,
+              "correlationId": 2262
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 2279
+            },
+            {
+              "bytes": 523998,
+              "duration_ms": 0.080416,
+              "correlationId": 2286
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 2.343014
+        }
+      ]
+    },
+    {
+      "case": "4k444",
+      "warm_frames": 20,
+      "warmup": 10,
+      "stage_median_ms": {
+        "color": 0.27294450000000003,
+        "dct": 0.368225,
+        "ac": 0.879041,
+        "dc": 0.10476850000000001,
+        "bit_offset_scan": 0.0667845,
+        "assemble": 0.0797445,
+        "stuff_length_scan": 0.072656,
+        "stuff": 0.039487999999999995
+      },
+      "median_entropy_kernel_sum_ms": 1.2423549999999999,
+      "median_all_kernel_sum_ms": 1.8963575000000001,
+      "transfer_medians": {
+        "raw_h2d_bytes": 24883200.0,
+        "raw_h2d_ms": 6.159266000000001,
+        "all_h2d_bytes": 24895488.0,
+        "all_h2d_ms": 6.162226,
+        "all_d2h_bytes": 2000348.0,
+        "all_d2h_ms": 0.310641,
+        "raw_h2d_through_last_d2h_ms": 9.1185545
+      },
+      "unprofiled_complete_host": {
+        "count": 30,
+        "median_ms": 9.4019,
+        "mean_ms": 9.504896667,
+        "min_ms": 8.8924,
+        "max_ms": 10.415
+      },
+      "rows": [
+        {
+          "iteration": 0,
+          "kernel_stages_ms": {
+            "color": 0.287073,
+            "dct": 0.369313,
+            "ac": 0.956611,
+            "dc": 0.105952,
+            "bit_offset_scan": 0.070912,
+            "assemble": 0.08768,
+            "stuff_length_scan": 0.07366500000000001,
+            "stuff": 0.039584
+          },
+          "entropy_kernel_sum_ms": 1.334404,
+          "all_kernel_sum_ms": 1.99079,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 11.152544,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 11.15664,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.311713,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002336,
+              "correlationId": 201
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002784,
+              "correlationId": 221
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306593,
+              "correlationId": 229
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 22.594818
+        },
+        {
+          "iteration": 1,
+          "kernel_stages_ms": {
+            "color": 0.287489,
+            "dct": 0.369345,
+            "ac": 0.951779,
+            "dc": 0.10556800000000001,
+            "bit_offset_scan": 0.07056,
+            "assemble": 0.087073,
+            "stuff_length_scan": 0.073504,
+            "stuff": 0.039712
+          },
+          "entropy_kernel_sum_ms": 1.3281960000000002,
+          "all_kernel_sum_ms": 1.98503,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 5.970386,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 5.973586,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310657,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002304,
+              "correlationId": 276
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 293
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306401,
+              "correlationId": 300
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.955258
+        },
+        {
+          "iteration": 2,
+          "kernel_stages_ms": {
+            "color": 0.287585,
+            "dct": 0.369217,
+            "ac": 1.249828,
+            "dc": 0.10624,
+            "bit_offset_scan": 0.070336,
+            "assemble": 0.08688,
+            "stuff_length_scan": 0.07324800000000001,
+            "stuff": 0.039392
+          },
+          "entropy_kernel_sum_ms": 1.625924,
+          "all_kernel_sum_ms": 2.282726,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.05381,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.057042,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310497,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002048,
+              "correlationId": 347
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002016,
+              "correlationId": 364
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306433,
+              "correlationId": 371
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.486684
+        },
+        {
+          "iteration": 3,
+          "kernel_stages_ms": {
+            "color": 0.286561,
+            "dct": 0.368161,
+            "ac": 0.951331,
+            "dc": 0.10569599999999998,
+            "bit_offset_scan": 0.06998399999999999,
+            "assemble": 0.087136,
+            "stuff_length_scan": 0.07334399999999999,
+            "stuff": 0.039233
+          },
+          "entropy_kernel_sum_ms": 1.326724,
+          "all_kernel_sum_ms": 1.981446,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.022354,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.025522,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310497,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002048,
+              "correlationId": 418
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 435
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306497,
+              "correlationId": 442
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.937819
+        },
+        {
+          "iteration": 4,
+          "kernel_stages_ms": {
+            "color": 0.287585,
+            "dct": 0.36784100000000003,
+            "ac": 0.9506270000000001,
+            "dc": 0.10576,
+            "bit_offset_scan": 0.07039999999999999,
+            "assemble": 0.086817,
+            "stuff_length_scan": 0.07366400000000001,
+            "stuff": 0.039392
+          },
+          "entropy_kernel_sum_ms": 1.3266600000000002,
+          "all_kernel_sum_ms": 1.9820860000000002,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.054546,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.057682,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310785,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002112,
+              "correlationId": 489
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 506
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306753,
+              "correlationId": 513
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.009434
+        },
+        {
+          "iteration": 5,
+          "kernel_stages_ms": {
+            "color": 0.307649,
+            "dct": 0.368737,
+            "ac": 1.242403,
+            "dc": 0.105633,
+            "bit_offset_scan": 0.070688,
+            "assemble": 0.086977,
+            "stuff_length_scan": 0.07324800000000001,
+            "stuff": 0.039488
+          },
+          "entropy_kernel_sum_ms": 1.618437,
+          "all_kernel_sum_ms": 2.294823,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.309843,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.313043,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310465,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002048,
+              "correlationId": 560
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 577
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306465,
+              "correlationId": 584
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.809629
+        },
+        {
+          "iteration": 6,
+          "kernel_stages_ms": {
+            "color": 0.286081,
+            "dct": 0.368481,
+            "ac": 0.951459,
+            "dc": 0.105408,
+            "bit_offset_scan": 0.07020799999999999,
+            "assemble": 0.087072,
+            "stuff_length_scan": 0.073408,
+            "stuff": 0.039488
+          },
+          "entropy_kernel_sum_ms": 1.327043,
+          "all_kernel_sum_ms": 1.981605,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.312659,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.315827,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.3104,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002048,
+              "correlationId": 631
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002016,
+              "correlationId": 648
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306336,
+              "correlationId": 655
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.289115
+        },
+        {
+          "iteration": 7,
+          "kernel_stages_ms": {
+            "color": 0.286496,
+            "dct": 0.369058,
+            "ac": 0.9551689999999999,
+            "dc": 0.11357,
+            "bit_offset_scan": 0.070337,
+            "assemble": 0.087233,
+            "stuff_length_scan": 0.07283200000000001,
+            "stuff": 0.039712
+          },
+          "entropy_kernel_sum_ms": 1.3388529999999998,
+          "all_kernel_sum_ms": 1.9944069999999998,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.078545,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.088497,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.312929,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.004416,
+              "correlationId": 702
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001984,
+              "correlationId": 719
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306529,
+              "correlationId": 726
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.020986
+        },
+        {
+          "iteration": 8,
+          "kernel_stages_ms": {
+            "color": 0.287681,
+            "dct": 0.368928,
+            "ac": 0.950243,
+            "dc": 0.1056,
+            "bit_offset_scan": 0.070496,
+            "assemble": 0.08672,
+            "stuff_length_scan": 0.07311999999999999,
+            "stuff": 0.039424
+          },
+          "entropy_kernel_sum_ms": 1.3256029999999999,
+          "all_kernel_sum_ms": 1.9822119999999999,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.08533,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.088402,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310624,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00208,
+              "correlationId": 773
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001984,
+              "correlationId": 790
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.30656,
+              "correlationId": 797
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.975738
+        },
+        {
+          "iteration": 9,
+          "kernel_stages_ms": {
+            "color": 0.287009,
+            "dct": 0.36912100000000003,
+            "ac": 0.9519709999999999,
+            "dc": 0.10556800000000001,
+            "bit_offset_scan": 0.070496,
+            "assemble": 0.087232,
+            "stuff_length_scan": 0.073921,
+            "stuff": 0.039616
+          },
+          "entropy_kernel_sum_ms": 1.3288039999999999,
+          "all_kernel_sum_ms": 1.984934,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 5.950417,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 5.953617,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310625,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002048,
+              "correlationId": 844
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 861
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306625,
+              "correlationId": 868
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.943642
+        },
+        {
+          "iteration": 10,
+          "kernel_stages_ms": {
+            "color": 0.286785,
+            "dct": 0.369313,
+            "ac": 0.953571,
+            "dc": 0.105888,
+            "bit_offset_scan": 0.070432,
+            "assemble": 0.087232,
+            "stuff_length_scan": 0.073281,
+            "stuff": 0.039648
+          },
+          "entropy_kernel_sum_ms": 1.330052,
+          "all_kernel_sum_ms": 1.9861499999999999,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.086226,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.089426,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.317057,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002112,
+              "correlationId": 915
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 932
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.312993,
+              "correlationId": 939
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.169051
+        },
+        {
+          "iteration": 11,
+          "kernel_stages_ms": {
+            "color": 0.287905,
+            "dct": 0.36883299999999997,
+            "ac": 0.9167069999999999,
+            "dc": 0.10528000000000001,
+            "bit_offset_scan": 0.06672,
+            "assemble": 0.079712,
+            "stuff_length_scan": 0.072512,
+            "stuff": 0.03952
+          },
+          "entropy_kernel_sum_ms": 1.280451,
+          "all_kernel_sum_ms": 1.937189,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.09125,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.09445,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310657,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 986
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001824,
+              "correlationId": 1003
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306913,
+              "correlationId": 1010
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.995514
+        },
+        {
+          "iteration": 12,
+          "kernel_stages_ms": {
+            "color": 0.272449,
+            "dct": 0.367937,
+            "ac": 0.8780509999999999,
+            "dc": 0.104096,
+            "bit_offset_scan": 0.066816,
+            "assemble": 0.079904,
+            "stuff_length_scan": 0.07289599999999999,
+            "stuff": 0.03936
+          },
+          "entropy_kernel_sum_ms": 1.241123,
+          "all_kernel_sum_ms": 1.8815089999999999,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.344083,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.346995,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310624,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 1057
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 1074
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306784,
+              "correlationId": 1081
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.214331
+        },
+        {
+          "iteration": 13,
+          "kernel_stages_ms": {
+            "color": 0.322017,
+            "dct": 0.6548499999999999,
+            "ac": 0.8789469999999999,
+            "dc": 0.104896,
+            "bit_offset_scan": 0.066592,
+            "assemble": 0.07968,
+            "stuff_length_scan": 0.072608,
+            "stuff": 0.03936
+          },
+          "entropy_kernel_sum_ms": 1.2420829999999998,
+          "all_kernel_sum_ms": 2.21895,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.02213,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.025394,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310945,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 1128
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002592,
+              "correlationId": 1145
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306433,
+              "correlationId": 1152
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.40198
+        },
+        {
+          "iteration": 14,
+          "kernel_stages_ms": {
+            "color": 0.272705,
+            "dct": 0.36928099999999997,
+            "ac": 0.8786910000000001,
+            "dc": 0.10444799999999999,
+            "bit_offset_scan": 0.066688,
+            "assemble": 0.079745,
+            "stuff_length_scan": 0.072768,
+            "stuff": 0.039392
+          },
+          "entropy_kernel_sum_ms": 1.241732,
+          "all_kernel_sum_ms": 1.883718,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.234162,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.237074,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310273,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 1199
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 1216
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306401,
+              "correlationId": 1223
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.02201
+        },
+        {
+          "iteration": 15,
+          "kernel_stages_ms": {
+            "color": 0.272641,
+            "dct": 0.368065,
+            "ac": 0.879491,
+            "dc": 0.109184,
+            "bit_offset_scan": 0.07680000000000001,
+            "assemble": 0.079841,
+            "stuff_length_scan": 0.07232,
+            "stuff": 0.039232
+          },
+          "entropy_kernel_sum_ms": 1.256868,
+          "all_kernel_sum_ms": 1.897574,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.031634,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.034578,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310913,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002528,
+              "correlationId": 1270
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002112,
+              "correlationId": 1287
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306273,
+              "correlationId": 1294
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.813242
+        },
+        {
+          "iteration": 16,
+          "kernel_stages_ms": {
+            "color": 0.272769,
+            "dct": 0.368193,
+            "ac": 0.880131,
+            "dc": 0.104608,
+            "bit_offset_scan": 0.066784,
+            "assemble": 0.07984,
+            "stuff_length_scan": 0.07270399999999999,
+            "stuff": 0.039584
+          },
+          "entropy_kernel_sum_ms": 1.243651,
+          "all_kernel_sum_ms": 1.8846129999999999,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.241298,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.244242,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310209,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 1341
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 1358
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306369,
+              "correlationId": 1365
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.345852
+        },
+        {
+          "iteration": 17,
+          "kernel_stages_ms": {
+            "color": 0.272353,
+            "dct": 0.368257,
+            "ac": 0.8800029999999999,
+            "dc": 0.104544,
+            "bit_offset_scan": 0.06688,
+            "assemble": 0.07968,
+            "stuff_length_scan": 0.072512,
+            "stuff": 0.039456
+          },
+          "entropy_kernel_sum_ms": 1.243075,
+          "all_kernel_sum_ms": 1.8836849999999998,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.286962,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.289906,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310113,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 1412
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001792,
+              "correlationId": 1429
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306401,
+              "correlationId": 1436
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.069882
+        },
+        {
+          "iteration": 18,
+          "kernel_stages_ms": {
+            "color": 0.272864,
+            "dct": 0.366978,
+            "ac": 0.886499,
+            "dc": 0.11248000000000001,
+            "bit_offset_scan": 0.066944,
+            "assemble": 0.080032,
+            "stuff_length_scan": 0.072512,
+            "stuff": 0.039521
+          },
+          "entropy_kernel_sum_ms": 1.257988,
+          "all_kernel_sum_ms": 1.8978300000000001,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.136306,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.13925,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310209,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 1483
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 1500
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306401,
+              "correlationId": 1507
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.946875
+        },
+        {
+          "iteration": 19,
+          "kernel_stages_ms": {
+            "color": 0.503169,
+            "dct": 0.656066,
+            "ac": 0.878595,
+            "dc": 0.10444800000000001,
+            "bit_offset_scan": 0.067136,
+            "assemble": 0.079424,
+            "stuff_length_scan": 0.07222400000000001,
+            "stuff": 0.039904
+          },
+          "entropy_kernel_sum_ms": 1.2417310000000001,
+          "all_kernel_sum_ms": 2.400966,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.391539,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.394515,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310241,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 1554
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 1571
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306401,
+              "correlationId": 1578
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.741276
+        },
+        {
+          "iteration": 20,
+          "kernel_stages_ms": {
+            "color": 0.272865,
+            "dct": 0.367969,
+            "ac": 0.879299,
+            "dc": 0.10524800000000001,
+            "bit_offset_scan": 0.066816,
+            "assemble": 0.079681,
+            "stuff_length_scan": 0.08524799999999999,
+            "stuff": 0.047616
+          },
+          "entropy_kernel_sum_ms": 1.263908,
+          "all_kernel_sum_ms": 1.9047420000000002,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.13957,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.142866,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310177,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 1625
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.00208,
+              "correlationId": 1642
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306145,
+              "correlationId": 1649
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.126554
+        },
+        {
+          "iteration": 21,
+          "kernel_stages_ms": {
+            "color": 0.305057,
+            "dct": 0.368065,
+            "ac": 0.8777629999999998,
+            "dc": 0.104416,
+            "bit_offset_scan": 0.06672,
+            "assemble": 0.07968,
+            "stuff_length_scan": 0.0728,
+            "stuff": 0.039297
+          },
+          "entropy_kernel_sum_ms": 1.240676,
+          "all_kernel_sum_ms": 1.9137979999999999,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.062002,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.06501,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310625,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 1696
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002304,
+              "correlationId": 1713
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306401,
+              "correlationId": 1720
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.963771
+        },
+        {
+          "iteration": 22,
+          "kernel_stages_ms": {
+            "color": 0.273345,
+            "dct": 0.367937,
+            "ac": 0.8791389999999999,
+            "dc": 0.10467199999999999,
+            "bit_offset_scan": 0.06681600000000001,
+            "assemble": 0.080064,
+            "stuff_length_scan": 0.07270399999999999,
+            "stuff": 0.039232
+          },
+          "entropy_kernel_sum_ms": 1.242627,
+          "all_kernel_sum_ms": 1.8839089999999998,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 5.954929,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 5.957905,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310113,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 1767
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001824,
+              "correlationId": 1784
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306337,
+              "correlationId": 1791
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.731993
+        },
+        {
+          "iteration": 23,
+          "kernel_stages_ms": {
+            "color": 0.273313,
+            "dct": 0.368225,
+            "ac": 0.879041,
+            "dc": 0.10432100000000001,
+            "bit_offset_scan": 0.066657,
+            "assemble": 0.083168,
+            "stuff_length_scan": 0.09734499999999999,
+            "stuff": 0.047584
+          },
+          "entropy_kernel_sum_ms": 1.278116,
+          "all_kernel_sum_ms": 1.919654,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.140498,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.143474,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.312801,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 1838
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002496,
+              "correlationId": 1855
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.308385,
+              "correlationId": 1862
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.047259
+        },
+        {
+          "iteration": 24,
+          "kernel_stages_ms": {
+            "color": 0.272673,
+            "dct": 0.368225,
+            "ac": 0.8770910000000001,
+            "dc": 0.10483200000000001,
+            "bit_offset_scan": 0.06665599999999999,
+            "assemble": 0.079904,
+            "stuff_length_scan": 0.072192,
+            "stuff": 0.039872
+          },
+          "entropy_kernel_sum_ms": 1.240547,
+          "all_kernel_sum_ms": 1.881445,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.394547,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.397427,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310304,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 1909
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 1926
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306496,
+              "correlationId": 1933
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.359099
+        },
+        {
+          "iteration": 25,
+          "kernel_stages_ms": {
+            "color": 0.273985,
+            "dct": 0.367329,
+            "ac": 0.8777300000000001,
+            "dc": 0.104897,
+            "bit_offset_scan": 0.06678500000000001,
+            "assemble": 0.079744,
+            "stuff_length_scan": 0.07228899999999999,
+            "stuff": 0.03936
+          },
+          "entropy_kernel_sum_ms": 1.2408050000000002,
+          "all_kernel_sum_ms": 1.882119,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.27653,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.279474,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.317153,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 1980
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001824,
+              "correlationId": 1997
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.313377,
+              "correlationId": 2004
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.166843
+        },
+        {
+          "iteration": 26,
+          "kernel_stages_ms": {
+            "color": 0.272992,
+            "dct": 0.368609,
+            "ac": 0.883075,
+            "dc": 0.112128,
+            "bit_offset_scan": 0.066688,
+            "assemble": 0.079712,
+            "stuff_length_scan": 0.07241700000000001,
+            "stuff": 0.03952
+          },
+          "entropy_kernel_sum_ms": 1.25354,
+          "all_kernel_sum_ms": 1.8951410000000002,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.178034,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.180978,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.319649,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 2051
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 2068
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.315809,
+              "correlationId": 2075
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.185371
+        },
+        {
+          "iteration": 27,
+          "kernel_stages_ms": {
+            "color": 0.272897,
+            "dct": 0.368641,
+            "ac": 0.8774740000000001,
+            "dc": 0.104961,
+            "bit_offset_scan": 0.066753,
+            "assemble": 0.079648,
+            "stuff_length_scan": 0.07270499999999999,
+            "stuff": 0.039456
+          },
+          "entropy_kernel_sum_ms": 1.2409970000000001,
+          "all_kernel_sum_ms": 1.882535,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.224242,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.227218,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310689,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 2122
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002304,
+              "correlationId": 2139
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306465,
+              "correlationId": 2146
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.110555
+        },
+        {
+          "iteration": 28,
+          "kernel_stages_ms": {
+            "color": 0.272673,
+            "dct": 0.367169,
+            "ac": 0.879041,
+            "dc": 0.10470499999999999,
+            "bit_offset_scan": 0.06684899999999999,
+            "assemble": 0.079649,
+            "stuff_length_scan": 0.072448,
+            "stuff": 0.039328
+          },
+          "entropy_kernel_sum_ms": 1.24202,
+          "all_kernel_sum_ms": 1.881862,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.071314,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.074194,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.317569,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 2193
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.008256,
+              "correlationId": 2210
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.307425,
+              "correlationId": 2217
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.98185
+        },
+        {
+          "iteration": 29,
+          "kernel_stages_ms": {
+            "color": 0.301153,
+            "dct": 0.368481,
+            "ac": 0.87821,
+            "dc": 0.104705,
+            "bit_offset_scan": 0.066624,
+            "assemble": 0.079872,
+            "stuff_length_scan": 0.07292799999999999,
+            "stuff": 0.039744
+          },
+          "entropy_kernel_sum_ms": 1.242083,
+          "all_kernel_sum_ms": 1.911717,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.773555,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.776563,
+          "all_d2h_bytes": 2000348,
+          "all_d2h_ms": 0.310785,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 2264
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002464,
+              "correlationId": 2281
+            },
+            {
+              "bytes": 2000332,
+              "duration_ms": 0.306401,
+              "correlationId": 2288
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.697532
+        }
+      ]
+    },
+    {
+      "case": "4k420",
+      "warm_frames": 20,
+      "warmup": 10,
+      "stage_median_ms": {
+        "color": 0.182384,
+        "dct": 0.1864805,
+        "ac": 0.4917775,
+        "dc": 0.06692799999999999,
+        "bit_offset_scan": 0.034352,
+        "assemble": 0.0504005,
+        "stuff_length_scan": 0.057216,
+        "stuff": 0.030912
+      },
+      "median_entropy_kernel_sum_ms": 0.7306105,
+      "median_all_kernel_sum_ms": 1.105763,
+      "transfer_medians": {
+        "raw_h2d_bytes": 24883200.0,
+        "raw_h2d_ms": 6.169891,
+        "all_h2d_bytes": 24895488.0,
+        "all_h2d_ms": 6.173283,
+        "all_d2h_bytes": 1538599.0,
+        "all_d2h_ms": 0.240432,
+        "raw_h2d_through_last_d2h_ms": 8.221593
+      },
+      "unprofiled_complete_host": {
+        "count": 30,
+        "median_ms": 8.31155,
+        "mean_ms": 8.413743333,
+        "min_ms": 7.9997,
+        "max_ms": 9.6868
+      },
+      "rows": [
+        {
+          "iteration": 0,
+          "kernel_stages_ms": {
+            "color": 0.186977,
+            "dct": 0.24540900000000002,
+            "ac": 0.531938,
+            "dc": 0.06822399999999999,
+            "bit_offset_scan": 0.036511999999999996,
+            "assemble": 0.052865,
+            "stuff_length_scan": 0.057568,
+            "stuff": 0.031136
+          },
+          "entropy_kernel_sum_ms": 0.778243,
+          "all_kernel_sum_ms": 1.210629,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 10.61568,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 10.619456,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.241505,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002336,
+              "correlationId": 201
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002816,
+              "correlationId": 221
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236353,
+              "correlationId": 229
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 23.371175
+        },
+        {
+          "iteration": 1,
+          "kernel_stages_ms": {
+            "color": 0.186689,
+            "dct": 0.186784,
+            "ac": 0.528513,
+            "dc": 0.067041,
+            "bit_offset_scan": 0.036224,
+            "assemble": 0.052192,
+            "stuff_length_scan": 0.057856000000000005,
+            "stuff": 0.030913
+          },
+          "entropy_kernel_sum_ms": 0.7727390000000001,
+          "all_kernel_sum_ms": 1.146212,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.212851,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.216084,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.240832,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002368,
+              "correlationId": 276
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 293
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236512,
+              "correlationId": 300
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.337529
+        },
+        {
+          "iteration": 2,
+          "kernel_stages_ms": {
+            "color": 0.193632,
+            "dct": 0.26259299999999997,
+            "ac": 1.083011,
+            "dc": 0.067041,
+            "bit_offset_scan": 0.036576,
+            "assemble": 0.052672,
+            "stuff_length_scan": 0.05776099999999999,
+            "stuff": 0.030656
+          },
+          "entropy_kernel_sum_ms": 1.327717,
+          "all_kernel_sum_ms": 1.783942,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.097362,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.10053,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.240225,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001984,
+              "correlationId": 347
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 364
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236289,
+              "correlationId": 371
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.821403
+        },
+        {
+          "iteration": 3,
+          "kernel_stages_ms": {
+            "color": 0.187041,
+            "dct": 0.187392,
+            "ac": 0.528161,
+            "dc": 0.068384,
+            "bit_offset_scan": 0.03616,
+            "assemble": 0.052192,
+            "stuff_length_scan": 0.057536000000000004,
+            "stuff": 0.0312
+          },
+          "entropy_kernel_sum_ms": 0.773633,
+          "all_kernel_sum_ms": 1.148066,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.256467,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.259667,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.240225,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001984,
+              "correlationId": 418
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002016,
+              "correlationId": 435
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236225,
+              "correlationId": 442
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.297465
+        },
+        {
+          "iteration": 4,
+          "kernel_stages_ms": {
+            "color": 0.186561,
+            "dct": 0.18713599999999997,
+            "ac": 0.526914,
+            "dc": 0.06688,
+            "bit_offset_scan": 0.03648,
+            "assemble": 0.0528,
+            "stuff_length_scan": 0.057728,
+            "stuff": 0.03072
+          },
+          "entropy_kernel_sum_ms": 0.771522,
+          "all_kernel_sum_ms": 1.145219,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.184819,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.187955,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.240161,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001984,
+              "correlationId": 489
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 506
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236225,
+              "correlationId": 513
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.276633
+        },
+        {
+          "iteration": 5,
+          "kernel_stages_ms": {
+            "color": 0.186689,
+            "dct": 0.18643200000000001,
+            "ac": 0.529154,
+            "dc": 0.06675199999999999,
+            "bit_offset_scan": 0.036416,
+            "assemble": 0.052385,
+            "stuff_length_scan": 0.062528,
+            "stuff": 0.037248
+          },
+          "entropy_kernel_sum_ms": 0.784483,
+          "all_kernel_sum_ms": 1.157604,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.043219,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.046419,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.248577,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001984,
+              "correlationId": 560
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002176,
+              "correlationId": 577
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.244417,
+              "correlationId": 584
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.128249
+        },
+        {
+          "iteration": 6,
+          "kernel_stages_ms": {
+            "color": 0.230785,
+            "dct": 0.19088,
+            "ac": 1.078787,
+            "dc": 0.06688000000000001,
+            "bit_offset_scan": 0.036096,
+            "assemble": 0.052096,
+            "stuff_length_scan": 0.057313,
+            "stuff": 0.030944
+          },
+          "entropy_kernel_sum_ms": 1.3221159999999998,
+          "all_kernel_sum_ms": 1.743781,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.064082,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.067218,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.247425,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001984,
+              "correlationId": 631
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002048,
+              "correlationId": 648
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.243393,
+              "correlationId": 655
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 9.187772
+        },
+        {
+          "iteration": 7,
+          "kernel_stages_ms": {
+            "color": 0.186561,
+            "dct": 0.187009,
+            "ac": 0.526593,
+            "dc": 0.066657,
+            "bit_offset_scan": 0.036256,
+            "assemble": 0.052,
+            "stuff_length_scan": 0.057472,
+            "stuff": 0.031072
+          },
+          "entropy_kernel_sum_ms": 0.77005,
+          "all_kernel_sum_ms": 1.14362,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.459924,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.463156,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.248193,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001984,
+              "correlationId": 702
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 719
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.244257,
+              "correlationId": 726
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.550234
+        },
+        {
+          "iteration": 8,
+          "kernel_stages_ms": {
+            "color": 0.186689,
+            "dct": 0.186464,
+            "ac": 0.527586,
+            "dc": 0.067488,
+            "bit_offset_scan": 0.036064,
+            "assemble": 0.052416,
+            "stuff_length_scan": 0.057791999999999996,
+            "stuff": 0.030848
+          },
+          "entropy_kernel_sum_ms": 0.772194,
+          "all_kernel_sum_ms": 1.145347,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.170675,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.174291,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.240129,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 773
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 790
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236225,
+              "correlationId": 797
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.170297
+        },
+        {
+          "iteration": 9,
+          "kernel_stages_ms": {
+            "color": 0.186593,
+            "dct": 0.187808,
+            "ac": 0.531362,
+            "dc": 0.067776,
+            "bit_offset_scan": 0.036192,
+            "assemble": 0.05184,
+            "stuff_length_scan": 0.05792,
+            "stuff": 0.030784
+          },
+          "entropy_kernel_sum_ms": 0.775874,
+          "all_kernel_sum_ms": 1.150275,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.070611,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.073811,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.248673,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 844
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001984,
+              "correlationId": 861
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.244737,
+              "correlationId": 868
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.362074
+        },
+        {
+          "iteration": 10,
+          "kernel_stages_ms": {
+            "color": 0.186656,
+            "dct": 0.187585,
+            "ac": 0.5280009999999999,
+            "dc": 0.067584,
+            "bit_offset_scan": 0.036288,
+            "assemble": 0.052192,
+            "stuff_length_scan": 0.057408,
+            "stuff": 0.030912
+          },
+          "entropy_kernel_sum_ms": 0.772385,
+          "all_kernel_sum_ms": 1.146626,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.040466,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.043666,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.24032,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001984,
+              "correlationId": 915
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002048,
+              "correlationId": 932
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236288,
+              "correlationId": 939
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.087864
+        },
+        {
+          "iteration": 11,
+          "kernel_stages_ms": {
+            "color": 0.186464,
+            "dct": 0.18771300000000002,
+            "ac": 0.5262089999999999,
+            "dc": 0.067424,
+            "bit_offset_scan": 0.036288,
+            "assemble": 0.05184,
+            "stuff_length_scan": 0.057344,
+            "stuff": 0.030784
+          },
+          "entropy_kernel_sum_ms": 0.7698889999999999,
+          "all_kernel_sum_ms": 1.144066,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.223667,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.226867,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.24016,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001984,
+              "correlationId": 986
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 1003
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236256,
+              "correlationId": 1010
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.243065
+        },
+        {
+          "iteration": 12,
+          "kernel_stages_ms": {
+            "color": 0.186848,
+            "dct": 0.18729700000000002,
+            "ac": 0.527201,
+            "dc": 0.067904,
+            "bit_offset_scan": 0.036289,
+            "assemble": 0.052416,
+            "stuff_length_scan": 0.05776,
+            "stuff": 0.031137
+          },
+          "entropy_kernel_sum_ms": 0.772707,
+          "all_kernel_sum_ms": 1.146852,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.160243,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.163411,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.240192,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 1057
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001984,
+              "correlationId": 1074
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236256,
+              "correlationId": 1081
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.214521
+        },
+        {
+          "iteration": 13,
+          "kernel_stages_ms": {
+            "color": 0.186657,
+            "dct": 0.18752,
+            "ac": 0.53213,
+            "dc": 0.07296,
+            "bit_offset_scan": 0.036384,
+            "assemble": 0.054336,
+            "stuff_length_scan": 0.0576,
+            "stuff": 0.030784
+          },
+          "entropy_kernel_sum_ms": 0.784194,
+          "all_kernel_sum_ms": 1.158371,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.227123,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.230291,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.240768,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 1128
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.002016,
+              "correlationId": 1145
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.2368,
+              "correlationId": 1152
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.491834
+        },
+        {
+          "iteration": 14,
+          "kernel_stages_ms": {
+            "color": 0.186721,
+            "dct": 0.49881800000000004,
+            "ac": 0.526786,
+            "dc": 0.06780800000000001,
+            "bit_offset_scan": 0.03632,
+            "assemble": 0.051809,
+            "stuff_length_scan": 0.057631999999999996,
+            "stuff": 0.030912
+          },
+          "entropy_kernel_sum_ms": 0.7712669999999999,
+          "all_kernel_sum_ms": 1.456806,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.120787,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.123923,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.240225,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001984,
+              "correlationId": 1199
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 1216
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236321,
+              "correlationId": 1223
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.672987
+        },
+        {
+          "iteration": 15,
+          "kernel_stages_ms": {
+            "color": 0.18688,
+            "dct": 0.187713,
+            "ac": 0.527586,
+            "dc": 0.068,
+            "bit_offset_scan": 0.036416,
+            "assemble": 0.052545,
+            "stuff_length_scan": 0.05744,
+            "stuff": 0.030784
+          },
+          "entropy_kernel_sum_ms": 0.772771,
+          "all_kernel_sum_ms": 1.147364,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.151346,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.154514,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.248065,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001952,
+              "correlationId": 1270
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 1287
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.244193,
+              "correlationId": 1294
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.250809
+        },
+        {
+          "iteration": 16,
+          "kernel_stages_ms": {
+            "color": 0.181793,
+            "dct": 0.186336,
+            "ac": 0.491521,
+            "dc": 0.066529,
+            "bit_offset_scan": 0.034048,
+            "assemble": 0.050177,
+            "stuff_length_scan": 0.0568,
+            "stuff": 0.0312
+          },
+          "entropy_kernel_sum_ms": 0.730275,
+          "all_kernel_sum_ms": 1.098404,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.192531,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.195379,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.239777,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 1341
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001824,
+              "correlationId": 1358
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236065,
+              "correlationId": 1365
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.160569
+        },
+        {
+          "iteration": 17,
+          "kernel_stages_ms": {
+            "color": 0.182368,
+            "dct": 0.185633,
+            "ac": 0.49696100000000004,
+            "dc": 0.072768,
+            "bit_offset_scan": 0.034367999999999996,
+            "assemble": 0.051809,
+            "stuff_length_scan": 0.057408,
+            "stuff": 0.030816
+          },
+          "entropy_kernel_sum_ms": 0.7441300000000001,
+          "all_kernel_sum_ms": 1.112131,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.029202,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.032114,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.240801,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 1412
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 1429
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236993,
+              "correlationId": 1436
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.220729
+        },
+        {
+          "iteration": 18,
+          "kernel_stages_ms": {
+            "color": 0.182401,
+            "dct": 0.186464,
+            "ac": 0.491394,
+            "dc": 0.066624,
+            "bit_offset_scan": 0.034048,
+            "assemble": 0.050624,
+            "stuff_length_scan": 0.05696,
+            "stuff": 0.03088
+          },
+          "entropy_kernel_sum_ms": 0.73053,
+          "all_kernel_sum_ms": 1.099395,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.195379,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.198323,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.240289,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 1483
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 1500
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236481,
+              "correlationId": 1507
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.293849
+        },
+        {
+          "iteration": 19,
+          "kernel_stages_ms": {
+            "color": 0.181729,
+            "dct": 0.185504,
+            "ac": 0.491554,
+            "dc": 0.06624,
+            "bit_offset_scan": 0.03424,
+            "assemble": 0.050048,
+            "stuff_length_scan": 0.056865,
+            "stuff": 0.030944
+          },
+          "entropy_kernel_sum_ms": 0.729891,
+          "all_kernel_sum_ms": 1.097124,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.074963,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.077939,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.239777,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001856,
+              "correlationId": 1554
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001824,
+              "correlationId": 1571
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236097,
+              "correlationId": 1578
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.045305
+        },
+        {
+          "iteration": 20,
+          "kernel_stages_ms": {
+            "color": 0.181569,
+            "dct": 0.186528,
+            "ac": 0.49100900000000003,
+            "dc": 0.067297,
+            "bit_offset_scan": 0.033920000000000006,
+            "assemble": 0.049761,
+            "stuff_length_scan": 0.057568,
+            "stuff": 0.031136
+          },
+          "entropy_kernel_sum_ms": 0.730691,
+          "all_kernel_sum_ms": 1.098788,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.312531,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.315475,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.246785,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001824,
+              "correlationId": 1625
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001792,
+              "correlationId": 1642
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.243169,
+              "correlationId": 1649
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.222457
+        },
+        {
+          "iteration": 21,
+          "kernel_stages_ms": {
+            "color": 0.182497,
+            "dct": 0.186945,
+            "ac": 0.491969,
+            "dc": 0.066113,
+            "bit_offset_scan": 0.034144,
+            "assemble": 0.05392,
+            "stuff_length_scan": 0.075488,
+            "stuff": 0.037152
+          },
+          "entropy_kernel_sum_ms": 0.758786,
+          "all_kernel_sum_ms": 1.128228,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.029426,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.032402,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.240544,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.002464,
+              "correlationId": 1696
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001856,
+              "correlationId": 1713
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236224,
+              "correlationId": 1720
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.086552
+        },
+        {
+          "iteration": 22,
+          "kernel_stages_ms": {
+            "color": 0.1824,
+            "dct": 0.187137,
+            "ac": 0.49133,
+            "dc": 0.06608,
+            "bit_offset_scan": 0.034143999999999994,
+            "assemble": 0.049696,
+            "stuff_length_scan": 0.056865,
+            "stuff": 0.030944
+          },
+          "entropy_kernel_sum_ms": 0.729059,
+          "all_kernel_sum_ms": 1.098596,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.249011,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.252051,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.239713,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 1767
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001792,
+              "correlationId": 1784
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236033,
+              "correlationId": 1791
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.347482
+        },
+        {
+          "iteration": 23,
+          "kernel_stages_ms": {
+            "color": 0.181505,
+            "dct": 0.18598399999999998,
+            "ac": 0.49088199999999993,
+            "dc": 0.0656,
+            "bit_offset_scan": 0.033984,
+            "assemble": 0.049408,
+            "stuff_length_scan": 0.056961,
+            "stuff": 0.030816
+          },
+          "entropy_kernel_sum_ms": 0.7276509999999999,
+          "all_kernel_sum_ms": 1.09514,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 5.984274,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 5.98757,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.239809,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001856,
+              "correlationId": 1838
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001856,
+              "correlationId": 1855
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236097,
+              "correlationId": 1862
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.196057
+        },
+        {
+          "iteration": 24,
+          "kernel_stages_ms": {
+            "color": 0.181985,
+            "dct": 0.18598399999999998,
+            "ac": 0.49024199999999996,
+            "dc": 0.06704,
+            "bit_offset_scan": 0.034432000000000004,
+            "assemble": 0.04944,
+            "stuff_length_scan": 0.056992,
+            "stuff": 0.031008
+          },
+          "entropy_kernel_sum_ms": 0.729154,
+          "all_kernel_sum_ms": 1.0971229999999998,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.318739,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.321588,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.248224,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 1909
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001824,
+              "correlationId": 1926
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.244512,
+              "correlationId": 1933
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.359641
+        },
+        {
+          "iteration": 25,
+          "kernel_stages_ms": {
+            "color": 0.182273,
+            "dct": 0.186304,
+            "ac": 0.490946,
+            "dc": 0.06703999999999999,
+            "bit_offset_scan": 0.034432000000000004,
+            "assemble": 0.054048,
+            "stuff_length_scan": 0.070464,
+            "stuff": 0.030848
+          },
+          "entropy_kernel_sum_ms": 0.7477779999999999,
+          "all_kernel_sum_ms": 1.116355,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.333011,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.335987,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.242785,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.00192,
+              "correlationId": 1980
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001824,
+              "correlationId": 1997
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.239041,
+              "correlationId": 2004
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.451065
+        },
+        {
+          "iteration": 26,
+          "kernel_stages_ms": {
+            "color": 0.201057,
+            "dct": 0.185856,
+            "ac": 0.49203399999999997,
+            "dc": 0.066656,
+            "bit_offset_scan": 0.034463999999999995,
+            "assemble": 0.049472,
+            "stuff_length_scan": 0.056865,
+            "stuff": 0.030752
+          },
+          "entropy_kernel_sum_ms": 0.730243,
+          "all_kernel_sum_ms": 1.117156,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 5.872338,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 5.87525,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.240705,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.0024,
+              "correlationId": 2051
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 2068
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236417,
+              "correlationId": 2075
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 7.991833
+        },
+        {
+          "iteration": 27,
+          "kernel_stages_ms": {
+            "color": 0.181728,
+            "dct": 0.18649699999999997,
+            "ac": 0.49158599999999997,
+            "dc": 0.066464,
+            "bit_offset_scan": 0.034336000000000005,
+            "assemble": 0.049664,
+            "stuff_length_scan": 0.057088,
+            "stuff": 0.031008
+          },
+          "entropy_kernel_sum_ms": 0.730146,
+          "all_kernel_sum_ms": 1.098371,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.13541,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.138386,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.239777,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001856,
+              "correlationId": 2122
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001824,
+              "correlationId": 2139
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.236097,
+              "correlationId": 2146
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.08156
+        },
+        {
+          "iteration": 28,
+          "kernel_stages_ms": {
+            "color": 0.182336,
+            "dct": 0.185761,
+            "ac": 0.49196999999999996,
+            "dc": 0.066816,
+            "bit_offset_scan": 0.03408,
+            "assemble": 0.049504,
+            "stuff_length_scan": 0.05664,
+            "stuff": 0.030912
+          },
+          "entropy_kernel_sum_ms": 0.729922,
+          "all_kernel_sum_ms": 1.098019,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.179539,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.183155,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.247745,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 2193
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001824,
+              "correlationId": 2210
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.244033,
+              "correlationId": 2217
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.207289
+        },
+        {
+          "iteration": 29,
+          "kernel_stages_ms": {
+            "color": 0.182337,
+            "dct": 0.186176,
+            "ac": 0.49136199999999997,
+            "dc": 0.066592,
+            "bit_offset_scan": 0.034176,
+            "assemble": 0.049536,
+            "stuff_length_scan": 0.056736,
+            "stuff": 0.031392
+          },
+          "entropy_kernel_sum_ms": 0.7297939999999999,
+          "all_kernel_sum_ms": 1.098307,
+          "raw_h2d_bytes": 24883200,
+          "raw_h2d_ms": 6.369588,
+          "all_h2d_bytes": 24895488,
+          "all_h2d_ms": 6.372532,
+          "all_d2h_bytes": 1538599,
+          "all_d2h_ms": 0.247073,
+          "d2h_copies": [
+            {
+              "bytes": 8,
+              "duration_ms": 0.001856,
+              "correlationId": 2264
+            },
+            {
+              "bytes": 8,
+              "duration_ms": 0.001888,
+              "correlationId": 2281
+            },
+            {
+              "bytes": 1538583,
+              "duration_ms": 0.243329,
+              "correlationId": 2288
+            }
+          ],
+          "raw_h2d_through_last_d2h_ms": 8.516186
+        }
+      ]
+    }
+  ]
+}

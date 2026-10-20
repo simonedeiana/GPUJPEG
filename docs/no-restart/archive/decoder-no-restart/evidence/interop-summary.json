@@ -1,0 +1,223 @@
+{
+  "cases_per_worker": 6,
+  "workers_per_codec": 2,
+  "all_equal": true,
+  "records": [
+    {
+      "codec": "locked",
+      "worker": 0,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-420-interleaved-reference.jpg",
+      "hashes": {
+        "coefficients": "97fa177dd460b1b26b449d5dc9f48afcfda9ed9df5a52c8987d51e3a78cf4a96",
+        "pixels": "fb95ba56c762d39784cabce0e8992e2d362e3cb88c25caa4d87a42b3de601a4f"
+      }
+    },
+    {
+      "codec": "locked",
+      "worker": 0,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-420-interleaved-reference.jpg",
+      "hashes": {
+        "coefficients": "e42aaa2ed16ea033ec3ee630681372a2987f978b9edb34c5c1785b03b2556fc0",
+        "pixels": "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07"
+      }
+    },
+    {
+      "codec": "locked",
+      "worker": 0,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q90-gray-interleaved-reference.jpg",
+      "hashes": {
+        "coefficients": "80961421019264e7e1852ac62e5355b3bf230c8cb2ab2f00e1da780d88ebaa4d",
+        "pixels": "59cfe6a77022c35a5972efd2fee232aa15e57f5003842a67bd113caf1dedfb9c"
+      }
+    },
+    {
+      "codec": "locked",
+      "worker": 0,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-420-planar-reference.jpg",
+      "hashes": {
+        "coefficients": "16bf47706049e7eadf2cafa2f0928b2127d7a0400d6ee5edb09e16941d4047f0",
+        "pixels": "3d49c7a2ddccfdc79209548c34050d8f07d97fdbb19fbbdc756287b7de806a65"
+      }
+    },
+    {
+      "codec": "locked",
+      "worker": 0,
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-rgb-optimized-2.jpg",
+      "hashes": {
+        "coefficients": "d4220d2594f17773e650f2833cf6d2c29d14e7f53d00cce7649bead5bb84d0c1",
+        "pixels": "ccb602f351b7b3e501179688e829632c6c5de96df07f77f592ee2d0a275d1f6d"
+      }
+    },
+    {
+      "codec": "locked",
+      "worker": 0,
+      "input": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+      "hashes": {
+        "coefficients": "b16607bd5260392192bfe06f26f6e55b4867fe37c04f7e9ee3b57f51b3720ac9",
+        "pixels": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+      }
+    },
+    {
+      "codec": "locked",
+      "worker": 1,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-420-interleaved-reference.jpg",
+      "hashes": {
+        "coefficients": "97fa177dd460b1b26b449d5dc9f48afcfda9ed9df5a52c8987d51e3a78cf4a96",
+        "pixels": "fb95ba56c762d39784cabce0e8992e2d362e3cb88c25caa4d87a42b3de601a4f"
+      }
+    },
+    {
+      "codec": "locked",
+      "worker": 1,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-420-interleaved-reference.jpg",
+      "hashes": {
+        "coefficients": "e42aaa2ed16ea033ec3ee630681372a2987f978b9edb34c5c1785b03b2556fc0",
+        "pixels": "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07"
+      }
+    },
+    {
+      "codec": "locked",
+      "worker": 1,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q90-gray-interleaved-reference.jpg",
+      "hashes": {
+        "coefficients": "80961421019264e7e1852ac62e5355b3bf230c8cb2ab2f00e1da780d88ebaa4d",
+        "pixels": "59cfe6a77022c35a5972efd2fee232aa15e57f5003842a67bd113caf1dedfb9c"
+      }
+    },
+    {
+      "codec": "locked",
+      "worker": 1,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-420-planar-reference.jpg",
+      "hashes": {
+        "coefficients": "16bf47706049e7eadf2cafa2f0928b2127d7a0400d6ee5edb09e16941d4047f0",
+        "pixels": "3d49c7a2ddccfdc79209548c34050d8f07d97fdbb19fbbdc756287b7de806a65"
+      }
+    },
+    {
+      "codec": "locked",
+      "worker": 1,
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-rgb-optimized-2.jpg",
+      "hashes": {
+        "coefficients": "d4220d2594f17773e650f2833cf6d2c29d14e7f53d00cce7649bead5bb84d0c1",
+        "pixels": "ccb602f351b7b3e501179688e829632c6c5de96df07f77f592ee2d0a275d1f6d"
+      }
+    },
+    {
+      "codec": "locked",
+      "worker": 1,
+      "input": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+      "hashes": {
+        "coefficients": "b16607bd5260392192bfe06f26f6e55b4867fe37c04f7e9ee3b57f51b3720ac9",
+        "pixels": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+      }
+    },
+    {
+      "codec": "candidate",
+      "worker": 0,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-420-interleaved-reference.jpg",
+      "hashes": {
+        "coefficients": "97fa177dd460b1b26b449d5dc9f48afcfda9ed9df5a52c8987d51e3a78cf4a96",
+        "pixels": "fb95ba56c762d39784cabce0e8992e2d362e3cb88c25caa4d87a42b3de601a4f"
+      }
+    },
+    {
+      "codec": "candidate",
+      "worker": 0,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-420-interleaved-reference.jpg",
+      "hashes": {
+        "coefficients": "e42aaa2ed16ea033ec3ee630681372a2987f978b9edb34c5c1785b03b2556fc0",
+        "pixels": "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07"
+      }
+    },
+    {
+      "codec": "candidate",
+      "worker": 0,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q90-gray-interleaved-reference.jpg",
+      "hashes": {
+        "coefficients": "80961421019264e7e1852ac62e5355b3bf230c8cb2ab2f00e1da780d88ebaa4d",
+        "pixels": "59cfe6a77022c35a5972efd2fee232aa15e57f5003842a67bd113caf1dedfb9c"
+      }
+    },
+    {
+      "codec": "candidate",
+      "worker": 0,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-420-planar-reference.jpg",
+      "hashes": {
+        "coefficients": "16bf47706049e7eadf2cafa2f0928b2127d7a0400d6ee5edb09e16941d4047f0",
+        "pixels": "3d49c7a2ddccfdc79209548c34050d8f07d97fdbb19fbbdc756287b7de806a65"
+      }
+    },
+    {
+      "codec": "candidate",
+      "worker": 0,
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-rgb-optimized-2.jpg",
+      "hashes": {
+        "coefficients": "d4220d2594f17773e650f2833cf6d2c29d14e7f53d00cce7649bead5bb84d0c1",
+        "pixels": "ccb602f351b7b3e501179688e829632c6c5de96df07f77f592ee2d0a275d1f6d"
+      }
+    },
+    {
+      "codec": "candidate",
+      "worker": 0,
+      "input": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+      "hashes": {
+        "coefficients": "b16607bd5260392192bfe06f26f6e55b4867fe37c04f7e9ee3b57f51b3720ac9",
+        "pixels": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+      }
+    },
+    {
+      "codec": "candidate",
+      "worker": 1,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-420-interleaved-reference.jpg",
+      "hashes": {
+        "coefficients": "97fa177dd460b1b26b449d5dc9f48afcfda9ed9df5a52c8987d51e3a78cf4a96",
+        "pixels": "fb95ba56c762d39784cabce0e8992e2d362e3cb88c25caa4d87a42b3de601a4f"
+      }
+    },
+    {
+      "codec": "candidate",
+      "worker": 1,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-420-interleaved-reference.jpg",
+      "hashes": {
+        "coefficients": "e42aaa2ed16ea033ec3ee630681372a2987f978b9edb34c5c1785b03b2556fc0",
+        "pixels": "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07"
+      }
+    },
+    {
+      "codec": "candidate",
+      "worker": 1,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q90-gray-interleaved-reference.jpg",
+      "hashes": {
+        "coefficients": "80961421019264e7e1852ac62e5355b3bf230c8cb2ab2f00e1da780d88ebaa4d",
+        "pixels": "59cfe6a77022c35a5972efd2fee232aa15e57f5003842a67bd113caf1dedfb9c"
+      }
+    },
+    {
+      "codec": "candidate",
+      "worker": 1,
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-420-planar-reference.jpg",
+      "hashes": {
+        "coefficients": "16bf47706049e7eadf2cafa2f0928b2127d7a0400d6ee5edb09e16941d4047f0",
+        "pixels": "3d49c7a2ddccfdc79209548c34050d8f07d97fdbb19fbbdc756287b7de806a65"
+      }
+    },
+    {
+      "codec": "candidate",
+      "worker": 1,
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-rgb-optimized-2.jpg",
+      "hashes": {
+        "coefficients": "d4220d2594f17773e650f2833cf6d2c29d14e7f53d00cce7649bead5bb84d0c1",
+        "pixels": "ccb602f351b7b3e501179688e829632c6c5de96df07f77f592ee2d0a275d1f6d"
+      }
+    },
+    {
+      "codec": "candidate",
+      "worker": 1,
+      "input": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+      "hashes": {
+        "coefficients": "b16607bd5260392192bfe06f26f6e55b4867fe37c04f7e9ee3b57f51b3720ac9",
+        "pixels": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+      }
+    }
+  ]
+}

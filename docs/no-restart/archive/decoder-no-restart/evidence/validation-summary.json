@@ -1,0 +1,8 @@
+{
+  "cases": 102,
+  "all_coefficients_and_pixels_equal": true,
+  "identities": {
+    "<WORKSPACE>\\work\\decoder-r0\\dump-candidate.exe": "03cb1d117e44ecb386c23b0c60abfa05db290d2ea506ff9fa439b6919c05aeab",
+    "<WORKSPACE>\\work\\decoder-r0\\..\\encode-r0-validation\\dump-baseline.exe": "068dc715e85c829754cef2da2ccf395db44161ccad26902c3dc35c1893e6e9a4"
+  }
+}

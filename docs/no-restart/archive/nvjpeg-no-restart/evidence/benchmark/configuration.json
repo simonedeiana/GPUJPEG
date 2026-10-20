@@ -1,0 +1,1734 @@
+{
+  "seed": 20261020,
+  "rounds": 5,
+  "iterations": 110,
+  "warmup": 10,
+  "identity_sha256": {
+    "baseline": "2e5e0373deee179fd8edc2f3c276a4483ef4524aaf50a790ea0535d09545d5f1",
+    "candidate": "f11692097089eaba117fb7ee531eea5c954418461bc4233c746b71e3f7149692",
+    "nvjpeg": "f53e206472a649573739729a544bb2a01e863769542d42a1eef8b0107d5d3d49",
+    "candidate_lib": "1e440031b21c010450b55b00b2704bd077113b7352a34c92bf7fa680758dfea8",
+    "baseline_lib": "5ea5ca9025c33884551f9dc8dff1836453cc009e815c04850d996444ce0b901d",
+    "encoder_source": "20499e59f88855db876d948b66e16602306bc7dfbd2654bc32b21dcc30ff29e4",
+    "encoder_dispatch": "03c097c9f8f607f44c8808b1aa359d2bcce373ad6e970fbb2efbf1c47c0780c0",
+    "entropy_dispatch": "95311447e81eb6d672d82da9c4891717453c49a3837383b3b6d4fcf5bebe271d",
+    "nvjpeg_dll": "957bb73818e62883ac4bfc0aa15204bba5e341a8f7964a11b0289742df4e0da2",
+    "environment": "c1289d970c034384116b17384b4eef49a7e30f4826baf1ae7eaf59417b635007"
+  },
+  "identity_paths": {
+    "baseline": "<WORKSPACE>\\work\\encode-r0-validation\\gpujpeg-baseline.exe",
+    "candidate": "<WORKSPACE>\\work\\encode-r0-validation\\gpujpeg-candidate.exe",
+    "nvjpeg": "<WORKSPACE>\\work\\nvjpeg-analysis\\nvjpeg_encode.exe",
+    "candidate_lib": "work/build-encode-r0/gpujpeg.lib",
+    "baseline_lib": "work/build-baseline/gpujpeg.lib",
+    "encoder_source": "work/GPUJPEG/src/gpujpeg_huffman_no_restart.cuh",
+    "encoder_dispatch": "work/GPUJPEG/src/gpujpeg_encoder.c",
+    "entropy_dispatch": "work/GPUJPEG/src/gpujpeg_huffman_gpu_encoder.cu",
+    "nvjpeg_dll": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4/bin/x64/nvjpeg64_13.dll",
+    "environment": "work/encode-r0-validation/environment.json"
+  },
+  "binaries": {
+    "baseline": "<WORKSPACE>\\work\\encode-r0-validation\\gpujpeg-baseline.exe",
+    "candidate": "<WORKSPACE>\\work\\encode-r0-validation\\gpujpeg-candidate.exe",
+    "nvjpeg": "<WORKSPACE>\\work\\nvjpeg-analysis\\nvjpeg_encode.exe"
+  },
+  "schedule": [
+    {
+      "round": 0,
+      "case": {
+        "name": "4k-rgb-q90-422-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "4k-rgb-q90-422-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "4k-rgb-q90-422-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "hd-rgb-q90-444-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "hd-rgb-q90-444-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "hd-rgb-q90-444-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "4k-rgb-q90-444-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "4k-rgb-q90-444-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "4k-rgb-q90-444-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "hd-rgb-q90-422-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "hd-rgb-q90-422-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "hd-rgb-q90-422-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "hd-rgb-q90-420-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "hd-rgb-q90-420-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "hd-rgb-q90-420-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "hd-gray-q90-gray-interleaved",
+        "input": "hd-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "hd-gray-q90-gray-interleaved",
+        "input": "hd-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "hd-gray-q90-gray-interleaved",
+        "input": "hd-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "4k-rgb-q90-420-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "4k-rgb-q90-420-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "4k-rgb-q90-420-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "4k-gray-q90-gray-interleaved",
+        "input": "4k-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "4k-gray-q90-gray-interleaved",
+        "input": "4k-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 0,
+      "case": {
+        "name": "4k-gray-q90-gray-interleaved",
+        "input": "4k-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "4k-rgb-q90-444-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "4k-rgb-q90-444-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "4k-rgb-q90-444-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "4k-rgb-q90-422-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "4k-rgb-q90-422-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "4k-rgb-q90-422-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "4k-gray-q90-gray-interleaved",
+        "input": "4k-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "4k-gray-q90-gray-interleaved",
+        "input": "4k-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "4k-gray-q90-gray-interleaved",
+        "input": "4k-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "4k-rgb-q90-420-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "4k-rgb-q90-420-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "4k-rgb-q90-420-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "hd-rgb-q90-422-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "hd-rgb-q90-422-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "hd-rgb-q90-422-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "hd-gray-q90-gray-interleaved",
+        "input": "hd-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "hd-gray-q90-gray-interleaved",
+        "input": "hd-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "hd-gray-q90-gray-interleaved",
+        "input": "hd-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "hd-rgb-q90-444-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "hd-rgb-q90-444-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "hd-rgb-q90-444-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "hd-rgb-q90-420-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "hd-rgb-q90-420-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 1,
+      "case": {
+        "name": "hd-rgb-q90-420-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "4k-rgb-q90-444-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "4k-rgb-q90-444-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "4k-rgb-q90-444-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "4k-rgb-q90-422-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "4k-rgb-q90-422-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "4k-rgb-q90-422-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "hd-rgb-q90-444-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "hd-rgb-q90-444-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "hd-rgb-q90-444-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "4k-rgb-q90-420-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "4k-rgb-q90-420-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "4k-rgb-q90-420-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "hd-gray-q90-gray-interleaved",
+        "input": "hd-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "hd-gray-q90-gray-interleaved",
+        "input": "hd-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "hd-gray-q90-gray-interleaved",
+        "input": "hd-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "hd-rgb-q90-422-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "hd-rgb-q90-422-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "hd-rgb-q90-422-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "hd-rgb-q90-420-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "hd-rgb-q90-420-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "hd-rgb-q90-420-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "4k-gray-q90-gray-interleaved",
+        "input": "4k-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "4k-gray-q90-gray-interleaved",
+        "input": "4k-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 2,
+      "case": {
+        "name": "4k-gray-q90-gray-interleaved",
+        "input": "4k-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "hd-rgb-q90-444-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "hd-rgb-q90-444-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "hd-rgb-q90-444-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "4k-gray-q90-gray-interleaved",
+        "input": "4k-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "4k-gray-q90-gray-interleaved",
+        "input": "4k-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "4k-gray-q90-gray-interleaved",
+        "input": "4k-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "4k-rgb-q90-422-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "4k-rgb-q90-422-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "4k-rgb-q90-422-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "hd-rgb-q90-420-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "hd-rgb-q90-420-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "hd-rgb-q90-420-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "hd-rgb-q90-422-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "hd-rgb-q90-422-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "hd-rgb-q90-422-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "hd-gray-q90-gray-interleaved",
+        "input": "hd-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "hd-gray-q90-gray-interleaved",
+        "input": "hd-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "hd-gray-q90-gray-interleaved",
+        "input": "hd-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "4k-rgb-q90-420-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "4k-rgb-q90-420-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "4k-rgb-q90-420-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "4k-rgb-q90-444-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "4k-rgb-q90-444-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 3,
+      "case": {
+        "name": "4k-rgb-q90-444-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "4k-gray-q90-gray-interleaved",
+        "input": "4k-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "4k-gray-q90-gray-interleaved",
+        "input": "4k-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "4k-gray-q90-gray-interleaved",
+        "input": "4k-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "hd-rgb-q90-444-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "hd-rgb-q90-444-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "hd-rgb-q90-444-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "4k-rgb-q90-420-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "4k-rgb-q90-420-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "4k-rgb-q90-420-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "hd-rgb-q90-422-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "hd-rgb-q90-422-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "hd-rgb-q90-422-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "hd-gray-q90-gray-interleaved",
+        "input": "hd-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "hd-gray-q90-gray-interleaved",
+        "input": "hd-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "hd-gray-q90-gray-interleaved",
+        "input": "hd-gray",
+        "quality": 90,
+        "sampling": "gray",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "4k-rgb-q90-422-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "4k-rgb-q90-422-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "4k-rgb-q90-422-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "422",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "4k-rgb-q90-444-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "4k-rgb-q90-444-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "4k-rgb-q90-444-interleaved",
+        "input": "4k-rgb",
+        "quality": 90,
+        "sampling": "444",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "hd-rgb-q90-420-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "nvjpeg"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "hd-rgb-q90-420-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "baseline"
+    },
+    {
+      "round": 4,
+      "case": {
+        "name": "hd-rgb-q90-420-interleaved",
+        "input": "hd-rgb",
+        "quality": 90,
+        "sampling": "420",
+        "interleaved": 1,
+        "restart_interval": 0,
+        "optimized_huffman": 0,
+        "pinned": 0
+      },
+      "encoder": "candidate"
+    }
+  ],
+  "raw_input_sha256": {
+    "hd-rgb": "80445a3b75cbc31f06c27121a7dc88076b5d3e076285e60fc7941db3c47e13bc",
+    "4k-rgb": "866d444cac19fbb64ca706c17768d74f9e29cda4c2e3d9e98f95a0310f3beefb",
+    "hd-gray": "b65bd96eeb915ee9f19503f761fa71cd3abc7f333c205b2ce7f3136f69a783ff",
+    "4k-gray": "f0dfb371f78086bffcd8512c5eb99d6e298997d3c82562dd63a90cecfc502239",
+    "tiny-white": "5ae7e6a42304dc6e4176210b83c43024f99a0bce9a870c3b6d2c95fc8ebfb74c",
+    "tiny-black-gray": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+    "odd-rgb": "243c3d6fcc57e78b5d7d81a0e196ec24e8efbc4217172b1e73e10187ce5de6df",
+    "checker-rgb": "a960aae53128cae98b11a0d70dc6bb0d41cb2ea6b8410e63ca60fb735394208a",
+    "noise-rgb": "70afec42acb79e0cb9bcd6d38f022748f7a267d61cbd5aed36ec3ae75e20aeda",
+    "flat-rgb": "f0303914dce75ee1b699a7d91f1e7aa8c64a443a1b12fd656663d723093fe4d6",
+    "noise-gray": "d24390b4300bd47479db9924a315cb5a572c539e0c637c2fc0498759311687d9",
+    "checker-gray": "c8678c1ecfa49732365cbb83f19149f96a4489f5437c6159cab64f3c5d119852"
+  },
+  "timer_scope": "Host packed input H2D + encoding + complete compressed HOST retrieval + stream synchronization; no file IO, no stage instrumentation",
+  "host_memory": "pageable input and output",
+  "input_manifest_sha256": "07430357fe76a1ba4ce24d857ad22419674db6c00161ea7e90132dd0da38af1f"
+}

@@ -1,0 +1,27 @@
+{
+  "compact-control": {
+    "exe_sha256": "970ebfd82ad167658bac3575dddb72886bcba7201e3187d9cb060d4499eee11d",
+    "lib_sha256": "eed66f7bd15e1ab02ed007930f05a1c1f22f2e36a54c39322d4772615e733246"
+  },
+  "compact-only": {
+    "exe_sha256": "c90455a33d6183143a0161d6d83d62933f6cc7e707b30da081dd02f65bbe78fd",
+    "lib_sha256": "392376a8787f72135a96fa09e846f3497a2a5e73040eb7804d6388882fe49529"
+  },
+  "unstuff-only": {
+    "exe_sha256": "0f5763e14c3c400c651700191ae8e428ad094e70a2d1ffe9f5feebee4bdc7c5e",
+    "lib_sha256": "615322cc2c8ba40e2d11e9a548b90de44f42a0314076a3c4dc0d4c84b406ecf0"
+  },
+  "compact-unstuff": {
+    "exe_sha256": "03c40f0d6cc869aafc1ddfb436290ac4b21d9b9dfd8ec9ac677cc2025dc1c40c",
+    "lib_sha256": "be118b6f0491b1489ae55d0759310a925341936e466fa5f5a2cc307cb7d75a11"
+  },
+  "compact-unstuff-const": {
+    "exe_sha256": "d5421fc6ccb219611637cdcf1cec72ef4cd57348dedee7c3e0f201073e1c01ce",
+    "lib_sha256": "fd73e9c66bd50a94034464b722406701b14a6deb28e57166844c584fc45aafd6"
+  },
+  "source": {
+    "work\\GPUJPEG\\src\\gpujpeg_huffman_gpu_decoder.cu": "06543355a74a31cc9b5bd271b7791f1e7a491d5594b2bbafbb6003d99afe7f53",
+    "work\\GPUJPEG\\src\\gpujpeg_huffman_staged_input.cuh": "80fb03ca56c04c8d8237e80c7df5493f824e2b8c9134089b56b15080ad831d45",
+    "work\\GPUJPEG\\CMakeLists.txt": "6a38e8488dff6cd02d0fb1349e21463a9d160bdd38cf5970bd6c144f057b11ce"
+  }
+}

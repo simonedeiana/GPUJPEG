@@ -1,0 +1,42 @@
+[
+  {
+    "path": "<WORKSPACE>\\work\\GPUJPEG\\CMakeLists.txt",
+    "sha256": "2b7e3ff7ba04dedbd386a24dfeb4a693755b7bb1f205da44c7688eed011861b4",
+    "after_sha256": "2b7e3ff7ba04dedbd386a24dfeb4a693755b7bb1f205da44c7688eed011861b4"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_encoder.c",
+    "sha256": "03c097c9f8f607f44c8808b1aa359d2bcce373ad6e970fbb2efbf1c47c0780c0",
+    "after_sha256": "03c097c9f8f607f44c8808b1aa359d2bcce373ad6e970fbb2efbf1c47c0780c0"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_huffman_gpu_encoder.cu",
+    "sha256": "95311447e81eb6d672d82da9c4891717453c49a3837383b3b6d4fcf5bebe271d",
+    "after_sha256": "95311447e81eb6d672d82da9c4891717453c49a3837383b3b6d4fcf5bebe271d"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_huffman_gpu_encoder.h",
+    "sha256": "81ee4273b8ee69001e7b8c797938e2c6d0f8874918b5c7b8401969d2deece6aa",
+    "after_sha256": "81ee4273b8ee69001e7b8c797938e2c6d0f8874918b5c7b8401969d2deece6aa"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_huffman_no_restart.cuh",
+    "sha256": "20499e59f88855db876d948b66e16602306bc7dfbd2654bc32b21dcc30ff29e4",
+    "after_sha256": "20499e59f88855db876d948b66e16602306bc7dfbd2654bc32b21dcc30ff29e4"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\build-encode-r0\\gpujpeg.lib",
+    "sha256": "1e440031b21c010450b55b00b2704bd077113b7352a34c92bf7fa680758dfea8",
+    "after_sha256": "1e440031b21c010450b55b00b2704bd077113b7352a34c92bf7fa680758dfea8"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\build-encode-r0\\gpujpegtool.exe",
+    "sha256": "bf15072b3694fe2225b84184907d75a93e859ec34896da51d014f376613b52d0",
+    "after_sha256": "bf15072b3694fe2225b84184907d75a93e859ec34896da51d014f376613b52d0"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\encode-r0-validation\\gpujpeg-candidate.exe",
+    "sha256": "f11692097089eaba117fb7ee531eea5c954418461bc4233c746b71e3f7149692",
+    "after_sha256": "f11692097089eaba117fb7ee531eea5c954418461bc4233c746b71e3f7149692"
+  }
+]

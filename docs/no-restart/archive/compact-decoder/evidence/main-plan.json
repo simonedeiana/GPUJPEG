@@ -1,0 +1,3950 @@
+{
+  "created_utc": "2026-10-20T16:59:05.284089+00:00",
+  "manifest_sha256": "35d44acce5683befa7b5abe56739290fa0ab1513f5337b5dd8049bd2e0fffdf0",
+  "inputs": [
+    {
+      "name": "hd444-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+      "source": "wild.8.ppm",
+      "source_sha256": "0b81de9b0664606f92748b3744a9ce3259b0a95dcbe0007491f0017fbf30b5ec",
+      "sha256": "c513302440d505f846808347ea15a8629a0b5727226cbee834bbe945f9c77c70",
+      "bytes": 700601,
+      "width": 1920,
+      "height": 1080,
+      "channels": 3,
+      "sampling": "444",
+      "quality": 90,
+      "restart_interval": 10,
+      "producer": "unmodified GPUJPEG 78e5eee, interleaved",
+      "expected_output_bytes": 6220800
+    },
+    {
+      "name": "hd420-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+      "source": "wild.8.ppm",
+      "source_sha256": "0b81de9b0664606f92748b3744a9ce3259b0a95dcbe0007491f0017fbf30b5ec",
+      "sha256": "9ac03460b511df96cbfea22dec890600c07830e5a4e7b94cebb721b8b28451de",
+      "bytes": 536049,
+      "width": 1920,
+      "height": 1080,
+      "channels": 3,
+      "sampling": "420",
+      "quality": 90,
+      "restart_interval": 10,
+      "producer": "unmodified GPUJPEG 78e5eee, interleaved",
+      "expected_output_bytes": 6220800
+    },
+    {
+      "name": "hd422-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+      "source": "wild.8.ppm",
+      "source_sha256": "0b81de9b0664606f92748b3744a9ce3259b0a95dcbe0007491f0017fbf30b5ec",
+      "sha256": "a7ebce24abd6260570a46867e42a311b2a9cf98bceb9a03c691cb804f2ec9846",
+      "bytes": 590267,
+      "width": 1920,
+      "height": 1080,
+      "channels": 3,
+      "sampling": "422",
+      "quality": 90,
+      "restart_interval": 10,
+      "producer": "unmodified GPUJPEG 78e5eee, interleaved",
+      "expected_output_bytes": 6220800
+    },
+    {
+      "name": "4k444-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+      "source": "wild.4k.8.ppm",
+      "source_sha256": "6d9f58033df2d95b266371099faa404cbab12c7678c06dd0cf8f99867d8a53b0",
+      "sha256": "f1bca76162bfec4bda4996e7684298446a3ec867494bdc4bc02ea6612d9e55dd",
+      "bytes": 2058919,
+      "width": 3840,
+      "height": 2160,
+      "channels": 3,
+      "sampling": "444",
+      "quality": 90,
+      "restart_interval": 10,
+      "producer": "unmodified GPUJPEG 78e5eee, interleaved",
+      "expected_output_bytes": 24883200
+    },
+    {
+      "name": "4k420-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+      "source": "wild.4k.8.ppm",
+      "source_sha256": "6d9f58033df2d95b266371099faa404cbab12c7678c06dd0cf8f99867d8a53b0",
+      "sha256": "7ea93a4fd14aaf1fff4d520520f9859daf379b84a75d3302a27e2e47992fb1bd",
+      "bytes": 1560635,
+      "width": 3840,
+      "height": 2160,
+      "channels": 3,
+      "sampling": "420",
+      "quality": 90,
+      "restart_interval": 10,
+      "producer": "unmodified GPUJPEG 78e5eee, interleaved",
+      "expected_output_bytes": 24883200
+    },
+    {
+      "name": "hdgray-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+      "source": "wild.8.pgm",
+      "source_sha256": "f4b56828af0383b01e8997d0bd67dac638837b0828c010b76440697af5171de9",
+      "sha256": "394d00970b39bc8b8a561c21d50f6331b067ce675dd7e34069e3b0add2df36e2",
+      "bytes": 471216,
+      "width": 1920,
+      "height": 1080,
+      "channels": 1,
+      "sampling": "gray",
+      "quality": 90,
+      "restart_interval": 10,
+      "producer": "unmodified GPUJPEG 78e5eee, interleaved",
+      "expected_output_bytes": 2073600
+    },
+    {
+      "name": "hd444-r1",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+      "source": "wild.8.ppm",
+      "source_sha256": "0b81de9b0664606f92748b3744a9ce3259b0a95dcbe0007491f0017fbf30b5ec",
+      "sha256": "1d3788b8326e79edee3d0fa2bdd505343a11adab0fe6cb7d55ba35997f1950d7",
+      "bytes": 831211,
+      "width": 1920,
+      "height": 1080,
+      "channels": 3,
+      "sampling": "444",
+      "quality": 90,
+      "restart_interval": 1,
+      "producer": "unmodified GPUJPEG 78e5eee, interleaved",
+      "expected_output_bytes": 6220800
+    },
+    {
+      "name": "hd444-r32",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+      "source": "wild.8.ppm",
+      "source_sha256": "0b81de9b0664606f92748b3744a9ce3259b0a95dcbe0007491f0017fbf30b5ec",
+      "sha256": "f209220787e5391ba14fa1a8065b5eeae5083ffeff396e4abaee22c676a3645c",
+      "bytes": 690646,
+      "width": 1920,
+      "height": 1080,
+      "channels": 3,
+      "sampling": "444",
+      "quality": 90,
+      "restart_interval": 32,
+      "producer": "unmodified GPUJPEG 78e5eee, interleaved",
+      "expected_output_bytes": 6220800
+    },
+    {
+      "name": "hd444-r0",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+      "source": "wild.8.ppm",
+      "source_sha256": "0b81de9b0664606f92748b3744a9ce3259b0a95dcbe0007491f0017fbf30b5ec",
+      "sha256": "c93dc4d7230c3f8646b886a56f5c666fddd60c8a7712d94bfd3b6cbc75ac83e8",
+      "bytes": 686167,
+      "width": 1920,
+      "height": 1080,
+      "channels": 3,
+      "sampling": "444",
+      "quality": 90,
+      "restart_interval": 0,
+      "producer": "unmodified GPUJPEG 78e5eee, interleaved",
+      "expected_output_bytes": 6220800
+    },
+    {
+      "name": "4k420-r0",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+      "source": "wild.4k.8.ppm",
+      "source_sha256": "6d9f58033df2d95b266371099faa404cbab12c7678c06dd0cf8f99867d8a53b0",
+      "sha256": "bc6a2477f7ce6844e077f0901417cf6e9ca42f76d9fca6c3b374ec76e4c79cac",
+      "bytes": 1546471,
+      "width": 3840,
+      "height": 2160,
+      "channels": 3,
+      "sampling": "420",
+      "quality": 90,
+      "restart_interval": 0,
+      "producer": "unmodified GPUJPEG 78e5eee, interleaved",
+      "expected_output_bytes": 24883200
+    }
+  ],
+  "binaries": {
+    "baseline": {
+      "path": "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+      "sha256": "ebdf2a9a82fc00749d1a8d4b608d72db2d652c4197806b2a5459a811745caacf",
+      "cmake_options": {
+        "CMAKE_BUILD_TYPE:STRING": "Release",
+        "CMAKE_CUDA_ARCHITECTURES:BOOL": "86",
+        "HUFFMAN_GPU_CONST_TABLES:BOOL": "OFF",
+        "HUFFMAN_GPU_WARP_SERIALIZATION:BOOL": "OFF"
+      }
+    },
+    "staged": {
+      "path": "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+      "sha256": "03c40f0d6cc869aafc1ddfb436290ac4b21d9b9dfd8ec9ac677cc2025dc1c40c",
+      "cmake_options": {
+        "CMAKE_BUILD_TYPE:STRING": "Release",
+        "CMAKE_CUDA_ARCHITECTURES:BOOL": "86",
+        "HUFFMAN_GPU_COMPACT_TABLES:BOOL": "ON",
+        "HUFFMAN_GPU_CONST_TABLES:BOOL": "OFF",
+        "HUFFMAN_GPU_PARALLEL_UNSTUFF:BOOL": "ON",
+        "HUFFMAN_GPU_STAGED_DECODER:BOOL": "ON",
+        "HUFFMAN_GPU_WARP_SERIALIZATION:BOOL": "OFF"
+      }
+    },
+    "fastvideo": {
+      "path": "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+      "sha256": "01735bf880587184119d70d56bda433ef01516e8d1139d880c765afca34dbac3",
+      "cmake_options": null
+    },
+    "unstuff_only": {
+      "path": "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+      "sha256": "0f5763e14c3c400c651700191ae8e428ad094e70a2d1ffe9f5feebee4bdc7c5e",
+      "cmake_options": {
+        "CMAKE_BUILD_TYPE:STRING": "Release",
+        "CMAKE_CUDA_ARCHITECTURES:BOOL": "86",
+        "HUFFMAN_GPU_COMPACT_TABLES:BOOL": "OFF",
+        "HUFFMAN_GPU_CONST_TABLES:BOOL": "OFF",
+        "HUFFMAN_GPU_PARALLEL_UNSTUFF:BOOL": "ON",
+        "HUFFMAN_GPU_STAGED_DECODER:BOOL": "ON",
+        "HUFFMAN_GPU_WARP_SERIALIZATION:BOOL": "OFF"
+      }
+    }
+  },
+  "rounds": 5,
+  "iterations": 110,
+  "warmup": 10,
+  "candidate_label": "staged",
+  "candidate_description": "Selected experimental GPUJPEG binary; the label is an alias, and recorded CMake options identify the actual compact/unstuff feature configuration.",
+  "fastvideo_qpc_helper": {
+    "path": "<WORKSPACE>\\work\\compact-decode\\measurement\\qpc_capture.dll",
+    "sha256": "078d610eda82fc49b84e78c101d5dbaaa01da565845e0301d237c33aee1037d6"
+  },
+  "boundary_notes": {
+    "primary": "With the QPC helper: CONTINUOUS actual Fastvideo memory-stream header-load QPC START through codec completed-download QPC STOP vs GPUJPEG Decode Image. This includes the intervening host gap and excludes the cached initial disk-read time that Fastvideo adds to every printed JFIF-load value. Without the QPC helper Fastvideo printed load+codec is INVALID as per-frame latency.",
+    "GPUJPEG_reported": "Host wall time: JPEG parsing, decoder work, H2D and synchronous output D2H; no input/output file I/O.",
+    "Fastvideo_reported": "Printed Decode time + Device-To-Host time. Native QPC brackets SDK decode, processing and synchronous output download, excludes JPEG header/SOS loading. Includes no-RST host entropy transcode.",
+    "Fastvideo_plus_load": "INVALID for per-frame latency: the printed JFIF-load value equals actual per-repeat memory parsing/copy time plus a cached one-time initial disk-load charge. Native bytes add node+0x6c at0x1400072fc. Retained only as a diagnostic; use direct QPC observations for the complete-memory primary interval.",
+    "process_wall": "Python perf_counter around child execution until process exit: initialization, all iterations, input parsing/I/O, final output write, console printing and cleanup. Wall/iterations amortizes these costs; first iterations remain included.",
+    "warmup": "Discard the first warmup samples within each process, independently per variant.",
+    "output": "Returned CPU image bytes and final P5/P6 output required. No Fastvideo -discard. Output channel count and pixel-byte size checked.",
+    "environment": "Sequential child runs, rotating variant order; corpus SHA256 verified. File-cache warmness uncontrolled beyond reading/hash-checking every input before runs. No GPU clock locking."
+  },
+  "plan": [
+    {
+      "round": 0,
+      "case": "hd444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd420-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd420-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd422-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd422-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd422-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd422-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k444-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k444-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k420-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k420-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hdgray-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-baseline.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-f",
+        "u8",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-baseline.pgm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hdgray-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-staged.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-f",
+        "u8",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-staged.pgm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hdgray-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-fastvideo.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-fastvideo.pgm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hdgray-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-unstuff_only.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-f",
+        "u8",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-unstuff_only.pgm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r1",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-baseline.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r1",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-staged.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r1",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r1",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r32",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-baseline.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r32",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-staged.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r32",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r32",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r0",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-baseline.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r0",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-staged.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r0",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r0",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k420-r0",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-baseline.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k420-r0",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-staged.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k420-r0",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k420-r0",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k420-r0",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-staged.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k420-r0",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k420-r0",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k420-r0",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-baseline.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r0",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-staged.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r0",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r0",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r0",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-baseline.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r32",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-staged.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r32",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r32",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r32",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-baseline.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r1",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-staged.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r1",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r1",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r1",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-baseline.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hdgray-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-staged.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-f",
+        "u8",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-staged.pgm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hdgray-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-fastvideo.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-fastvideo.pgm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hdgray-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-unstuff_only.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-f",
+        "u8",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-unstuff_only.pgm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hdgray-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-baseline.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-f",
+        "u8",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-baseline.pgm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k420-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k420-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k444-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k444-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd422-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd422-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd422-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd422-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd420-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd420-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd420-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd420-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd422-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd422-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd422-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd422-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k444-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k444-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k420-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k420-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hdgray-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-fastvideo.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-fastvideo.pgm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hdgray-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-unstuff_only.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-f",
+        "u8",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-unstuff_only.pgm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hdgray-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-baseline.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-f",
+        "u8",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-baseline.pgm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hdgray-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-staged.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-f",
+        "u8",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-staged.pgm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r1",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r1",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r1",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-baseline.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r1",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-staged.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r32",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r32",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r32",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-baseline.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r32",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-staged.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r0",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r0",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r0",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-baseline.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r0",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-staged.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k420-r0",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k420-r0",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k420-r0",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-baseline.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k420-r0",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-staged.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "4k420-r0",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "4k420-r0",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-baseline.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "4k420-r0",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-staged.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "4k420-r0",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r0",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r0",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-baseline.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r0",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-staged.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r0",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r32",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r32",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-baseline.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r32",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-staged.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r32",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r1",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r1",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-baseline.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r1",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-staged.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r1",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hdgray-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-unstuff_only.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-f",
+        "u8",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-unstuff_only.pgm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hdgray-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-baseline.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-f",
+        "u8",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-baseline.pgm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hdgray-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-staged.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-f",
+        "u8",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-staged.pgm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hdgray-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-fastvideo.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-fastvideo.pgm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "4k420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "4k420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "4k420-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "4k420-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "4k444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "4k444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "4k444-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "4k444-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd422-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd422-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd422-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd422-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd420-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd420-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 3,
+      "case": "hd444-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd420-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd420-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd422-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd422-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd422-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd422-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd422-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "4k444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "4k444-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "4k444-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "4k444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "4k420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "4k420-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-staged.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "4k420-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "4k420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hdgray-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-baseline.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-f",
+        "u8",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-baseline.pgm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hdgray-r10",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-staged.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-f",
+        "u8",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-staged.pgm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hdgray-r10",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-fastvideo.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-fastvideo.pgm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hdgray-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-unstuff_only.pgm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-f",
+        "u8",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hdgray-r10-unstuff_only.pgm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r1",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-baseline.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r1",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-staged.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r1",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r1",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r1-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r32",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-baseline.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r32",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-staged.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r32",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r32",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r32-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r0",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-baseline.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r0",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-staged.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r0",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "hd444-r0",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\hd444-r0-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "4k420-r0",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-baseline.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "4k420-r0",
+      "variant": "staged",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-staged.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-staged.ppm"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "4k420-r0",
+      "variant": "fastvideo",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-fastvideo.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+        "-i",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "-o",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-fastvideo.ppm",
+        "-repeat",
+        "110",
+        "-thread",
+        "1",
+        "-info"
+      ]
+    },
+    {
+      "round": 4,
+      "case": "4k420-r0",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "110",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\main-benchmark\\images\\4k420-r0-unstuff_only.ppm"
+      ]
+    }
+  ]
+}

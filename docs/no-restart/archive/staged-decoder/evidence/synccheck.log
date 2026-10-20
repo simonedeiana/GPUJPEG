@@ -1,0 +1,26 @@
+========= COMPUTE-SANITIZER
+CUDA driver version:   13.4
+CUDA runtime version:  13.4
+Using Device #0:       NVIDIA GeForce RTX 3050 (c.c. 8.6)
+Decode Image GPU:       61.5025 ms (only in-GPU processing)
+Decode Image Bare:      64.4106 ms (without copy to/from GPU memory)
+Decode Image:           64.6882 ms
+Decompressed Size:      400,155 bytes 515x259 444-u8-p012 RGB
+Decode Image GPU:        3.0341 ms (only in-GPU processing)
+Decode Image Bare:       3.4245 ms (without copy to/from GPU memory)
+Decode Image:            3.6880 ms
+Decompressed Size:      400,155 bytes 515x259 444-u8-p012 RGB
+
+Avg Decode Duration:    34.1881 ms
+
+GPUJPEG rev 78e5eee built Oct 20 2026 18:02:18 
+
+Decoding Image [<WORKSPACE>\work\staged-validation\optimized17.jpg] to 444-u8-p012 (default CS)
+Load Image:                0.99 ms
+
+Iteration #1:
+
+Iteration #2:
+Save Image:                1.04 ms
+Image Name:          <WORKSPACE>\work\staged-final-transpose-checks\sanitizer.ppm
+========= ERROR SUMMARY: 0 errors

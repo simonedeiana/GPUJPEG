@@ -1,0 +1,782 @@
+{
+  "iterations": 110,
+  "warmup": 10,
+  "rounds": 5,
+  "boundary": "Host JPEG before parse through complete HOST pixels and stream synchronization; no disk IO or initialization",
+  "identities": {
+    "<WORKSPACE>\\work\\decoder-r0\\bench-locked.exe": "668f28af4f539130be541eb7ff3b155e2dfe4eee8276f98bdff8fb3f079897ef",
+    "<WORKSPACE>\\work\\decoder-r0\\bench-candidate.exe": "e9a9cef14691de6e8dad67a3777876a5759e4d005d93f06e2430eb7b34963ca9",
+    "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-444-interleaved-reference.jpg": "c93dc4d7230c3f8646b886a56f5c666fddd60c8a7712d94bfd3b6cbc75ac83e8",
+    "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-422-interleaved-reference.jpg": "c616ed256f70ba298e9711471f466a30392d5e0cfaf5ce5b7fe3c658ce6cb102",
+    "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-420-interleaved-reference.jpg": "dd282579049253389bf4735ba71a9c4bb50968497e6fa6ac9f88d46f1e006b9d",
+    "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-gray-q90-gray-interleaved-reference.jpg": "5c8ecb6902c0ab2ff30c8730b0556545ba0ba027e9cd12e3bf9c1e1f2191cf7f",
+    "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-444-interleaved-reference.jpg": "c8519b688efec32a694102ff2118935a7fb394c980b3ed35b417ce3fb2489993",
+    "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-422-interleaved-reference.jpg": "22a83a9f427031f9f576faeaf65c80abdb69f3a5cad97de66848359708513cf4",
+    "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-420-interleaved-reference.jpg": "bc6a2477f7ce6844e077f0901417cf6e9ca42f76d9fca6c3b374ec76e4c79cac",
+    "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-gray-q90-gray-interleaved-reference.jpg": "f5a4514993225d4d049331f958020f74d8af2b13c22291c3c340438e36ef2eff",
+    "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-rgb-optimized-2.jpg": "47d24316e932d0df50c656c67d6bda838243410182c9ec5fdb862396b782d279",
+    "<WORKSPACE>\\work\\decoder-r0\\fixtures\\4k-rgb-optimized-2.jpg": "b8a80bc9f86fe0e4cb8493d2e7f7eea3f8d20935e85bd81e68c627b6d6396205",
+    "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-512-0.jpg": "4e2aea7a8b957e7ce3bc83c17f91eb75ab495071bc9ac7ecceb9e4f7ba2e5ebe",
+    "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-512-1.jpg": "024a79f2396bee6cd22dcaafea1bf8931b3ef3fd9f3e104974f36e6ab20074f4",
+    "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-1920-0.jpg": "cb7440bd3d3f1cac22cdf2755b70a13eb7cd935ed4b467f11b5eb4ef8a916c00",
+    "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-1920-1.jpg": "5f7dbed13080c38e459dcd8b8fadb1d044f953e9a60c3cb215e5d47054192d6d",
+    "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-black-gray-q75-gray-interleaved-reference.jpg": "e1af8834f5eb3252ce7177bf408f8206506c88801b3f3a7d464cc76b3eacf479",
+    "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_huffman_no_restart_decoder.cuh": "465bcec946f28a48abb1a809b8e41657fc6bb0a9bcce05b8938a0f81cf25a022",
+    "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_huffman_gpu_decoder.cu": "99b997ada825b4187990fea05c9a9b94f61d3a78fe750e93d28acadea3230bbe",
+    "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_decoder.c": "96678214d22b53ff014c06840adc5dde45d047872c7454c63d402ab82ebe7f3e",
+    "<WORKSPACE>\\work\\GPUJPEG\\CMakeLists.txt": "ea2cc6e8c53291240471f10a4d55bf90a121349f9d7b3f47fe6df5a69be94966",
+    "<WORKSPACE>\\work\\build-decoder-r0\\gpujpeg.lib": "4293f5e763419c2c59032d71c7ea5bcb9d7ac899d9f229567d9aa09ae743fd88"
+  },
+  "schedule": [
+    {
+      "round": 0,
+      "case": "hd-rgb-q90-422-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 0,
+      "case": "hd-rgb-q90-422-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 0,
+      "case": "hd-rgb-q90-420-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 0,
+      "case": "hd-rgb-q90-420-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 0,
+      "case": "4k-rgb-q90-444-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 0,
+      "case": "4k-rgb-q90-444-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 0,
+      "case": "flat-512-1",
+      "codec": "locked"
+    },
+    {
+      "round": 0,
+      "case": "flat-512-1",
+      "codec": "candidate"
+    },
+    {
+      "round": 0,
+      "case": "tiny-gray-1x1",
+      "codec": "locked"
+    },
+    {
+      "round": 0,
+      "case": "tiny-gray-1x1",
+      "codec": "candidate"
+    },
+    {
+      "round": 0,
+      "case": "flat-1920-0",
+      "codec": "candidate"
+    },
+    {
+      "round": 0,
+      "case": "flat-1920-0",
+      "codec": "locked"
+    },
+    {
+      "round": 0,
+      "case": "4k-gray-q90-gray-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 0,
+      "case": "4k-gray-q90-gray-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 0,
+      "case": "hd-gray-q90-gray-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 0,
+      "case": "hd-gray-q90-gray-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 0,
+      "case": "4k-rgb-q90-422-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 0,
+      "case": "4k-rgb-q90-422-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 0,
+      "case": "flat-512-0",
+      "codec": "candidate"
+    },
+    {
+      "round": 0,
+      "case": "flat-512-0",
+      "codec": "locked"
+    },
+    {
+      "round": 0,
+      "case": "flat-1920-1",
+      "codec": "candidate"
+    },
+    {
+      "round": 0,
+      "case": "flat-1920-1",
+      "codec": "locked"
+    },
+    {
+      "round": 0,
+      "case": "hd-rgb-q90-444-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 0,
+      "case": "hd-rgb-q90-444-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 0,
+      "case": "4k-rgb-optimized-2",
+      "codec": "candidate"
+    },
+    {
+      "round": 0,
+      "case": "4k-rgb-optimized-2",
+      "codec": "locked"
+    },
+    {
+      "round": 0,
+      "case": "4k-rgb-q90-420-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 0,
+      "case": "4k-rgb-q90-420-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 0,
+      "case": "hd-rgb-optimized-2",
+      "codec": "candidate"
+    },
+    {
+      "round": 0,
+      "case": "hd-rgb-optimized-2",
+      "codec": "locked"
+    },
+    {
+      "round": 1,
+      "case": "4k-rgb-q90-420-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 1,
+      "case": "4k-rgb-q90-420-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 1,
+      "case": "hd-gray-q90-gray-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 1,
+      "case": "hd-gray-q90-gray-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 1,
+      "case": "4k-gray-q90-gray-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 1,
+      "case": "4k-gray-q90-gray-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 1,
+      "case": "hd-rgb-q90-422-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 1,
+      "case": "hd-rgb-q90-422-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 1,
+      "case": "hd-rgb-optimized-2",
+      "codec": "locked"
+    },
+    {
+      "round": 1,
+      "case": "hd-rgb-optimized-2",
+      "codec": "candidate"
+    },
+    {
+      "round": 1,
+      "case": "flat-1920-0",
+      "codec": "candidate"
+    },
+    {
+      "round": 1,
+      "case": "flat-1920-0",
+      "codec": "locked"
+    },
+    {
+      "round": 1,
+      "case": "flat-512-0",
+      "codec": "locked"
+    },
+    {
+      "round": 1,
+      "case": "flat-512-0",
+      "codec": "candidate"
+    },
+    {
+      "round": 1,
+      "case": "4k-rgb-optimized-2",
+      "codec": "locked"
+    },
+    {
+      "round": 1,
+      "case": "4k-rgb-optimized-2",
+      "codec": "candidate"
+    },
+    {
+      "round": 1,
+      "case": "flat-1920-1",
+      "codec": "candidate"
+    },
+    {
+      "round": 1,
+      "case": "flat-1920-1",
+      "codec": "locked"
+    },
+    {
+      "round": 1,
+      "case": "4k-rgb-q90-422-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 1,
+      "case": "4k-rgb-q90-422-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 1,
+      "case": "hd-rgb-q90-420-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 1,
+      "case": "hd-rgb-q90-420-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 1,
+      "case": "4k-rgb-q90-444-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 1,
+      "case": "4k-rgb-q90-444-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 1,
+      "case": "tiny-gray-1x1",
+      "codec": "locked"
+    },
+    {
+      "round": 1,
+      "case": "tiny-gray-1x1",
+      "codec": "candidate"
+    },
+    {
+      "round": 1,
+      "case": "hd-rgb-q90-444-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 1,
+      "case": "hd-rgb-q90-444-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 1,
+      "case": "flat-512-1",
+      "codec": "candidate"
+    },
+    {
+      "round": 1,
+      "case": "flat-512-1",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "tiny-gray-1x1",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "tiny-gray-1x1",
+      "codec": "candidate"
+    },
+    {
+      "round": 2,
+      "case": "flat-1920-0",
+      "codec": "candidate"
+    },
+    {
+      "round": 2,
+      "case": "flat-1920-0",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "4k-rgb-q90-420-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 2,
+      "case": "4k-rgb-q90-420-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "hd-rgb-q90-420-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "hd-rgb-q90-420-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 2,
+      "case": "hd-rgb-q90-444-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 2,
+      "case": "hd-rgb-q90-444-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "hd-rgb-q90-422-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 2,
+      "case": "hd-rgb-q90-422-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "4k-gray-q90-gray-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 2,
+      "case": "4k-gray-q90-gray-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "flat-512-0",
+      "codec": "candidate"
+    },
+    {
+      "round": 2,
+      "case": "flat-512-0",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "flat-1920-1",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "flat-1920-1",
+      "codec": "candidate"
+    },
+    {
+      "round": 2,
+      "case": "4k-rgb-q90-422-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 2,
+      "case": "4k-rgb-q90-422-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "4k-rgb-optimized-2",
+      "codec": "candidate"
+    },
+    {
+      "round": 2,
+      "case": "4k-rgb-optimized-2",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "hd-gray-q90-gray-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 2,
+      "case": "hd-gray-q90-gray-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "hd-rgb-optimized-2",
+      "codec": "candidate"
+    },
+    {
+      "round": 2,
+      "case": "hd-rgb-optimized-2",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "4k-rgb-q90-444-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "4k-rgb-q90-444-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 2,
+      "case": "flat-512-1",
+      "codec": "locked"
+    },
+    {
+      "round": 2,
+      "case": "flat-512-1",
+      "codec": "candidate"
+    },
+    {
+      "round": 3,
+      "case": "tiny-gray-1x1",
+      "codec": "locked"
+    },
+    {
+      "round": 3,
+      "case": "tiny-gray-1x1",
+      "codec": "candidate"
+    },
+    {
+      "round": 3,
+      "case": "flat-1920-0",
+      "codec": "locked"
+    },
+    {
+      "round": 3,
+      "case": "flat-1920-0",
+      "codec": "candidate"
+    },
+    {
+      "round": 3,
+      "case": "flat-512-1",
+      "codec": "candidate"
+    },
+    {
+      "round": 3,
+      "case": "flat-512-1",
+      "codec": "locked"
+    },
+    {
+      "round": 3,
+      "case": "hd-rgb-q90-422-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 3,
+      "case": "hd-rgb-q90-422-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 3,
+      "case": "hd-rgb-q90-444-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 3,
+      "case": "hd-rgb-q90-444-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 3,
+      "case": "flat-512-0",
+      "codec": "candidate"
+    },
+    {
+      "round": 3,
+      "case": "flat-512-0",
+      "codec": "locked"
+    },
+    {
+      "round": 3,
+      "case": "4k-rgb-optimized-2",
+      "codec": "locked"
+    },
+    {
+      "round": 3,
+      "case": "4k-rgb-optimized-2",
+      "codec": "candidate"
+    },
+    {
+      "round": 3,
+      "case": "4k-rgb-q90-422-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 3,
+      "case": "4k-rgb-q90-422-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 3,
+      "case": "flat-1920-1",
+      "codec": "locked"
+    },
+    {
+      "round": 3,
+      "case": "flat-1920-1",
+      "codec": "candidate"
+    },
+    {
+      "round": 3,
+      "case": "4k-gray-q90-gray-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 3,
+      "case": "4k-gray-q90-gray-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 3,
+      "case": "hd-gray-q90-gray-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 3,
+      "case": "hd-gray-q90-gray-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 3,
+      "case": "4k-rgb-q90-420-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 3,
+      "case": "4k-rgb-q90-420-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 3,
+      "case": "4k-rgb-q90-444-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 3,
+      "case": "4k-rgb-q90-444-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 3,
+      "case": "hd-rgb-optimized-2",
+      "codec": "candidate"
+    },
+    {
+      "round": 3,
+      "case": "hd-rgb-optimized-2",
+      "codec": "locked"
+    },
+    {
+      "round": 3,
+      "case": "hd-rgb-q90-420-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 3,
+      "case": "hd-rgb-q90-420-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "4k-gray-q90-gray-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "4k-gray-q90-gray-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 4,
+      "case": "hd-gray-q90-gray-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "hd-gray-q90-gray-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 4,
+      "case": "flat-1920-1",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "flat-1920-1",
+      "codec": "locked"
+    },
+    {
+      "round": 4,
+      "case": "4k-rgb-optimized-2",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "4k-rgb-optimized-2",
+      "codec": "locked"
+    },
+    {
+      "round": 4,
+      "case": "hd-rgb-q90-422-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 4,
+      "case": "hd-rgb-q90-422-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "4k-rgb-q90-422-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 4,
+      "case": "4k-rgb-q90-422-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "4k-rgb-q90-420-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 4,
+      "case": "4k-rgb-q90-420-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "hd-rgb-q90-420-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 4,
+      "case": "hd-rgb-q90-420-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "flat-1920-0",
+      "codec": "locked"
+    },
+    {
+      "round": 4,
+      "case": "flat-1920-0",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "hd-rgb-q90-444-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 4,
+      "case": "hd-rgb-q90-444-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "hd-rgb-optimized-2",
+      "codec": "locked"
+    },
+    {
+      "round": 4,
+      "case": "hd-rgb-optimized-2",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "4k-rgb-q90-444-interleaved",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "4k-rgb-q90-444-interleaved",
+      "codec": "locked"
+    },
+    {
+      "round": 4,
+      "case": "tiny-gray-1x1",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "tiny-gray-1x1",
+      "codec": "locked"
+    },
+    {
+      "round": 4,
+      "case": "flat-512-1",
+      "codec": "locked"
+    },
+    {
+      "round": 4,
+      "case": "flat-512-1",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "flat-512-0",
+      "codec": "candidate"
+    },
+    {
+      "round": 4,
+      "case": "flat-512-0",
+      "codec": "locked"
+    }
+  ]
+}

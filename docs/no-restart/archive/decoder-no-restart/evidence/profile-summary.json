@@ -1,0 +1,374 @@
+[
+  {
+    "case": "hd420",
+    "frames": 30,
+    "fixture": {
+      "filename": "hd-rgb-q90-420-interleaved-reference.jpg",
+      "sha256": "dd282579049253389bf4735ba71a9c4bb50968497e6fa6ac9f88d46f1e006b9d",
+      "bytes": 532477,
+      "width": 1920,
+      "height": 1080,
+      "entropy_bytes": 531811,
+      "scans": 1,
+      "true_ri0": true
+    },
+    "kernels": [
+      {
+        "name": "dr0_reconcile(const unsigned char *, const unsigned int *, const unsigned short *, const unsigned short *, dr0_layout, int, int, dr0_boundary *, unsigned long long *, const unsigned int *)",
+        "calls": 390,
+        "total_ms": 71.055032,
+        "mean_us": 182.19238974358973
+      },
+      {
+        "name": "dr0_write(const unsigned char *, const unsigned int *, const unsigned short *, const unsigned short *, const int *, dr0_layout, int, const dr0_boundary *, const unsigned long long *, const unsigned long long *, short *, long long *, unsigned int *, const unsigned int *)",
+        "calls": 30,
+        "total_ms": 8.135004,
+        "mean_us": 271.16679999999997
+      },
+      {
+        "name": "dr0_speculate(const unsigned char *, const unsigned int *, const unsigned short *, const unsigned short *, dr0_layout, int, dr0_boundary *, unsigned long long *, unsigned int *)",
+        "calls": 30,
+        "total_ms": 2.813094,
+        "mean_us": 93.7698
+      },
+      {
+        "name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)",
+        "calls": 30,
+        "total_ms": 2.120391,
+        "mean_us": 70.6797
+      },
+      {
+        "name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)",
+        "calls": 90,
+        "total_ms": 1.418851,
+        "mean_us": 15.76501111111111
+      },
+      {
+        "name": "dr0_restore_dc(const unsigned long long *, dr0_layout, const long long *, short *, unsigned int *)",
+        "calls": 30,
+        "total_ms": 0.601027,
+        "mean_us": 20.034233333333333
+      },
+      {
+        "name": "void dr0_unstuff<(bool)0>(const unsigned char *, int, unsigned int *, const unsigned int *, unsigned char *)",
+        "calls": 30,
+        "total_ms": 0.544546,
+        "mean_us": 18.151533333333333
+      },
+      {
+        "name": "void dr0_unstuff<(bool)1>(const unsigned char *, int, unsigned int *, const unsigned int *, unsigned char *)",
+        "calls": 30,
+        "total_ms": 0.502403,
+        "mean_us": 16.746766666666666
+      },
+      {
+        "name": "gpujpeg_huffman_decoder_table_kernel(gpujpeg_huffman_gpu_decoder, const gpujpeg_table_huffman_decoder *, const gpujpeg_table_huffman_decoder *, const gpujpeg_table_huffman_decoder *, const gpujpeg_table_huffman_decoder *)",
+        "calls": 30,
+        "total_ms": 0.271008,
+        "mean_us": 9.0336
+      },
+      {
+        "name": "void dr0_scan_tiles<long long, (bool)1>(const T1 *, T1 *, int, T1 *)",
+        "calls": 90,
+        "total_ms": 0.2144,
+        "mean_us": 2.382222222222222
+      },
+      {
+        "name": "void dr0_scan_tiles<long long, (bool)0>(const T1 *, T1 *, int, T1 *)",
+        "calls": 90,
+        "total_ms": 0.12368,
+        "mean_us": 1.3742222222222222
+      },
+      {
+        "name": "void dr0_scan_add<long long>(T1 *, int, const T1 *)",
+        "calls": 90,
+        "total_ms": 0.12064,
+        "mean_us": 1.3404444444444443
+      },
+      {
+        "name": "void dr0_scan_tiles<unsigned long long, (bool)0>(const T1 *, T1 *, int, T1 *)",
+        "calls": 60,
+        "total_ms": 0.091968,
+        "mean_us": 1.5328
+      },
+      {
+        "name": "void dr0_scan_tiles<unsigned int, (bool)0>(const T1 *, T1 *, int, T1 *)",
+        "calls": 60,
+        "total_ms": 0.09024,
+        "mean_us": 1.504
+      },
+      {
+        "name": "void dr0_scan_add<unsigned long long>(T1 *, int, const T1 *)",
+        "calls": 30,
+        "total_ms": 0.0376,
+        "mean_us": 1.2533333333333332
+      },
+      {
+        "name": "void dr0_scan_add<unsigned int>(T1 *, int, const T1 *)",
+        "calls": 30,
+        "total_ms": 0.037056,
+        "mean_us": 1.2352
+      },
+      {
+        "name": "dr0_finish_unstuff(const unsigned int *, const unsigned int *, int, unsigned int *)",
+        "calls": 30,
+        "total_ms": 0.031264,
+        "mean_us": 1.0421333333333334
+      },
+      {
+        "name": "dr0_check_count(const unsigned long long *, const unsigned long long *, int, int, unsigned int *)",
+        "calls": 30,
+        "total_ms": 0.031168,
+        "mean_us": 1.0389333333333335
+      }
+    ],
+    "copies": [
+      {
+        "kind": 1,
+        "bytes": 48,
+        "calls": 1,
+        "total_ms": 0.0016
+      },
+      {
+        "kind": 1,
+        "bytes": 128,
+        "calls": 60,
+        "total_ms": 0.044672
+      },
+      {
+        "kind": 1,
+        "bytes": 320,
+        "calls": 1,
+        "total_ms": 0.0008
+      },
+      {
+        "kind": 1,
+        "bytes": 336,
+        "calls": 1,
+        "total_ms": 0.003168
+      },
+      {
+        "kind": 1,
+        "bytes": 1764,
+        "calls": 120,
+        "total_ms": 0.071968
+      },
+      {
+        "kind": 1,
+        "bytes": 391680,
+        "calls": 1,
+        "total_ms": 0.064896
+      },
+      {
+        "kind": 1,
+        "bytes": 531811,
+        "calls": 30,
+        "total_ms": 2.643592
+      },
+      {
+        "kind": 2,
+        "bytes": 4,
+        "calls": 30,
+        "total_ms": 0.064
+      },
+      {
+        "kind": 2,
+        "bytes": 6220800,
+        "calls": 30,
+        "total_ms": 28.444472
+      },
+      {
+        "kind": 8,
+        "bytes": 128,
+        "calls": 90,
+        "total_ms": 0.116704
+      }
+    ]
+  },
+  {
+    "case": "4k420",
+    "frames": 30,
+    "fixture": {
+      "filename": "4k-rgb-q90-420-interleaved-reference.jpg",
+      "sha256": "bc6a2477f7ce6844e077f0901417cf6e9ca42f76d9fca6c3b374ec76e4c79cac",
+      "bytes": 1546471,
+      "width": 3840,
+      "height": 2160,
+      "entropy_bytes": 1545805,
+      "scans": 1,
+      "true_ri0": true
+    },
+    "kernels": [
+      {
+        "name": "dr0_reconcile(const unsigned char *, const unsigned int *, const unsigned short *, const unsigned short *, dr0_layout, int, int, dr0_boundary *, unsigned long long *, const unsigned int *)",
+        "calls": 420,
+        "total_ms": 80.587353,
+        "mean_us": 191.87465
+      },
+      {
+        "name": "dr0_write(const unsigned char *, const unsigned int *, const unsigned short *, const unsigned short *, const int *, dr0_layout, int, const dr0_boundary *, const unsigned long long *, const unsigned long long *, short *, long long *, unsigned int *, const unsigned int *)",
+        "calls": 30,
+        "total_ms": 55.245771,
+        "mean_us": 1841.5257
+      },
+      {
+        "name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)",
+        "calls": 30,
+        "total_ms": 8.308027,
+        "mean_us": 276.93423333333334
+      },
+      {
+        "name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)",
+        "calls": 90,
+        "total_ms": 5.491087,
+        "mean_us": 61.012077777777776
+      },
+      {
+        "name": "dr0_speculate(const unsigned char *, const unsigned int *, const unsigned short *, const unsigned short *, dr0_layout, int, dr0_boundary *, unsigned long long *, unsigned int *)",
+        "calls": 30,
+        "total_ms": 3.72964,
+        "mean_us": 124.32133333333333
+      },
+      {
+        "name": "dr0_restore_dc(const unsigned long long *, dr0_layout, const long long *, short *, unsigned int *)",
+        "calls": 30,
+        "total_ms": 2.343749,
+        "mean_us": 78.12496666666667
+      },
+      {
+        "name": "void dr0_unstuff<(bool)1>(const unsigned char *, int, unsigned int *, const unsigned int *, unsigned char *)",
+        "calls": 30,
+        "total_ms": 1.515236,
+        "mean_us": 50.50786666666667
+      },
+      {
+        "name": "void dr0_unstuff<(bool)0>(const unsigned char *, int, unsigned int *, const unsigned int *, unsigned char *)",
+        "calls": 30,
+        "total_ms": 1.432902,
+        "mean_us": 47.763400000000004
+      },
+      {
+        "name": "void dr0_scan_tiles<long long, (bool)1>(const T1 *, T1 *, int, T1 *)",
+        "calls": 90,
+        "total_ms": 0.480034,
+        "mean_us": 5.333711111111111
+      },
+      {
+        "name": "gpujpeg_huffman_decoder_table_kernel(gpujpeg_huffman_gpu_decoder, const gpujpeg_table_huffman_decoder *, const gpujpeg_table_huffman_decoder *, const gpujpeg_table_huffman_decoder *, const gpujpeg_table_huffman_decoder *)",
+        "calls": 30,
+        "total_ms": 0.252352,
+        "mean_us": 8.411733333333334
+      },
+      {
+        "name": "void dr0_scan_add<long long>(T1 *, int, const T1 *)",
+        "calls": 120,
+        "total_ms": 0.238496,
+        "mean_us": 1.9874666666666667
+      },
+      {
+        "name": "void dr0_scan_tiles<long long, (bool)0>(const T1 *, T1 *, int, T1 *)",
+        "calls": 120,
+        "total_ms": 0.172065,
+        "mean_us": 1.433875
+      },
+      {
+        "name": "void dr0_scan_tiles<unsigned long long, (bool)0>(const T1 *, T1 *, int, T1 *)",
+        "calls": 60,
+        "total_ms": 0.089505,
+        "mean_us": 1.49175
+      },
+      {
+        "name": "void dr0_scan_tiles<unsigned int, (bool)0>(const T1 *, T1 *, int, T1 *)",
+        "calls": 60,
+        "total_ms": 0.082816,
+        "mean_us": 1.3802666666666668
+      },
+      {
+        "name": "dr0_finish_unstuff(const unsigned int *, const unsigned int *, int, unsigned int *)",
+        "calls": 30,
+        "total_ms": 0.043648,
+        "mean_us": 1.4549333333333334
+      },
+      {
+        "name": "void dr0_scan_add<unsigned long long>(T1 *, int, const T1 *)",
+        "calls": 30,
+        "total_ms": 0.035872,
+        "mean_us": 1.1957333333333333
+      },
+      {
+        "name": "void dr0_scan_add<unsigned int>(T1 *, int, const T1 *)",
+        "calls": 30,
+        "total_ms": 0.034528,
+        "mean_us": 1.1509333333333334
+      },
+      {
+        "name": "dr0_check_count(const unsigned long long *, const unsigned long long *, int, int, unsigned int *)",
+        "calls": 30,
+        "total_ms": 0.029056,
+        "mean_us": 0.9685333333333334
+      }
+    ],
+    "copies": [
+      {
+        "kind": 1,
+        "bytes": 48,
+        "calls": 1,
+        "total_ms": 0.00144
+      },
+      {
+        "kind": 1,
+        "bytes": 128,
+        "calls": 60,
+        "total_ms": 0.043264
+      },
+      {
+        "kind": 1,
+        "bytes": 320,
+        "calls": 1,
+        "total_ms": 0.0008
+      },
+      {
+        "kind": 1,
+        "bytes": 336,
+        "calls": 1,
+        "total_ms": 0.003168
+      },
+      {
+        "kind": 1,
+        "bytes": 1764,
+        "calls": 120,
+        "total_ms": 0.064128
+      },
+      {
+        "kind": 1,
+        "bytes": 1545805,
+        "calls": 30,
+        "total_ms": 7.625303
+      },
+      {
+        "kind": 1,
+        "bytes": 1555200,
+        "calls": 1,
+        "total_ms": 0.254401
+      },
+      {
+        "kind": 2,
+        "bytes": 4,
+        "calls": 30,
+        "total_ms": 0.060321
+      },
+      {
+        "kind": 2,
+        "bytes": 24883200,
+        "calls": 30,
+        "total_ms": 113.921469
+      },
+      {
+        "kind": 8,
+        "bytes": 128,
+        "calls": 90,
+        "total_ms": 0.114688
+      }
+    ]
+  }
+]

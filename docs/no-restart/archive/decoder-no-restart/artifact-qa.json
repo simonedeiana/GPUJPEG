@@ -1,0 +1,24 @@
+{
+  "source_files_verified": 151,
+  "patch_applied_cleanly_to_locked_commit": true,
+  "external_gitlinks_not_archived": [
+    "go-gpujpeg"
+  ],
+  "patched_tree_equals_source_zip": true,
+  "source_zip_equals_decoder_commit": true,
+  "text_comparisons_normalize_windows_crlf": true,
+  "decoder_bundle_fresh_clone_and_full_fsck": true,
+  "encoder_bundle_fresh_clone_and_full_fsck": true,
+  "locked_encoder_tree_files_verified": 149,
+  "original_locked_hashes_unchanged": true,
+  "benchmark_cases": 15,
+  "benchmark_processes": 150,
+  "retained_samples": 15000,
+  "benchmark_pixel_hashes_match": true,
+  "validation_coefficients_and_pixels_match": 102,
+  "per_frame_quantized_h2d_absent_in_profiles": true,
+  "relative_markdown_links_verified": 28,
+  "zip_crc_checks_passed": true,
+  "reproduction_scripts_compile": true,
+  "decoder_commit": "74911dfee71e4d5c278427ea04e84a63355bf082"
+}

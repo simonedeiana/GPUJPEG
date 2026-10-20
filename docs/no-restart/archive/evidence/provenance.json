@@ -1,0 +1,47 @@
+[
+  {
+    "path": "work\\no-restart.jpg",
+    "size": 686167,
+    "sha256": "c93dc4d7230c3f8646b886a56f5c666fddd60c8a7712d94bfd3b6cbc75ac83e8"
+  },
+  {
+    "path": "work\\profile.jpg",
+    "size": 698189,
+    "sha256": "fb6e26f7fcb8fd281b3a93865ad681cfa9841defaba457279cec3dfc73a03320"
+  },
+  {
+    "path": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+    "size": 26992640,
+    "sha256": "01735bf880587184119d70d56bda433ef01516e8d1139d880c765afca34dbac3"
+  },
+  {
+    "path": "work\\runtime-capture\\capture.cpp",
+    "size": 2979,
+    "sha256": "2b64b367db27366eef7bc37668b692e6ddd0708927e123de0a129ccb6e558742"
+  },
+  {
+    "path": "work\\runtime-capture\\no-rst\\capture.tsv",
+    "size": 3066,
+    "sha256": "7f525d3adf79a1c264ecbbae77e1330ec676534bfa486c7ea95d446e05660228"
+  },
+  {
+    "path": "work\\runtime-capture\\rst10\\capture.tsv",
+    "size": 3070,
+    "sha256": "d724ed958c54a4db096957d6cd9480f99150ef90d8b7ad157fac892acf2639f8"
+  },
+  {
+    "path": "work\\runtime-capture\\payload-analysis.json",
+    "size": 3301,
+    "sha256": "982c2891a26d9da8d881b0b755fa082295a00a9fe6b622eda84a7c0a13cf079a"
+  },
+  {
+    "path": "work\\runtime-capture\\coefficient-comparison.json",
+    "size": 942,
+    "sha256": "349e564cbd48bfe00480b56b598ca22b028ee83c7d8d16eb946514387625737c"
+  },
+  {
+    "path": "work\\runtime-capture\\pixel-comparison.json",
+    "size": 204,
+    "sha256": "923905bcdf6399104b6a60958f6b933ecaf18a64e3b5bc07498d1979c7a977ee"
+  }
+]

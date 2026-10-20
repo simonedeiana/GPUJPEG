@@ -1,0 +1,4851 @@
+{
+  "summary": {
+    "files": 78,
+    "max_abs_dc_difference": 2040,
+    "sixteen_bit_symbols": 4534,
+    "zrl_symbols": 919,
+    "all_legal_one_padding": true,
+    "padding_bit_counts": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "raw_ff_offsets_mod256_histogram": [
+      46,
+      25,
+      29,
+      40,
+      30,
+      19,
+      30,
+      26,
+      33,
+      29,
+      30,
+      35,
+      47,
+      25,
+      20,
+      37,
+      24,
+      28,
+      33,
+      20,
+      21,
+      39,
+      34,
+      34,
+      34,
+      25,
+      22,
+      24,
+      30,
+      20,
+      35,
+      28,
+      21,
+      20,
+      29,
+      20,
+      29,
+      30,
+      19,
+      42,
+      30,
+      24,
+      27,
+      31,
+      21,
+      26,
+      30,
+      24,
+      55,
+      33,
+      17,
+      25,
+      25,
+      23,
+      22,
+      27,
+      15,
+      43,
+      31,
+      32,
+      33,
+      26,
+      27,
+      35,
+      21,
+      23,
+      32,
+      22,
+      23,
+      29,
+      23,
+      23,
+      25,
+      29,
+      37,
+      34,
+      26,
+      19,
+      20,
+      32,
+      27,
+      17,
+      18,
+      28,
+      33,
+      19,
+      35,
+      22,
+      23,
+      37,
+      20,
+      17,
+      28,
+      34,
+      33,
+      22,
+      22,
+      23,
+      35,
+      26,
+      23,
+      30,
+      28,
+      16,
+      39,
+      33,
+      22,
+      22,
+      28,
+      27,
+      27,
+      33,
+      18,
+      28,
+      29,
+      14,
+      29,
+      26,
+      28,
+      23,
+      38,
+      24,
+      26,
+      27,
+      23,
+      25,
+      23,
+      25,
+      31,
+      29,
+      18,
+      23,
+      28,
+      19,
+      26,
+      32,
+      27,
+      22,
+      36,
+      25,
+      23,
+      32,
+      28,
+      18,
+      28,
+      36,
+      27,
+      29,
+      31,
+      33,
+      18,
+      22,
+      29,
+      35,
+      31,
+      28,
+      32,
+      22,
+      29,
+      31,
+      24,
+      22,
+      33,
+      33,
+      24,
+      28,
+      26,
+      19,
+      25,
+      33,
+      19,
+      23,
+      38,
+      18,
+      26,
+      26,
+      24,
+      22,
+      28,
+      24,
+      24,
+      30,
+      24,
+      27,
+      31,
+      20,
+      26,
+      16,
+      25,
+      27,
+      32,
+      25,
+      17,
+      18,
+      28,
+      17,
+      27,
+      27,
+      20,
+      34,
+      26,
+      21,
+      29,
+      35,
+      17,
+      26,
+      25,
+      18,
+      34,
+      27,
+      14,
+      18,
+      36,
+      21,
+      25,
+      21,
+      18,
+      31,
+      29,
+      34,
+      16,
+      30,
+      25,
+      27,
+      21,
+      28,
+      30,
+      19,
+      30,
+      16,
+      23,
+      26,
+      42,
+      24,
+      22,
+      38,
+      17,
+      24,
+      36,
+      19,
+      16,
+      24,
+      28,
+      24,
+      31,
+      37,
+      23,
+      30,
+      25,
+      28,
+      31,
+      16,
+      24,
+      32,
+      22,
+      25
+    ],
+    "raw_ff_offsets_mod256_covered": 256,
+    "raw_ff_last_scan_byte_cases": 1,
+    "block_start_bit_offsets_mod32_histogram": [
+      1819,
+      585,
+      868,
+      607,
+      1239,
+      605,
+      887,
+      598,
+      1714,
+      616,
+      904,
+      668,
+      1253,
+      667,
+      939,
+      638,
+      1762,
+      653,
+      911,
+      637,
+      1238,
+      654,
+      894,
+      623,
+      1763,
+      608,
+      887,
+      591,
+      1209,
+      603,
+      863,
+      635
+    ],
+    "block_start_bit_offsets_mod32_covered": 32,
+    "max_block_bits": 849
+  },
+  "files": [
+    {
+      "file": "checker-gray-q0-gray-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "4baa8852340e2f52d759807a652cfd4e71ea550b04ceff4f1e218bcded920814"
+      },
+      "blocks_by_component": {
+        "1": 561
+      },
+      "max_abs_dc_difference": 8,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        17,
+        16,
+        26,
+        16,
+        16,
+        16,
+        18,
+        16,
+        16,
+        16,
+        26,
+        16,
+        16,
+        16,
+        18,
+        16,
+        16,
+        16,
+        26,
+        16,
+        16,
+        16,
+        18,
+        16,
+        16,
+        16,
+        26,
+        16,
+        16,
+        16,
+        18,
+        16
+      ],
+      "max_block_bits": 44
+    },
+    {
+      "file": "checker-gray-q1-gray-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "4baa8852340e2f52d759807a652cfd4e71ea550b04ceff4f1e218bcded920814"
+      },
+      "blocks_by_component": {
+        "1": 561
+      },
+      "max_abs_dc_difference": 8,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        17,
+        16,
+        26,
+        16,
+        16,
+        16,
+        18,
+        16,
+        16,
+        16,
+        26,
+        16,
+        16,
+        16,
+        18,
+        16,
+        16,
+        16,
+        26,
+        16,
+        16,
+        16,
+        18,
+        16,
+        16,
+        16,
+        26,
+        16,
+        16,
+        16,
+        18,
+        16
+      ],
+      "max_block_bits": 44
+    },
+    {
+      "file": "checker-gray-q100-gray-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "ab1af3830d3ef4816575fe25e42c03a58480af18f3e22de7db0d643153dd917c"
+      },
+      "blocks_by_component": {
+        "1": 561
+      },
+      "max_abs_dc_difference": 2040,
+      "sixteen_bit_symbols": 120,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 0,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        131,
+        0,
+        2,
+        0,
+        2,
+        0,
+        10,
+        0,
+        130,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        130,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        138,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "max_block_bits": 176
+    },
+    {
+      "file": "checker-gray-q75-gray-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "39b6247480d7bf8b88c09463f290e8d0caec56e90cff3948c7387676775246ee"
+      },
+      "blocks_by_component": {
+        "1": 561
+      },
+      "max_abs_dc_difference": 255,
+      "sixteen_bit_symbols": 88,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        19,
+        16,
+        18,
+        16,
+        18,
+        17,
+        19,
+        17,
+        19,
+        17,
+        19,
+        17,
+        19,
+        16,
+        18,
+        16,
+        18,
+        16,
+        19,
+        17,
+        19,
+        17,
+        19,
+        17,
+        19,
+        17,
+        18,
+        16,
+        18,
+        16,
+        18,
+        16
+      ],
+      "max_block_bits": 126
+    },
+    {
+      "file": "checker-gray-q90-gray-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "5d09d1414ed373b4f32eb665fbb03d502214d55b2ad453f001361afbc91ef912"
+      },
+      "blocks_by_component": {
+        "1": 561
+      },
+      "max_abs_dc_difference": 680,
+      "sixteen_bit_symbols": 88,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 4,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        20,
+        16,
+        18,
+        17,
+        18,
+        16,
+        19,
+        17,
+        18,
+        17,
+        19,
+        16,
+        18,
+        17,
+        18,
+        16,
+        19,
+        16,
+        18,
+        17,
+        19,
+        16,
+        19,
+        17,
+        18,
+        17,
+        19,
+        16,
+        19,
+        17,
+        18,
+        16
+      ],
+      "max_block_bits": 142
+    },
+    {
+      "file": "checker-rgb-q1-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "2cd97e16bb2d8c9f370ac8cbb8bda16062e707201b2ff1f21a98e9077dc2c0a0",
+        "2": "47076e4194ed975574e9ae9b24cd31057f0b2c4835f01283c6c338262533a6b1",
+        "3": "47076e4194ed975574e9ae9b24cd31057f0b2c4835f01283c6c338262533a6b1"
+      },
+      "blocks_by_component": {
+        "1": 612,
+        "2": 153,
+        "3": 153
+      },
+      "max_abs_dc_difference": 8,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 4,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        45,
+        16,
+        52,
+        16,
+        44,
+        16,
+        36,
+        16,
+        37,
+        16,
+        38,
+        16,
+        36,
+        23,
+        37,
+        16,
+        44,
+        16,
+        44,
+        23,
+        37,
+        9,
+        36,
+        16,
+        37,
+        16,
+        44,
+        9,
+        52,
+        16,
+        43,
+        16
+      ],
+      "max_block_bits": 44
+    },
+    {
+      "file": "checker-rgb-q1-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "4baa8852340e2f52d759807a652cfd4e71ea550b04ceff4f1e218bcded920814",
+        "2": "1c4bf126f5e9bd10140576f04b7dcbc3f1b41baea3be7aa399f47daf8d064deb",
+        "3": "1c4bf126f5e9bd10140576f04b7dcbc3f1b41baea3be7aa399f47daf8d064deb"
+      },
+      "blocks_by_component": {
+        "1": 561,
+        "2": 561,
+        "3": 561
+      },
+      "max_abs_dc_difference": 8,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        53,
+        48,
+        62,
+        48,
+        52,
+        48,
+        63,
+        48,
+        52,
+        48,
+        62,
+        48,
+        52,
+        48,
+        63,
+        48,
+        52,
+        48,
+        62,
+        48,
+        52,
+        48,
+        62,
+        48,
+        52,
+        48,
+        62,
+        48,
+        52,
+        48,
+        62,
+        48
+      ],
+      "max_block_bits": 44
+    },
+    {
+      "file": "checker-rgb-q100-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "784300037f75ed0e10698f457c27fc737db6369507abc6700fc2810c4621d6a0",
+        "2": "4eb48a4cf4aaf965c776edec3a999a649e17b4354210abe2fd158cd65f4330c3",
+        "3": "4eb48a4cf4aaf965c776edec3a999a649e17b4354210abe2fd158cd65f4330c3"
+      },
+      "blocks_by_component": {
+        "1": 612,
+        "2": 153,
+        "3": 153
+      },
+      "max_abs_dc_difference": 2040,
+      "sixteen_bit_symbols": 296,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 0,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        51,
+        1,
+        51,
+        1,
+        67,
+        1,
+        59,
+        1,
+        51,
+        0,
+        52,
+        0,
+        61,
+        8,
+        60,
+        0,
+        52,
+        0,
+        50,
+        0,
+        66,
+        0,
+        60,
+        1,
+        51,
+        1,
+        49,
+        1,
+        55,
+        9,
+        58,
+        1
+      ],
+      "max_block_bits": 561
+    },
+    {
+      "file": "checker-rgb-q100-420-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "ab1af3830d3ef4816575fe25e42c03a58480af18f3e22de7db0d643153dd917c",
+        "2": "4eb48a4cf4aaf965c776edec3a999a649e17b4354210abe2fd158cd65f4330c3",
+        "3": "4eb48a4cf4aaf965c776edec3a999a649e17b4354210abe2fd158cd65f4330c3"
+      },
+      "blocks_by_component": {
+        "1": 561,
+        "2": 153,
+        "3": 153
+      },
+      "max_abs_dc_difference": 2040,
+      "sixteen_bit_symbols": 296,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 0,
+          "all_one_padding": true
+        },
+        {
+          "bits": 1,
+          "all_one_padding": true
+        },
+        {
+          "bits": 1,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        141,
+        10,
+        10,
+        10,
+        12,
+        12,
+        20,
+        8,
+        140,
+        8,
+        12,
+        8,
+        12,
+        8,
+        12,
+        10,
+        142,
+        8,
+        12,
+        8,
+        12,
+        8,
+        12,
+        10,
+        146,
+        12,
+        12,
+        12,
+        10,
+        10,
+        10,
+        10
+      ],
+      "max_block_bits": 561
+    },
+    {
+      "file": "checker-rgb-q100-422-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "069ab9999e61f9b4f404ad7d7d31336d2e5f8655af2208e527ceffd3862adcf0",
+        "2": "e8230fa23c8e184b88556e110bc2ca9b8151e87e6607bc9d2a595cf32e48c2d0",
+        "3": "e8230fa23c8e184b88556e110bc2ca9b8151e87e6607bc9d2a595cf32e48c2d0"
+      },
+      "blocks_by_component": {
+        "1": 578,
+        "2": 289,
+        "3": 289
+      },
+      "max_abs_dc_difference": 2040,
+      "sixteen_bit_symbols": 344,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 4,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        135,
+        2,
+        5,
+        0,
+        132,
+        4,
+        8,
+        2,
+        134,
+        2,
+        6,
+        1,
+        131,
+        4,
+        8,
+        2,
+        135,
+        2,
+        6,
+        0,
+        133,
+        4,
+        8,
+        2,
+        135,
+        2,
+        7,
+        0,
+        132,
+        4,
+        8,
+        2
+      ],
+      "max_block_bits": 561
+    },
+    {
+      "file": "checker-rgb-q100-422-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "ab1af3830d3ef4816575fe25e42c03a58480af18f3e22de7db0d643153dd917c",
+        "2": "e8230fa23c8e184b88556e110bc2ca9b8151e87e6607bc9d2a595cf32e48c2d0",
+        "3": "e8230fa23c8e184b88556e110bc2ca9b8151e87e6607bc9d2a595cf32e48c2d0"
+      },
+      "blocks_by_component": {
+        "1": 561,
+        "2": 289,
+        "3": 289
+      },
+      "max_abs_dc_difference": 2040,
+      "sixteen_bit_symbols": 344,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 0,
+          "all_one_padding": true
+        },
+        {
+          "bits": 1,
+          "all_one_padding": true
+        },
+        {
+          "bits": 1,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        151,
+        16,
+        20,
+        16,
+        22,
+        18,
+        30,
+        18,
+        150,
+        16,
+        20,
+        16,
+        20,
+        16,
+        20,
+        20,
+        148,
+        20,
+        20,
+        20,
+        18,
+        18,
+        18,
+        18,
+        154,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        16
+      ],
+      "max_block_bits": 561
+    },
+    {
+      "file": "checker-rgb-q100-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "ab1af3830d3ef4816575fe25e42c03a58480af18f3e22de7db0d643153dd917c",
+        "2": "188b56af905f6a52c58f2d4f345ae5ab6b32714fd0a9327dfff86583853c02c5",
+        "3": "188b56af905f6a52c58f2d4f345ae5ab6b32714fd0a9327dfff86583853c02c5"
+      },
+      "blocks_by_component": {
+        "1": 561,
+        "2": 561,
+        "3": 561
+      },
+      "max_abs_dc_difference": 2040,
+      "sixteen_bit_symbols": 472,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 2,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        103,
+        4,
+        102,
+        2,
+        102,
+        5,
+        102,
+        2,
+        102,
+        4,
+        101,
+        2,
+        102,
+        4,
+        102,
+        2,
+        102,
+        4,
+        102,
+        2,
+        102,
+        4,
+        102,
+        2,
+        103,
+        4,
+        102,
+        2,
+        103,
+        4,
+        102,
+        2
+      ],
+      "max_block_bits": 561
+    },
+    {
+      "file": "checker-rgb-q100-444-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "ab1af3830d3ef4816575fe25e42c03a58480af18f3e22de7db0d643153dd917c",
+        "2": "188b56af905f6a52c58f2d4f345ae5ab6b32714fd0a9327dfff86583853c02c5",
+        "3": "188b56af905f6a52c58f2d4f345ae5ab6b32714fd0a9327dfff86583853c02c5"
+      },
+      "blocks_by_component": {
+        "1": 561,
+        "2": 561,
+        "3": 561
+      },
+      "max_abs_dc_difference": 2040,
+      "sixteen_bit_symbols": 472,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 0,
+          "all_one_padding": true
+        },
+        {
+          "bits": 1,
+          "all_one_padding": true
+        },
+        {
+          "bits": 1,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        167,
+        34,
+        36,
+        34,
+        38,
+        36,
+        46,
+        36,
+        166,
+        34,
+        36,
+        34,
+        36,
+        34,
+        36,
+        36,
+        166,
+        36,
+        38,
+        36,
+        36,
+        34,
+        36,
+        34,
+        172,
+        36,
+        38,
+        36,
+        38,
+        36,
+        38,
+        34
+      ],
+      "max_block_bits": 561
+    },
+    {
+      "file": "checker-rgb-q75-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "a11d6274c8eb9f0ff3c1c948a5e81684e148fd5e5b17c513c5934dd21f6688b1",
+        "2": "8be52340e2fe981e1546de0852d67b3c6c8ce238af343d8d49038ad6fde11015",
+        "3": "8be52340e2fe981e1546de0852d67b3c6c8ce238af343d8d49038ad6fde11015"
+      },
+      "blocks_by_component": {
+        "1": 612,
+        "2": 153,
+        "3": 153
+      },
+      "max_abs_dc_difference": 255,
+      "sixteen_bit_symbols": 152,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 0,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        32,
+        24,
+        33,
+        25,
+        32,
+        24,
+        30,
+        26,
+        33,
+        27,
+        30,
+        25,
+        32,
+        26,
+        34,
+        23,
+        31,
+        26,
+        35,
+        26,
+        29,
+        25,
+        32,
+        28,
+        33,
+        25,
+        30,
+        26,
+        33,
+        27,
+        31,
+        25
+      ],
+      "max_block_bits": 126
+    },
+    {
+      "file": "checker-rgb-q75-420-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "39b6247480d7bf8b88c09463f290e8d0caec56e90cff3948c7387676775246ee",
+        "2": "8be52340e2fe981e1546de0852d67b3c6c8ce238af343d8d49038ad6fde11015",
+        "3": "8be52340e2fe981e1546de0852d67b3c6c8ce238af343d8d49038ad6fde11015"
+      },
+      "blocks_by_component": {
+        "1": 561,
+        "2": 153,
+        "3": 153
+      },
+      "max_abs_dc_difference": 255,
+      "sixteen_bit_symbols": 152,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        },
+        {
+          "bits": 6,
+          "all_one_padding": true
+        },
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        57,
+        16,
+        20,
+        16,
+        54,
+        17,
+        21,
+        17,
+        55,
+        17,
+        21,
+        17,
+        55,
+        16,
+        20,
+        16,
+        54,
+        16,
+        21,
+        17,
+        55,
+        17,
+        21,
+        17,
+        55,
+        17,
+        20,
+        16,
+        54,
+        16,
+        20,
+        16
+      ],
+      "max_block_bits": 126
+    },
+    {
+      "file": "checker-rgb-q75-422-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "39b6247480d7bf8b88c09463f290e8d0caec56e90cff3948c7387676775246ee",
+        "2": "532ed44e3741d8f09f69adf4f366c5bf3e0569fbdbdc4286093a546e6f956d8f",
+        "3": "532ed44e3741d8f09f69adf4f366c5bf3e0569fbdbdc4286093a546e6f956d8f"
+      },
+      "blocks_by_component": {
+        "1": 561,
+        "2": 289,
+        "3": 289
+      },
+      "max_abs_dc_difference": 255,
+      "sixteen_bit_symbols": 152,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        },
+        {
+          "bits": 6,
+          "all_one_padding": true
+        },
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        91,
+        16,
+        20,
+        16,
+        88,
+        17,
+        21,
+        17,
+        89,
+        17,
+        21,
+        17,
+        89,
+        16,
+        20,
+        16,
+        88,
+        16,
+        21,
+        17,
+        89,
+        17,
+        21,
+        17,
+        89,
+        17,
+        20,
+        16,
+        88,
+        16,
+        20,
+        16
+      ],
+      "max_block_bits": 126
+    },
+    {
+      "file": "checker-rgb-q75-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "39b6247480d7bf8b88c09463f290e8d0caec56e90cff3948c7387676775246ee",
+        "2": "7cabdefc730c1ce47cbe0cabc05ef516a97644366dd6b316990adc61aade0474",
+        "3": "7cabdefc730c1ce47cbe0cabc05ef516a97644366dd6b316990adc61aade0474"
+      },
+      "blocks_by_component": {
+        "1": 561,
+        "2": 561,
+        "3": 561
+      },
+      "max_abs_dc_difference": 255,
+      "sixteen_bit_symbols": 216,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 2,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        56,
+        51,
+        55,
+        51,
+        56,
+        50,
+        55,
+        49,
+        56,
+        49,
+        55,
+        49,
+        55,
+        48,
+        57,
+        49,
+        57,
+        48,
+        58,
+        48,
+        58,
+        49,
+        56,
+        49,
+        55,
+        50,
+        54,
+        50,
+        53,
+        51,
+        55,
+        51
+      ],
+      "max_block_bits": 126
+    },
+    {
+      "file": "checker-rgb-q75-444-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "39b6247480d7bf8b88c09463f290e8d0caec56e90cff3948c7387676775246ee",
+        "2": "7cabdefc730c1ce47cbe0cabc05ef516a97644366dd6b316990adc61aade0474",
+        "3": "7cabdefc730c1ce47cbe0cabc05ef516a97644366dd6b316990adc61aade0474"
+      },
+      "blocks_by_component": {
+        "1": 561,
+        "2": 561,
+        "3": 561
+      },
+      "max_abs_dc_difference": 255,
+      "sixteen_bit_symbols": 216,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        },
+        {
+          "bits": 6,
+          "all_one_padding": true
+        },
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        157,
+        16,
+        22,
+        16,
+        154,
+        17,
+        23,
+        17,
+        155,
+        17,
+        23,
+        17,
+        155,
+        16,
+        22,
+        16,
+        154,
+        16,
+        23,
+        17,
+        155,
+        17,
+        23,
+        17,
+        155,
+        17,
+        22,
+        16,
+        154,
+        16,
+        22,
+        16
+      ],
+      "max_block_bits": 126
+    },
+    {
+      "file": "checker-rgb-q90-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "72146f0efb0d09de14c29910bec90a46bd7e36a82d2364228556fd2dd2cbb132",
+        "2": "052f092d84c0e0a5198b85aa701943a964d0d2186c7bc8c3ee1023e183ea22ce",
+        "3": "052f092d84c0e0a5198b85aa701943a964d0d2186c7bc8c3ee1023e183ea22ce"
+      },
+      "blocks_by_component": {
+        "1": 612,
+        "2": 153,
+        "3": 153
+      },
+      "max_abs_dc_difference": 680,
+      "sixteen_bit_symbols": 232,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 0,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        11,
+        4,
+        9,
+        2,
+        8,
+        1,
+        22,
+        17,
+        23,
+        16,
+        54,
+        47,
+        53,
+        48,
+        55,
+        49,
+        71,
+        65,
+        40,
+        34,
+        57,
+        50,
+        40,
+        33,
+        23,
+        17,
+        24,
+        19,
+        9,
+        3,
+        10,
+        4
+      ],
+      "max_block_bits": 185
+    },
+    {
+      "file": "checker-rgb-q90-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "5d09d1414ed373b4f32eb665fbb03d502214d55b2ad453f001361afbc91ef912",
+        "2": "40acd652d48da995d5dd7f022bd94cceece27f7b076f9f1953ac46544728467c",
+        "3": "40acd652d48da995d5dd7f022bd94cceece27f7b076f9f1953ac46544728467c"
+      },
+      "blocks_by_component": {
+        "1": 561,
+        "2": 561,
+        "3": 561
+      },
+      "max_abs_dc_difference": 680,
+      "sixteen_bit_symbols": 376,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 2,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        58,
+        51,
+        54,
+        48,
+        56,
+        52,
+        55,
+        49,
+        54,
+        51,
+        57,
+        49,
+        55,
+        50,
+        56,
+        49,
+        55,
+        47,
+        57,
+        50,
+        55,
+        49,
+        56,
+        51,
+        56,
+        49,
+        54,
+        51,
+        57,
+        48,
+        55,
+        49
+      ],
+      "max_block_bits": 185
+    },
+    {
+      "file": "flat-rgb-q1-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+        "2": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+        "3": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+      },
+      "blocks_by_component": {
+        "1": 64,
+        "2": 16,
+        "3": 16
+      },
+      "max_abs_dc_difference": 0,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 0,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0
+      ],
+      "max_block_bits": 6
+    },
+    {
+      "file": "flat-rgb-q1-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+        "2": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+        "3": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47"
+      },
+      "blocks_by_component": {
+        "1": 64,
+        "2": 64,
+        "3": 64
+      },
+      "max_abs_dc_difference": 0,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 0,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0
+      ],
+      "max_block_bits": 6
+    },
+    {
+      "file": "flat-rgb-q100-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "b4e38707da3a18e1506073b9afa86c0025f569958fc46e8666daa108ad2bdb85",
+        "2": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+        "3": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+      },
+      "blocks_by_component": {
+        "1": 64,
+        "2": 16,
+        "3": 16
+      },
+      "max_abs_dc_difference": 8,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 3,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        16,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0
+      ],
+      "max_block_bits": 11
+    },
+    {
+      "file": "flat-rgb-q100-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "b4e38707da3a18e1506073b9afa86c0025f569958fc46e8666daa108ad2bdb85",
+        "2": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+        "3": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47"
+      },
+      "blocks_by_component": {
+        "1": 64,
+        "2": 64,
+        "3": 64
+      },
+      "max_abs_dc_difference": 8,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 3,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        12,
+        0,
+        12,
+        0,
+        11,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12
+      ],
+      "max_block_bits": 11
+    },
+    {
+      "file": "flat-rgb-q75-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "24de12f1992425c43e1f94a9d817c250c683bf8be319ec79245e1ee553340da7",
+        "2": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+        "3": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+      },
+      "blocks_by_component": {
+        "1": 64,
+        "2": 16,
+        "3": 16
+      },
+      "max_abs_dc_difference": 1,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        16,
+        0
+      ],
+      "max_block_bits": 8
+    },
+    {
+      "file": "flat-rgb-q75-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "24de12f1992425c43e1f94a9d817c250c683bf8be319ec79245e1ee553340da7",
+        "2": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+        "3": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47"
+      },
+      "blocks_by_component": {
+        "1": 64,
+        "2": 64,
+        "3": 64
+      },
+      "max_abs_dc_difference": 1,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        13,
+        0,
+        11,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0
+      ],
+      "max_block_bits": 8
+    },
+    {
+      "file": "flat-rgb-q90-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "99176681f30b66a23b9bec3f7c97714d16d7bfd82bdecb0ea5795ee0e80c3f40",
+        "2": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+        "3": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+      },
+      "blocks_by_component": {
+        "1": 64,
+        "2": 16,
+        "3": 16
+      },
+      "max_abs_dc_difference": 3,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 5,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        16
+      ],
+      "max_block_bits": 9
+    },
+    {
+      "file": "flat-rgb-q90-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "99176681f30b66a23b9bec3f7c97714d16d7bfd82bdecb0ea5795ee0e80c3f40",
+        "2": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+        "3": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47"
+      },
+      "blocks_by_component": {
+        "1": 64,
+        "2": 64,
+        "3": 64
+      },
+      "max_abs_dc_difference": 3,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 5,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        12,
+        0,
+        11,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12,
+        0,
+        12
+      ],
+      "max_block_bits": 9
+    },
+    {
+      "file": "noise-gray-q0-gray-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "fc5bc3029f29cac7f51e4ddbd0ce93399c5147260dfddcfc1d81ef2740d7ef44"
+      },
+      "blocks_by_component": {
+        "1": 153
+      },
+      "max_abs_dc_difference": 4,
+      "sixteen_bit_symbols": 47,
+      "zrl_symbols": 157,
+      "padding": [
+        {
+          "bits": 4,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        6,
+        9,
+        6,
+        4,
+        3,
+        8,
+        3,
+        4,
+        5,
+        6,
+        4,
+        6,
+        4,
+        6,
+        6,
+        1,
+        1,
+        5,
+        4,
+        5,
+        6,
+        4,
+        5,
+        6,
+        3,
+        7,
+        4,
+        5,
+        6,
+        5,
+        2,
+        4
+      ],
+      "max_block_bits": 84
+    },
+    {
+      "file": "noise-gray-q1-gray-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "fc5bc3029f29cac7f51e4ddbd0ce93399c5147260dfddcfc1d81ef2740d7ef44"
+      },
+      "blocks_by_component": {
+        "1": 153
+      },
+      "max_abs_dc_difference": 4,
+      "sixteen_bit_symbols": 47,
+      "zrl_symbols": 157,
+      "padding": [
+        {
+          "bits": 4,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        6,
+        9,
+        6,
+        4,
+        3,
+        8,
+        3,
+        4,
+        5,
+        6,
+        4,
+        6,
+        4,
+        6,
+        6,
+        1,
+        1,
+        5,
+        4,
+        5,
+        6,
+        4,
+        5,
+        6,
+        3,
+        7,
+        4,
+        5,
+        6,
+        5,
+        2,
+        4
+      ],
+      "max_block_bits": 84
+    },
+    {
+      "file": "noise-gray-q100-gray-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "6907dabf95d1f50bad8665811dda8bc065efde223792f8d51f7e53fe1456bc72"
+      },
+      "blocks_by_component": {
+        "1": 153
+      },
+      "max_abs_dc_difference": 1053,
+      "sixteen_bit_symbols": 29,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 1,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        5,
+        6,
+        4,
+        9,
+        5,
+        12,
+        6,
+        5,
+        2,
+        4,
+        3,
+        6,
+        1,
+        6,
+        6,
+        2,
+        2,
+        8,
+        3,
+        4,
+        7,
+        2,
+        1,
+        10,
+        2,
+        1,
+        7,
+        7,
+        4,
+        2,
+        10
+      ],
+      "max_block_bits": 849
+    },
+    {
+      "file": "noise-gray-q75-gray-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "6e84fc8b8c275e8d989862a632538b58cf72cf5ff1365b79b40999f832c01211"
+      },
+      "blocks_by_component": {
+        "1": 153
+      },
+      "max_abs_dc_difference": 132,
+      "sixteen_bit_symbols": 2,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        8,
+        3,
+        5,
+        4,
+        4,
+        5,
+        3,
+        2,
+        3,
+        6,
+        4,
+        7,
+        6,
+        5,
+        4,
+        5,
+        1,
+        4,
+        6,
+        5,
+        4,
+        6,
+        5,
+        8,
+        6,
+        6,
+        7,
+        7,
+        2,
+        4,
+        5,
+        3
+      ],
+      "max_block_bits": 305
+    },
+    {
+      "file": "noise-gray-q90-gray-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "6792e486a9818b923a33d155bed42c79bdad23dd1b4ded4f5849bae6aa3bdd04"
+      },
+      "blocks_by_component": {
+        "1": 153
+      },
+      "max_abs_dc_difference": 351,
+      "sixteen_bit_symbols": 9,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 3,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        6,
+        4,
+        6,
+        4,
+        7,
+        6,
+        5,
+        2,
+        3,
+        4,
+        4,
+        6,
+        2,
+        7,
+        6,
+        9,
+        6,
+        3,
+        4,
+        2,
+        4,
+        4,
+        7,
+        3,
+        5,
+        0,
+        4,
+        11,
+        6,
+        6,
+        3,
+        4
+      ],
+      "max_block_bits": 448
+    },
+    {
+      "file": "noise-rgb-q0-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "287d333f2eafff92e0fa9d6486ad09ceb0575fecb77e93c2e2462f785999a89a",
+        "2": "57d7cb41ffbdf7dd43ffba882d8af7c8e94f1598ad7c59492c010c1ef8ac18f0",
+        "3": "cafc06f20ee7129d2f679b571c839133f27f738dc4909ac805e525ba2515b7f8"
+      },
+      "blocks_by_component": {
+        "1": 144,
+        "2": 144,
+        "3": 144
+      },
+      "max_abs_dc_difference": 4,
+      "sixteen_bit_symbols": 10,
+      "zrl_symbols": 237,
+      "padding": [
+        {
+          "bits": 3,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        13,
+        11,
+        9,
+        14,
+        18,
+        15,
+        12,
+        11,
+        11,
+        8,
+        15,
+        15,
+        10,
+        17,
+        18,
+        10,
+        13,
+        16,
+        13,
+        14,
+        14,
+        15,
+        15,
+        14,
+        17,
+        10,
+        16,
+        11,
+        15,
+        12,
+        13,
+        17
+      ],
+      "max_block_bits": 66
+    },
+    {
+      "file": "noise-rgb-q1-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "f3a6321e12e3457fd0c53e8413d9de6028b203bd4c83368fc852c3d863789026",
+        "2": "3a38d3c27bf0d267374404c8d2194c1d2250f66128edae9f417771b610195387",
+        "3": "70011a2b24f55b2f6a56296e802f14633003a22e194736b545be349c293c8da4"
+      },
+      "blocks_by_component": {
+        "1": 160,
+        "2": 40,
+        "3": 40
+      },
+      "max_abs_dc_difference": 4,
+      "sixteen_bit_symbols": 10,
+      "zrl_symbols": 127,
+      "padding": [
+        {
+          "bits": 4,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        12,
+        4,
+        12,
+        5,
+        6,
+        11,
+        8,
+        8,
+        9,
+        6,
+        7,
+        8,
+        10,
+        9,
+        5,
+        4,
+        7,
+        4,
+        5,
+        8,
+        7,
+        8,
+        6,
+        3,
+        9,
+        7,
+        12,
+        7,
+        12,
+        5,
+        7,
+        9
+      ],
+      "max_block_bits": 66
+    },
+    {
+      "file": "noise-rgb-q1-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "287d333f2eafff92e0fa9d6486ad09ceb0575fecb77e93c2e2462f785999a89a",
+        "2": "57d7cb41ffbdf7dd43ffba882d8af7c8e94f1598ad7c59492c010c1ef8ac18f0",
+        "3": "cafc06f20ee7129d2f679b571c839133f27f738dc4909ac805e525ba2515b7f8"
+      },
+      "blocks_by_component": {
+        "1": 144,
+        "2": 144,
+        "3": 144
+      },
+      "max_abs_dc_difference": 4,
+      "sixteen_bit_symbols": 10,
+      "zrl_symbols": 237,
+      "padding": [
+        {
+          "bits": 3,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        13,
+        11,
+        9,
+        14,
+        18,
+        15,
+        12,
+        11,
+        11,
+        8,
+        15,
+        15,
+        10,
+        17,
+        18,
+        10,
+        13,
+        16,
+        13,
+        14,
+        14,
+        15,
+        15,
+        14,
+        17,
+        10,
+        16,
+        11,
+        15,
+        12,
+        13,
+        17
+      ],
+      "max_block_bits": 66
+    },
+    {
+      "file": "noise-rgb-q100-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "401ea475d6754c86eb9005bfdcb4c79dc6e5b0da5cece8ea022e7d4cb6ea10fd",
+        "2": "42b2ed4dc4abf43b5b5ca1549a6465dffc5206a0f5260ef95474c333742201b9",
+        "3": "a03b81c535d0d354b8f05ce416e415788a4eae1907f514664ce1edab9fe3aac5"
+      },
+      "blocks_by_component": {
+        "1": 160,
+        "2": 40,
+        "3": 40
+      },
+      "max_abs_dc_difference": 880,
+      "sixteen_bit_symbols": 44,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 5,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        12,
+        8,
+        5,
+        11,
+        7,
+        6,
+        4,
+        4,
+        7,
+        8,
+        7,
+        11,
+        11,
+        4,
+        6,
+        5,
+        11,
+        7,
+        11,
+        4,
+        8,
+        8,
+        13,
+        5,
+        4,
+        8,
+        6,
+        5,
+        10,
+        7,
+        10,
+        7
+      ],
+      "max_block_bits": 778
+    },
+    {
+      "file": "noise-rgb-q100-420-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "7e34ade6a0fcb6afcd78cf470894fb26ff9bc1110d4cdac7b48d28898d1c826b",
+        "2": "42b2ed4dc4abf43b5b5ca1549a6465dffc5206a0f5260ef95474c333742201b9",
+        "3": "a03b81c535d0d354b8f05ce416e415788a4eae1907f514664ce1edab9fe3aac5"
+      },
+      "blocks_by_component": {
+        "1": 144,
+        "2": 40,
+        "3": 40
+      },
+      "max_abs_dc_difference": 880,
+      "sixteen_bit_symbols": 44,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 5,
+          "all_one_padding": true
+        },
+        {
+          "bits": 1,
+          "all_one_padding": true
+        },
+        {
+          "bits": 1,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        10,
+        4,
+        10,
+        7,
+        6,
+        5,
+        2,
+        7,
+        6,
+        12,
+        7,
+        9,
+        6,
+        5,
+        8,
+        6,
+        9,
+        7,
+        10,
+        8,
+        4,
+        6,
+        6,
+        4,
+        7,
+        8,
+        6,
+        4,
+        4,
+        10,
+        12,
+        9
+      ],
+      "max_block_bits": 778
+    },
+    {
+      "file": "noise-rgb-q100-422-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "7e34ade6a0fcb6afcd78cf470894fb26ff9bc1110d4cdac7b48d28898d1c826b",
+        "2": "2399a1cdd6721edb68fee7c7b2fb538256b2abf5121acd4111c6effadbe389ff",
+        "3": "d794d48181ba47a9a25cea58b254dff5e83e6982cf9e0bada789b5d1b3f7aa31"
+      },
+      "blocks_by_component": {
+        "1": 144,
+        "2": 72,
+        "3": 72
+      },
+      "max_abs_dc_difference": 946,
+      "sixteen_bit_symbols": 51,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 5,
+          "all_one_padding": true
+        },
+        {
+          "bits": 0,
+          "all_one_padding": true
+        },
+        {
+          "bits": 1,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        15,
+        7,
+        8,
+        10,
+        8,
+        7,
+        7,
+        12,
+        8,
+        12,
+        13,
+        11,
+        5,
+        5,
+        9,
+        13,
+        6,
+        13,
+        13,
+        8,
+        10,
+        7,
+        7,
+        3,
+        5,
+        15,
+        9,
+        6,
+        5,
+        11,
+        8,
+        12
+      ],
+      "max_block_bits": 778
+    },
+    {
+      "file": "noise-rgb-q100-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "7e34ade6a0fcb6afcd78cf470894fb26ff9bc1110d4cdac7b48d28898d1c826b",
+        "2": "25cf912664f497d4b03ac52d2f28e43d0ebd2e034c616c52a976f2dfda3a8e8a",
+        "3": "c2883c7a026978b47e1bd32234737915639d21541574386fb5edbbb3ababeb09"
+      },
+      "blocks_by_component": {
+        "1": 144,
+        "2": 144,
+        "3": 144
+      },
+      "max_abs_dc_difference": 827,
+      "sixteen_bit_symbols": 62,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 7,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        11,
+        12,
+        12,
+        16,
+        15,
+        13,
+        18,
+        13,
+        13,
+        12,
+        9,
+        16,
+        15,
+        20,
+        11,
+        16,
+        15,
+        14,
+        14,
+        18,
+        10,
+        15,
+        15,
+        19,
+        11,
+        8,
+        7,
+        11,
+        14,
+        13,
+        10,
+        16
+      ],
+      "max_block_bits": 778
+    },
+    {
+      "file": "noise-rgb-q100-444-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "7e34ade6a0fcb6afcd78cf470894fb26ff9bc1110d4cdac7b48d28898d1c826b",
+        "2": "25cf912664f497d4b03ac52d2f28e43d0ebd2e034c616c52a976f2dfda3a8e8a",
+        "3": "c2883c7a026978b47e1bd32234737915639d21541574386fb5edbbb3ababeb09"
+      },
+      "blocks_by_component": {
+        "1": 144,
+        "2": 144,
+        "3": 144
+      },
+      "max_abs_dc_difference": 827,
+      "sixteen_bit_symbols": 62,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 5,
+          "all_one_padding": true
+        },
+        {
+          "bits": 7,
+          "all_one_padding": true
+        },
+        {
+          "bits": 3,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        18,
+        11,
+        14,
+        10,
+        13,
+        14,
+        11,
+        14,
+        15,
+        13,
+        11,
+        19,
+        14,
+        9,
+        25,
+        15,
+        13,
+        10,
+        17,
+        18,
+        11,
+        21,
+        18,
+        12,
+        9,
+        16,
+        8,
+        8,
+        7,
+        10,
+        15,
+        13
+      ],
+      "max_block_bits": 778
+    },
+    {
+      "file": "noise-rgb-q75-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "c0b75b8699543252ae0f14f2c59b9b5638ba866b25254873d8185fed5d5f9d5a",
+        "2": "f74f9ff32fa9f8a6d26fcba4522382b24aceba2bcd75a12d88ea4bb673c52273",
+        "3": "0e5a09a7be856c5400b905b841a21862c8a901a97c08aa2aa849593c77a34ed1"
+      },
+      "blocks_by_component": {
+        "1": 160,
+        "2": 40,
+        "3": 40
+      },
+      "max_abs_dc_difference": 103,
+      "sixteen_bit_symbols": 5,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 3,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        8,
+        4,
+        6,
+        12,
+        5,
+        3,
+        6,
+        9,
+        7,
+        3,
+        11,
+        6,
+        8,
+        13,
+        9,
+        6,
+        8,
+        10,
+        5,
+        6,
+        6,
+        8,
+        10,
+        4,
+        7,
+        8,
+        10,
+        9,
+        6,
+        10,
+        8,
+        9
+      ],
+      "max_block_bits": 270
+    },
+    {
+      "file": "noise-rgb-q75-420-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "2aa7ccd72ab3ad814cbeeb86f01b03b46b0ca2b208998a7aa2873e40dbec00ba",
+        "2": "f74f9ff32fa9f8a6d26fcba4522382b24aceba2bcd75a12d88ea4bb673c52273",
+        "3": "0e5a09a7be856c5400b905b841a21862c8a901a97c08aa2aa849593c77a34ed1"
+      },
+      "blocks_by_component": {
+        "1": 144,
+        "2": 40,
+        "3": 40
+      },
+      "max_abs_dc_difference": 103,
+      "sixteen_bit_symbols": 5,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 1,
+          "all_one_padding": true
+        },
+        {
+          "bits": 3,
+          "all_one_padding": true
+        },
+        {
+          "bits": 2,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        7,
+        7,
+        8,
+        4,
+        14,
+        5,
+        5,
+        7,
+        6,
+        6,
+        12,
+        5,
+        10,
+        6,
+        4,
+        10,
+        8,
+        7,
+        7,
+        7,
+        5,
+        4,
+        7,
+        5,
+        6,
+        4,
+        14,
+        4,
+        7,
+        4,
+        8,
+        11
+      ],
+      "max_block_bits": 268
+    },
+    {
+      "file": "noise-rgb-q75-422-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "2aa7ccd72ab3ad814cbeeb86f01b03b46b0ca2b208998a7aa2873e40dbec00ba",
+        "2": "ce5a423dfb24853149600bfb06ad7ed3223b0fe5e1d4efc6c7347f9d1047f9a2",
+        "3": "21157cc03bef30dc041dbf41c4c9bb1415180ea718fabeb5ffc4e07ade4c83a7"
+      },
+      "blocks_by_component": {
+        "1": 144,
+        "2": 72,
+        "3": 72
+      },
+      "max_abs_dc_difference": 105,
+      "sixteen_bit_symbols": 4,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 1,
+          "all_one_padding": true
+        },
+        {
+          "bits": 4,
+          "all_one_padding": true
+        },
+        {
+          "bits": 3,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        11,
+        7,
+        6,
+        11,
+        13,
+        9,
+        8,
+        8,
+        9,
+        10,
+        14,
+        7,
+        13,
+        10,
+        11,
+        7,
+        7,
+        6,
+        8,
+        9,
+        9,
+        7,
+        5,
+        9,
+        9,
+        8,
+        9,
+        8,
+        12,
+        6,
+        10,
+        12
+      ],
+      "max_block_bits": 268
+    },
+    {
+      "file": "noise-rgb-q75-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "2aa7ccd72ab3ad814cbeeb86f01b03b46b0ca2b208998a7aa2873e40dbec00ba",
+        "2": "cb87e4f6e7ceedabc317b1de13cb6e5602705fbd39084b189f95dcf0566392fd",
+        "3": "8a27e23a8f2c6546e09cf4e711bdd1bd487e7a3d854db34d83123707747762ea"
+      },
+      "blocks_by_component": {
+        "1": 144,
+        "2": 144,
+        "3": 144
+      },
+      "max_abs_dc_difference": 103,
+      "sixteen_bit_symbols": 5,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 5,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        22,
+        9,
+        13,
+        16,
+        22,
+        11,
+        13,
+        9,
+        10,
+        16,
+        16,
+        16,
+        23,
+        9,
+        15,
+        7,
+        13,
+        8,
+        5,
+        14,
+        12,
+        12,
+        20,
+        12,
+        18,
+        20,
+        11,
+        10,
+        11,
+        15,
+        12,
+        12
+      ],
+      "max_block_bits": 268
+    },
+    {
+      "file": "noise-rgb-q75-444-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "2aa7ccd72ab3ad814cbeeb86f01b03b46b0ca2b208998a7aa2873e40dbec00ba",
+        "2": "cb87e4f6e7ceedabc317b1de13cb6e5602705fbd39084b189f95dcf0566392fd",
+        "3": "8a27e23a8f2c6546e09cf4e711bdd1bd487e7a3d854db34d83123707747762ea"
+      },
+      "blocks_by_component": {
+        "1": 144,
+        "2": 144,
+        "3": 144
+      },
+      "max_abs_dc_difference": 103,
+      "sixteen_bit_symbols": 5,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 1,
+          "all_one_padding": true
+        },
+        {
+          "bits": 1,
+          "all_one_padding": true
+        },
+        {
+          "bits": 3,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        13,
+        12,
+        16,
+        13,
+        19,
+        14,
+        8,
+        12,
+        14,
+        19,
+        17,
+        15,
+        14,
+        12,
+        14,
+        12,
+        13,
+        12,
+        9,
+        15,
+        16,
+        10,
+        11,
+        13,
+        12,
+        13,
+        17,
+        7,
+        16,
+        12,
+        18,
+        14
+      ],
+      "max_block_bits": 268
+    },
+    {
+      "file": "noise-rgb-q90-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "4f8123cec11fff741c1962ae50daab74c91024d554b5074c6608502551c2d79d",
+        "2": "009a22a10fb133079611359f484e021c186f380146fd3b4902cff181aa880a1e",
+        "3": "b67f5dae3ec6f4ba6e18061826ec22c3fc71910cdacc7f9a2d23f13230738a23"
+      },
+      "blocks_by_component": {
+        "1": 160,
+        "2": 40,
+        "3": 40
+      },
+      "max_abs_dc_difference": 294,
+      "sixteen_bit_symbols": 3,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 7,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        5,
+        4,
+        10,
+        5,
+        8,
+        2,
+        6,
+        5,
+        6,
+        9,
+        10,
+        7,
+        6,
+        9,
+        5,
+        12,
+        9,
+        10,
+        13,
+        8,
+        6,
+        11,
+        8,
+        8,
+        6,
+        6,
+        12,
+        6,
+        4,
+        5,
+        10,
+        9
+      ],
+      "max_block_bits": 389
+    },
+    {
+      "file": "noise-rgb-q90-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "f09972f8985c1afb3f98c511a0acaf87c42ee556a162492704501472b66ad6b5",
+        "2": "0413c5404bd18133aa81f9fcd373b609ed24ede3c41fa31e9d6c47364392e501",
+        "3": "28a009f9180f7e6bd76b8b79a1d89e6d20196575d53fe44754f10a5aad360c09"
+      },
+      "blocks_by_component": {
+        "1": 144,
+        "2": 144,
+        "3": 144
+      },
+      "max_abs_dc_difference": 276,
+      "sixteen_bit_symbols": 3,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 1,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        14,
+        18,
+        14,
+        21,
+        17,
+        11,
+        12,
+        13,
+        21,
+        9,
+        7,
+        11,
+        12,
+        21,
+        19,
+        11,
+        21,
+        10,
+        8,
+        15,
+        6,
+        15,
+        14,
+        13,
+        17,
+        12,
+        8,
+        10,
+        17,
+        8,
+        10,
+        17
+      ],
+      "max_block_bits": 387
+    },
+    {
+      "file": "odd-rgb-q1-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "2bb0e9ad855b839c093a4444142466982d867c7d03a1e31d5def9de1fcab8549",
+        "2": "db086ada50d14425fcb8ccc863b8d839efd9672f8497951f94bb167dcbf24d7a",
+        "3": "0046148b9493bab3651e065e0efee20515c2b761bd433c1cb1acf57012b23987"
+      },
+      "blocks_by_component": {
+        "1": 16,
+        "2": 4,
+        "3": 4
+      },
+      "max_abs_dc_difference": 4,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 3,
+      "padding": [
+        {
+          "bits": 7,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        0,
+        3,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        2
+      ],
+      "max_block_bits": 47
+    },
+    {
+      "file": "odd-rgb-q1-422-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "aab27b960b12e30ea79f73e67d5304574c95bd45cdcf307ad58552851c1ccf81",
+        "2": "d51606c6a8a7c2c98a9be1ac62d0780e900736757b6b70ac2709f0c20f124d8c",
+        "3": "513a0ea8bf2910b9ff109e0f55d9aa4a6dae5df7fe2e465ff4bf3128add27c82"
+      },
+      "blocks_by_component": {
+        "1": 12,
+        "2": 6,
+        "3": 6
+      },
+      "max_abs_dc_difference": 4,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 1,
+      "padding": [
+        {
+          "bits": 0,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        3,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        1
+      ],
+      "max_block_bits": 38
+    },
+    {
+      "file": "odd-rgb-q1-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "201bab677a7ea09927a553a27cd010ede757e6a4ce0c325747f2fbeb90f4128c",
+        "2": "0c92803931b25cb13dd473b59f90636646693fc1f3583496ec015fa6f9f278f7",
+        "3": "fbff444c7971512def88293f7cd1b960cb7d5367defd7a097014afbf07a15876"
+      },
+      "blocks_by_component": {
+        "1": 9,
+        "2": 9,
+        "3": 9
+      },
+      "max_abs_dc_difference": 4,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 1,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        3,
+        2,
+        1,
+        0,
+        2,
+        0,
+        0
+      ],
+      "max_block_bits": 33
+    },
+    {
+      "file": "odd-rgb-q100-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "9f614590fed0c7541a975ce788d2cae3b5d0bc402499237f2b0b75590d5ba5b7",
+        "2": "672971961ba66b9e9eb37e2248e1051294a8d1ee67d37982a14d27ba58b51001",
+        "3": "82369b9c3787cbf52fea36a894f536a29710351d77e72e47ab318a50fd148ae3"
+      },
+      "blocks_by_component": {
+        "1": 16,
+        "2": 4,
+        "3": 4
+      },
+      "max_abs_dc_difference": 915,
+      "sixteen_bit_symbols": 6,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 2,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        1,
+        4,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "max_block_bits": 666
+    },
+    {
+      "file": "odd-rgb-q100-420-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "0700acdd7bdd0b6ab55611547bebab8cd6af752bcaa57163a64303a972eb01ac",
+        "2": "672971961ba66b9e9eb37e2248e1051294a8d1ee67d37982a14d27ba58b51001",
+        "3": "82369b9c3787cbf52fea36a894f536a29710351d77e72e47ab318a50fd148ae3"
+      },
+      "blocks_by_component": {
+        "1": 9,
+        "2": 4,
+        "3": 4
+      },
+      "max_abs_dc_difference": 916,
+      "sixteen_bit_symbols": 6,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        },
+        {
+          "bits": 1,
+          "all_one_padding": true
+        },
+        {
+          "bits": 3,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      "max_block_bits": 666
+    },
+    {
+      "file": "odd-rgb-q100-422-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "a80e9b7af39fe0bd9d1ef82462cd985613bcc1167402eeb1373d04a4f82aeb54",
+        "2": "e7af8a8201ed483468fff7dd947e86ea2b37e6f1807f8d372cfdb6a042ae9305",
+        "3": "71ccf44f9198497c9e9ba6797d15e012d4e3acfc0bc128a621d960c7484d97b1"
+      },
+      "blocks_by_component": {
+        "1": 12,
+        "2": 6,
+        "3": 6
+      },
+      "max_abs_dc_difference": 1046,
+      "sixteen_bit_symbols": 6,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 0,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        3,
+        0,
+        0,
+        0,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "max_block_bits": 671
+    },
+    {
+      "file": "odd-rgb-q100-422-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "0700acdd7bdd0b6ab55611547bebab8cd6af752bcaa57163a64303a972eb01ac",
+        "2": "e7af8a8201ed483468fff7dd947e86ea2b37e6f1807f8d372cfdb6a042ae9305",
+        "3": "71ccf44f9198497c9e9ba6797d15e012d4e3acfc0bc128a621d960c7484d97b1"
+      },
+      "blocks_by_component": {
+        "1": 9,
+        "2": 6,
+        "3": 6
+      },
+      "max_abs_dc_difference": 926,
+      "sixteen_bit_symbols": 6,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        },
+        {
+          "bits": 6,
+          "all_one_padding": true
+        },
+        {
+          "bits": 2,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      "max_block_bits": 671
+    },
+    {
+      "file": "odd-rgb-q100-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "0700acdd7bdd0b6ab55611547bebab8cd6af752bcaa57163a64303a972eb01ac",
+        "2": "acc1c2ac4054a423cc7dd506a8643096ae669c546b528f571cff2f9253eb0479",
+        "3": "a0f7b6022ccb6bd616186b34b15f21331d3647764c0f8b408f0969fcfa0f5a02"
+      },
+      "blocks_by_component": {
+        "1": 9,
+        "2": 9,
+        "3": 9
+      },
+      "max_abs_dc_difference": 920,
+      "sixteen_bit_symbols": 10,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 4,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        0,
+        3,
+        2,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "max_block_bits": 658
+    },
+    {
+      "file": "odd-rgb-q100-444-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "0700acdd7bdd0b6ab55611547bebab8cd6af752bcaa57163a64303a972eb01ac",
+        "2": "acc1c2ac4054a423cc7dd506a8643096ae669c546b528f571cff2f9253eb0479",
+        "3": "a0f7b6022ccb6bd616186b34b15f21331d3647764c0f8b408f0969fcfa0f5a02"
+      },
+      "blocks_by_component": {
+        "1": 9,
+        "2": 9,
+        "3": 9
+      },
+      "max_abs_dc_difference": 920,
+      "sixteen_bit_symbols": 10,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        },
+        {
+          "bits": 6,
+          "all_one_padding": true
+        },
+        {
+          "bits": 0,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        4,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        3,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2
+      ],
+      "max_block_bits": 658
+    },
+    {
+      "file": "odd-rgb-q75-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "70116332e2725ac8c04f9f00382f1c307d6f77eb2573923fa12404a9b156c20e",
+        "2": "809518bd619670f041754cc3feeb1b79396a2ef34481b8d1f543d2fe6a7f172e",
+        "3": "cbfb3934aa0bea0a15f779d9c5fd94c9a50499729ec93e077718279eda7617fd"
+      },
+      "blocks_by_component": {
+        "1": 16,
+        "2": 4,
+        "3": 4
+      },
+      "max_abs_dc_difference": 106,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 0,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        0,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        3,
+        0
+      ],
+      "max_block_bits": 216
+    },
+    {
+      "file": "odd-rgb-q75-420-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "653be44c8652bff01983fad6d53b565b133d65d5cc31c06e686b4c68eb30dcfd",
+        "2": "809518bd619670f041754cc3feeb1b79396a2ef34481b8d1f543d2fe6a7f172e",
+        "3": "cbfb3934aa0bea0a15f779d9c5fd94c9a50499729ec93e077718279eda7617fd"
+      },
+      "blocks_by_component": {
+        "1": 9,
+        "2": 4,
+        "3": 4
+      },
+      "max_abs_dc_difference": 115,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 1,
+          "all_one_padding": true
+        },
+        {
+          "bits": 2,
+          "all_one_padding": true
+        },
+        {
+          "bits": 3,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "max_block_bits": 222
+    },
+    {
+      "file": "odd-rgb-q75-422-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "c2851336e16a97d5375a736d4d7259bc579d342968eeeaf9ff6e3bc6c7cf8fc0",
+        "2": "98e94d00e1b9ec0aeb494df334964115528bee6ec5a5b9ca8223bb74f96175a3",
+        "3": "1bc9517c9e5aec153b7d8ffadff1662d50b88c38c539d9b378988f21ab93bd1d"
+      },
+      "blocks_by_component": {
+        "1": 12,
+        "2": 6,
+        "3": 6
+      },
+      "max_abs_dc_difference": 131,
+      "sixteen_bit_symbols": 2,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 3,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        2,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "max_block_bits": 224
+    },
+    {
+      "file": "odd-rgb-q75-422-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "653be44c8652bff01983fad6d53b565b133d65d5cc31c06e686b4c68eb30dcfd",
+        "2": "98e94d00e1b9ec0aeb494df334964115528bee6ec5a5b9ca8223bb74f96175a3",
+        "3": "1bc9517c9e5aec153b7d8ffadff1662d50b88c38c539d9b378988f21ab93bd1d"
+      },
+      "blocks_by_component": {
+        "1": 9,
+        "2": 6,
+        "3": 6
+      },
+      "max_abs_dc_difference": 115,
+      "sixteen_bit_symbols": 2,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 1,
+          "all_one_padding": true
+        },
+        {
+          "bits": 2,
+          "all_one_padding": true
+        },
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        3,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        3,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "max_block_bits": 222
+    },
+    {
+      "file": "odd-rgb-q75-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "653be44c8652bff01983fad6d53b565b133d65d5cc31c06e686b4c68eb30dcfd",
+        "2": "7707b3000139f6ba907a0f8b80b6a7fe417c7f6573630aea841d57ebba93c323",
+        "3": "9a8d977c4312f2a4d5d7a07dbb3f267ea36b483294361beaf175b6b79dc9ce56"
+      },
+      "blocks_by_component": {
+        "1": 9,
+        "2": 9,
+        "3": 9
+      },
+      "max_abs_dc_difference": 115,
+      "sixteen_bit_symbols": 2,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 7,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        0,
+        3,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        2,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2,
+        1
+      ],
+      "max_block_bits": 222
+    },
+    {
+      "file": "odd-rgb-q75-444-planar-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "653be44c8652bff01983fad6d53b565b133d65d5cc31c06e686b4c68eb30dcfd",
+        "2": "7707b3000139f6ba907a0f8b80b6a7fe417c7f6573630aea841d57ebba93c323",
+        "3": "9a8d977c4312f2a4d5d7a07dbb3f267ea36b483294361beaf175b6b79dc9ce56"
+      },
+      "blocks_by_component": {
+        "1": 9,
+        "2": 9,
+        "3": 9
+      },
+      "max_abs_dc_difference": 115,
+      "sixteen_bit_symbols": 2,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 1,
+          "all_one_padding": true
+        },
+        {
+          "bits": 6,
+          "all_one_padding": true
+        },
+        {
+          "bits": 0,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        3,
+        2,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        4,
+        1,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "max_block_bits": 222
+    },
+    {
+      "file": "odd-rgb-q90-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "1133b8f4e2213deda2148cacdaf0e8f8913f1783e48af5307197beab59f41ed0",
+        "2": "a8b220839f9f3305baa2819f78ee42505edf20b6a7b023d872087dc6a8349c26",
+        "3": "e582f2c0e39d87e166d0673fb30bb4f94c50add1cbf32b5f864ec89e09face5a"
+      },
+      "blocks_by_component": {
+        "1": 16,
+        "2": 4,
+        "3": 4
+      },
+      "max_abs_dc_difference": 305,
+      "sixteen_bit_symbols": 2,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 0,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        4,
+        1,
+        1,
+        0,
+        0,
+        1,
+        3,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "max_block_bits": 323
+    },
+    {
+      "file": "odd-rgb-q90-422-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "c775ed64da5cb8c36fcf6a53d2abeca0d3e124c25463a51f5d24edb67aec5ba3",
+        "2": "2da227623303f2422ee227fa1cce0022d28e66191db4d77f4af09b17a402d65b",
+        "3": "605af75689a759c0f0451b53f1494a64afefb83574baa5ca349e94c1a9c16b9f"
+      },
+      "blocks_by_component": {
+        "1": 12,
+        "2": 6,
+        "3": 6
+      },
+      "max_abs_dc_difference": 348,
+      "sixteen_bit_symbols": 4,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 7,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2,
+        2,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "max_block_bits": 323
+    },
+    {
+      "file": "odd-rgb-q90-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "5fc1cf293f5cb59fbed088766bfdbfbd09ae7988d254c28f18da6531991c80be",
+        "2": "4655cd1a532bd3a55e9996891b9f658b1656bc058c9e9c04959aaffa3ac117f2",
+        "3": "533467e9c7dde4797471596d9ead60314ea664abfccd6ab1cbf45d1d4467d6a7"
+      },
+      "blocks_by_component": {
+        "1": 9,
+        "2": 9,
+        "3": 9
+      },
+      "max_abs_dc_difference": 307,
+      "sixteen_bit_symbols": 3,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 5,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        1,
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "max_block_bits": 323
+    },
+    {
+      "file": "tiny-black-gray-q1-gray-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "ff40b3c774aaf53d756434dfbbb306108bd64b758af7ea03b14f7e2f1b53b79d"
+      },
+      "blocks_by_component": {
+        "1": 1
+      },
+      "max_abs_dc_difference": 4,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_block_bits": 10
+    },
+    {
+      "file": "tiny-black-gray-q100-gray-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "0b46629d2ba7fbb5322fd28c1ec605421ce73288d28f2daeb715869bc036e368"
+      },
+      "blocks_by_component": {
+        "1": 1
+      },
+      "max_abs_dc_difference": 1024,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 0,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_block_bits": 24
+    },
+    {
+      "file": "tiny-black-gray-q75-gray-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "362221084b259b267a58dd71465e15668744e39bc121d97e6a0d81116f3d4457"
+      },
+      "blocks_by_component": {
+        "1": 1
+      },
+      "max_abs_dc_difference": 128,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_block_bits": 18
+    },
+    {
+      "file": "tiny-black-gray-q90-gray-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "53d2d2b1a53535a5d0ae82bde6ec8f3af0f509e947bc5fb7967a7e54dc72ddcf"
+      },
+      "blocks_by_component": {
+        "1": 1
+      },
+      "max_abs_dc_difference": 341,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 4,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_block_bits": 20
+    },
+    {
+      "file": "tiny-white-q1-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "e1b29aa94826df947bc7196a031025798d137fbb4aaea567cdc47367877b4039",
+        "2": "ff40b3c774aaf53d756434dfbbb306108bd64b758af7ea03b14f7e2f1b53b79d",
+        "3": "ff40b3c774aaf53d756434dfbbb306108bd64b758af7ea03b14f7e2f1b53b79d"
+      },
+      "blocks_by_component": {
+        "1": 4,
+        "2": 1,
+        "3": 1
+      },
+      "max_abs_dc_difference": 4,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 4,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "max_block_bits": 10
+    },
+    {
+      "file": "tiny-white-q1-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "ff40b3c774aaf53d756434dfbbb306108bd64b758af7ea03b14f7e2f1b53b79d",
+        "2": "ff40b3c774aaf53d756434dfbbb306108bd64b758af7ea03b14f7e2f1b53b79d",
+        "3": "ff40b3c774aaf53d756434dfbbb306108bd64b758af7ea03b14f7e2f1b53b79d"
+      },
+      "blocks_by_component": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "max_abs_dc_difference": 4,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_block_bits": 10
+    },
+    {
+      "file": "tiny-white-q100-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "4215e8bb0936429303c64795cfaca2b8c9716f09c82b31a43b63466ed8f8efa5",
+        "2": "dfddac58b777cb83611b837f2600beec4a2aae4c984a946eb255112abf438577",
+        "3": "dfddac58b777cb83611b837f2600beec4a2aae4c984a946eb255112abf438577"
+      },
+      "blocks_by_component": {
+        "1": 4,
+        "2": 1,
+        "3": 1
+      },
+      "max_abs_dc_difference": 1008,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 4,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "max_block_bits": 684
+    },
+    {
+      "file": "tiny-white-q100-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "9bbf8035f31ad86b8f6a3a2f191ed4561d5853144ccd6186a02771bc7dabd488",
+        "2": "dfddac58b777cb83611b837f2600beec4a2aae4c984a946eb255112abf438577",
+        "3": "dfddac58b777cb83611b837f2600beec4a2aae4c984a946eb255112abf438577"
+      },
+      "blocks_by_component": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "max_abs_dc_difference": 1008,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_block_bits": 684
+    },
+    {
+      "file": "tiny-white-q75-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "dcceb3b26ab06ec2dd1c497bb3d09160729975af81d69823924cea7676a710c4",
+        "2": "2263cb63c0da593010148e31b66b31d989214414133cfd699c6be3a4ae04f335",
+        "3": "2263cb63c0da593010148e31b66b31d989214414133cfd699c6be3a4ae04f335"
+      },
+      "blocks_by_component": {
+        "1": 4,
+        "2": 1,
+        "3": 1
+      },
+      "max_abs_dc_difference": 124,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 1,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_block_bits": 209
+    },
+    {
+      "file": "tiny-white-q75-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "e459b147b79f2d7f590e6260d3b754166a66c0c60b3915df0c5c3b772d748459",
+        "2": "2263cb63c0da593010148e31b66b31d989214414133cfd699c6be3a4ae04f335",
+        "3": "2263cb63c0da593010148e31b66b31d989214414133cfd699c6be3a4ae04f335"
+      },
+      "blocks_by_component": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "max_abs_dc_difference": 124,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 7,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_block_bits": 209
+    },
+    {
+      "file": "tiny-white-q90-420-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "8cc7b1628f8f2b67202eba4ccd8a9321b2f4aa6253b5527be5404823a89ed4ac",
+        "2": "f50bc61dc44c203e777c051dec424e028419bd57ab2cdf1e3a958915f22c22e4",
+        "3": "f50bc61dc44c203e777c051dec424e028419bd57ab2cdf1e3a958915f22c22e4"
+      },
+      "blocks_by_component": {
+        "1": 4,
+        "2": 1,
+        "3": 1
+      },
+      "max_abs_dc_difference": 336,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 7,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_block_bits": 324
+    },
+    {
+      "file": "tiny-white-q90-444-interleaved-candidate.jpg",
+      "coefficient_sha256_by_component": {
+        "1": "4577f67b1577d9db92b58f984af1e7cb94c3c9e2e0e99296f122771173d94580",
+        "2": "f50bc61dc44c203e777c051dec424e028419bd57ab2cdf1e3a958915f22c22e4",
+        "3": "f50bc61dc44c203e777c051dec424e028419bd57ab2cdf1e3a958915f22c22e4"
+      },
+      "blocks_by_component": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "max_abs_dc_difference": 336,
+      "sixteen_bit_symbols": 0,
+      "zrl_symbols": 0,
+      "padding": [
+        {
+          "bits": 6,
+          "all_one_padding": true
+        }
+      ],
+      "block_start_bit_offsets_mod32_histogram": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_block_bits": 324
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "const": {
+    "comparisons": 140,
+    "inputs": 38,
+    "gpu_route_inputs": 34,
+    "independent_known_coefficient_inputs": 10,
+    "modes": {
+      "fresh": 38,
+      "single": 34,
+      "dual": 68
+    }
+  }
+}

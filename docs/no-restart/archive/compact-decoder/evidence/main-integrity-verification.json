@@ -1,0 +1,141 @@
+{
+  "all_match": true,
+  "entries": [
+    {
+      "role": "binary",
+      "name": "baseline",
+      "path": "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+      "before_sha256": "ebdf2a9a82fc00749d1a8d4b608d72db2d652c4197806b2a5459a811745caacf",
+      "after_sha256": "ebdf2a9a82fc00749d1a8d4b608d72db2d652c4197806b2a5459a811745caacf",
+      "bytes": 10831360,
+      "match": true
+    },
+    {
+      "role": "binary",
+      "name": "staged",
+      "path": "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+      "before_sha256": "03c40f0d6cc869aafc1ddfb436290ac4b21d9b9dfd8ec9ac677cc2025dc1c40c",
+      "after_sha256": "03c40f0d6cc869aafc1ddfb436290ac4b21d9b9dfd8ec9ac677cc2025dc1c40c",
+      "bytes": 10876416,
+      "match": true
+    },
+    {
+      "role": "binary",
+      "name": "fastvideo",
+      "path": "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\fast_jpeg.exe",
+      "before_sha256": "01735bf880587184119d70d56bda433ef01516e8d1139d880c765afca34dbac3",
+      "after_sha256": "01735bf880587184119d70d56bda433ef01516e8d1139d880c765afca34dbac3",
+      "bytes": 26992640,
+      "match": true
+    },
+    {
+      "role": "binary",
+      "name": "unstuff_only",
+      "path": "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+      "before_sha256": "0f5763e14c3c400c651700191ae8e428ad094e70a2d1ffe9f5feebee4bdc7c5e",
+      "after_sha256": "0f5763e14c3c400c651700191ae8e428ad094e70a2d1ffe9f5feebee4bdc7c5e",
+      "bytes": 10874368,
+      "match": true
+    },
+    {
+      "role": "input",
+      "name": "hd444-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+      "before_sha256": "c513302440d505f846808347ea15a8629a0b5727226cbee834bbe945f9c77c70",
+      "after_sha256": "c513302440d505f846808347ea15a8629a0b5727226cbee834bbe945f9c77c70",
+      "bytes": 700601,
+      "match": true
+    },
+    {
+      "role": "input",
+      "name": "hd420-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+      "before_sha256": "9ac03460b511df96cbfea22dec890600c07830e5a4e7b94cebb721b8b28451de",
+      "after_sha256": "9ac03460b511df96cbfea22dec890600c07830e5a4e7b94cebb721b8b28451de",
+      "bytes": 536049,
+      "match": true
+    },
+    {
+      "role": "input",
+      "name": "hd422-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd422-r10.jpg",
+      "before_sha256": "a7ebce24abd6260570a46867e42a311b2a9cf98bceb9a03c691cb804f2ec9846",
+      "after_sha256": "a7ebce24abd6260570a46867e42a311b2a9cf98bceb9a03c691cb804f2ec9846",
+      "bytes": 590267,
+      "match": true
+    },
+    {
+      "role": "input",
+      "name": "4k444-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+      "before_sha256": "f1bca76162bfec4bda4996e7684298446a3ec867494bdc4bc02ea6612d9e55dd",
+      "after_sha256": "f1bca76162bfec4bda4996e7684298446a3ec867494bdc4bc02ea6612d9e55dd",
+      "bytes": 2058919,
+      "match": true
+    },
+    {
+      "role": "input",
+      "name": "4k420-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+      "before_sha256": "7ea93a4fd14aaf1fff4d520520f9859daf379b84a75d3302a27e2e47992fb1bd",
+      "after_sha256": "7ea93a4fd14aaf1fff4d520520f9859daf379b84a75d3302a27e2e47992fb1bd",
+      "bytes": 1560635,
+      "match": true
+    },
+    {
+      "role": "input",
+      "name": "hdgray-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hdgray-r10.jpg",
+      "before_sha256": "394d00970b39bc8b8a561c21d50f6331b067ce675dd7e34069e3b0add2df36e2",
+      "after_sha256": "394d00970b39bc8b8a561c21d50f6331b067ce675dd7e34069e3b0add2df36e2",
+      "bytes": 471216,
+      "match": true
+    },
+    {
+      "role": "input",
+      "name": "hd444-r1",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r1.jpg",
+      "before_sha256": "1d3788b8326e79edee3d0fa2bdd505343a11adab0fe6cb7d55ba35997f1950d7",
+      "after_sha256": "1d3788b8326e79edee3d0fa2bdd505343a11adab0fe6cb7d55ba35997f1950d7",
+      "bytes": 831211,
+      "match": true
+    },
+    {
+      "role": "input",
+      "name": "hd444-r32",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r32.jpg",
+      "before_sha256": "f209220787e5391ba14fa1a8065b5eeae5083ffeff396e4abaee22c676a3645c",
+      "after_sha256": "f209220787e5391ba14fa1a8065b5eeae5083ffeff396e4abaee22c676a3645c",
+      "bytes": 690646,
+      "match": true
+    },
+    {
+      "role": "input",
+      "name": "hd444-r0",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r0.jpg",
+      "before_sha256": "c93dc4d7230c3f8646b886a56f5c666fddd60c8a7712d94bfd3b6cbc75ac83e8",
+      "after_sha256": "c93dc4d7230c3f8646b886a56f5c666fddd60c8a7712d94bfd3b6cbc75ac83e8",
+      "bytes": 686167,
+      "match": true
+    },
+    {
+      "role": "input",
+      "name": "4k420-r0",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r0.jpg",
+      "before_sha256": "bc6a2477f7ce6844e077f0901417cf6e9ca42f76d9fca6c3b374ec76e4c79cac",
+      "after_sha256": "bc6a2477f7ce6844e077f0901417cf6e9ca42f76d9fca6c3b374ec76e4c79cac",
+      "bytes": 1546471,
+      "match": true
+    },
+    {
+      "role": "observer",
+      "name": "fastvideo_qpc",
+      "path": "<WORKSPACE>\\work\\compact-decode\\measurement\\qpc_capture.dll",
+      "before_sha256": "078d610eda82fc49b84e78c101d5dbaaa01da565845e0301d237c33aee1037d6",
+      "after_sha256": "078d610eda82fc49b84e78c101d5dbaaa01da565845e0301d237c33aee1037d6",
+      "bytes": 11264,
+      "match": true
+    }
+  ],
+  "verified_utc": "2026-10-20T17:04:42.894118+00:00"
+}

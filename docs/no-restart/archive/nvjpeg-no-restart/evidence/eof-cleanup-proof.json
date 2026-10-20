@@ -1,0 +1,18 @@
+[
+  {
+    "path": "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_huffman_no_restart.cuh",
+    "before_sha256": "20499e59f88855db876d948b66e16602306bc7dfbd2654bc32b21dcc30ff29e4",
+    "after_sha256": "eb432d305a363c66ee592d24e2de167df0278d4d1cc08ccef66620381c556ddb",
+    "bytes_removed": 1,
+    "removed_byte_hex": "0a",
+    "rstrip_newline_identical": true
+  },
+  {
+    "path": "<WORKSPACE>\\work\\GPUJPEG\\HUFFMAN_NO_RESTART.md",
+    "before_sha256": "add576c9681600b7ad4e94049349f870c818a28b3c46b52eb4d82583ecc49d1e",
+    "after_sha256": "889a4622ef1ca932a067891c729c37c5f4c8ae9289f7bb673999d18b85c2a27a",
+    "bytes_removed": 1,
+    "removed_byte_hex": "0a",
+    "rstrip_newline_identical": true
+  }
+]

@@ -1,0 +1,26 @@
+========= COMPUTE-SANITIZER
+CUDA driver version:   13.4
+CUDA runtime version:  13.4
+Using Device #0:       NVIDIA GeForce RTX 3050 (c.c. 8.6)
+Decode Image GPU:       18.8254 ms (only in-GPU processing)
+Decode Image Bare:      21.3319 ms (without copy to/from GPU memory)
+Decode Image:           22.2749 ms
+Decompressed Size:       43,584 bytes 8x5448 u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+Decode Image GPU:       10.0192 ms (only in-GPU processing)
+Decode Image Bare:      10.7081 ms (without copy to/from GPU memory)
+Decode Image:           11.1642 ms
+Decompressed Size:       43,584 bytes 8x5448 u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+
+Avg Decode Duration:    16.7195 ms
+
+GPUJPEG rev 78e5eee built Oct 20 2026 18:49:40 
+
+Decoding Image [work/compact-decode/correctness/stress/holes16-r17.jpg] to u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+Load Image:                1.22 ms
+
+Iteration #1:
+
+Iteration #2:
+Save Image:                0.91 ms
+Image Name:          work/compact-decode/correctness/sanitizers/memcheck-valid-holes16-strict.pgm
+========= ERROR SUMMARY: 0 errors

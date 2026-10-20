@@ -1,0 +1,5918 @@
+[
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-gray-q90-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-gray-q90-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "f5a4514993225d4d049331f958020f74d8af2b13c22291c3c340438e36ef2eff",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 3840,
+        "height": 2160,
+        "components": 1,
+        "segments": 1,
+        "blocks": 129600,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 8294400,
+        "coefficient_bytes": 16588800
+      },
+      "pixels": {
+        "bytes": 8294400,
+        "sha256": "3ab9bd2950a39838efbbfb72be020c6b09aae0e26c9f2b451642b0ae0d9e8d88"
+      },
+      "coefficients": {
+        "bytes": 16588800,
+        "sha256": "47c96b50a1f8173fec8a28e0e9f39a17448989c4981913aed680db07f541f834"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-gray-q90-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "f5a4514993225d4d049331f958020f74d8af2b13c22291c3c340438e36ef2eff",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 3840,
+        "height": 2160,
+        "components": 1,
+        "segments": 1,
+        "blocks": 129600,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 8294400,
+        "coefficient_bytes": 16588800
+      },
+      "pixels": {
+        "bytes": 8294400,
+        "sha256": "3ab9bd2950a39838efbbfb72be020c6b09aae0e26c9f2b451642b0ae0d9e8d88"
+      },
+      "coefficients": {
+        "bytes": 16588800,
+        "sha256": "47c96b50a1f8173fec8a28e0e9f39a17448989c4981913aed680db07f541f834"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-420-interleaved-reference.jpg",
+      "jpeg_sha256": "bc6a2477f7ce6844e077f0901417cf6e9ca42f76d9fca6c3b374ec76e4c79cac",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 3840,
+        "height": 2160,
+        "components": 3,
+        "segments": 1,
+        "blocks": 194400,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24883200,
+        "coefficient_bytes": 24883200
+      },
+      "pixels": {
+        "bytes": 24883200,
+        "sha256": "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07"
+      },
+      "coefficients": {
+        "bytes": 24883200,
+        "sha256": "e42aaa2ed16ea033ec3ee630681372a2987f978b9edb34c5c1785b03b2556fc0"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-420-interleaved-reference.jpg",
+      "jpeg_sha256": "bc6a2477f7ce6844e077f0901417cf6e9ca42f76d9fca6c3b374ec76e4c79cac",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 3840,
+        "height": 2160,
+        "components": 3,
+        "segments": 1,
+        "blocks": 194400,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24883200,
+        "coefficient_bytes": 24883200
+      },
+      "pixels": {
+        "bytes": 24883200,
+        "sha256": "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07"
+      },
+      "coefficients": {
+        "bytes": 24883200,
+        "sha256": "e42aaa2ed16ea033ec3ee630681372a2987f978b9edb34c5c1785b03b2556fc0"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-422-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-422-interleaved-reference.jpg",
+      "jpeg_sha256": "22a83a9f427031f9f576faeaf65c80abdb69f3a5cad97de66848359708513cf4",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 3840,
+        "height": 2160,
+        "components": 3,
+        "segments": 1,
+        "blocks": 259200,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24883200,
+        "coefficient_bytes": 33177600
+      },
+      "pixels": {
+        "bytes": 24883200,
+        "sha256": "40012140cd5fc387e3f67fbe397604fa0b7a6e7d7bfa068a5d2d3e3234882646"
+      },
+      "coefficients": {
+        "bytes": 33177600,
+        "sha256": "d3364e6eead7ae150a00c289848483ad03303cf1d8e159dd8863c7e568049a3c"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-422-interleaved-reference.jpg",
+      "jpeg_sha256": "22a83a9f427031f9f576faeaf65c80abdb69f3a5cad97de66848359708513cf4",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 3840,
+        "height": 2160,
+        "components": 3,
+        "segments": 1,
+        "blocks": 259200,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24883200,
+        "coefficient_bytes": 33177600
+      },
+      "pixels": {
+        "bytes": 24883200,
+        "sha256": "40012140cd5fc387e3f67fbe397604fa0b7a6e7d7bfa068a5d2d3e3234882646"
+      },
+      "coefficients": {
+        "bytes": 33177600,
+        "sha256": "d3364e6eead7ae150a00c289848483ad03303cf1d8e159dd8863c7e568049a3c"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-444-interleaved-reference.jpg",
+      "jpeg_sha256": "c8519b688efec32a694102ff2118935a7fb394c980b3ed35b417ce3fb2489993",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 3840,
+        "height": 2160,
+        "components": 3,
+        "segments": 1,
+        "blocks": 388800,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24883200,
+        "coefficient_bytes": 49766400
+      },
+      "pixels": {
+        "bytes": 24883200,
+        "sha256": "110d9aa6c7c5946653a8ff4c288cdcea1a04c4bc06b9d61b52c058cd9fff72f6"
+      },
+      "coefficients": {
+        "bytes": 49766400,
+        "sha256": "752a05ec3f0679a4e4401581e455f79b14b82dc6d9c88b4fbcf32b2234bacb95"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\4k-rgb-q90-444-interleaved-reference.jpg",
+      "jpeg_sha256": "c8519b688efec32a694102ff2118935a7fb394c980b3ed35b417ce3fb2489993",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 3840,
+        "height": 2160,
+        "components": 3,
+        "segments": 1,
+        "blocks": 388800,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24883200,
+        "coefficient_bytes": 49766400
+      },
+      "pixels": {
+        "bytes": 24883200,
+        "sha256": "110d9aa6c7c5946653a8ff4c288cdcea1a04c4bc06b9d61b52c058cd9fff72f6"
+      },
+      "coefficients": {
+        "bytes": 49766400,
+        "sha256": "752a05ec3f0679a4e4401581e455f79b14b82dc6d9c88b4fbcf32b2234bacb95"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-gray-q0-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-gray-q0-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "e3971979f98630a1ece685b56894d8c2046c56b420d062ea7990a432412c2480",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 1,
+        "segments": 1,
+        "blocks": 561,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 33153,
+        "coefficient_bytes": 71808
+      },
+      "pixels": {
+        "bytes": 33153,
+        "sha256": "4dbc576d5890d17051a5615286febbd0b28d8545f83b4b9f23be4a533ef0faec"
+      },
+      "coefficients": {
+        "bytes": 71808,
+        "sha256": "41bbf360bdc300938e2e5c3efff58ecd14017e88526bd60422219cfec5e65576"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-gray-q0-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "e3971979f98630a1ece685b56894d8c2046c56b420d062ea7990a432412c2480",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 1,
+        "segments": 1,
+        "blocks": 561,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 33153,
+        "coefficient_bytes": 71808
+      },
+      "pixels": {
+        "bytes": 33153,
+        "sha256": "4dbc576d5890d17051a5615286febbd0b28d8545f83b4b9f23be4a533ef0faec"
+      },
+      "coefficients": {
+        "bytes": 71808,
+        "sha256": "41bbf360bdc300938e2e5c3efff58ecd14017e88526bd60422219cfec5e65576"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-gray-q1-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-gray-q1-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "e3971979f98630a1ece685b56894d8c2046c56b420d062ea7990a432412c2480",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 1,
+        "segments": 1,
+        "blocks": 561,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 33153,
+        "coefficient_bytes": 71808
+      },
+      "pixels": {
+        "bytes": 33153,
+        "sha256": "4dbc576d5890d17051a5615286febbd0b28d8545f83b4b9f23be4a533ef0faec"
+      },
+      "coefficients": {
+        "bytes": 71808,
+        "sha256": "41bbf360bdc300938e2e5c3efff58ecd14017e88526bd60422219cfec5e65576"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-gray-q1-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "e3971979f98630a1ece685b56894d8c2046c56b420d062ea7990a432412c2480",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 1,
+        "segments": 1,
+        "blocks": 561,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 33153,
+        "coefficient_bytes": 71808
+      },
+      "pixels": {
+        "bytes": 33153,
+        "sha256": "4dbc576d5890d17051a5615286febbd0b28d8545f83b4b9f23be4a533ef0faec"
+      },
+      "coefficients": {
+        "bytes": 71808,
+        "sha256": "41bbf360bdc300938e2e5c3efff58ecd14017e88526bd60422219cfec5e65576"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-gray-q100-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-gray-q100-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "0c4c23ec8abe7c65450515006ba32bf1992b8a991f0afe2b0142d646a9fe111b",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 1,
+        "segments": 1,
+        "blocks": 561,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 33153,
+        "coefficient_bytes": 71808
+      },
+      "pixels": {
+        "bytes": 33153,
+        "sha256": "c8678c1ecfa49732365cbb83f19149f96a4489f5437c6159cab64f3c5d119852"
+      },
+      "coefficients": {
+        "bytes": 71808,
+        "sha256": "866e4419a8a2372a48cdeb8e19681be93e16209b432bf0c5e50c6f99c5bb2934"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-gray-q100-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "0c4c23ec8abe7c65450515006ba32bf1992b8a991f0afe2b0142d646a9fe111b",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 1,
+        "segments": 1,
+        "blocks": 561,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 33153,
+        "coefficient_bytes": 71808
+      },
+      "pixels": {
+        "bytes": 33153,
+        "sha256": "c8678c1ecfa49732365cbb83f19149f96a4489f5437c6159cab64f3c5d119852"
+      },
+      "coefficients": {
+        "bytes": 71808,
+        "sha256": "866e4419a8a2372a48cdeb8e19681be93e16209b432bf0c5e50c6f99c5bb2934"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-gray-q75-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-gray-q75-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "f45bf6dee2a2f8990c93f94047139c3a63160061d2b46ee15fdb7320d509fae5",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 1,
+        "segments": 1,
+        "blocks": 561,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 33153,
+        "coefficient_bytes": 71808
+      },
+      "pixels": {
+        "bytes": 33153,
+        "sha256": "c6956dcd9e76cd45b75680679cea6edc10316e9a95c2f24e192f5e11e2d67fc9"
+      },
+      "coefficients": {
+        "bytes": 71808,
+        "sha256": "f548c4a1cfdfff15a22a8a02a04021faeb54908a8ebccdd1b5be206a39d2884e"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-gray-q75-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "f45bf6dee2a2f8990c93f94047139c3a63160061d2b46ee15fdb7320d509fae5",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 1,
+        "segments": 1,
+        "blocks": 561,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 33153,
+        "coefficient_bytes": 71808
+      },
+      "pixels": {
+        "bytes": 33153,
+        "sha256": "c6956dcd9e76cd45b75680679cea6edc10316e9a95c2f24e192f5e11e2d67fc9"
+      },
+      "coefficients": {
+        "bytes": 71808,
+        "sha256": "f548c4a1cfdfff15a22a8a02a04021faeb54908a8ebccdd1b5be206a39d2884e"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-gray-q90-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-gray-q90-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "5bd2d3fcf0edb9edad76f2104a5e58b6452111df77c980e33cd034e51fc2aad2",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 1,
+        "segments": 1,
+        "blocks": 561,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 33153,
+        "coefficient_bytes": 71808
+      },
+      "pixels": {
+        "bytes": 33153,
+        "sha256": "c8678c1ecfa49732365cbb83f19149f96a4489f5437c6159cab64f3c5d119852"
+      },
+      "coefficients": {
+        "bytes": 71808,
+        "sha256": "f9a54b33fbdec234aadf993bc002efea33cce0a8306fa8e2dd4136196cca557b"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-gray-q90-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "5bd2d3fcf0edb9edad76f2104a5e58b6452111df77c980e33cd034e51fc2aad2",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 1,
+        "segments": 1,
+        "blocks": 561,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 33153,
+        "coefficient_bytes": 71808
+      },
+      "pixels": {
+        "bytes": 33153,
+        "sha256": "c8678c1ecfa49732365cbb83f19149f96a4489f5437c6159cab64f3c5d119852"
+      },
+      "coefficients": {
+        "bytes": 71808,
+        "sha256": "f9a54b33fbdec234aadf993bc002efea33cce0a8306fa8e2dd4136196cca557b"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q1-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q1-420-interleaved-reference.jpg",
+      "jpeg_sha256": "69acfc2c7758ab157d0542ed0140d7b19c06aecaf3185c3d9a7f630419a6e9c4",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 918,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 117504
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "3fa0fbd7412991e6cfe24b2d63f06fbbc8a9e7bae86c1db7ade7d244734b9de6"
+      },
+      "coefficients": {
+        "bytes": 117504,
+        "sha256": "1bfe0c667b57ba796d1a6719612dcc9bf3136a7600f1c266bd0c2cd9a3ac9b50"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q1-420-interleaved-reference.jpg",
+      "jpeg_sha256": "69acfc2c7758ab157d0542ed0140d7b19c06aecaf3185c3d9a7f630419a6e9c4",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 918,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 117504
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "3fa0fbd7412991e6cfe24b2d63f06fbbc8a9e7bae86c1db7ade7d244734b9de6"
+      },
+      "coefficients": {
+        "bytes": 117504,
+        "sha256": "1bfe0c667b57ba796d1a6719612dcc9bf3136a7600f1c266bd0c2cd9a3ac9b50"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q1-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q1-444-interleaved-reference.jpg",
+      "jpeg_sha256": "a6a7c647762110c51e732ba8d51190a693c307cdfb0e534745228857c84ec7ce",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 1683,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 215424
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "3fa0fbd7412991e6cfe24b2d63f06fbbc8a9e7bae86c1db7ade7d244734b9de6"
+      },
+      "coefficients": {
+        "bytes": 215424,
+        "sha256": "30d74fbec639eaca9edb3702ecdd4ba0c13dfe53e47c5d0c9c97352fcf59ca74"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q1-444-interleaved-reference.jpg",
+      "jpeg_sha256": "a6a7c647762110c51e732ba8d51190a693c307cdfb0e534745228857c84ec7ce",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 1683,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 215424
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "3fa0fbd7412991e6cfe24b2d63f06fbbc8a9e7bae86c1db7ade7d244734b9de6"
+      },
+      "coefficients": {
+        "bytes": 215424,
+        "sha256": "30d74fbec639eaca9edb3702ecdd4ba0c13dfe53e47c5d0c9c97352fcf59ca74"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-420-interleaved-reference.jpg",
+      "jpeg_sha256": "01129fd7507b5cd99074951949402270e9f3a56c68d192228831a26e8716956a",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 918,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 117504
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "a960aae53128cae98b11a0d70dc6bb0d41cb2ea6b8410e63ca60fb735394208a"
+      },
+      "coefficients": {
+        "bytes": 117504,
+        "sha256": "f0f6860042a611235eb34c2993b02e558006ec8cda4af31323bc12c115f32c36"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-420-interleaved-reference.jpg",
+      "jpeg_sha256": "01129fd7507b5cd99074951949402270e9f3a56c68d192228831a26e8716956a",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 918,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 117504
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "a960aae53128cae98b11a0d70dc6bb0d41cb2ea6b8410e63ca60fb735394208a"
+      },
+      "coefficients": {
+        "bytes": 117504,
+        "sha256": "f0f6860042a611235eb34c2993b02e558006ec8cda4af31323bc12c115f32c36"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-420-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-420-planar-reference.jpg",
+      "jpeg_sha256": "be2cda2184ac3483c76fcdbd4dc961fe80eba4c63cf7034057d14d0d2afac712",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 3,
+        "blocks": 867,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 110976
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "a960aae53128cae98b11a0d70dc6bb0d41cb2ea6b8410e63ca60fb735394208a"
+      },
+      "coefficients": {
+        "bytes": 110976,
+        "sha256": "c90b6f0c613ca861db9ec1be95a2fa5af943dff8fd3b9f0cb4495f5dbaafa305"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-420-planar-reference.jpg",
+      "jpeg_sha256": "be2cda2184ac3483c76fcdbd4dc961fe80eba4c63cf7034057d14d0d2afac712",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 3,
+        "blocks": 867,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 110976
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "a960aae53128cae98b11a0d70dc6bb0d41cb2ea6b8410e63ca60fb735394208a"
+      },
+      "coefficients": {
+        "bytes": 110976,
+        "sha256": "c90b6f0c613ca861db9ec1be95a2fa5af943dff8fd3b9f0cb4495f5dbaafa305"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-422-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-422-interleaved-reference.jpg",
+      "jpeg_sha256": "7c21077602e02dff5dce6fe2f5f2dafaa93704e7f916836fc6f4da66bf2aeca1",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 1156,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 147968
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "a960aae53128cae98b11a0d70dc6bb0d41cb2ea6b8410e63ca60fb735394208a"
+      },
+      "coefficients": {
+        "bytes": 147968,
+        "sha256": "b5b6d64928a497e082a86b23a9fb0e1b60d39d1a59c6a73bb79fff4bf162915d"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-422-interleaved-reference.jpg",
+      "jpeg_sha256": "7c21077602e02dff5dce6fe2f5f2dafaa93704e7f916836fc6f4da66bf2aeca1",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 1156,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 147968
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "a960aae53128cae98b11a0d70dc6bb0d41cb2ea6b8410e63ca60fb735394208a"
+      },
+      "coefficients": {
+        "bytes": 147968,
+        "sha256": "b5b6d64928a497e082a86b23a9fb0e1b60d39d1a59c6a73bb79fff4bf162915d"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-422-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-422-planar-reference.jpg",
+      "jpeg_sha256": "502efa78ce2d074e69b7898109d7c6f2a7fcfa719cc990a151c86fbcd66171c8",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 3,
+        "blocks": 1139,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 145792
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "a960aae53128cae98b11a0d70dc6bb0d41cb2ea6b8410e63ca60fb735394208a"
+      },
+      "coefficients": {
+        "bytes": 145792,
+        "sha256": "83ac84ef3b0c28987651d32d6a84e4edabc94e25d7bf02c44896782cadce7950"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-422-planar-reference.jpg",
+      "jpeg_sha256": "502efa78ce2d074e69b7898109d7c6f2a7fcfa719cc990a151c86fbcd66171c8",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 3,
+        "blocks": 1139,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 145792
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "a960aae53128cae98b11a0d70dc6bb0d41cb2ea6b8410e63ca60fb735394208a"
+      },
+      "coefficients": {
+        "bytes": 145792,
+        "sha256": "83ac84ef3b0c28987651d32d6a84e4edabc94e25d7bf02c44896782cadce7950"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-444-interleaved-reference.jpg",
+      "jpeg_sha256": "0a2a3332b3b93a04083cd921c0fb3f2e83a5e264fb91c7cbb4f594ea98d10907",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 1683,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 215424
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "a960aae53128cae98b11a0d70dc6bb0d41cb2ea6b8410e63ca60fb735394208a"
+      },
+      "coefficients": {
+        "bytes": 215424,
+        "sha256": "2d1051e757173d393e1469618fe58e2dc08b926ca71c9c50703b404185151c99"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-444-interleaved-reference.jpg",
+      "jpeg_sha256": "0a2a3332b3b93a04083cd921c0fb3f2e83a5e264fb91c7cbb4f594ea98d10907",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 1683,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 215424
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "a960aae53128cae98b11a0d70dc6bb0d41cb2ea6b8410e63ca60fb735394208a"
+      },
+      "coefficients": {
+        "bytes": 215424,
+        "sha256": "2d1051e757173d393e1469618fe58e2dc08b926ca71c9c50703b404185151c99"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-444-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-444-planar-reference.jpg",
+      "jpeg_sha256": "ba113bf16428c47b307d8087312d0203fe87d9f724dfd48c114f56404cd9b5cf",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 3,
+        "blocks": 1683,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 215424
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "a960aae53128cae98b11a0d70dc6bb0d41cb2ea6b8410e63ca60fb735394208a"
+      },
+      "coefficients": {
+        "bytes": 215424,
+        "sha256": "442595ee078e88de61f5bae0a5ee13a0231d8714bd6c3c62fe04de2b8c06f830"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q100-444-planar-reference.jpg",
+      "jpeg_sha256": "ba113bf16428c47b307d8087312d0203fe87d9f724dfd48c114f56404cd9b5cf",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 3,
+        "blocks": 1683,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 215424
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "a960aae53128cae98b11a0d70dc6bb0d41cb2ea6b8410e63ca60fb735394208a"
+      },
+      "coefficients": {
+        "bytes": 215424,
+        "sha256": "442595ee078e88de61f5bae0a5ee13a0231d8714bd6c3c62fe04de2b8c06f830"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q75-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q75-420-interleaved-reference.jpg",
+      "jpeg_sha256": "dec6894782f17ffc25443e34d99ac40afca9574286662ad971a6f4b032add5fa",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 918,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 117504
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "2388981fb0e2a21445ccff7c85cf0371ddd2713d9a4210560d10a82249b11833"
+      },
+      "coefficients": {
+        "bytes": 117504,
+        "sha256": "5cdde32cc22b8cac607872cf2ad55ec691145124ad1186c06dc69e9668bcc6ab"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q75-420-interleaved-reference.jpg",
+      "jpeg_sha256": "dec6894782f17ffc25443e34d99ac40afca9574286662ad971a6f4b032add5fa",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 918,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 117504
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "2388981fb0e2a21445ccff7c85cf0371ddd2713d9a4210560d10a82249b11833"
+      },
+      "coefficients": {
+        "bytes": 117504,
+        "sha256": "5cdde32cc22b8cac607872cf2ad55ec691145124ad1186c06dc69e9668bcc6ab"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q75-420-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q75-420-planar-reference.jpg",
+      "jpeg_sha256": "0552ab9de311b968b8b8cff48b7ccf947da5800b761f0c12dbeb1b08c706aa4c",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 3,
+        "blocks": 867,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 110976
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "2388981fb0e2a21445ccff7c85cf0371ddd2713d9a4210560d10a82249b11833"
+      },
+      "coefficients": {
+        "bytes": 110976,
+        "sha256": "12cab90353e16533cdbd272dc2161516eb8af5aa7f3a22514d99eec19797c135"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q75-420-planar-reference.jpg",
+      "jpeg_sha256": "0552ab9de311b968b8b8cff48b7ccf947da5800b761f0c12dbeb1b08c706aa4c",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 3,
+        "blocks": 867,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 110976
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "2388981fb0e2a21445ccff7c85cf0371ddd2713d9a4210560d10a82249b11833"
+      },
+      "coefficients": {
+        "bytes": 110976,
+        "sha256": "12cab90353e16533cdbd272dc2161516eb8af5aa7f3a22514d99eec19797c135"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q75-422-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q75-422-planar-reference.jpg",
+      "jpeg_sha256": "7da5867f040b06e2c03e972e97d4e541b45dc4316612cc71b530701532374ef8",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 3,
+        "blocks": 1139,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 145792
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "2388981fb0e2a21445ccff7c85cf0371ddd2713d9a4210560d10a82249b11833"
+      },
+      "coefficients": {
+        "bytes": 145792,
+        "sha256": "a0f5dac9fb0523ea8fe116bb53878a1ea83a3d0adde1a11f05e21719ea2dcf82"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q75-422-planar-reference.jpg",
+      "jpeg_sha256": "7da5867f040b06e2c03e972e97d4e541b45dc4316612cc71b530701532374ef8",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 3,
+        "blocks": 1139,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 145792
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "2388981fb0e2a21445ccff7c85cf0371ddd2713d9a4210560d10a82249b11833"
+      },
+      "coefficients": {
+        "bytes": 145792,
+        "sha256": "a0f5dac9fb0523ea8fe116bb53878a1ea83a3d0adde1a11f05e21719ea2dcf82"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q75-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q75-444-interleaved-reference.jpg",
+      "jpeg_sha256": "33152a9629ab34a53343848d16469f9727ff2c5fc9d2efcd845232470e184487",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 1683,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 215424
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "2388981fb0e2a21445ccff7c85cf0371ddd2713d9a4210560d10a82249b11833"
+      },
+      "coefficients": {
+        "bytes": 215424,
+        "sha256": "9b5fbe5a25b0bcfa22e7d2a026bc57ef5dd9db8f1bb3c0e471888602a1626d4a"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q75-444-interleaved-reference.jpg",
+      "jpeg_sha256": "33152a9629ab34a53343848d16469f9727ff2c5fc9d2efcd845232470e184487",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 1683,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 215424
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "2388981fb0e2a21445ccff7c85cf0371ddd2713d9a4210560d10a82249b11833"
+      },
+      "coefficients": {
+        "bytes": 215424,
+        "sha256": "9b5fbe5a25b0bcfa22e7d2a026bc57ef5dd9db8f1bb3c0e471888602a1626d4a"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q75-444-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q75-444-planar-reference.jpg",
+      "jpeg_sha256": "79f8cf922f3e088570d8d40358e4f95c9576f620b1588110197570482835850f",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 3,
+        "blocks": 1683,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 215424
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "2388981fb0e2a21445ccff7c85cf0371ddd2713d9a4210560d10a82249b11833"
+      },
+      "coefficients": {
+        "bytes": 215424,
+        "sha256": "7cc2062380f76288b52fbc2cd33ab6c1567219a8a1380f69257c096a366eac09"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q75-444-planar-reference.jpg",
+      "jpeg_sha256": "79f8cf922f3e088570d8d40358e4f95c9576f620b1588110197570482835850f",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 3,
+        "blocks": 1683,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 215424
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "2388981fb0e2a21445ccff7c85cf0371ddd2713d9a4210560d10a82249b11833"
+      },
+      "coefficients": {
+        "bytes": 215424,
+        "sha256": "7cc2062380f76288b52fbc2cd33ab6c1567219a8a1380f69257c096a366eac09"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q90-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q90-420-interleaved-reference.jpg",
+      "jpeg_sha256": "00099a72941894c24c727d437edce3857887072929500d230a07a71d163161f4",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 918,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 117504
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "ba3ba3e3c3d4b9cbfc8d56a3bf9a86c1a206932507422dae5455f35b07e607a6"
+      },
+      "coefficients": {
+        "bytes": 117504,
+        "sha256": "b0db50d7664aaee1b5c16630c38e21d3a0452c848c00188bbed00b8e01b8817b"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q90-420-interleaved-reference.jpg",
+      "jpeg_sha256": "00099a72941894c24c727d437edce3857887072929500d230a07a71d163161f4",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 918,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 117504
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "ba3ba3e3c3d4b9cbfc8d56a3bf9a86c1a206932507422dae5455f35b07e607a6"
+      },
+      "coefficients": {
+        "bytes": 117504,
+        "sha256": "b0db50d7664aaee1b5c16630c38e21d3a0452c848c00188bbed00b8e01b8817b"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q90-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q90-444-interleaved-reference.jpg",
+      "jpeg_sha256": "2eff06ffee87533d431a0936be7691515fc108564c6fc4d58a6ab2b50550d521",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 1683,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 215424
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "ba3ba3e3c3d4b9cbfc8d56a3bf9a86c1a206932507422dae5455f35b07e607a6"
+      },
+      "coefficients": {
+        "bytes": 215424,
+        "sha256": "536830c87c64864bd9f62f176c13691c5a4b5b03eb400a016d2d5fa17ecaada7"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\checker-rgb-q90-444-interleaved-reference.jpg",
+      "jpeg_sha256": "2eff06ffee87533d431a0936be7691515fc108564c6fc4d58a6ab2b50550d521",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 3,
+        "segments": 1,
+        "blocks": 1683,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 99459,
+        "coefficient_bytes": 215424
+      },
+      "pixels": {
+        "bytes": 99459,
+        "sha256": "ba3ba3e3c3d4b9cbfc8d56a3bf9a86c1a206932507422dae5455f35b07e607a6"
+      },
+      "coefficients": {
+        "bytes": 215424,
+        "sha256": "536830c87c64864bd9f62f176c13691c5a4b5b03eb400a016d2d5fa17ecaada7"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q1-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q1-420-interleaved-reference.jpg",
+      "jpeg_sha256": "2812f5d6b7f9d8cd281a34a1fe27dadc815026368b4074c57f3b3fadce2e696c",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 96,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 12288
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "2203a98fd84adfbd3cbbfda33c94fcc2d33f0e1d6ebfa4e0ced17c5469ba54e5"
+      },
+      "coefficients": {
+        "bytes": 12288,
+        "sha256": "f3cc103136423a57975750907ebc1d367e2985ac6338976d4d5a439f50323f4a"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q1-420-interleaved-reference.jpg",
+      "jpeg_sha256": "2812f5d6b7f9d8cd281a34a1fe27dadc815026368b4074c57f3b3fadce2e696c",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 96,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 12288
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "2203a98fd84adfbd3cbbfda33c94fcc2d33f0e1d6ebfa4e0ced17c5469ba54e5"
+      },
+      "coefficients": {
+        "bytes": 12288,
+        "sha256": "f3cc103136423a57975750907ebc1d367e2985ac6338976d4d5a439f50323f4a"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q1-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q1-444-interleaved-reference.jpg",
+      "jpeg_sha256": "cb7f03c5bc25e7cc60ab91f816706990aeec780abf8c31be78efdafba977109f",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 192,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 24576
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "2203a98fd84adfbd3cbbfda33c94fcc2d33f0e1d6ebfa4e0ced17c5469ba54e5"
+      },
+      "coefficients": {
+        "bytes": 24576,
+        "sha256": "de676bae28a480011d3d012db14bef539324e62a841a9627863c689bea168af3"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q1-444-interleaved-reference.jpg",
+      "jpeg_sha256": "cb7f03c5bc25e7cc60ab91f816706990aeec780abf8c31be78efdafba977109f",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 192,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 24576
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "2203a98fd84adfbd3cbbfda33c94fcc2d33f0e1d6ebfa4e0ced17c5469ba54e5"
+      },
+      "coefficients": {
+        "bytes": 24576,
+        "sha256": "de676bae28a480011d3d012db14bef539324e62a841a9627863c689bea168af3"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q100-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q100-420-interleaved-reference.jpg",
+      "jpeg_sha256": "52337aaf843d3383ce40f2dfc60b595926e4011d19a2206dc269885426fa6be7",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 96,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 12288
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "f0303914dce75ee1b699a7d91f1e7aa8c64a443a1b12fd656663d723093fe4d6"
+      },
+      "coefficients": {
+        "bytes": 12288,
+        "sha256": "8adc1ac869e6b6c250733a23d4798ae5b8301546c830036dc2cf154d4fbd08f0"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q100-420-interleaved-reference.jpg",
+      "jpeg_sha256": "52337aaf843d3383ce40f2dfc60b595926e4011d19a2206dc269885426fa6be7",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 96,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 12288
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "f0303914dce75ee1b699a7d91f1e7aa8c64a443a1b12fd656663d723093fe4d6"
+      },
+      "coefficients": {
+        "bytes": 12288,
+        "sha256": "8adc1ac869e6b6c250733a23d4798ae5b8301546c830036dc2cf154d4fbd08f0"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q100-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q100-444-interleaved-reference.jpg",
+      "jpeg_sha256": "c70d7722bce792d40a2a9b0f6c0e1f17181335166e1acac1e1682e067eb6508a",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 192,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 24576
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "f0303914dce75ee1b699a7d91f1e7aa8c64a443a1b12fd656663d723093fe4d6"
+      },
+      "coefficients": {
+        "bytes": 24576,
+        "sha256": "7710fc918e2d92bf312c4802a690b338fd0d762a2547c108a02b48bb4084a2e7"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q100-444-interleaved-reference.jpg",
+      "jpeg_sha256": "c70d7722bce792d40a2a9b0f6c0e1f17181335166e1acac1e1682e067eb6508a",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 192,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 24576
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "f0303914dce75ee1b699a7d91f1e7aa8c64a443a1b12fd656663d723093fe4d6"
+      },
+      "coefficients": {
+        "bytes": 24576,
+        "sha256": "7710fc918e2d92bf312c4802a690b338fd0d762a2547c108a02b48bb4084a2e7"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q75-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q75-420-interleaved-reference.jpg",
+      "jpeg_sha256": "c53e732812b2978e115ff7efcd22d4360d406e92bc474c06e65fc36edf9c2746",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 96,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 12288
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "f0303914dce75ee1b699a7d91f1e7aa8c64a443a1b12fd656663d723093fe4d6"
+      },
+      "coefficients": {
+        "bytes": 12288,
+        "sha256": "d40e7d34bb633b97784c07544428c0800917484a91db6205f2b2be69b70b2ca7"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q75-420-interleaved-reference.jpg",
+      "jpeg_sha256": "c53e732812b2978e115ff7efcd22d4360d406e92bc474c06e65fc36edf9c2746",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 96,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 12288
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "f0303914dce75ee1b699a7d91f1e7aa8c64a443a1b12fd656663d723093fe4d6"
+      },
+      "coefficients": {
+        "bytes": 12288,
+        "sha256": "d40e7d34bb633b97784c07544428c0800917484a91db6205f2b2be69b70b2ca7"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q75-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q75-444-interleaved-reference.jpg",
+      "jpeg_sha256": "6aa344c411556c46a4efc8210c312e315c7f90611313c6eaa23278d0da6c112d",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 192,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 24576
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "f0303914dce75ee1b699a7d91f1e7aa8c64a443a1b12fd656663d723093fe4d6"
+      },
+      "coefficients": {
+        "bytes": 24576,
+        "sha256": "3b028ca324052330f2806d7847a3b69a8efcbd9c917d2bff274721b4274babfc"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q75-444-interleaved-reference.jpg",
+      "jpeg_sha256": "6aa344c411556c46a4efc8210c312e315c7f90611313c6eaa23278d0da6c112d",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 192,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 24576
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "f0303914dce75ee1b699a7d91f1e7aa8c64a443a1b12fd656663d723093fe4d6"
+      },
+      "coefficients": {
+        "bytes": 24576,
+        "sha256": "3b028ca324052330f2806d7847a3b69a8efcbd9c917d2bff274721b4274babfc"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q90-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q90-420-interleaved-reference.jpg",
+      "jpeg_sha256": "31c72b16325d4cfa9d3b642ea7d97d45b3268d38303fd869b88a119afc100d1d",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 96,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 12288
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "f0303914dce75ee1b699a7d91f1e7aa8c64a443a1b12fd656663d723093fe4d6"
+      },
+      "coefficients": {
+        "bytes": 12288,
+        "sha256": "01d35b075f15e055a1357bd80b20ca3c763b0c0df07e6e96d337765c06afc396"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q90-420-interleaved-reference.jpg",
+      "jpeg_sha256": "31c72b16325d4cfa9d3b642ea7d97d45b3268d38303fd869b88a119afc100d1d",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 96,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 12288
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "f0303914dce75ee1b699a7d91f1e7aa8c64a443a1b12fd656663d723093fe4d6"
+      },
+      "coefficients": {
+        "bytes": 12288,
+        "sha256": "01d35b075f15e055a1357bd80b20ca3c763b0c0df07e6e96d337765c06afc396"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q90-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q90-444-interleaved-reference.jpg",
+      "jpeg_sha256": "54f26bc8a4558924b53feb50b03ef7143f6c2c6bfe98b6fbc839b7dd20998d2d",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 192,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 24576
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "f0303914dce75ee1b699a7d91f1e7aa8c64a443a1b12fd656663d723093fe4d6"
+      },
+      "coefficients": {
+        "bytes": 24576,
+        "sha256": "dfca36f46ae779a2e349e8edd4a2161b4b16a4b77915cf0a9d06ef62fa4b299a"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\flat-rgb-q90-444-interleaved-reference.jpg",
+      "jpeg_sha256": "54f26bc8a4558924b53feb50b03ef7143f6c2c6bfe98b6fbc839b7dd20998d2d",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 64,
+        "height": 64,
+        "components": 3,
+        "segments": 1,
+        "blocks": 192,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 12288,
+        "coefficient_bytes": 24576
+      },
+      "pixels": {
+        "bytes": 12288,
+        "sha256": "f0303914dce75ee1b699a7d91f1e7aa8c64a443a1b12fd656663d723093fe4d6"
+      },
+      "coefficients": {
+        "bytes": 24576,
+        "sha256": "dfca36f46ae779a2e349e8edd4a2161b4b16a4b77915cf0a9d06ef62fa4b299a"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-gray-q90-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-gray-q90-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "5c8ecb6902c0ab2ff30c8730b0556545ba0ba027e9cd12e3bf9c1e1f2191cf7f",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 1,
+        "segments": 1,
+        "blocks": 32400,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 2073600,
+        "coefficient_bytes": 4147200
+      },
+      "pixels": {
+        "bytes": 2073600,
+        "sha256": "d64f4cc561715c7bdd42a37293aa9a1aca4af25520c44cfd5f74e3a42ceaa112"
+      },
+      "coefficients": {
+        "bytes": 4147200,
+        "sha256": "582b956a34d9c62dde319b2c67bb15fae438e0f455e15bc6e9130b91e36774c8"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-gray-q90-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "5c8ecb6902c0ab2ff30c8730b0556545ba0ba027e9cd12e3bf9c1e1f2191cf7f",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 1,
+        "segments": 1,
+        "blocks": 32400,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 2073600,
+        "coefficient_bytes": 4147200
+      },
+      "pixels": {
+        "bytes": 2073600,
+        "sha256": "d64f4cc561715c7bdd42a37293aa9a1aca4af25520c44cfd5f74e3a42ceaa112"
+      },
+      "coefficients": {
+        "bytes": 4147200,
+        "sha256": "582b956a34d9c62dde319b2c67bb15fae438e0f455e15bc6e9130b91e36774c8"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-420-interleaved-reference.jpg",
+      "jpeg_sha256": "dd282579049253389bf4735ba71a9c4bb50968497e6fa6ac9f88d46f1e006b9d",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 48960,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 6266880
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "fb95ba56c762d39784cabce0e8992e2d362e3cb88c25caa4d87a42b3de601a4f"
+      },
+      "coefficients": {
+        "bytes": 6266880,
+        "sha256": "97fa177dd460b1b26b449d5dc9f48afcfda9ed9df5a52c8987d51e3a78cf4a96"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-420-interleaved-reference.jpg",
+      "jpeg_sha256": "dd282579049253389bf4735ba71a9c4bb50968497e6fa6ac9f88d46f1e006b9d",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 48960,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 6266880
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "fb95ba56c762d39784cabce0e8992e2d362e3cb88c25caa4d87a42b3de601a4f"
+      },
+      "coefficients": {
+        "bytes": 6266880,
+        "sha256": "97fa177dd460b1b26b449d5dc9f48afcfda9ed9df5a52c8987d51e3a78cf4a96"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-422-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-422-interleaved-reference.jpg",
+      "jpeg_sha256": "c616ed256f70ba298e9711471f466a30392d5e0cfaf5ce5b7fe3c658ce6cb102",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 64800,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 8294400
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "bafacb07300d1fb896d04e4513c1ce308900b823c26b8fed744bbff9173d793f"
+      },
+      "coefficients": {
+        "bytes": 8294400,
+        "sha256": "39122f938b99df87f5aacad2bcfe08f2d3f2b81b0a66ccdd0c2290dc4d9857bb"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-422-interleaved-reference.jpg",
+      "jpeg_sha256": "c616ed256f70ba298e9711471f466a30392d5e0cfaf5ce5b7fe3c658ce6cb102",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 64800,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 8294400
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "bafacb07300d1fb896d04e4513c1ce308900b823c26b8fed744bbff9173d793f"
+      },
+      "coefficients": {
+        "bytes": 8294400,
+        "sha256": "39122f938b99df87f5aacad2bcfe08f2d3f2b81b0a66ccdd0c2290dc4d9857bb"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-444-interleaved-reference.jpg",
+      "jpeg_sha256": "c93dc4d7230c3f8646b886a56f5c666fddd60c8a7712d94bfd3b6cbc75ac83e8",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 97200,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 12441600
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+      },
+      "coefficients": {
+        "bytes": 12441600,
+        "sha256": "b16607bd5260392192bfe06f26f6e55b4867fe37c04f7e9ee3b57f51b3720ac9"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\hd-rgb-q90-444-interleaved-reference.jpg",
+      "jpeg_sha256": "c93dc4d7230c3f8646b886a56f5c666fddd60c8a7712d94bfd3b6cbc75ac83e8",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 97200,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 12441600
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+      },
+      "coefficients": {
+        "bytes": 12441600,
+        "sha256": "b16607bd5260392192bfe06f26f6e55b4867fe37c04f7e9ee3b57f51b3720ac9"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q0-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q0-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "d601a7f074045145e94b9016de00c1f686b8c2bc8d299d490aa832987fd12188",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 129,
+        "height": 65,
+        "components": 1,
+        "segments": 1,
+        "blocks": 153,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 8385,
+        "coefficient_bytes": 19584
+      },
+      "pixels": {
+        "bytes": 8385,
+        "sha256": "efcd6d0537741e5b61ac80652f58c9709b778232d74943a074a2494823cc3e81"
+      },
+      "coefficients": {
+        "bytes": 19584,
+        "sha256": "1cf990b710278b3cab08a4cca64f8578ee459d27b072dc785c2693fe85067fdd"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q0-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "d601a7f074045145e94b9016de00c1f686b8c2bc8d299d490aa832987fd12188",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 129,
+        "height": 65,
+        "components": 1,
+        "segments": 1,
+        "blocks": 153,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 8385,
+        "coefficient_bytes": 19584
+      },
+      "pixels": {
+        "bytes": 8385,
+        "sha256": "efcd6d0537741e5b61ac80652f58c9709b778232d74943a074a2494823cc3e81"
+      },
+      "coefficients": {
+        "bytes": 19584,
+        "sha256": "1cf990b710278b3cab08a4cca64f8578ee459d27b072dc785c2693fe85067fdd"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q1-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q1-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "d601a7f074045145e94b9016de00c1f686b8c2bc8d299d490aa832987fd12188",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 129,
+        "height": 65,
+        "components": 1,
+        "segments": 1,
+        "blocks": 153,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 8385,
+        "coefficient_bytes": 19584
+      },
+      "pixels": {
+        "bytes": 8385,
+        "sha256": "efcd6d0537741e5b61ac80652f58c9709b778232d74943a074a2494823cc3e81"
+      },
+      "coefficients": {
+        "bytes": 19584,
+        "sha256": "1cf990b710278b3cab08a4cca64f8578ee459d27b072dc785c2693fe85067fdd"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q1-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "d601a7f074045145e94b9016de00c1f686b8c2bc8d299d490aa832987fd12188",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 129,
+        "height": 65,
+        "components": 1,
+        "segments": 1,
+        "blocks": 153,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 8385,
+        "coefficient_bytes": 19584
+      },
+      "pixels": {
+        "bytes": 8385,
+        "sha256": "efcd6d0537741e5b61ac80652f58c9709b778232d74943a074a2494823cc3e81"
+      },
+      "coefficients": {
+        "bytes": 19584,
+        "sha256": "1cf990b710278b3cab08a4cca64f8578ee459d27b072dc785c2693fe85067fdd"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q100-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q100-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "c22a48fda694c7ecb2dd3fdf980c416cddaaa1e639cb6a354002352dc6514569",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 129,
+        "height": 65,
+        "components": 1,
+        "segments": 1,
+        "blocks": 153,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 8385,
+        "coefficient_bytes": 19584
+      },
+      "pixels": {
+        "bytes": 8385,
+        "sha256": "81b59ed3a9dbb3d4b81e8db74ccfc5e03e74bb8e4ae71ad9045f94ab09ec1783"
+      },
+      "coefficients": {
+        "bytes": 19584,
+        "sha256": "11265452ed2f82cd0f3bc93108a9f90daf0d9bd53f059ba829f397df664c020f"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q100-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "c22a48fda694c7ecb2dd3fdf980c416cddaaa1e639cb6a354002352dc6514569",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 129,
+        "height": 65,
+        "components": 1,
+        "segments": 1,
+        "blocks": 153,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 8385,
+        "coefficient_bytes": 19584
+      },
+      "pixels": {
+        "bytes": 8385,
+        "sha256": "81b59ed3a9dbb3d4b81e8db74ccfc5e03e74bb8e4ae71ad9045f94ab09ec1783"
+      },
+      "coefficients": {
+        "bytes": 19584,
+        "sha256": "11265452ed2f82cd0f3bc93108a9f90daf0d9bd53f059ba829f397df664c020f"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q75-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q75-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "493491aa0ef532663126b10890a2caaca340ee64759166516b8c04d78ddb50ad",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 129,
+        "height": 65,
+        "components": 1,
+        "segments": 1,
+        "blocks": 153,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 8385,
+        "coefficient_bytes": 19584
+      },
+      "pixels": {
+        "bytes": 8385,
+        "sha256": "f52626a11f78b5a6e7dee2bd81e27cde0426c51d2bc57b47ef9eff547123acf5"
+      },
+      "coefficients": {
+        "bytes": 19584,
+        "sha256": "18d41e935dae934ad36e255e5404cba8c4affa5db38300e4615541b9dbb0d415"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q75-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "493491aa0ef532663126b10890a2caaca340ee64759166516b8c04d78ddb50ad",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 129,
+        "height": 65,
+        "components": 1,
+        "segments": 1,
+        "blocks": 153,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 8385,
+        "coefficient_bytes": 19584
+      },
+      "pixels": {
+        "bytes": 8385,
+        "sha256": "f52626a11f78b5a6e7dee2bd81e27cde0426c51d2bc57b47ef9eff547123acf5"
+      },
+      "coefficients": {
+        "bytes": 19584,
+        "sha256": "18d41e935dae934ad36e255e5404cba8c4affa5db38300e4615541b9dbb0d415"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q90-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q90-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "6bbe94eff1e890c787104ad9050bc91d127fdedfda94ddd3ca46544ab5cb82df",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 129,
+        "height": 65,
+        "components": 1,
+        "segments": 1,
+        "blocks": 153,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 8385,
+        "coefficient_bytes": 19584
+      },
+      "pixels": {
+        "bytes": 8385,
+        "sha256": "59cfe6a77022c35a5972efd2fee232aa15e57f5003842a67bd113caf1dedfb9c"
+      },
+      "coefficients": {
+        "bytes": 19584,
+        "sha256": "80961421019264e7e1852ac62e5355b3bf230c8cb2ab2f00e1da780d88ebaa4d"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-gray-q90-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "6bbe94eff1e890c787104ad9050bc91d127fdedfda94ddd3ca46544ab5cb82df",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 129,
+        "height": 65,
+        "components": 1,
+        "segments": 1,
+        "blocks": 153,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 8385,
+        "coefficient_bytes": 19584
+      },
+      "pixels": {
+        "bytes": 8385,
+        "sha256": "59cfe6a77022c35a5972efd2fee232aa15e57f5003842a67bd113caf1dedfb9c"
+      },
+      "coefficients": {
+        "bytes": 19584,
+        "sha256": "80961421019264e7e1852ac62e5355b3bf230c8cb2ab2f00e1da780d88ebaa4d"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q0-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q0-444-interleaved-reference.jpg",
+      "jpeg_sha256": "2177aa5e5ccebbd7ee89bb1099d92b72c3a26b2dee331057db8b673e931030db",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 432,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 55296
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "db69bd328b891a55f94b83121172e6ec5cd818d6cde45904c952f7623f4ada68"
+      },
+      "coefficients": {
+        "bytes": 55296,
+        "sha256": "f342cff1ae4ebbafe3797304b737936d587aea531f0cb965bd19b56647ada941"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q0-444-interleaved-reference.jpg",
+      "jpeg_sha256": "2177aa5e5ccebbd7ee89bb1099d92b72c3a26b2dee331057db8b673e931030db",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 432,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 55296
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "db69bd328b891a55f94b83121172e6ec5cd818d6cde45904c952f7623f4ada68"
+      },
+      "coefficients": {
+        "bytes": 55296,
+        "sha256": "f342cff1ae4ebbafe3797304b737936d587aea531f0cb965bd19b56647ada941"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q1-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q1-420-interleaved-reference.jpg",
+      "jpeg_sha256": "45e773ae4838532f4d48029a4716eb041c6166eb49c3fd191f99157dad72692e",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 240,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 30720
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "3f66bcfdec4fe1bd753b6e07b796d8f406246c3468e5601cc35752c05a67796b"
+      },
+      "coefficients": {
+        "bytes": 30720,
+        "sha256": "cac7fa50b206b1916a68e0f2436cc49f88f3d265f532a79c5b28ca72cdf538c2"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q1-420-interleaved-reference.jpg",
+      "jpeg_sha256": "45e773ae4838532f4d48029a4716eb041c6166eb49c3fd191f99157dad72692e",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 240,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 30720
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "3f66bcfdec4fe1bd753b6e07b796d8f406246c3468e5601cc35752c05a67796b"
+      },
+      "coefficients": {
+        "bytes": 30720,
+        "sha256": "cac7fa50b206b1916a68e0f2436cc49f88f3d265f532a79c5b28ca72cdf538c2"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q1-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q1-444-interleaved-reference.jpg",
+      "jpeg_sha256": "2177aa5e5ccebbd7ee89bb1099d92b72c3a26b2dee331057db8b673e931030db",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 432,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 55296
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "db69bd328b891a55f94b83121172e6ec5cd818d6cde45904c952f7623f4ada68"
+      },
+      "coefficients": {
+        "bytes": 55296,
+        "sha256": "f342cff1ae4ebbafe3797304b737936d587aea531f0cb965bd19b56647ada941"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q1-444-interleaved-reference.jpg",
+      "jpeg_sha256": "2177aa5e5ccebbd7ee89bb1099d92b72c3a26b2dee331057db8b673e931030db",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 432,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 55296
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "db69bd328b891a55f94b83121172e6ec5cd818d6cde45904c952f7623f4ada68"
+      },
+      "coefficients": {
+        "bytes": 55296,
+        "sha256": "f342cff1ae4ebbafe3797304b737936d587aea531f0cb965bd19b56647ada941"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-420-interleaved-reference.jpg",
+      "jpeg_sha256": "3b7e159522847e199bb48ea43466df2388fa5ef98770fc5bca71ab2b76005b5c",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 240,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 30720
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "3d49c7a2ddccfdc79209548c34050d8f07d97fdbb19fbbdc756287b7de806a65"
+      },
+      "coefficients": {
+        "bytes": 30720,
+        "sha256": "498d7ffb925fb683c5f8865c49134ceb4ded06a8101923439e67adf9b3e066a8"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-420-interleaved-reference.jpg",
+      "jpeg_sha256": "3b7e159522847e199bb48ea43466df2388fa5ef98770fc5bca71ab2b76005b5c",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 240,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 30720
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "3d49c7a2ddccfdc79209548c34050d8f07d97fdbb19fbbdc756287b7de806a65"
+      },
+      "coefficients": {
+        "bytes": 30720,
+        "sha256": "498d7ffb925fb683c5f8865c49134ceb4ded06a8101923439e67adf9b3e066a8"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-420-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-420-planar-reference.jpg",
+      "jpeg_sha256": "b2ab941a8afdddb15b24809e02847f63801238a9bb68bba63813c882c53c006f",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 3,
+        "blocks": 224,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 28672
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "3d49c7a2ddccfdc79209548c34050d8f07d97fdbb19fbbdc756287b7de806a65"
+      },
+      "coefficients": {
+        "bytes": 28672,
+        "sha256": "16bf47706049e7eadf2cafa2f0928b2127d7a0400d6ee5edb09e16941d4047f0"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-420-planar-reference.jpg",
+      "jpeg_sha256": "b2ab941a8afdddb15b24809e02847f63801238a9bb68bba63813c882c53c006f",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 3,
+        "blocks": 224,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 28672
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "3d49c7a2ddccfdc79209548c34050d8f07d97fdbb19fbbdc756287b7de806a65"
+      },
+      "coefficients": {
+        "bytes": 28672,
+        "sha256": "16bf47706049e7eadf2cafa2f0928b2127d7a0400d6ee5edb09e16941d4047f0"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-422-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-422-planar-reference.jpg",
+      "jpeg_sha256": "f1a3f04fdcf7cf486afe9a7d1520aeec4e1d6dd82d73f5d0d10161caa60ae83c",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 3,
+        "blocks": 288,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 36864
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "4490d2e3c1ea9a09e9b0c0156d9dc7e57b44ef2f250c8ce2c939dced0a59bb2a"
+      },
+      "coefficients": {
+        "bytes": 36864,
+        "sha256": "460478d1fc220df226925c5344f43650e9683e8f46208216a50a414dd57d4dff"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-422-planar-reference.jpg",
+      "jpeg_sha256": "f1a3f04fdcf7cf486afe9a7d1520aeec4e1d6dd82d73f5d0d10161caa60ae83c",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 3,
+        "blocks": 288,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 36864
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "4490d2e3c1ea9a09e9b0c0156d9dc7e57b44ef2f250c8ce2c939dced0a59bb2a"
+      },
+      "coefficients": {
+        "bytes": 36864,
+        "sha256": "460478d1fc220df226925c5344f43650e9683e8f46208216a50a414dd57d4dff"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-444-interleaved-reference.jpg",
+      "jpeg_sha256": "486dfb8a604af93cdf485435b2c18a34e2dfb0ef500c317c8214787dfca132e6",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 432,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 55296
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "e83d5375d7b3b788f11ae5b7e45b2a9c8bf2d92d03fcd8e3f9c7a2f7bf566a4c"
+      },
+      "coefficients": {
+        "bytes": 55296,
+        "sha256": "def9903c682633c5e6a83f6935a9429a81ddd2a8092d8873a6d330a2f043e5ea"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-444-interleaved-reference.jpg",
+      "jpeg_sha256": "486dfb8a604af93cdf485435b2c18a34e2dfb0ef500c317c8214787dfca132e6",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 432,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 55296
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "e83d5375d7b3b788f11ae5b7e45b2a9c8bf2d92d03fcd8e3f9c7a2f7bf566a4c"
+      },
+      "coefficients": {
+        "bytes": 55296,
+        "sha256": "def9903c682633c5e6a83f6935a9429a81ddd2a8092d8873a6d330a2f043e5ea"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-444-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-444-planar-reference.jpg",
+      "jpeg_sha256": "bb6e88923057ecfa624f7a6e6f318fcf97bbc48bcdaefff9f9d047b1de34bbc1",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 3,
+        "blocks": 432,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 55296
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "e83d5375d7b3b788f11ae5b7e45b2a9c8bf2d92d03fcd8e3f9c7a2f7bf566a4c"
+      },
+      "coefficients": {
+        "bytes": 55296,
+        "sha256": "07116f87e787dd2eaac8ea4ff0db87ddec7089d1bda4ba7e291561cd0241d25d"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q100-444-planar-reference.jpg",
+      "jpeg_sha256": "bb6e88923057ecfa624f7a6e6f318fcf97bbc48bcdaefff9f9d047b1de34bbc1",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 3,
+        "blocks": 432,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 55296
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "e83d5375d7b3b788f11ae5b7e45b2a9c8bf2d92d03fcd8e3f9c7a2f7bf566a4c"
+      },
+      "coefficients": {
+        "bytes": 55296,
+        "sha256": "07116f87e787dd2eaac8ea4ff0db87ddec7089d1bda4ba7e291561cd0241d25d"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q75-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q75-420-interleaved-reference.jpg",
+      "jpeg_sha256": "9b63a118928e24d514b891edb26b8b8e2e8c87aefff0f628d4769c6aaf43fce6",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 240,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 30720
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "98a279ba4d49e871bd26a78c66916fef2bf2fa6a8c941cab2f07ca38366dd070"
+      },
+      "coefficients": {
+        "bytes": 30720,
+        "sha256": "6b59f31bcc61cb59ab4a01922de051f11a593270fa5c1494a5de67a2d2e92c5b"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q75-420-interleaved-reference.jpg",
+      "jpeg_sha256": "9b63a118928e24d514b891edb26b8b8e2e8c87aefff0f628d4769c6aaf43fce6",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 240,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 30720
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "98a279ba4d49e871bd26a78c66916fef2bf2fa6a8c941cab2f07ca38366dd070"
+      },
+      "coefficients": {
+        "bytes": 30720,
+        "sha256": "6b59f31bcc61cb59ab4a01922de051f11a593270fa5c1494a5de67a2d2e92c5b"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q75-420-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q75-420-planar-reference.jpg",
+      "jpeg_sha256": "29effa42df93e9e6196393cc203ac35561901ba555bbb0ec0bd6ae9241870623",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 3,
+        "blocks": 224,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 28672
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "98a279ba4d49e871bd26a78c66916fef2bf2fa6a8c941cab2f07ca38366dd070"
+      },
+      "coefficients": {
+        "bytes": 28672,
+        "sha256": "483bbea3b00b26d3aff2dca224dd99d67a0524aa513bb4ac33a12a69fe1252f4"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q75-420-planar-reference.jpg",
+      "jpeg_sha256": "29effa42df93e9e6196393cc203ac35561901ba555bbb0ec0bd6ae9241870623",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 3,
+        "blocks": 224,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 28672
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "98a279ba4d49e871bd26a78c66916fef2bf2fa6a8c941cab2f07ca38366dd070"
+      },
+      "coefficients": {
+        "bytes": 28672,
+        "sha256": "483bbea3b00b26d3aff2dca224dd99d67a0524aa513bb4ac33a12a69fe1252f4"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q75-422-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q75-422-planar-reference.jpg",
+      "jpeg_sha256": "e97a93fcaf34a1f12488acd0faaeda693881c26396c21cbcaa268a608277091a",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 3,
+        "blocks": 288,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 36864
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "6b344598bbbf6fa2b9b9124cc5bfc533c63352bda36a7c812f331c25bfc72281"
+      },
+      "coefficients": {
+        "bytes": 36864,
+        "sha256": "50c8cc4e0fbb84feb789355df1b9e07f8cc5ed66b4b232dff1d52e1165532c40"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q75-422-planar-reference.jpg",
+      "jpeg_sha256": "e97a93fcaf34a1f12488acd0faaeda693881c26396c21cbcaa268a608277091a",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 3,
+        "blocks": 288,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 36864
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "6b344598bbbf6fa2b9b9124cc5bfc533c63352bda36a7c812f331c25bfc72281"
+      },
+      "coefficients": {
+        "bytes": 36864,
+        "sha256": "50c8cc4e0fbb84feb789355df1b9e07f8cc5ed66b4b232dff1d52e1165532c40"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q75-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q75-444-interleaved-reference.jpg",
+      "jpeg_sha256": "b6f7ca41f078b33c3adca8204ff088259fb48725bb85c874fdd87478384c84e1",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 432,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 55296
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "d88a6647993048394656e2c689dca70f3e8bf0dd2ab663adfbc516d19a2958c1"
+      },
+      "coefficients": {
+        "bytes": 55296,
+        "sha256": "c85d2733c69f8a430bfa73eb48d6cf4d6aea63157045aacc3b5be5d45d55b31f"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q75-444-interleaved-reference.jpg",
+      "jpeg_sha256": "b6f7ca41f078b33c3adca8204ff088259fb48725bb85c874fdd87478384c84e1",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 432,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 55296
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "d88a6647993048394656e2c689dca70f3e8bf0dd2ab663adfbc516d19a2958c1"
+      },
+      "coefficients": {
+        "bytes": 55296,
+        "sha256": "c85d2733c69f8a430bfa73eb48d6cf4d6aea63157045aacc3b5be5d45d55b31f"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q75-444-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q75-444-planar-reference.jpg",
+      "jpeg_sha256": "8f2b92b6868cce6632e30b774de509ddb677dbace0adc114c7547f6b33f99ade",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 3,
+        "blocks": 432,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 55296
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "d88a6647993048394656e2c689dca70f3e8bf0dd2ab663adfbc516d19a2958c1"
+      },
+      "coefficients": {
+        "bytes": 55296,
+        "sha256": "27459c69abadc3c0d7d11e0c9c1425c94d0f234f72ddd77f9c4302b14ad9dab6"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q75-444-planar-reference.jpg",
+      "jpeg_sha256": "8f2b92b6868cce6632e30b774de509ddb677dbace0adc114c7547f6b33f99ade",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 3,
+        "blocks": 432,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 55296
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "d88a6647993048394656e2c689dca70f3e8bf0dd2ab663adfbc516d19a2958c1"
+      },
+      "coefficients": {
+        "bytes": 55296,
+        "sha256": "27459c69abadc3c0d7d11e0c9c1425c94d0f234f72ddd77f9c4302b14ad9dab6"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q90-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q90-420-interleaved-reference.jpg",
+      "jpeg_sha256": "473c0830dbd703cb247768eee26a7702140719c3234af59d9240451e0aa2cdb2",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 240,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 30720
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "ccfa38c4803c616aac6c939edbde11431ef5f54d6098a3e8c894ae136f1f77db"
+      },
+      "coefficients": {
+        "bytes": 30720,
+        "sha256": "ba0fb7ac7f8dbdd7da248eba25b9163d148ceecae6beaff4a80544dc6352b8ad"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q90-420-interleaved-reference.jpg",
+      "jpeg_sha256": "473c0830dbd703cb247768eee26a7702140719c3234af59d9240451e0aa2cdb2",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 240,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 30720
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "ccfa38c4803c616aac6c939edbde11431ef5f54d6098a3e8c894ae136f1f77db"
+      },
+      "coefficients": {
+        "bytes": 30720,
+        "sha256": "ba0fb7ac7f8dbdd7da248eba25b9163d148ceecae6beaff4a80544dc6352b8ad"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q90-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q90-444-interleaved-reference.jpg",
+      "jpeg_sha256": "3dfb473491f10e1fb4f9b6fa93de5f757e5025f9cdeb9a6bb028bf8e1cf5a076",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 432,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 55296
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "45f79e07238fb563f5fca33986b677aa65834ceed97d75e3f35880c00720c48b"
+      },
+      "coefficients": {
+        "bytes": 55296,
+        "sha256": "fdd235b2550a13cc93bd9bca394b0d01296cf250e833494dccee76b0802ed3bd"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\noise-rgb-q90-444-interleaved-reference.jpg",
+      "jpeg_sha256": "3dfb473491f10e1fb4f9b6fa93de5f757e5025f9cdeb9a6bb028bf8e1cf5a076",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 127,
+        "height": 65,
+        "components": 3,
+        "segments": 1,
+        "blocks": 432,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24765,
+        "coefficient_bytes": 55296
+      },
+      "pixels": {
+        "bytes": 24765,
+        "sha256": "45f79e07238fb563f5fca33986b677aa65834ceed97d75e3f35880c00720c48b"
+      },
+      "coefficients": {
+        "bytes": 55296,
+        "sha256": "fdd235b2550a13cc93bd9bca394b0d01296cf250e833494dccee76b0802ed3bd"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q1-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q1-420-interleaved-reference.jpg",
+      "jpeg_sha256": "ab719e0856588d6c0100cb34da5e82e105060fc70f65035a91b619ea2c2704e4",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "4da99deadd69da659b316dc1f3ff83e1e8c5a6f76f1555712db9cd087cf1c28c"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "d1e486230a39f873682e496739c9bbcfead25c5a71326e2be1de58aa358ced28"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q1-420-interleaved-reference.jpg",
+      "jpeg_sha256": "ab719e0856588d6c0100cb34da5e82e105060fc70f65035a91b619ea2c2704e4",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "4da99deadd69da659b316dc1f3ff83e1e8c5a6f76f1555712db9cd087cf1c28c"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "d1e486230a39f873682e496739c9bbcfead25c5a71326e2be1de58aa358ced28"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q1-422-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q1-422-interleaved-reference.jpg",
+      "jpeg_sha256": "a5021b83c6b5263bd5b52a597f1d13cb77d89605f44a22742f71e4a631cecbb8",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "d5e2af652db8f188a7c6f0b14f70c23e840509b9f1cecc5a3b5de760346e46ab"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "62a0e6badc4bc824ea30db710241d23cfaf821ef951668b0520c380379b5ea27"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q1-422-interleaved-reference.jpg",
+      "jpeg_sha256": "a5021b83c6b5263bd5b52a597f1d13cb77d89605f44a22742f71e4a631cecbb8",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "d5e2af652db8f188a7c6f0b14f70c23e840509b9f1cecc5a3b5de760346e46ab"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "62a0e6badc4bc824ea30db710241d23cfaf821ef951668b0520c380379b5ea27"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q1-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q1-444-interleaved-reference.jpg",
+      "jpeg_sha256": "183b8e30ed6c8040ab3f4a7e3ef9b098d84f122f83e9305ffaf27809d3aed397",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 27,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3456
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "345e163a7a811a6b67961b59d6871206cde0ab2890060b1e692e882dd5984dda"
+      },
+      "coefficients": {
+        "bytes": 3456,
+        "sha256": "7ae943457e93b1729f672095d2aed23ddc806ff0227eaa26d8cd04bd68086d86"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q1-444-interleaved-reference.jpg",
+      "jpeg_sha256": "183b8e30ed6c8040ab3f4a7e3ef9b098d84f122f83e9305ffaf27809d3aed397",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 27,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3456
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "345e163a7a811a6b67961b59d6871206cde0ab2890060b1e692e882dd5984dda"
+      },
+      "coefficients": {
+        "bytes": 3456,
+        "sha256": "7ae943457e93b1729f672095d2aed23ddc806ff0227eaa26d8cd04bd68086d86"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-420-interleaved-reference.jpg",
+      "jpeg_sha256": "0af70e25354dcc25a502196cbea79af797b9524a9cb79a0ebc5ee3fb6292b62f",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "0a9cd6857b5c31a45f6e9f8520d9b4a3a5593ccadfa8e0181672706731455925"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "574918de615db4d2f76535dddee585e2f6c0892e20a9b329cfd6577405b17c56"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-420-interleaved-reference.jpg",
+      "jpeg_sha256": "0af70e25354dcc25a502196cbea79af797b9524a9cb79a0ebc5ee3fb6292b62f",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "0a9cd6857b5c31a45f6e9f8520d9b4a3a5593ccadfa8e0181672706731455925"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "574918de615db4d2f76535dddee585e2f6c0892e20a9b329cfd6577405b17c56"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-420-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-420-planar-reference.jpg",
+      "jpeg_sha256": "4d71fbbed0d629af836b019e7794134a7bf7e4e2de8942e254e1ec8661867322",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 3,
+        "blocks": 17,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 2176
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "0a9cd6857b5c31a45f6e9f8520d9b4a3a5593ccadfa8e0181672706731455925"
+      },
+      "coefficients": {
+        "bytes": 2176,
+        "sha256": "b7f026814187626b580251a212e29f58989a960c2ad6b201b4ce4edb188d5fd1"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-420-planar-reference.jpg",
+      "jpeg_sha256": "4d71fbbed0d629af836b019e7794134a7bf7e4e2de8942e254e1ec8661867322",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 3,
+        "blocks": 17,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 2176
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "0a9cd6857b5c31a45f6e9f8520d9b4a3a5593ccadfa8e0181672706731455925"
+      },
+      "coefficients": {
+        "bytes": 2176,
+        "sha256": "b7f026814187626b580251a212e29f58989a960c2ad6b201b4ce4edb188d5fd1"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-422-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-422-interleaved-reference.jpg",
+      "jpeg_sha256": "f359b87dfcaaab0969648f6ea243db9ccf62a7d243ea429fdfead669ef5fee42",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "12e4f29c5b7a2b07dcda3012bef994ffd8c541bfef61c6bf1afd02665efb0c33"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "e2763800c2a9730361b27c1080a2039d8b30f30488b37a5133691840769302f3"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-422-interleaved-reference.jpg",
+      "jpeg_sha256": "f359b87dfcaaab0969648f6ea243db9ccf62a7d243ea429fdfead669ef5fee42",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "12e4f29c5b7a2b07dcda3012bef994ffd8c541bfef61c6bf1afd02665efb0c33"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "e2763800c2a9730361b27c1080a2039d8b30f30488b37a5133691840769302f3"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-422-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-422-planar-reference.jpg",
+      "jpeg_sha256": "10ebde9edd9e24b7141e60ff07adeed82ab238bd050908c88649f7cc015a496d",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 3,
+        "blocks": 21,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 2688
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "12e4f29c5b7a2b07dcda3012bef994ffd8c541bfef61c6bf1afd02665efb0c33"
+      },
+      "coefficients": {
+        "bytes": 2688,
+        "sha256": "fc08cd13e2f4a98899ce6383f40522d90dea6a6bfe0c1561140af8b9ee13c166"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-422-planar-reference.jpg",
+      "jpeg_sha256": "10ebde9edd9e24b7141e60ff07adeed82ab238bd050908c88649f7cc015a496d",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 3,
+        "blocks": 21,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 2688
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "12e4f29c5b7a2b07dcda3012bef994ffd8c541bfef61c6bf1afd02665efb0c33"
+      },
+      "coefficients": {
+        "bytes": 2688,
+        "sha256": "fc08cd13e2f4a98899ce6383f40522d90dea6a6bfe0c1561140af8b9ee13c166"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-444-interleaved-reference.jpg",
+      "jpeg_sha256": "d42ce6918d271ebf42a1c6b7ea58d68115222a7aa2d71cf0ddf753d269f3d80e",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 27,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3456
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "1a41fb8f4776f3f9cb85f08805cad53210d0f4808e65ae976f451cbc7c75c988"
+      },
+      "coefficients": {
+        "bytes": 3456,
+        "sha256": "c917fde563d7f65245aee48af4e9ebe00713f5ab56cb9da22f434f21b16ce008"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-444-interleaved-reference.jpg",
+      "jpeg_sha256": "d42ce6918d271ebf42a1c6b7ea58d68115222a7aa2d71cf0ddf753d269f3d80e",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 27,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3456
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "1a41fb8f4776f3f9cb85f08805cad53210d0f4808e65ae976f451cbc7c75c988"
+      },
+      "coefficients": {
+        "bytes": 3456,
+        "sha256": "c917fde563d7f65245aee48af4e9ebe00713f5ab56cb9da22f434f21b16ce008"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-444-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-444-planar-reference.jpg",
+      "jpeg_sha256": "7babf543b2dc115a5bd114d93b655355ccdc8c621fc93c20d1ca6018d08244a2",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 3,
+        "blocks": 27,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3456
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "1a41fb8f4776f3f9cb85f08805cad53210d0f4808e65ae976f451cbc7c75c988"
+      },
+      "coefficients": {
+        "bytes": 3456,
+        "sha256": "89a2e54eda8f198b8727d7dc8f1b4114039dacefd9c8cefe2e4fc95f01ccf934"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q100-444-planar-reference.jpg",
+      "jpeg_sha256": "7babf543b2dc115a5bd114d93b655355ccdc8c621fc93c20d1ca6018d08244a2",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 3,
+        "blocks": 27,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3456
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "1a41fb8f4776f3f9cb85f08805cad53210d0f4808e65ae976f451cbc7c75c988"
+      },
+      "coefficients": {
+        "bytes": 3456,
+        "sha256": "89a2e54eda8f198b8727d7dc8f1b4114039dacefd9c8cefe2e4fc95f01ccf934"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-420-interleaved-reference.jpg",
+      "jpeg_sha256": "272c3ae6278c2eb62da1d5146cc9b488406fd2956ce506ddb24ef0afb7644ba6",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "4f2b2df68be5e809c26edfb407dc2b2b0294f0010c6e3ac84a3099b892545e27"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "e32798890623b63dce66f0a925a2e815cb18e36e74acc5a953cb8a9102fea96b"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-420-interleaved-reference.jpg",
+      "jpeg_sha256": "272c3ae6278c2eb62da1d5146cc9b488406fd2956ce506ddb24ef0afb7644ba6",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "4f2b2df68be5e809c26edfb407dc2b2b0294f0010c6e3ac84a3099b892545e27"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "e32798890623b63dce66f0a925a2e815cb18e36e74acc5a953cb8a9102fea96b"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-420-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-420-planar-reference.jpg",
+      "jpeg_sha256": "82b538869634ba9e0acb267552ddaab6deb94f6cf2f7b4144788993d6c978fde",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 3,
+        "blocks": 17,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 2176
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "4f2b2df68be5e809c26edfb407dc2b2b0294f0010c6e3ac84a3099b892545e27"
+      },
+      "coefficients": {
+        "bytes": 2176,
+        "sha256": "d0c6fb17fc5397abfd90a1ecfd94949948834299f83dccb0e4b6c2cc5fc47f6d"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-420-planar-reference.jpg",
+      "jpeg_sha256": "82b538869634ba9e0acb267552ddaab6deb94f6cf2f7b4144788993d6c978fde",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 3,
+        "blocks": 17,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 2176
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "4f2b2df68be5e809c26edfb407dc2b2b0294f0010c6e3ac84a3099b892545e27"
+      },
+      "coefficients": {
+        "bytes": 2176,
+        "sha256": "d0c6fb17fc5397abfd90a1ecfd94949948834299f83dccb0e4b6c2cc5fc47f6d"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-422-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-422-interleaved-reference.jpg",
+      "jpeg_sha256": "ca32bcae4f4d79d6a97cdb558c9d8d06b8bf710b87e055ce6fced874738782de",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "2eb46e4c09ef773ef096ad5560945560c345326c180ae6bc26d51e771a9dd630"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "2f289d6d1aafa264bf6ed501e63e7ed9f53fb4fbba4e31738f9678816cacac20"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-422-interleaved-reference.jpg",
+      "jpeg_sha256": "ca32bcae4f4d79d6a97cdb558c9d8d06b8bf710b87e055ce6fced874738782de",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "2eb46e4c09ef773ef096ad5560945560c345326c180ae6bc26d51e771a9dd630"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "2f289d6d1aafa264bf6ed501e63e7ed9f53fb4fbba4e31738f9678816cacac20"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-422-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-422-planar-reference.jpg",
+      "jpeg_sha256": "99c998e70cfbbe5d7f50837b45b732129354fae45917f870798c012bc0c8813c",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 3,
+        "blocks": 21,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 2688
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "2eb46e4c09ef773ef096ad5560945560c345326c180ae6bc26d51e771a9dd630"
+      },
+      "coefficients": {
+        "bytes": 2688,
+        "sha256": "45fc1a0a841ced60462908097a661d1ef8ad5992d4f73e57dd36241ed8582826"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-422-planar-reference.jpg",
+      "jpeg_sha256": "99c998e70cfbbe5d7f50837b45b732129354fae45917f870798c012bc0c8813c",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 3,
+        "blocks": 21,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 2688
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "2eb46e4c09ef773ef096ad5560945560c345326c180ae6bc26d51e771a9dd630"
+      },
+      "coefficients": {
+        "bytes": 2688,
+        "sha256": "45fc1a0a841ced60462908097a661d1ef8ad5992d4f73e57dd36241ed8582826"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-444-interleaved-reference.jpg",
+      "jpeg_sha256": "7b200dbfd2f766dfd458c18c72fa23fd65d3db689efee0d3a36a1183eff95ada",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 27,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3456
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "8f9ecf87779b292223f093e3277150e790af1e17d7ba44e4481ddf7578c08e0a"
+      },
+      "coefficients": {
+        "bytes": 3456,
+        "sha256": "2a93ed43742765ac142dfb03bfe990c5f3940ef7a67694071101fbc69df3f371"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-444-interleaved-reference.jpg",
+      "jpeg_sha256": "7b200dbfd2f766dfd458c18c72fa23fd65d3db689efee0d3a36a1183eff95ada",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 27,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3456
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "8f9ecf87779b292223f093e3277150e790af1e17d7ba44e4481ddf7578c08e0a"
+      },
+      "coefficients": {
+        "bytes": 3456,
+        "sha256": "2a93ed43742765ac142dfb03bfe990c5f3940ef7a67694071101fbc69df3f371"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-444-planar-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-444-planar-reference.jpg",
+      "jpeg_sha256": "955a89a2d8fd70353ed80c5d1ef1689235ebc8c4dc76b9a86c58d338a1dff224",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 3,
+        "blocks": 27,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3456
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "8f9ecf87779b292223f093e3277150e790af1e17d7ba44e4481ddf7578c08e0a"
+      },
+      "coefficients": {
+        "bytes": 3456,
+        "sha256": "fcc40981bf0206bed6a82139b9fbc3180d4eb6229c05ad29c3186ecc1de19402"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q75-444-planar-reference.jpg",
+      "jpeg_sha256": "955a89a2d8fd70353ed80c5d1ef1689235ebc8c4dc76b9a86c58d338a1dff224",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 3,
+        "blocks": 27,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3456
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "8f9ecf87779b292223f093e3277150e790af1e17d7ba44e4481ddf7578c08e0a"
+      },
+      "coefficients": {
+        "bytes": 3456,
+        "sha256": "fcc40981bf0206bed6a82139b9fbc3180d4eb6229c05ad29c3186ecc1de19402"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q90-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q90-420-interleaved-reference.jpg",
+      "jpeg_sha256": "d3437c2dfc9096e892263827bfd29d4987613755b482bd25fdcaffffcfd6efbc",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "2ffc5cdbc4f7fc17edaa766f3cd6b791feae256a9c227d6ddbcb9916fb725e3d"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "4e2bae5e550e194d4536ae253bee8c99d86375e44bc3542c343a4ff148978830"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q90-420-interleaved-reference.jpg",
+      "jpeg_sha256": "d3437c2dfc9096e892263827bfd29d4987613755b482bd25fdcaffffcfd6efbc",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "2ffc5cdbc4f7fc17edaa766f3cd6b791feae256a9c227d6ddbcb9916fb725e3d"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "4e2bae5e550e194d4536ae253bee8c99d86375e44bc3542c343a4ff148978830"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q90-422-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q90-422-interleaved-reference.jpg",
+      "jpeg_sha256": "a81c31df565a7b904241f5cf19269355f35d97c8a69ee8fd3b4616fc3c3c5b4c",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "f97851d083addf3021f25b62e45f6b309e54699a6ee11eca89682716ec39918d"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "4bbde376f7c287ae8e397c2d9a27aea8476fde464b08398774b363bb76bc7323"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q90-422-interleaved-reference.jpg",
+      "jpeg_sha256": "a81c31df565a7b904241f5cf19269355f35d97c8a69ee8fd3b4616fc3c3c5b4c",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 24,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3072
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "f97851d083addf3021f25b62e45f6b309e54699a6ee11eca89682716ec39918d"
+      },
+      "coefficients": {
+        "bytes": 3072,
+        "sha256": "4bbde376f7c287ae8e397c2d9a27aea8476fde464b08398774b363bb76bc7323"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q90-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q90-444-interleaved-reference.jpg",
+      "jpeg_sha256": "75f6dce51d68b43d21be988917c3ef3d8de4ce0f093eaa9379a5021bdaa97ada",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 27,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3456
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "43eecaa6953bcbe68530ec812bc8427e88dfbdc3e5f7e4c493a6b6b17cd730e1"
+      },
+      "coefficients": {
+        "bytes": 3456,
+        "sha256": "005890cfca938dc423a572dc3788a707d311fdb17ff99b545e8bd109fb05309b"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\odd-rgb-q90-444-interleaved-reference.jpg",
+      "jpeg_sha256": "75f6dce51d68b43d21be988917c3ef3d8de4ce0f093eaa9379a5021bdaa97ada",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 17,
+        "height": 19,
+        "components": 3,
+        "segments": 1,
+        "blocks": 27,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 969,
+        "coefficient_bytes": 3456
+      },
+      "pixels": {
+        "bytes": 969,
+        "sha256": "43eecaa6953bcbe68530ec812bc8427e88dfbdc3e5f7e4c493a6b6b17cd730e1"
+      },
+      "coefficients": {
+        "bytes": 3456,
+        "sha256": "005890cfca938dc423a572dc3788a707d311fdb17ff99b545e8bd109fb05309b"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-black-gray-q1-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-black-gray-q1-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "8e935ffe4ef07ac16fcd467b6b533b98014ca739e8975062a693e5a4ba23a8fa",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 1,
+        "segments": 1,
+        "blocks": 1,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 1,
+        "coefficient_bytes": 128
+      },
+      "pixels": {
+        "bytes": 1,
+        "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+      },
+      "coefficients": {
+        "bytes": 128,
+        "sha256": "ff40b3c774aaf53d756434dfbbb306108bd64b758af7ea03b14f7e2f1b53b79d"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-black-gray-q1-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "8e935ffe4ef07ac16fcd467b6b533b98014ca739e8975062a693e5a4ba23a8fa",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 1,
+        "segments": 1,
+        "blocks": 1,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 1,
+        "coefficient_bytes": 128
+      },
+      "pixels": {
+        "bytes": 1,
+        "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+      },
+      "coefficients": {
+        "bytes": 128,
+        "sha256": "ff40b3c774aaf53d756434dfbbb306108bd64b758af7ea03b14f7e2f1b53b79d"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-black-gray-q100-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-black-gray-q100-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "ff09590dff0405d8307c2574ceaa6bd7c84c7e6a2590faaecaac29283ddb4e95",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 1,
+        "segments": 1,
+        "blocks": 1,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 1,
+        "coefficient_bytes": 128
+      },
+      "pixels": {
+        "bytes": 1,
+        "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+      },
+      "coefficients": {
+        "bytes": 128,
+        "sha256": "0b46629d2ba7fbb5322fd28c1ec605421ce73288d28f2daeb715869bc036e368"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-black-gray-q100-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "ff09590dff0405d8307c2574ceaa6bd7c84c7e6a2590faaecaac29283ddb4e95",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 1,
+        "segments": 1,
+        "blocks": 1,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 1,
+        "coefficient_bytes": 128
+      },
+      "pixels": {
+        "bytes": 1,
+        "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+      },
+      "coefficients": {
+        "bytes": 128,
+        "sha256": "0b46629d2ba7fbb5322fd28c1ec605421ce73288d28f2daeb715869bc036e368"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-black-gray-q75-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-black-gray-q75-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "e1af8834f5eb3252ce7177bf408f8206506c88801b3f3a7d464cc76b3eacf479",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 1,
+        "segments": 1,
+        "blocks": 1,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 1,
+        "coefficient_bytes": 128
+      },
+      "pixels": {
+        "bytes": 1,
+        "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+      },
+      "coefficients": {
+        "bytes": 128,
+        "sha256": "362221084b259b267a58dd71465e15668744e39bc121d97e6a0d81116f3d4457"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-black-gray-q75-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "e1af8834f5eb3252ce7177bf408f8206506c88801b3f3a7d464cc76b3eacf479",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 1,
+        "segments": 1,
+        "blocks": 1,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 1,
+        "coefficient_bytes": 128
+      },
+      "pixels": {
+        "bytes": 1,
+        "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+      },
+      "coefficients": {
+        "bytes": 128,
+        "sha256": "362221084b259b267a58dd71465e15668744e39bc121d97e6a0d81116f3d4457"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-black-gray-q90-gray-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-black-gray-q90-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "123fa4db001aa0edc13e460cac14e97ff4cd7c21723b30e1a4afbbe2d5612403",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 1,
+        "segments": 1,
+        "blocks": 1,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 1,
+        "coefficient_bytes": 128
+      },
+      "pixels": {
+        "bytes": 1,
+        "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+      },
+      "coefficients": {
+        "bytes": 128,
+        "sha256": "53d2d2b1a53535a5d0ae82bde6ec8f3af0f509e947bc5fb7967a7e54dc72ddcf"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-black-gray-q90-gray-interleaved-reference.jpg",
+      "jpeg_sha256": "123fa4db001aa0edc13e460cac14e97ff4cd7c21723b30e1a4afbbe2d5612403",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 1,
+        "segments": 1,
+        "blocks": 1,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 1,
+        "coefficient_bytes": 128
+      },
+      "pixels": {
+        "bytes": 1,
+        "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+      },
+      "coefficients": {
+        "bytes": 128,
+        "sha256": "53d2d2b1a53535a5d0ae82bde6ec8f3af0f509e947bc5fb7967a7e54dc72ddcf"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q1-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q1-420-interleaved-reference.jpg",
+      "jpeg_sha256": "dbee2df03245bbeefd31510592d1ca55d07f1f95fa925324e4ca72b14f7e0fd5",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 6,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 768
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "a294f9359c594d1463a78d61398d0d3cfc4a70764f2ec3053870130b44b66c70"
+      },
+      "coefficients": {
+        "bytes": 768,
+        "sha256": "dcbff8a178f4a3111a190fd591bf54a2615f7c1498b6091e4f005cdc8565b5fe"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q1-420-interleaved-reference.jpg",
+      "jpeg_sha256": "dbee2df03245bbeefd31510592d1ca55d07f1f95fa925324e4ca72b14f7e0fd5",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 6,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 768
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "a294f9359c594d1463a78d61398d0d3cfc4a70764f2ec3053870130b44b66c70"
+      },
+      "coefficients": {
+        "bytes": 768,
+        "sha256": "dcbff8a178f4a3111a190fd591bf54a2615f7c1498b6091e4f005cdc8565b5fe"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q1-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q1-444-interleaved-reference.jpg",
+      "jpeg_sha256": "1d572661891d28a5c7166427054751ba630f4e9524f851a581957b68120f9584",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 3,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 384
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "a294f9359c594d1463a78d61398d0d3cfc4a70764f2ec3053870130b44b66c70"
+      },
+      "coefficients": {
+        "bytes": 384,
+        "sha256": "0213f5651d59faa9f0da120658f2de1619142b8220d66dd199e141ab99a85c7a"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q1-444-interleaved-reference.jpg",
+      "jpeg_sha256": "1d572661891d28a5c7166427054751ba630f4e9524f851a581957b68120f9584",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 3,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 384
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "a294f9359c594d1463a78d61398d0d3cfc4a70764f2ec3053870130b44b66c70"
+      },
+      "coefficients": {
+        "bytes": 384,
+        "sha256": "0213f5651d59faa9f0da120658f2de1619142b8220d66dd199e141ab99a85c7a"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q100-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q100-420-interleaved-reference.jpg",
+      "jpeg_sha256": "b68138b929c6a915d2d54390b7d3b2c794898fc558bc90f6569e9e9f823dc0d3",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 6,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 768
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "5ae7e6a42304dc6e4176210b83c43024f99a0bce9a870c3b6d2c95fc8ebfb74c"
+      },
+      "coefficients": {
+        "bytes": 768,
+        "sha256": "38850eb3f72a307ca7febafcfd559c0af67ec47b69916b7a0d90b8f343928308"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q100-420-interleaved-reference.jpg",
+      "jpeg_sha256": "b68138b929c6a915d2d54390b7d3b2c794898fc558bc90f6569e9e9f823dc0d3",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 6,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 768
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "5ae7e6a42304dc6e4176210b83c43024f99a0bce9a870c3b6d2c95fc8ebfb74c"
+      },
+      "coefficients": {
+        "bytes": 768,
+        "sha256": "38850eb3f72a307ca7febafcfd559c0af67ec47b69916b7a0d90b8f343928308"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q100-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q100-444-interleaved-reference.jpg",
+      "jpeg_sha256": "e6141054af7d7c08a9558d3709815ce55b4fa7acdfcc6612cf5dbb8f38969c2b",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 3,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 384
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "5ae7e6a42304dc6e4176210b83c43024f99a0bce9a870c3b6d2c95fc8ebfb74c"
+      },
+      "coefficients": {
+        "bytes": 384,
+        "sha256": "8aefb6e23089faed55f6a21ba5abfc5f6913e50da459a8f3a90a217ec259ad97"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q100-444-interleaved-reference.jpg",
+      "jpeg_sha256": "e6141054af7d7c08a9558d3709815ce55b4fa7acdfcc6612cf5dbb8f38969c2b",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 3,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 384
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "5ae7e6a42304dc6e4176210b83c43024f99a0bce9a870c3b6d2c95fc8ebfb74c"
+      },
+      "coefficients": {
+        "bytes": 384,
+        "sha256": "8aefb6e23089faed55f6a21ba5abfc5f6913e50da459a8f3a90a217ec259ad97"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q75-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q75-420-interleaved-reference.jpg",
+      "jpeg_sha256": "301de29c95f26693c79f602df191f2f0ed9839760e5f804bec8fd5632d900317",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 6,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 768
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "5f48ed0721ca64de4f650847d76212295490f0599f7d9cc780599ffda60b1133"
+      },
+      "coefficients": {
+        "bytes": 768,
+        "sha256": "2128561b32f68b91a0a61f8d8837f19cfdbc075b0d25b39a4438017ef77511a9"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q75-420-interleaved-reference.jpg",
+      "jpeg_sha256": "301de29c95f26693c79f602df191f2f0ed9839760e5f804bec8fd5632d900317",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 6,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 768
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "5f48ed0721ca64de4f650847d76212295490f0599f7d9cc780599ffda60b1133"
+      },
+      "coefficients": {
+        "bytes": 768,
+        "sha256": "2128561b32f68b91a0a61f8d8837f19cfdbc075b0d25b39a4438017ef77511a9"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q75-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q75-444-interleaved-reference.jpg",
+      "jpeg_sha256": "b51770522bea229cf90c8c58ef1327d6f094190f81f61b9abbe03c44f0529a72",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 3,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 384
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "5f48ed0721ca64de4f650847d76212295490f0599f7d9cc780599ffda60b1133"
+      },
+      "coefficients": {
+        "bytes": 384,
+        "sha256": "5aa20ea20675826da59b294a3a9f01f58c9380da241d19c44430a944adc5b580"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q75-444-interleaved-reference.jpg",
+      "jpeg_sha256": "b51770522bea229cf90c8c58ef1327d6f094190f81f61b9abbe03c44f0529a72",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 3,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 384
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "5f48ed0721ca64de4f650847d76212295490f0599f7d9cc780599ffda60b1133"
+      },
+      "coefficients": {
+        "bytes": 384,
+        "sha256": "5aa20ea20675826da59b294a3a9f01f58c9380da241d19c44430a944adc5b580"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q90-420-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q90-420-interleaved-reference.jpg",
+      "jpeg_sha256": "2ef31a6f367f1d035f9e6e0497956c541700770fe52a8058acecb4efe0f5a0f2",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 6,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 768
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "b88c193009c22360a2a1e815905a7ea5f0b091647e5eaaff56a0cd90e22598b7"
+      },
+      "coefficients": {
+        "bytes": 768,
+        "sha256": "54a2ac9c61d66b0400f3abe8e7d0041ce5f1ff5bc847699579b81a2d7afea4d9"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q90-420-interleaved-reference.jpg",
+      "jpeg_sha256": "2ef31a6f367f1d035f9e6e0497956c541700770fe52a8058acecb4efe0f5a0f2",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 6,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 768
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "b88c193009c22360a2a1e815905a7ea5f0b091647e5eaaff56a0cd90e22598b7"
+      },
+      "coefficients": {
+        "bytes": 768,
+        "sha256": "54a2ac9c61d66b0400f3abe8e7d0041ce5f1ff5bc847699579b81a2d7afea4d9"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q90-444-interleaved-reference.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q90-444-interleaved-reference.jpg",
+      "jpeg_sha256": "6edb48af1c184e967924687dd619434d2fb297363fd652f27a46aba2218cf262",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 3,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 384
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "b88c193009c22360a2a1e815905a7ea5f0b091647e5eaaff56a0cd90e22598b7"
+      },
+      "coefficients": {
+        "bytes": 384,
+        "sha256": "aec3cde8031f36df4dde0bd897c83c9cdb22d44d8a14c26052fcdf736afd7b77"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\encode-r0-validation\\first-validation\\tiny-white-q90-444-interleaved-reference.jpg",
+      "jpeg_sha256": "6edb48af1c184e967924687dd619434d2fb297363fd652f27a46aba2218cf262",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 1,
+        "height": 1,
+        "components": 3,
+        "segments": 1,
+        "blocks": 3,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 3,
+        "coefficient_bytes": 384
+      },
+      "pixels": {
+        "bytes": 3,
+        "sha256": "b88c193009c22360a2a1e815905a7ea5f0b091647e5eaaff56a0cd90e22598b7"
+      },
+      "coefficients": {
+        "bytes": 384,
+        "sha256": "aec3cde8031f36df4dde0bd897c83c9cdb22d44d8a14c26052fcdf736afd7b77"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-rgb-optimized-0.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-rgb-optimized-0.jpg",
+      "jpeg_sha256": "8a1921f8fc7434ef005e22db312d654c86781488f9d9f452e9eedf3cb26e7160",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 97200,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 12441600
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "0d4b2f9e5d41672d1387c284cfafc99c6072e5b6c6a60f63eeb3c84a5b2e743e"
+      },
+      "coefficients": {
+        "bytes": 12441600,
+        "sha256": "f7bc26c59303d74359358a45f626c264dd0e1f96c7e6a685d7bc0f6bafcee399"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-rgb-optimized-0.jpg",
+      "jpeg_sha256": "8a1921f8fc7434ef005e22db312d654c86781488f9d9f452e9eedf3cb26e7160",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 97200,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 12441600
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "0d4b2f9e5d41672d1387c284cfafc99c6072e5b6c6a60f63eeb3c84a5b2e743e"
+      },
+      "coefficients": {
+        "bytes": 12441600,
+        "sha256": "f7bc26c59303d74359358a45f626c264dd0e1f96c7e6a685d7bc0f6bafcee399"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-rgb-optimized-1.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-rgb-optimized-1.jpg",
+      "jpeg_sha256": "5e78b62715f053310cb799fc08d324b74a55d039c127322d518c0c922337f4ba",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 64800,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 8294400
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "a2150cf589e239479fda40df5c2fa96aec2adbffbfa5746979082ee4a8d77279"
+      },
+      "coefficients": {
+        "bytes": 8294400,
+        "sha256": "94c0f47a31e9139d683c05166a26e2ac77ed6bbf3b036c499684b7be4a5df3bc"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-rgb-optimized-1.jpg",
+      "jpeg_sha256": "5e78b62715f053310cb799fc08d324b74a55d039c127322d518c0c922337f4ba",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 64800,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 8294400
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "a2150cf589e239479fda40df5c2fa96aec2adbffbfa5746979082ee4a8d77279"
+      },
+      "coefficients": {
+        "bytes": 8294400,
+        "sha256": "94c0f47a31e9139d683c05166a26e2ac77ed6bbf3b036c499684b7be4a5df3bc"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-rgb-optimized-2.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-rgb-optimized-2.jpg",
+      "jpeg_sha256": "47d24316e932d0df50c656c67d6bda838243410182c9ec5fdb862396b782d279",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 48960,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 6266880
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "ccb602f351b7b3e501179688e829632c6c5de96df07f77f592ee2d0a275d1f6d"
+      },
+      "coefficients": {
+        "bytes": 6266880,
+        "sha256": "d4220d2594f17773e650f2833cf6d2c29d14e7f53d00cce7649bead5bb84d0c1"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-rgb-optimized-2.jpg",
+      "jpeg_sha256": "47d24316e932d0df50c656c67d6bda838243410182c9ec5fdb862396b782d279",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 48960,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 6266880
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "ccb602f351b7b3e501179688e829632c6c5de96df07f77f592ee2d0a275d1f6d"
+      },
+      "coefficients": {
+        "bytes": 6266880,
+        "sha256": "d4220d2594f17773e650f2833cf6d2c29d14e7f53d00cce7649bead5bb84d0c1"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\4k-rgb-optimized-0.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\4k-rgb-optimized-0.jpg",
+      "jpeg_sha256": "3a257cc018dbb96768a9698af02c7d73cb8b0d25a074b30ab88115e9eea8cefb",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 3840,
+        "height": 2160,
+        "components": 3,
+        "segments": 1,
+        "blocks": 388800,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24883200,
+        "coefficient_bytes": 49766400
+      },
+      "pixels": {
+        "bytes": 24883200,
+        "sha256": "2f700f90155228b78b367dea8f59df9c6328c9e9771a03ceec0ab2689907e5d4"
+      },
+      "coefficients": {
+        "bytes": 49766400,
+        "sha256": "bcea71518c9a8da03078aab232301aa5c98f83db68fd4a24868a235247b299d9"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\4k-rgb-optimized-0.jpg",
+      "jpeg_sha256": "3a257cc018dbb96768a9698af02c7d73cb8b0d25a074b30ab88115e9eea8cefb",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 3840,
+        "height": 2160,
+        "components": 3,
+        "segments": 1,
+        "blocks": 388800,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24883200,
+        "coefficient_bytes": 49766400
+      },
+      "pixels": {
+        "bytes": 24883200,
+        "sha256": "2f700f90155228b78b367dea8f59df9c6328c9e9771a03ceec0ab2689907e5d4"
+      },
+      "coefficients": {
+        "bytes": 49766400,
+        "sha256": "bcea71518c9a8da03078aab232301aa5c98f83db68fd4a24868a235247b299d9"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\4k-rgb-optimized-1.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\4k-rgb-optimized-1.jpg",
+      "jpeg_sha256": "88a07e7ed2a6380d13bbc30d5812a55c38302499d530abb5cb593e15cdbe5b57",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 3840,
+        "height": 2160,
+        "components": 3,
+        "segments": 1,
+        "blocks": 259200,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24883200,
+        "coefficient_bytes": 33177600
+      },
+      "pixels": {
+        "bytes": 24883200,
+        "sha256": "149368bdca3196a20e140ffee413dbcea0f3c75ebb328ea3328d5884b7df8ec6"
+      },
+      "coefficients": {
+        "bytes": 33177600,
+        "sha256": "ed2dcf2e2fb27c4f4a46d630040c373e8ec128af48c84181db1538a34c585de9"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\4k-rgb-optimized-1.jpg",
+      "jpeg_sha256": "88a07e7ed2a6380d13bbc30d5812a55c38302499d530abb5cb593e15cdbe5b57",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 3840,
+        "height": 2160,
+        "components": 3,
+        "segments": 1,
+        "blocks": 259200,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24883200,
+        "coefficient_bytes": 33177600
+      },
+      "pixels": {
+        "bytes": 24883200,
+        "sha256": "149368bdca3196a20e140ffee413dbcea0f3c75ebb328ea3328d5884b7df8ec6"
+      },
+      "coefficients": {
+        "bytes": 33177600,
+        "sha256": "ed2dcf2e2fb27c4f4a46d630040c373e8ec128af48c84181db1538a34c585de9"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\4k-rgb-optimized-2.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\4k-rgb-optimized-2.jpg",
+      "jpeg_sha256": "b8a80bc9f86fe0e4cb8493d2e7f7eea3f8d20935e85bd81e68c627b6d6396205",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 3840,
+        "height": 2160,
+        "components": 3,
+        "segments": 1,
+        "blocks": 194400,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24883200,
+        "coefficient_bytes": 24883200
+      },
+      "pixels": {
+        "bytes": 24883200,
+        "sha256": "425fd8fa368a23dbfde46ed218c72bae80995ebd2e2393c05b022070c5ea4112"
+      },
+      "coefficients": {
+        "bytes": 24883200,
+        "sha256": "48d817a157bfdc8fb5923f19d26541fc90b2d7768413755a2a8c762314f8d81e"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\4k-rgb-optimized-2.jpg",
+      "jpeg_sha256": "b8a80bc9f86fe0e4cb8493d2e7f7eea3f8d20935e85bd81e68c627b6d6396205",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 3840,
+        "height": 2160,
+        "components": 3,
+        "segments": 1,
+        "blocks": 194400,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 24883200,
+        "coefficient_bytes": 24883200
+      },
+      "pixels": {
+        "bytes": 24883200,
+        "sha256": "425fd8fa368a23dbfde46ed218c72bae80995ebd2e2393c05b022070c5ea4112"
+      },
+      "coefficients": {
+        "bytes": 24883200,
+        "sha256": "48d817a157bfdc8fb5923f19d26541fc90b2d7768413755a2a8c762314f8d81e"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-gray-optimized-0.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-gray-optimized-0.jpg",
+      "jpeg_sha256": "494fb0361e6b6164cc8b1fdc10a4e70df58a012ebe10c25373c9d551f14ba45c",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 1,
+        "segments": 1,
+        "blocks": 32400,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 2073600,
+        "coefficient_bytes": 4147200
+      },
+      "pixels": {
+        "bytes": 2073600,
+        "sha256": "5fc468ff176a71327c3edab7885f7f513a6ff97e549b6eb949ac0f6eb4c5bdec"
+      },
+      "coefficients": {
+        "bytes": 4147200,
+        "sha256": "f3095ae806fe34572210add85dfde6109a0adc795f70bdd5c15b576095c12562"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\hd-gray-optimized-0.jpg",
+      "jpeg_sha256": "494fb0361e6b6164cc8b1fdc10a4e70df58a012ebe10c25373c9d551f14ba45c",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 1,
+        "segments": 1,
+        "blocks": 32400,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 2073600,
+        "coefficient_bytes": 4147200
+      },
+      "pixels": {
+        "bytes": 2073600,
+        "sha256": "5fc468ff176a71327c3edab7885f7f513a6ff97e549b6eb949ac0f6eb4c5bdec"
+      },
+      "coefficients": {
+        "bytes": 4147200,
+        "sha256": "f3095ae806fe34572210add85dfde6109a0adc795f70bdd5c15b576095c12562"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-1920-0.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-1920-0.jpg",
+      "jpeg_sha256": "cb7440bd3d3f1cac22cdf2755b70a13eb7cd935ed4b467f11b5eb4ef8a916c00",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 48960,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 6266880
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "3201ffd337e7bd2f0a76e566da7595593447d173ee8a56edafd9e0a0c4b59f5e"
+      },
+      "coefficients": {
+        "bytes": 6266880,
+        "sha256": "df83ddc3f657763f332bf0b07c5265643d4453aaac30858bf513f562e63d6e80"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-1920-0.jpg",
+      "jpeg_sha256": "cb7440bd3d3f1cac22cdf2755b70a13eb7cd935ed4b467f11b5eb4ef8a916c00",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 48960,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 6266880
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "3201ffd337e7bd2f0a76e566da7595593447d173ee8a56edafd9e0a0c4b59f5e"
+      },
+      "coefficients": {
+        "bytes": 6266880,
+        "sha256": "df83ddc3f657763f332bf0b07c5265643d4453aaac30858bf513f562e63d6e80"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-1920-1.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-1920-1.jpg",
+      "jpeg_sha256": "5f7dbed13080c38e459dcd8b8fadb1d044f953e9a60c3cb215e5d47054192d6d",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 48960,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 6266880
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "3201ffd337e7bd2f0a76e566da7595593447d173ee8a56edafd9e0a0c4b59f5e"
+      },
+      "coefficients": {
+        "bytes": 6266880,
+        "sha256": "df83ddc3f657763f332bf0b07c5265643d4453aaac30858bf513f562e63d6e80"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-1920-1.jpg",
+      "jpeg_sha256": "5f7dbed13080c38e459dcd8b8fadb1d044f953e9a60c3cb215e5d47054192d6d",
+      "metadata": {
+        "index": 6,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 48960,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 6266880
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "3201ffd337e7bd2f0a76e566da7595593447d173ee8a56edafd9e0a0c4b59f5e"
+      },
+      "coefficients": {
+        "bytes": 6266880,
+        "sha256": "df83ddc3f657763f332bf0b07c5265643d4453aaac30858bf513f562e63d6e80"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-512-0.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-512-0.jpg",
+      "jpeg_sha256": "4e2aea7a8b957e7ce3bc83c17f91eb75ab495071bc9ac7ecceb9e4f7ba2e5ebe",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 512,
+        "height": 512,
+        "components": 3,
+        "segments": 1,
+        "blocks": 6144,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 786432,
+        "coefficient_bytes": 786432
+      },
+      "pixels": {
+        "bytes": 786432,
+        "sha256": "060b63dbef085d2f8b890afbee9b12936f7ede1ef78155b085cd8ae31700e66b"
+      },
+      "coefficients": {
+        "bytes": 786432,
+        "sha256": "6fc17b2fe3212d89829fc197297df87e1321a06380b0b84ea90337c6c71a3d35"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-512-0.jpg",
+      "jpeg_sha256": "4e2aea7a8b957e7ce3bc83c17f91eb75ab495071bc9ac7ecceb9e4f7ba2e5ebe",
+      "metadata": {
+        "index": 7,
+        "worker": 0,
+        "width": 512,
+        "height": 512,
+        "components": 3,
+        "segments": 1,
+        "blocks": 6144,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 786432,
+        "coefficient_bytes": 786432
+      },
+      "pixels": {
+        "bytes": 786432,
+        "sha256": "060b63dbef085d2f8b890afbee9b12936f7ede1ef78155b085cd8ae31700e66b"
+      },
+      "coefficients": {
+        "bytes": 786432,
+        "sha256": "6fc17b2fe3212d89829fc197297df87e1321a06380b0b84ea90337c6c71a3d35"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-512-1.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-512-1.jpg",
+      "jpeg_sha256": "024a79f2396bee6cd22dcaafea1bf8931b3ef3fd9f3e104974f36e6ab20074f4",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 512,
+        "height": 512,
+        "components": 3,
+        "segments": 1,
+        "blocks": 6144,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 786432,
+        "coefficient_bytes": 786432
+      },
+      "pixels": {
+        "bytes": 786432,
+        "sha256": "060b63dbef085d2f8b890afbee9b12936f7ede1ef78155b085cd8ae31700e66b"
+      },
+      "coefficients": {
+        "bytes": 786432,
+        "sha256": "6fc17b2fe3212d89829fc197297df87e1321a06380b0b84ea90337c6c71a3d35"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-512-1.jpg",
+      "jpeg_sha256": "024a79f2396bee6cd22dcaafea1bf8931b3ef3fd9f3e104974f36e6ab20074f4",
+      "metadata": {
+        "index": 0,
+        "worker": 0,
+        "width": 512,
+        "height": 512,
+        "components": 3,
+        "segments": 1,
+        "blocks": 6144,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 786432,
+        "coefficient_bytes": 786432
+      },
+      "pixels": {
+        "bytes": 786432,
+        "sha256": "060b63dbef085d2f8b890afbee9b12936f7ede1ef78155b085cd8ae31700e66b"
+      },
+      "coefficients": {
+        "bytes": 786432,
+        "sha256": "6fc17b2fe3212d89829fc197297df87e1321a06380b0b84ea90337c6c71a3d35"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-colored.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-colored.jpg",
+      "jpeg_sha256": "68ca526c5c9a4f5559f34422e99ed1fc9eb875aa0144ecce225e3b5c0ee23231",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 48960,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 6266880
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "14ce49adcd23751af45004e23d9f4e0e81aee70689799c1efa6d2771e1209ae2"
+      },
+      "coefficients": {
+        "bytes": 6266880,
+        "sha256": "3d1d54f9aeef25ba7b429cb56b49abc945657e8208cc19d48ed3009aafe3f65d"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-colored.jpg",
+      "jpeg_sha256": "68ca526c5c9a4f5559f34422e99ed1fc9eb875aa0144ecce225e3b5c0ee23231",
+      "metadata": {
+        "index": 1,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 48960,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 6266880
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "14ce49adcd23751af45004e23d9f4e0e81aee70689799c1efa6d2771e1209ae2"
+      },
+      "coefficients": {
+        "bytes": 6266880,
+        "sha256": "3d1d54f9aeef25ba7b429cb56b49abc945657e8208cc19d48ed3009aafe3f65d"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-green.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-green.jpg",
+      "jpeg_sha256": "ee9cb7bfcec2a3cd53721d5f95d65e98448fb17addd8d6314e450505d33d92a3",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 48960,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 6266880
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "c90a7335edc5f86963e4cc9b8a5b9b497d95b00c1ee5c1d7a5ee3715c3a91840"
+      },
+      "coefficients": {
+        "bytes": 6266880,
+        "sha256": "6ef45ce44672c30aaeffc9ef76b8b8557a8790886095ae4614ae66fe6c178f8f"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-green.jpg",
+      "jpeg_sha256": "ee9cb7bfcec2a3cd53721d5f95d65e98448fb17addd8d6314e450505d33d92a3",
+      "metadata": {
+        "index": 2,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 3,
+        "segments": 1,
+        "blocks": 48960,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 6220800,
+        "coefficient_bytes": 6266880
+      },
+      "pixels": {
+        "bytes": 6220800,
+        "sha256": "c90a7335edc5f86963e4cc9b8a5b9b497d95b00c1ee5c1d7a5ee3715c3a91840"
+      },
+      "coefficients": {
+        "bytes": 6266880,
+        "sha256": "6ef45ce44672c30aaeffc9ef76b8b8557a8790886095ae4614ae66fe6c178f8f"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-gray.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-gray.jpg",
+      "jpeg_sha256": "42bee7ddb2856901ed54688cd689e40048e16ff79d88dc5da6857b7982b3eff7",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 1,
+        "segments": 1,
+        "blocks": 32400,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 2073600,
+        "coefficient_bytes": 4147200
+      },
+      "pixels": {
+        "bytes": 2073600,
+        "sha256": "11283ef755895422e6f28b93f3d78cad7539891cf2893c9fdccefb923c5bf70b"
+      },
+      "coefficients": {
+        "bytes": 4147200,
+        "sha256": "15a6f69ff6b6ccd812d0ea700adcde145188a5ad6c1276263a62c759c5c6c86e"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\flat-gray.jpg",
+      "jpeg_sha256": "42bee7ddb2856901ed54688cd689e40048e16ff79d88dc5da6857b7982b3eff7",
+      "metadata": {
+        "index": 3,
+        "worker": 0,
+        "width": 1920,
+        "height": 1080,
+        "components": 1,
+        "segments": 1,
+        "blocks": 32400,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 2073600,
+        "coefficient_bytes": 4147200
+      },
+      "pixels": {
+        "bytes": 2073600,
+        "sha256": "11283ef755895422e6f28b93f3d78cad7539891cf2893c9fdccefb923c5bf70b"
+      },
+      "coefficients": {
+        "bytes": 4147200,
+        "sha256": "15a6f69ff6b6ccd812d0ea700adcde145188a5ad6c1276263a62c759c5c6c86e"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\known-zero-gray.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\known-zero-gray.jpg",
+      "jpeg_sha256": "c3e5c83d82ee3f6653cbbda4559035e61c76a5e041db40c19bc77627b0a253d7",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 1,
+        "segments": 1,
+        "blocks": 561,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 33153,
+        "coefficient_bytes": 71808
+      },
+      "pixels": {
+        "bytes": 33153,
+        "sha256": "16006e91c460f55f7309ce9a3320770cb60b82493d6dbd24a248b723ecbb0820"
+      },
+      "coefficients": {
+        "bytes": 71808,
+        "sha256": "852aacbb93830890e39d8b145a56e4f6c8401b312d6106e8af97f3202cd9a3d7"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\known-zero-gray.jpg",
+      "jpeg_sha256": "c3e5c83d82ee3f6653cbbda4559035e61c76a5e041db40c19bc77627b0a253d7",
+      "metadata": {
+        "index": 4,
+        "worker": 0,
+        "width": 257,
+        "height": 129,
+        "components": 1,
+        "segments": 1,
+        "blocks": 561,
+        "restart_interval": 0,
+        "interleaved": 0,
+        "pixel_format": 0,
+        "color_space": 3,
+        "pixel_bytes": 33153,
+        "coefficient_bytes": 71808
+      },
+      "pixels": {
+        "bytes": 33153,
+        "sha256": "16006e91c460f55f7309ce9a3320770cb60b82493d6dbd24a248b723ecbb0820"
+      },
+      "coefficients": {
+        "bytes": 71808,
+        "sha256": "852aacbb93830890e39d8b145a56e4f6c8401b312d6106e8af97f3202cd9a3d7"
+      }
+    }
+  },
+  {
+    "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\known-zero-420.jpg",
+    "equal": true,
+    "reference": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\known-zero-420.jpg",
+      "jpeg_sha256": "07e8d06d442fc07bfd4452466f06a0724b43ca7238de67afba943b8de594ab5a",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 513,
+        "height": 257,
+        "components": 3,
+        "segments": 1,
+        "blocks": 3366,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 395523,
+        "coefficient_bytes": 430848
+      },
+      "pixels": {
+        "bytes": 395523,
+        "sha256": "bde576005cc970dc89faeb687d1dc23f79aac5b26a34e538f2cf87186049ed03"
+      },
+      "coefficients": {
+        "bytes": 430848,
+        "sha256": "934f11a76217c7a5c38e3e8d4f9155f944612f867694773a56f7eb4eb6883901"
+      }
+    },
+    "candidate": {
+      "input": "<WORKSPACE>\\work\\decoder-r0\\fixtures\\known-zero-420.jpg",
+      "jpeg_sha256": "07e8d06d442fc07bfd4452466f06a0724b43ca7238de67afba943b8de594ab5a",
+      "metadata": {
+        "index": 5,
+        "worker": 0,
+        "width": 513,
+        "height": 257,
+        "components": 3,
+        "segments": 1,
+        "blocks": 3366,
+        "restart_interval": 0,
+        "interleaved": 1,
+        "pixel_format": 1,
+        "color_space": 1,
+        "pixel_bytes": 395523,
+        "coefficient_bytes": 430848
+      },
+      "pixels": {
+        "bytes": 395523,
+        "sha256": "bde576005cc970dc89faeb687d1dc23f79aac5b26a34e538f2cf87186049ed03"
+      },
+      "coefficients": {
+        "bytes": 430848,
+        "sha256": "934f11a76217c7a5c38e3e8d4f9155f944612f867694773a56f7eb4eb6883901"
+      }
+    }
+  }
+]

@@ -1,0 +1,159 @@
+**********************************************************************
+** Visual Studio 2026 Developer Command Prompt v18.11.0
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+-- The C compiler identification is MSVC 19.51.36260.0
+-- The CUDA compiler identification is NVIDIA 13.4.59 with host compiler MSVC 19.51.36260.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.4/bin/nvcc.exe - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Found OpenGL: opengl32
+-- Could NOT find GLEW (missing: GLEW_INCLUDE_DIRS GLEW_LIBRARIES) 
+-- Could NOT find GLUT (missing: GLUT_glut_LIBRARY GLUT_INCLUDE_DIR) 
+-- Could NOT find GLFW (missing: GLFW_INCLUDE_DIR GLFW_LIBRARY) 
+-- OpenGL disabled
+-- Configured options:  Huffman_no_restart_gpu
+-- Configuring done (9.4s)
+-- Generating done (0.2s)
+-- Build files have been written to: <WORKSPACE>/work/build-decoder-r0-off
+[1/22] Building C object CMakeFiles\gpujpeg.dir\src\gpujpeg_dct_cpu.c.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_dct_cpu.c(99): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_dct_cpu.c(100): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_dct_cpu.c(101): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_dct_cpu.c(102): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_dct_cpu.c(103): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_dct_cpu.c(104): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_dct_cpu.c(105): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_dct_cpu.c(106): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_dct_cpu.c(198): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_dct_cpu.c(250): warning C4244: '=': conversion from 'int16_t' to 'uint8_t', possible loss of data
+[2/22] Building C object CMakeFiles\gpujpeg.dir\src\gpujpeg_decoder.c.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[3/22] Building C object CMakeFiles\gpujpeg.dir\src\gpujpeg_exif.c.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_exif.c(188): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_exif.c(295): warning C4244: 'initializing': conversion from '__int64' to 'uint32_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_exif.c(306): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_exif.c(353): warning C4047: 'function': 'const tm *' differs in levels of indirection from 'errno_t'
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_exif.c(353): warning C4024: 'strftime': different types for formal and actual parameter 4
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_exif.c(437): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_exif.c(438): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_exif.c(545): warning C4244: '=': conversion from 'unsigned __int64' to 'uint32_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_exif.c(557): warning C4244: '=': conversion from 'unsigned __int64' to 'uint32_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_exif.c(558): warning C4244: '=': conversion from 'unsigned __int64' to 'uint32_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_exif.c(578): warning C4244: '=': conversion from 'long' to 'uint16_t', possible loss of data
+[4/22] Building C object CMakeFiles\gpujpeg.dir\src\gpujpeg_huffman_cpu_decoder.c.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_huffman_cpu_decoder.c(265): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_huffman_cpu_decoder.c(271): warning C4456: declaration of 's' hides previous local declaration
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_huffman_cpu_decoder.c(252): note: see declaration of 's'
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_huffman_cpu_decoder.c(284): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+[5/22] Building C object CMakeFiles\gpujpeg.dir\src\gpujpeg_common.c.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_common.c(1050): warning C4456: declaration of 'data_index' hides previous local declaration
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_common.c(814): note: see declaration of 'data_index'
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_common.c(1077): warning C4456: declaration of 'data_index' hides previous local declaration
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_common.c(814): note: see declaration of 'data_index'
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_common.c(1996): warning C4244: '=': conversion from 'int' to 'uint8_t', possible loss of data
+[6/22] Building C object CMakeFiles\gpujpeg.dir\src\gpujpeg_encoder.c.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_encoder.c(203): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_encoder.c(677): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+[7/22] Building C object CMakeFiles\gpujpeg.dir\src\gpujpeg_huffman_cpu_encoder.c.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[8/22] Building CUDA object CMakeFiles\gpujpeg.dir\src\gpujpeg_dct_gpu.cu.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+gpujpeg_dct_gpu.cu
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+gpujpeg_dct_gpu.cu
+gpujpeg_dct_gpu.cu
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_dct_gpu.cu(93): warning C4324: 'PackedInteger::<unnamed-tag>': structure was padded due to alignment specifier
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_dct_gpu.cu(89): warning C4201: nonstandard extension used: nameless struct/union
+[9/22] Building CUDA object CMakeFiles\gpujpeg.dir\src\gpujpeg_huffman_gpu_decoder.cu.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+gpujpeg_huffman_gpu_decoder.cu
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+gpujpeg_huffman_gpu_decoder.cu
+gpujpeg_huffman_gpu_decoder.cu
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[10/22] Building C object CMakeFiles\gpujpeg.dir\src\gpujpeg_reader.c.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_reader.c(850): warning C4244: '=': conversion from 'int' to 'uint8_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_reader.c(1081): warning C4456: declaration of 'ret' hides previous local declaration
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_reader.c(1057): note: see declaration of 'ret'
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_reader.c(1524): warning C4244: '/=': conversion from 'int' to 'uint8_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_reader.c(1525): warning C4244: '/=': conversion from 'int' to 'uint8_t', possible loss of data
+[11/22] Building C object CMakeFiles\gpujpeg.dir\src\gpujpeg_table.c.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_table.c(119): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+[12/22] Building C object CMakeFiles\gpujpeg.dir\src\gpujpeg_writer.c.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_writer.c(309): warning C4244: 'return': conversion from 'int' to 'uint8_t', possible loss of data
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_writer.c(530): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+[13/22] Building C object CMakeFiles\gpujpeg.dir\src\utils\image_delegate.c.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[14/22] Building C object CMakeFiles\gpujpeg.dir\src\utils\pam.c.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[15/22] Building C object CMakeFiles\gpujpeg.dir\src\utils\y4m.c.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[16/22] Building C object CMakeFiles\gpujpeg-bin.dir\src\main.c.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+<WORKSPACE>\work\GPUJPEG\src\main.c(69): warning C4133: 'function': incompatible types - from 'const TCHAR *' to 'LPCWCH'
+<WORKSPACE>\work\GPUJPEG\src\main.c(78): warning C4133: 'function': incompatible types - from 'const TCHAR *' to 'LPCWCH'
+<WORKSPACE>\work\GPUJPEG\src\main.c(534): warning C4133: '=': incompatible types - from 'wchar_t *' to 'TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(535): warning C4133: '==': incompatible types - from 'wchar_t *' to 'TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(536): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(540): warning C4133: 'function': incompatible types - from 'TCHAR *' to 'const wchar_t *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(543): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(548): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(553): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(568): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(583): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(619): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(629): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(653): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(694): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(695): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(704): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(705): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(744): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(745): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(873): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+<WORKSPACE>\work\GPUJPEG\src\main.c(874): warning C4133: 'function': incompatible types - from 'wchar_t *' to 'const TCHAR *'
+[17/22] Building C object CMakeFiles\gpujpeg-bin.dir\src\utils\getopt.c.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+<WORKSPACE>\work\GPUJPEG\src\utils\getopt.c(449): warning C4244: 'function': conversion from 'int' to 'wchar_t', possible loss of data
+[18/22] Building CUDA object CMakeFiles\gpujpeg.dir\src\gpujpeg_huffman_gpu_encoder.cu.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+gpujpeg_huffman_gpu_encoder.cu
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+gpujpeg_huffman_gpu_encoder.cu
+gpujpeg_huffman_gpu_encoder.cu
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[19/22] Building CUDA object CMakeFiles\gpujpeg.dir\src\gpujpeg_postprocessor.cu.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+gpujpeg_postprocessor.cu
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+gpujpeg_postprocessor.cu
+gpujpeg_postprocessor.cu
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[20/22] Building CUDA object CMakeFiles\gpujpeg.dir\src\gpujpeg_preprocessor.cu.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+gpujpeg_preprocessor.cu
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+gpujpeg_preprocessor.cu
+gpujpeg_preprocessor.cu
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+<WORKSPACE>\work\GPUJPEG\src\gpujpeg_preprocessor.cu(68): warning C4505: 'gpujpeg_preprocessor_raw_to_comp_store_comp': unreferenced function with internal linkage has been removed
+[21/22] Linking CUDA static library gpujpeg.lib
+[22/22] Linking CUDA executable gpujpegtool.exe

@@ -1,0 +1,30 @@
+{
+  "recorded_at_utc": "2026-10-20T16:53:46.430899+00:00",
+  "files": {
+    "reference_harness": {
+      "path": "<WORKSPACE>\\work\\compact-decode\\correctness\\dump-baseline.exe",
+      "bytes": 10690048,
+      "sha256": "068dc715e85c829754cef2da2ccf395db44161ccad26902c3dc35c1893e6e9a4"
+    },
+    "const": {
+      "path": "<WORKSPACE>\\work\\compact-decode\\correctness\\dump-combined-const.exe",
+      "bytes": 10745856,
+      "sha256": "e618874171cad7dd2348833eee8199567691de48b1eddbdcdf47b5a7202502b2"
+    },
+    "decoder_source": {
+      "path": "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_huffman_gpu_decoder.cu",
+      "bytes": 48453,
+      "sha256": "06543355a74a31cc9b5bd271b7791f1e7a491d5594b2bbafbb6003d99afe7f53"
+    },
+    "input_helper": {
+      "path": "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_huffman_staged_input.cuh",
+      "bytes": 6575,
+      "sha256": "80fb03ca56c04c8d8237e80c7df5493f824e2b8c9134089b56b15080ad831d45"
+    },
+    "const_lib": {
+      "path": "<WORKSPACE>\\work\\build-compact-unstuff-const\\gpujpeg.lib",
+      "bytes": 21871064,
+      "sha256": "fd73e9c66bd50a94034464b722406701b14a6deb28e57166844c584fc45aafd6"
+    }
+  }
+}

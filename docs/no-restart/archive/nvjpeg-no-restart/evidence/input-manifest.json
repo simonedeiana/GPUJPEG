@@ -1,0 +1,1096 @@
+{
+  "inputs": [
+    {
+      "name": "hd-rgb",
+      "raw": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\hd-rgb.raw",
+      "pnm": "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+      "width": 1920,
+      "height": 1080,
+      "channels": 3,
+      "input_bytes": 6220800,
+      "raw_sha256": "80445a3b75cbc31f06c27121a7dc88076b5d3e076285e60fc7941db3c47e13bc",
+      "pnm_sha256": "0b81de9b0664606f92748b3744a9ce3259b0a95dcbe0007491f0017fbf30b5ec"
+    },
+    {
+      "name": "4k-rgb",
+      "raw": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\4k-rgb.raw",
+      "pnm": "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.4k.8.ppm",
+      "width": 3840,
+      "height": 2160,
+      "channels": 3,
+      "input_bytes": 24883200,
+      "raw_sha256": "866d444cac19fbb64ca706c17768d74f9e29cda4c2e3d9e98f95a0310f3beefb",
+      "pnm_sha256": "6d9f58033df2d95b266371099faa404cbab12c7678c06dd0cf8f99867d8a53b0"
+    },
+    {
+      "name": "hd-gray",
+      "raw": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\hd-gray.raw",
+      "pnm": "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.pgm",
+      "width": 1920,
+      "height": 1080,
+      "channels": 1,
+      "input_bytes": 2073600,
+      "raw_sha256": "b65bd96eeb915ee9f19503f761fa71cd3abc7f333c205b2ce7f3136f69a783ff",
+      "pnm_sha256": "f4b56828af0383b01e8997d0bd67dac638837b0828c010b76440697af5171de9"
+    },
+    {
+      "name": "4k-gray",
+      "raw": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\4k-gray.raw",
+      "pnm": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\4k-gray.pnm",
+      "width": 3840,
+      "height": 2160,
+      "channels": 1,
+      "input_bytes": 8294400,
+      "raw_sha256": "f0dfb371f78086bffcd8512c5eb99d6e298997d3c82562dd63a90cecfc502239",
+      "pnm_sha256": "398087ca01286e3922f9c1f1608a2eaf95993a4f1018a3e05dc138b705018f56",
+      "derived": "Pillow RGB.convert(L), prepared once outside every encoder timer from 4k-rgb packed bytes"
+    },
+    {
+      "name": "tiny-white",
+      "raw": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\tiny-white.raw",
+      "pnm": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\tiny-white.pnm",
+      "width": 1,
+      "height": 1,
+      "channels": 3,
+      "input_bytes": 3,
+      "raw_sha256": "5ae7e6a42304dc6e4176210b83c43024f99a0bce9a870c3b6d2c95fc8ebfb74c",
+      "pnm_sha256": "3aaa77f17582428b99e7f04836135214e7ae36328fb233b7b284da36da2dafb3",
+      "derived": "deterministic synthetic white"
+    },
+    {
+      "name": "tiny-black-gray",
+      "raw": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\tiny-black-gray.raw",
+      "pnm": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\tiny-black-gray.pnm",
+      "width": 1,
+      "height": 1,
+      "channels": 1,
+      "input_bytes": 1,
+      "raw_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "pnm_sha256": "c562b0556e17c4350801ae74c04e04e921db5117692e0a6f5d42fb9798b5edcd",
+      "derived": "deterministic synthetic black"
+    },
+    {
+      "name": "odd-rgb",
+      "raw": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\odd-rgb.raw",
+      "pnm": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\odd-rgb.pnm",
+      "width": 17,
+      "height": 19,
+      "channels": 3,
+      "input_bytes": 969,
+      "raw_sha256": "243c3d6fcc57e78b5d7d81a0e196ec24e8efbc4217172b1e73e10187ce5de6df",
+      "pnm_sha256": "15a19718d6b50ae25ee39bbc3c03ceadae5872cc90a035c293f5add2ce0c6b17",
+      "derived": "deterministic synthetic gradient"
+    },
+    {
+      "name": "checker-rgb",
+      "raw": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\checker-rgb.raw",
+      "pnm": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\checker-rgb.pnm",
+      "width": 257,
+      "height": 129,
+      "channels": 3,
+      "input_bytes": 99459,
+      "raw_sha256": "a960aae53128cae98b11a0d70dc6bb0d41cb2ea6b8410e63ca60fb735394208a",
+      "pnm_sha256": "775a5950da2bfa42a06d56a81ab884f0da267cdb27b66726e5ca4420b09baf11",
+      "derived": "deterministic synthetic checker"
+    },
+    {
+      "name": "noise-rgb",
+      "raw": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\noise-rgb.raw",
+      "pnm": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\noise-rgb.pnm",
+      "width": 127,
+      "height": 65,
+      "channels": 3,
+      "input_bytes": 24765,
+      "raw_sha256": "70afec42acb79e0cb9bcd6d38f022748f7a267d61cbd5aed36ec3ae75e20aeda",
+      "pnm_sha256": "a3f76147a395b6bee4a0e1ec96f307a37946d342bd03bf3d7d4cb40f41b5afd4",
+      "derived": "deterministic synthetic noise"
+    },
+    {
+      "name": "flat-rgb",
+      "raw": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\flat-rgb.raw",
+      "pnm": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\flat-rgb.pnm",
+      "width": 64,
+      "height": 64,
+      "channels": 3,
+      "input_bytes": 12288,
+      "raw_sha256": "f0303914dce75ee1b699a7d91f1e7aa8c64a443a1b12fd656663d723093fe4d6",
+      "pnm_sha256": "1b542af0f07186a0f8911f657ff0cfaba5680720d3d09138a3c0bb8ee16a9cdf",
+      "derived": "deterministic synthetic flat"
+    },
+    {
+      "name": "noise-gray",
+      "raw": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\noise-gray.raw",
+      "pnm": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\noise-gray.pnm",
+      "width": 129,
+      "height": 65,
+      "channels": 1,
+      "input_bytes": 8385,
+      "raw_sha256": "d24390b4300bd47479db9924a315cb5a572c539e0c637c2fc0498759311687d9",
+      "pnm_sha256": "afeffa3ee2553b921567d1df45a471893364da93829a287ffc17846fcee7518f",
+      "derived": "deterministic synthetic noise"
+    },
+    {
+      "name": "checker-gray",
+      "raw": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\checker-gray.raw",
+      "pnm": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\checker-gray.pnm",
+      "width": 257,
+      "height": 129,
+      "channels": 1,
+      "input_bytes": 33153,
+      "raw_sha256": "c8678c1ecfa49732365cbb83f19149f96a4489f5437c6159cab64f3c5d119852",
+      "pnm_sha256": "2b4d5b7b0d91d3f368878410ef33616631a2924ab71002b082693f263bd52dfc",
+      "derived": "deterministic synthetic checker"
+    }
+  ],
+  "benchmark_q90": [
+    {
+      "name": "hd-rgb-q90-444-interleaved",
+      "input": "hd-rgb",
+      "quality": 90,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "hd-rgb-q90-422-interleaved",
+      "input": "hd-rgb",
+      "quality": 90,
+      "sampling": "422",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "hd-rgb-q90-420-interleaved",
+      "input": "hd-rgb",
+      "quality": 90,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "4k-rgb-q90-444-interleaved",
+      "input": "4k-rgb",
+      "quality": 90,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "4k-rgb-q90-422-interleaved",
+      "input": "4k-rgb",
+      "quality": 90,
+      "sampling": "422",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "4k-rgb-q90-420-interleaved",
+      "input": "4k-rgb",
+      "quality": 90,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "hd-gray-q90-gray-interleaved",
+      "input": "hd-gray",
+      "quality": 90,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "4k-gray-q90-gray-interleaved",
+      "input": "4k-gray",
+      "quality": 90,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    }
+  ],
+  "correctness": [
+    {
+      "name": "hd-rgb-q90-444-interleaved",
+      "input": "hd-rgb",
+      "quality": 90,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "hd-rgb-q90-422-interleaved",
+      "input": "hd-rgb",
+      "quality": 90,
+      "sampling": "422",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "hd-rgb-q90-420-interleaved",
+      "input": "hd-rgb",
+      "quality": 90,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "4k-rgb-q90-444-interleaved",
+      "input": "4k-rgb",
+      "quality": 90,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "4k-rgb-q90-422-interleaved",
+      "input": "4k-rgb",
+      "quality": 90,
+      "sampling": "422",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "4k-rgb-q90-420-interleaved",
+      "input": "4k-rgb",
+      "quality": 90,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "hd-gray-q90-gray-interleaved",
+      "input": "hd-gray",
+      "quality": 90,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "4k-gray-q90-gray-interleaved",
+      "input": "4k-gray",
+      "quality": 90,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "tiny-white-q1-444-interleaved",
+      "input": "tiny-white",
+      "quality": 1,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "tiny-white-q1-420-interleaved",
+      "input": "tiny-white",
+      "quality": 1,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "tiny-white-q75-444-interleaved",
+      "input": "tiny-white",
+      "quality": 75,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "tiny-white-q75-420-interleaved",
+      "input": "tiny-white",
+      "quality": 75,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "tiny-white-q90-444-interleaved",
+      "input": "tiny-white",
+      "quality": 90,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "tiny-white-q90-420-interleaved",
+      "input": "tiny-white",
+      "quality": 90,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "tiny-white-q100-444-interleaved",
+      "input": "tiny-white",
+      "quality": 100,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "tiny-white-q100-420-interleaved",
+      "input": "tiny-white",
+      "quality": 100,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "tiny-black-gray-q1-gray-interleaved",
+      "input": "tiny-black-gray",
+      "quality": 1,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "tiny-black-gray-q75-gray-interleaved",
+      "input": "tiny-black-gray",
+      "quality": 75,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "tiny-black-gray-q90-gray-interleaved",
+      "input": "tiny-black-gray",
+      "quality": 90,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "tiny-black-gray-q100-gray-interleaved",
+      "input": "tiny-black-gray",
+      "quality": 100,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q1-444-interleaved",
+      "input": "odd-rgb",
+      "quality": 1,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q1-420-interleaved",
+      "input": "odd-rgb",
+      "quality": 1,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q75-444-interleaved",
+      "input": "odd-rgb",
+      "quality": 75,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q75-420-interleaved",
+      "input": "odd-rgb",
+      "quality": 75,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q90-444-interleaved",
+      "input": "odd-rgb",
+      "quality": 90,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q90-420-interleaved",
+      "input": "odd-rgb",
+      "quality": 90,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q100-444-interleaved",
+      "input": "odd-rgb",
+      "quality": 100,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q100-420-interleaved",
+      "input": "odd-rgb",
+      "quality": 100,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-rgb-q1-444-interleaved",
+      "input": "checker-rgb",
+      "quality": 1,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-rgb-q1-420-interleaved",
+      "input": "checker-rgb",
+      "quality": 1,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-rgb-q75-444-interleaved",
+      "input": "checker-rgb",
+      "quality": 75,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-rgb-q75-420-interleaved",
+      "input": "checker-rgb",
+      "quality": 75,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-rgb-q90-444-interleaved",
+      "input": "checker-rgb",
+      "quality": 90,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-rgb-q90-420-interleaved",
+      "input": "checker-rgb",
+      "quality": 90,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-rgb-q100-444-interleaved",
+      "input": "checker-rgb",
+      "quality": 100,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-rgb-q100-420-interleaved",
+      "input": "checker-rgb",
+      "quality": 100,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-rgb-q1-444-interleaved",
+      "input": "noise-rgb",
+      "quality": 1,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-rgb-q1-420-interleaved",
+      "input": "noise-rgb",
+      "quality": 1,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-rgb-q75-444-interleaved",
+      "input": "noise-rgb",
+      "quality": 75,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-rgb-q75-420-interleaved",
+      "input": "noise-rgb",
+      "quality": 75,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-rgb-q90-444-interleaved",
+      "input": "noise-rgb",
+      "quality": 90,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-rgb-q90-420-interleaved",
+      "input": "noise-rgb",
+      "quality": 90,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-rgb-q100-444-interleaved",
+      "input": "noise-rgb",
+      "quality": 100,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-rgb-q100-420-interleaved",
+      "input": "noise-rgb",
+      "quality": 100,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "flat-rgb-q1-444-interleaved",
+      "input": "flat-rgb",
+      "quality": 1,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "flat-rgb-q1-420-interleaved",
+      "input": "flat-rgb",
+      "quality": 1,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "flat-rgb-q75-444-interleaved",
+      "input": "flat-rgb",
+      "quality": 75,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "flat-rgb-q75-420-interleaved",
+      "input": "flat-rgb",
+      "quality": 75,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "flat-rgb-q90-444-interleaved",
+      "input": "flat-rgb",
+      "quality": 90,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "flat-rgb-q90-420-interleaved",
+      "input": "flat-rgb",
+      "quality": 90,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "flat-rgb-q100-444-interleaved",
+      "input": "flat-rgb",
+      "quality": 100,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "flat-rgb-q100-420-interleaved",
+      "input": "flat-rgb",
+      "quality": 100,
+      "sampling": "420",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-gray-q1-gray-interleaved",
+      "input": "noise-gray",
+      "quality": 1,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-gray-q75-gray-interleaved",
+      "input": "noise-gray",
+      "quality": 75,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-gray-q90-gray-interleaved",
+      "input": "noise-gray",
+      "quality": 90,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-gray-q100-gray-interleaved",
+      "input": "noise-gray",
+      "quality": 100,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-gray-q1-gray-interleaved",
+      "input": "checker-gray",
+      "quality": 1,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-gray-q75-gray-interleaved",
+      "input": "checker-gray",
+      "quality": 75,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-gray-q90-gray-interleaved",
+      "input": "checker-gray",
+      "quality": 90,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-gray-q100-gray-interleaved",
+      "input": "checker-gray",
+      "quality": 100,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q1-422-interleaved",
+      "input": "odd-rgb",
+      "quality": 1,
+      "sampling": "422",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q75-422-interleaved",
+      "input": "odd-rgb",
+      "quality": 75,
+      "sampling": "422",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q90-422-interleaved",
+      "input": "odd-rgb",
+      "quality": 90,
+      "sampling": "422",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q100-422-interleaved",
+      "input": "odd-rgb",
+      "quality": 100,
+      "sampling": "422",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-rgb-q100-422-interleaved",
+      "input": "checker-rgb",
+      "quality": 100,
+      "sampling": "422",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-rgb-q0-444-interleaved",
+      "input": "noise-rgb",
+      "quality": 0,
+      "sampling": "444",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-gray-q0-gray-interleaved",
+      "input": "noise-gray",
+      "quality": 0,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-gray-q0-gray-interleaved",
+      "input": "checker-gray",
+      "quality": 0,
+      "sampling": "gray",
+      "interleaved": 1,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q75-444-planar",
+      "input": "odd-rgb",
+      "quality": 75,
+      "sampling": "444",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q100-444-planar",
+      "input": "odd-rgb",
+      "quality": 100,
+      "sampling": "444",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q75-422-planar",
+      "input": "odd-rgb",
+      "quality": 75,
+      "sampling": "422",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q100-422-planar",
+      "input": "odd-rgb",
+      "quality": 100,
+      "sampling": "422",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q75-420-planar",
+      "input": "odd-rgb",
+      "quality": 75,
+      "sampling": "420",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "odd-rgb-q100-420-planar",
+      "input": "odd-rgb",
+      "quality": 100,
+      "sampling": "420",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-rgb-q75-444-planar",
+      "input": "checker-rgb",
+      "quality": 75,
+      "sampling": "444",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-rgb-q100-444-planar",
+      "input": "checker-rgb",
+      "quality": 100,
+      "sampling": "444",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-rgb-q75-422-planar",
+      "input": "checker-rgb",
+      "quality": 75,
+      "sampling": "422",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-rgb-q100-422-planar",
+      "input": "checker-rgb",
+      "quality": 100,
+      "sampling": "422",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-rgb-q75-420-planar",
+      "input": "checker-rgb",
+      "quality": 75,
+      "sampling": "420",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "checker-rgb-q100-420-planar",
+      "input": "checker-rgb",
+      "quality": 100,
+      "sampling": "420",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-rgb-q75-444-planar",
+      "input": "noise-rgb",
+      "quality": 75,
+      "sampling": "444",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-rgb-q100-444-planar",
+      "input": "noise-rgb",
+      "quality": 100,
+      "sampling": "444",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-rgb-q75-422-planar",
+      "input": "noise-rgb",
+      "quality": 75,
+      "sampling": "422",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-rgb-q100-422-planar",
+      "input": "noise-rgb",
+      "quality": 100,
+      "sampling": "422",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-rgb-q75-420-planar",
+      "input": "noise-rgb",
+      "quality": 75,
+      "sampling": "420",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    },
+    {
+      "name": "noise-rgb-q100-420-planar",
+      "input": "noise-rgb",
+      "quality": 100,
+      "sampling": "420",
+      "interleaved": 0,
+      "restart_interval": 0,
+      "optimized_huffman": 0,
+      "pinned": 0
+    }
+  ],
+  "primary_timing_contract": "Pageable packed host raw input -> H2D -> encode -> complete compressed host JPEG -> stream synchronize. File IO/context/setup excluded; no stage event instrumentation.",
+  "benchmark_defaults": {
+    "rounds": 5,
+    "iterations": 110,
+    "discard_first": 10,
+    "quality": 90
+  }
+}

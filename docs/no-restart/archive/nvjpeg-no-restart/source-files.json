@@ -1,0 +1,750 @@
+{
+  "base_commit": "78e5eee3f75e0a2a2e6c1409000ac05d679b4af8",
+  "files": [
+    {
+      "path": ".clang-format",
+      "bytes": 402,
+      "sha256": "9d7ffc87334d5c09407b04fe26860a2b0c14cfde7f2664ba5ff2d25b6b12e460"
+    },
+    {
+      "path": ".cmake-format.yaml",
+      "bytes": 85,
+      "sha256": "ebadc202f91ac81e217a28168dfbb2fa1ffa672ae012540409d4edec2d0b6c39"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 266,
+      "sha256": "2b6565e4d668deecefc6ed6a570108a36f055eca73512020838458d4165b00d4"
+    },
+    {
+      "path": ".github/scripts/delete-asset.sh",
+      "bytes": 980,
+      "sha256": "ab4e3ddd394021fb3e60041793dd137ae3396afbed9b6ef5e1b7490eb3a02579"
+    },
+    {
+      "path": ".github/scripts/json-common.sh",
+      "bytes": 1975,
+      "sha256": "db6aec6096ae1369c703dbba71adb68b6f53e9be097e789c8e86246a966db198"
+    },
+    {
+      "path": ".github/scripts/replace-asset.sh",
+      "bytes": 521,
+      "sha256": "55559de45d507025bbdf5a678bbc93a4189751af7931ec8a9f6c2998043e3e62"
+    },
+    {
+      "path": ".github/scripts/upload-asset.sh",
+      "bytes": 657,
+      "sha256": "ca07a0768f004ed56c45aa51e724774860b012c501662e0183dbf82e206a683e"
+    },
+    {
+      "path": ".github/workflows/ccpp.yml",
+      "bytes": 9003,
+      "sha256": "579920a3b168797e77293c94d0b62660297c500ad3a0f819dc61ce84a0911e29"
+    },
+    {
+      "path": ".github/workflows/simulated-gpu.yml",
+      "bytes": 1547,
+      "sha256": "d01c263aa40615df5d8d3009baa6f3adfa51eb1dbb920fd9ce75cd251ac6e77a"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 473,
+      "sha256": "59e145177042dc73d12bd860df173b7e3fc468786eaffa0f1e71d5b13e9b1f85"
+    },
+    {
+      "path": ".gitmodules",
+      "bytes": 111,
+      "sha256": "35825bfd5f30cb13edf6701bf08c061f19e57ccb839a4f3d26fb6aef62532fc4"
+    },
+    {
+      "path": "AUTHORS",
+      "bytes": 206,
+      "sha256": "7011e0c5d82125a5211d95c5218387ac673ecbf417d50f79a32e491d45088899"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "bytes": 11876,
+      "sha256": "2b7e3ff7ba04dedbd386a24dfeb4a693755b7bb1f205da44c7688eed011861b4"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 4557,
+      "sha256": "65f5be39b0860e9b3b15fae1c00ce68dec8baf1e2c8fa7b2f453ca8a4c8e19f9"
+    },
+    {
+      "path": "COPYING",
+      "bytes": 1389,
+      "sha256": "a6db8b752225f373af4a13206aa04cce1dceb0c04084ce6013d29c9e864de647"
+    },
+    {
+      "path": "ChangeLog",
+      "bytes": 2753,
+      "sha256": "ccce1167c7b50233320d0bae04978d1b8086bfd1dad12027afa35aab1bf0ef71"
+    },
+    {
+      "path": "Config.cmake.in",
+      "bytes": 1224,
+      "sha256": "85d86be0f7eecea890dfd29d6a38becc4015c0b7c8e0f6dadedb4192d7c4f4a8"
+    },
+    {
+      "path": "Doxyfile",
+      "bytes": 111169,
+      "sha256": "710be03f7defb84c384c174e286aaf938cff5873f70655bf9edb5ed7db17a5ce"
+    },
+    {
+      "path": "FAQ.md",
+      "bytes": 10531,
+      "sha256": "b0bb776d8926eaf67e931fa9394f563771aa5339c77976d16b5f66ea2055ce4a"
+    },
+    {
+      "path": "HUFFMAN_NO_RESTART.md",
+      "bytes": 6068,
+      "sha256": "889a4622ef1ca932a067891c729c37c5f4c8ae9289f7bb673999d18b85c2a27a"
+    },
+    {
+      "path": "INSTALL",
+      "bytes": 48,
+      "sha256": "d81fb321d54c847a2087862bcdf2087a4ddb15484f0b2b581142f1a1264b4cce"
+    },
+    {
+      "path": "LICENSES/BSD-2-Clause.txt",
+      "bytes": 1275,
+      "sha256": "755e7fbe93f5db26b6568e19072aeaaf7210a680b3935af26a5c29358fb048fc"
+    },
+    {
+      "path": "LICENSES/CC0-1.0.txt",
+      "bytes": 7169,
+      "sha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328"
+    },
+    {
+      "path": "Makefile.am",
+      "bytes": 4455,
+      "sha256": "0d8abe53048267a5f3a16be6f15a0eda8acde285439a1f7316b8897fca0f1c86"
+    },
+    {
+      "path": "Makefile.bkp",
+      "bytes": 3659,
+      "sha256": "78a15719b41d0190d1000aaac54444b47439987a74095acafaf0d2675d37893e"
+    },
+    {
+      "path": "NEWS.md",
+      "bytes": 9758,
+      "sha256": "21db82af9203235ef9c3a403dc16f3fee5fd75d26e0b399a5a369b1b6308888e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 19978,
+      "sha256": "22a876542e61376628ac72eb50bdc34ee382cb8ddfbfbd34b303e36272ac6b91"
+    },
+    {
+      "path": "ZLUDA.md",
+      "bytes": 1337,
+      "sha256": "b864e46f99603ad16d5b498914658438646b8a860fbc4d80e6a0004023968966"
+    },
+    {
+      "path": "autogen.sh",
+      "bytes": 737,
+      "sha256": "124ed6f407985e3cafc2fb98f4698ade9d1c3289c88e543c1ea8882cc4b6c951"
+    },
+    {
+      "path": "cmake/FindGLFW.cmake",
+      "bytes": 2192,
+      "sha256": "2e58a4bb0c272b37ab6305d7b70aa6e6e87bc3cdbfdaa9f5e0fb5cb3300c9cfb"
+    },
+    {
+      "path": "colors/camera_bt709_422.yuv",
+      "bytes": 4147200,
+      "sha256": "dc54e21948a5fefcff73038798618d98af7df14768243df1fc563e3d1ba8b89b"
+    },
+    {
+      "path": "colors/colorspace.ods",
+      "bytes": 13575,
+      "sha256": "b1eb6ed35af41d0f60d1d567b63356fe828d3f94ad62c6fcded9f4de48a104d8"
+    },
+    {
+      "path": "colors/display_diff.sh",
+      "bytes": 568,
+      "sha256": "c51a765bcf9e803450756c9e744f533132fb69bd82d59f0e609c745b14542a00"
+    },
+    {
+      "path": "colors/image_bt709_422.yuv",
+      "bytes": 4147200,
+      "sha256": "d030afa8908ce1c187f94bea7ac88d897631a082bbf3edfbf05ba950e32e8573"
+    },
+    {
+      "path": "colors/run_tests.sh",
+      "bytes": 1647,
+      "sha256": "1c23f2b9cf0188645c35b2da88c4b449c366141826a3b682f58e8f1d83b6eb1a"
+    },
+    {
+      "path": "colors/test_common.sh",
+      "bytes": 2610,
+      "sha256": "e32539ab6f2c7f39de4502f1a518564e47b7f7ebafd7d9fc7529d423e048ddc5"
+    },
+    {
+      "path": "configure.ac",
+      "bytes": 7935,
+      "sha256": "cf7892073afa28cc645187785c27c34bc5e489736b396dee2e21ff4db19192a3"
+    },
+    {
+      "path": "examples/CMakeLists.txt",
+      "bytes": 1013,
+      "sha256": "b627592cb56b67cf81949226672d135a453ec42817514d3304c40a2def0b2b80"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 971,
+      "sha256": "db7ff38163d8f92b5ccc66d6a34f1e89d55f4d858510e0198f855a4a65920983"
+    },
+    {
+      "path": "examples/decode_minimal.c",
+      "bytes": 1541,
+      "sha256": "adf0b40498e80bcb88dcc778982e92e69ab0110d6648b6cbd32c0b8304077dc8"
+    },
+    {
+      "path": "examples/decode_to_cuda_pnm.c",
+      "bytes": 3695,
+      "sha256": "a1dafb0829f8bfcfabde78714c584fa1f4c37a74ca18d0e8b4317c64ab4a9f36"
+    },
+    {
+      "path": "examples/decode_to_file.c",
+      "bytes": 3407,
+      "sha256": "2aab8d02749a4208311cd60c71dc6c7e565e5e4bd7a220141b7a2d01cf9aef94"
+    },
+    {
+      "path": "examples/decode_to_pnm.c",
+      "bytes": 3200,
+      "sha256": "2a494719f110b972cfcd56070a71f03e6f44a7aba55d36c8c3591bb5cdcd04eb"
+    },
+    {
+      "path": "examples/encode.c",
+      "bytes": 3538,
+      "sha256": "30e43c26db051a52a862a7ca316010b30092de3da2b3a4f5a742985f15ee83b1"
+    },
+    {
+      "path": "examples/encode_file.c",
+      "bytes": 3966,
+      "sha256": "6c4c1a2f4a5653d85f2e5de59f6f3be837a45ae6da9511a1a2db716e7a27e0d6"
+    },
+    {
+      "path": "examples/encode_minimal.c",
+      "bytes": 1320,
+      "sha256": "3d0156f225a7a1b86a1357164f2d11354b212ac2c036af7b37feca2664729179"
+    },
+    {
+      "path": "libgpujpeg.pc.cmakein",
+      "bytes": 471,
+      "sha256": "9656b372526a788164e9959edd1b509f5c12238f19f62d0509bca654a71733d0"
+    },
+    {
+      "path": "libgpujpeg.pc.in",
+      "bytes": 412,
+      "sha256": "01392ded8a353233c1f9d26836d28e4ba996a2a15ea41d8c88659c1ce48fa943"
+    },
+    {
+      "path": "libgpujpeg/gpujpeg.h",
+      "bytes": 1608,
+      "sha256": "f36f84c17aa8b4e3ace678c5ef72ad6ce07c5de9e197622d8e07d405e1920dd0"
+    },
+    {
+      "path": "libgpujpeg/gpujpeg_common.h",
+      "bytes": 23924,
+      "sha256": "4b00118a2e9265b70149fb7d122dc908c1ea3fd2097d5492a6f522fb97b91f45"
+    },
+    {
+      "path": "libgpujpeg/gpujpeg_decoder.h",
+      "bytes": 11847,
+      "sha256": "2f65d340e98d33ea43f1d1469fd2ae263fa9b24bca98bbc9cf5df9e65ff8457e"
+    },
+    {
+      "path": "libgpujpeg/gpujpeg_encoder.h",
+      "bytes": 10072,
+      "sha256": "bbdd0d744d9ee933bd2f5b20e6b284b9a0ec41248d5859a9a65f5ddc7343fef2"
+    },
+    {
+      "path": "libgpujpeg/gpujpeg_type.h",
+      "bytes": 5334,
+      "sha256": "6d6480d5c76c86a6b1b72d569d95b7f0b10037ec97aed7b693c3e2e9dd1ebf00"
+    },
+    {
+      "path": "libgpujpeg/gpujpeg_version.h.cmakein",
+      "bytes": 2076,
+      "sha256": "1a4f68250e01c1377038afd4471b85364a1377e2e3f40284195e24f54ce0e72a"
+    },
+    {
+      "path": "libgpujpeg/gpujpeg_version.h.in",
+      "bytes": 2001,
+      "sha256": "b689720386f0668247fba9c59793dc64ba93b12592b50f39417422541b3bdbef"
+    },
+    {
+      "path": "logo.svg",
+      "bytes": 10112,
+      "sha256": "6cafd891899df0ec2b3cc4b7acef9d7726b62dc4d8f1b4b1e24094e0210bcdc7"
+    },
+    {
+      "path": "package_specs/_service.tpl",
+      "bytes": 653,
+      "sha256": "48c503644ea0a1a1ce6a3ef7a13b8633a66fddf8388af54efe400b0e951778d9"
+    },
+    {
+      "path": "package_specs/debian-patches-Ubuntu_1604.series",
+      "bytes": 31,
+      "sha256": "ce4043cf53d34ed982c1598dfd1e82b8b541824e1dea567254b9c793e7e458f1"
+    },
+    {
+      "path": "package_specs/debian-patches-clang.series",
+      "bytes": 27,
+      "sha256": "165b5b0b01119934f8d99d1f0bb6172905fcc25f393d44f228cc5a79f27c32ab"
+    },
+    {
+      "path": "package_specs/debian-patches.series",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "package_specs/debian.changelog",
+      "bytes": 417,
+      "sha256": "14b250dfd8e5e205aaa312741845918f435b1e06fee81dc6811a867baa51b11e"
+    },
+    {
+      "path": "package_specs/debian.control",
+      "bytes": 1068,
+      "sha256": "fec264d08e49a754c3537e85d2a4f7947ee09e34385cfd233ebd475bd23862aa"
+    },
+    {
+      "path": "package_specs/debian.rules",
+      "bytes": 815,
+      "sha256": "e3e6f37e0ed8dec33b48aee9e03a9fab1fc07df252b5826d1271941df101ddd4"
+    },
+    {
+      "path": "package_specs/debian.tar.gz",
+      "bytes": 2007,
+      "sha256": "179a574bf3ef7432d8367b4caa5f5adcfcbbc61a6651f4bf657652bf44f94cea"
+    },
+    {
+      "path": "package_specs/gpujpeg-Debian_90.dsc",
+      "bytes": 686,
+      "sha256": "c1e00fd1afd0d230eccfc487907452e120165c5889f869c4e358ff7c8ca070d9"
+    },
+    {
+      "path": "package_specs/gpujpeg-Ubuntu_1604.dsc",
+      "bytes": 686,
+      "sha256": "53a839b58a5a9ed7bc656b4c62c5be098fb42bf32fe41d7eaec30152c3faca23"
+    },
+    {
+      "path": "package_specs/gpujpeg.dsc",
+      "bytes": 673,
+      "sha256": "8ad3b3f24df7713eac71b5eb034fbecb03e9062b88dc5ba99fcef578750a71e1"
+    },
+    {
+      "path": "package_specs/host-compiler-clang.patch",
+      "bytes": 558,
+      "sha256": "21456c1e24cac12369cc319152df990058b2a7d46c1b423acb50242045d91728"
+    },
+    {
+      "path": "package_specs/libgpujpeg-rpmlintrc",
+      "bytes": 274,
+      "sha256": "a8d7cac30c2f122028b9bfc6263f3276df524947f9e074a9f8dd2205febc0a3a"
+    },
+    {
+      "path": "package_specs/libgpujpeg.spec",
+      "bytes": 4830,
+      "sha256": "488526afcac5f312a9a5c45d03dda8da274e18f936ab89a8985cac711db949e0"
+    },
+    {
+      "path": "package_specs/ubuntu-1604-nvcc-compat.patch",
+      "bytes": 378,
+      "sha256": "d8fd87596b082f9d8132ccaff2c9967fc44aa56e96866731873ff5bf244a763c"
+    },
+    {
+      "path": "src/Makefile.bkp",
+      "bytes": 5662,
+      "sha256": "ba2583c4baf33d4d92d4eb5fd484d30ae54ad9f9c48998666c98e1e3751908cd"
+    },
+    {
+      "path": "src/compat/endian.h",
+      "bytes": 4515,
+      "sha256": "e41bdb74c300a9d5c5b9085e03c55feb158687991e93668cd5e68fff91cf9ed4"
+    },
+    {
+      "path": "src/compat/time.h",
+      "bytes": 2243,
+      "sha256": "d5b4dc01b26e228130f1a9d4317e1eb9f38d5104a38048a9fdfa51751b82402f"
+    },
+    {
+      "path": "src/gpujpeg_colorspace.h",
+      "bytes": 17908,
+      "sha256": "29b52a6e60066350c49857ff8cb086925d41dd5a13016a601fd221053868d21b"
+    },
+    {
+      "path": "src/gpujpeg_common.c",
+      "bytes": 96149,
+      "sha256": "8122c5b284cf6be14aa731a6244dece29066e8523bee5a59e9a8c868ae37bd18"
+    },
+    {
+      "path": "src/gpujpeg_common_internal.h",
+      "bytes": 20608,
+      "sha256": "f2bc093b46f02fbc82827a217017b4c842ea17079cf9482df8b0476a3f28939f"
+    },
+    {
+      "path": "src/gpujpeg_dct_cpu.c",
+      "bytes": 8096,
+      "sha256": "4432c76fcf7e71fef393e8a66117474da9b6ffb26b2b4c45ee613ec4bd3dd766"
+    },
+    {
+      "path": "src/gpujpeg_dct_cpu.h",
+      "bytes": 1768,
+      "sha256": "5d2756ba877c564d9eeb5d20ba087d01981310859621f6a5adec88699b75a160"
+    },
+    {
+      "path": "src/gpujpeg_dct_gpu.cu",
+      "bytes": 28106,
+      "sha256": "acc39c4f64ce29021fd0fb7b12b0127b2745266669138e6a84d59684594b5e8e"
+    },
+    {
+      "path": "src/gpujpeg_dct_gpu.h",
+      "bytes": 1989,
+      "sha256": "1b05cafc743b64ec7599627526e2938e61c8ab837a29aba7d0dfa66c94d57f05"
+    },
+    {
+      "path": "src/gpujpeg_decoder.c",
+      "bytes": 25709,
+      "sha256": "b9d16a36ae0c930d58fffdf1af8405d35c6b1d2ffddf5b14104950ad07229623"
+    },
+    {
+      "path": "src/gpujpeg_decoder_internal.h",
+      "bytes": 3340,
+      "sha256": "239db61628a006d856ebce75c3f22a9431e6d4e5676952aa1767f7d6480681a0"
+    },
+    {
+      "path": "src/gpujpeg_encoder.c",
+      "bytes": 35710,
+      "sha256": "03c097c9f8f607f44c8808b1aa359d2bcce373ad6e970fbb2efbf1c47c0780c0"
+    },
+    {
+      "path": "src/gpujpeg_encoder_internal.h",
+      "bytes": 2495,
+      "sha256": "357f21c6f74547b8e19e8327e3fc9a601f0fee94aede501170cb0af20764bf4d"
+    },
+    {
+      "path": "src/gpujpeg_exif.c",
+      "bytes": 30682,
+      "sha256": "4cc3f6889b36990f90609bf790595b5cbb9f3183817029cb66d527a859ee5ae9"
+    },
+    {
+      "path": "src/gpujpeg_exif.h",
+      "bytes": 2469,
+      "sha256": "937f86f05a3498ed9b55ba792a74d930bbdbbda6f72ee4075719df783e27ef85"
+    },
+    {
+      "path": "src/gpujpeg_huffman_cpu_decoder.c",
+      "bytes": 16158,
+      "sha256": "52979962202ba953a59ed8c28b80a731f49860887b838a708b3f357e7f4f8485"
+    },
+    {
+      "path": "src/gpujpeg_huffman_cpu_decoder.h",
+      "bytes": 1808,
+      "sha256": "870ec521203fd2b3c3761d6f61b6f53432dd2725509e344a9fc5e594f6cb441a"
+    },
+    {
+      "path": "src/gpujpeg_huffman_cpu_encoder.c",
+      "bytes": 14611,
+      "sha256": "5c3e7e230299ef72d6f7761403e09ac2412fbbcf0345694a07964a5f0269c92e"
+    },
+    {
+      "path": "src/gpujpeg_huffman_cpu_encoder.h",
+      "bytes": 1907,
+      "sha256": "d642574e002df22ec3028087b860887f64295b498b800b96411796f1f94e4733"
+    },
+    {
+      "path": "src/gpujpeg_huffman_gpu_decoder.cu",
+      "bytes": 32500,
+      "sha256": "41ccc091222b247c6cdf10399f0457f6bc84f8d690bf9a3251c3547d9f425ee3"
+    },
+    {
+      "path": "src/gpujpeg_huffman_gpu_decoder.h",
+      "bytes": 2212,
+      "sha256": "a83b7e514be20663bdf2aaca26725eeb2a94099abc7b82ec31fdf2c055267d10"
+    },
+    {
+      "path": "src/gpujpeg_huffman_gpu_encoder.cu",
+      "bytes": 49206,
+      "sha256": "95311447e81eb6d672d82da9c4891717453c49a3837383b3b6d4fcf5bebe271d"
+    },
+    {
+      "path": "src/gpujpeg_huffman_gpu_encoder.h",
+      "bytes": 3166,
+      "sha256": "81ee4273b8ee69001e7b8c797938e2c6d0f8874918b5c7b8401969d2deece6aa"
+    },
+    {
+      "path": "src/gpujpeg_huffman_no_restart.cuh",
+      "bytes": 13793,
+      "sha256": "eb432d305a363c66ee592d24e2de167df0278d4d1cc08ccef66620381c556ddb"
+    },
+    {
+      "path": "src/gpujpeg_marker.h",
+      "bytes": 6973,
+      "sha256": "c24cee3a09da0f5b1783207e8987725e9ecb659c822d1857463554253751a4e6"
+    },
+    {
+      "path": "src/gpujpeg_postprocessor.cu",
+      "bytes": 24276,
+      "sha256": "0e03562530507ce38f03d5179ad5ccece49fab80e0c1040908243f13873b7063"
+    },
+    {
+      "path": "src/gpujpeg_postprocessor.h",
+      "bytes": 2191,
+      "sha256": "d872ce19bbb5f07e99997c30f208f56b018d3fbd715c7ccb26881f05b1caf8fb"
+    },
+    {
+      "path": "src/gpujpeg_preprocessor.cu",
+      "bytes": 27182,
+      "sha256": "af6507899cf25e996718ada0e31aaa631c681cdf50da1e5fcaeb09521520f165"
+    },
+    {
+      "path": "src/gpujpeg_preprocessor.h",
+      "bytes": 3332,
+      "sha256": "9c983b280e936420493c6cb2fa5d566d6951965b84c40caf4c37d493eede66ac"
+    },
+    {
+      "path": "src/gpujpeg_preprocessor_common.cuh",
+      "bytes": 8983,
+      "sha256": "96cb8b195b33c7179204e779c71da69abfc6983cb80b2ea99830559c8a247647"
+    },
+    {
+      "path": "src/gpujpeg_reader.c",
+      "bytes": 71949,
+      "sha256": "75da76cbb8c4671da4293fbaa4871c263603098d3b6948a4c9c0194bd88fd709"
+    },
+    {
+      "path": "src/gpujpeg_reader.h",
+      "bytes": 2933,
+      "sha256": "f9225d75ddbc3b6affb6310fdba5faa3e6e8770e9a2019ab70ee0fffd4ba2216"
+    },
+    {
+      "path": "src/gpujpeg_table.c",
+      "bytes": 19256,
+      "sha256": "91b049640accdb2395f13d00a50194e1a93d9b6192a33083d6ae503997386b01"
+    },
+    {
+      "path": "src/gpujpeg_table.h",
+      "bytes": 7342,
+      "sha256": "4eb7d9bf9af10797be2734d49c284e3bb18b0c1b98113775faed0ba3466b4f13"
+    },
+    {
+      "path": "src/gpujpeg_util.h",
+      "bytes": 3569,
+      "sha256": "fc826e23e9f4a215f0f13f70344f85ef2d1f6ee8b5f34711ae5c71b4ed2bdca2"
+    },
+    {
+      "path": "src/gpujpeg_writer.c",
+      "bytes": 24689,
+      "sha256": "dcdf840ae8ea110aea3a581bc00da77384eddf91a1c989852677d32e4d1cb7a6"
+    },
+    {
+      "path": "src/gpujpeg_writer.h",
+      "bytes": 5406,
+      "sha256": "25ee5b1f700a341a68f905f4fa8fec980b4e630701041c1488ef2f8f97b06594"
+    },
+    {
+      "path": "src/main.c",
+      "bytes": 39417,
+      "sha256": "4c742fcf1c7603c98b16fb2ae1e09cf84dbde4616cdf1d5a2ab01f036dea2ba5"
+    },
+    {
+      "path": "src/utils/fpnge.cc",
+      "bytes": 65527,
+      "sha256": "3e4097a3777d90fce10ade6b27fd1f57a01641f1b7d9bc79ef8c5779e06454fb"
+    },
+    {
+      "path": "src/utils/fpnge.h",
+      "bytes": 2974,
+      "sha256": "cdd53229398bd7a234a0e0b01ebbfbfe11f255a60abc6b5bcda100efb316ecc8"
+    },
+    {
+      "path": "src/utils/getopt.c",
+      "bytes": 18159,
+      "sha256": "617407d3bbf8483a223a2290cf5fdba7bee57ea33a816112f1961461422e043d"
+    },
+    {
+      "path": "src/utils/getopt.h",
+      "bytes": 4071,
+      "sha256": "3df48c7217afdc6155c2392d090b60b610ff673967b1d0046ba7d7c0fbc4808c"
+    },
+    {
+      "path": "src/utils/image_delegate.c",
+      "bytes": 24814,
+      "sha256": "3650a25e8fb8633a4e629349a73cd1e4017b6a7ce5bd6bd3e0210c1f47f1e753"
+    },
+    {
+      "path": "src/utils/image_delegate.h",
+      "bytes": 3837,
+      "sha256": "09d49801e30f9e38e992e730ba211c9b0ed7bb848311ea2d96c1fb1818d2e113"
+    },
+    {
+      "path": "src/utils/image_delegate_fpnge.cpp",
+      "bytes": 1654,
+      "sha256": "2fc086181919680ca6b297222dda71398b4f8553b77b838a030c79e2b7bc19b4"
+    },
+    {
+      "path": "src/utils/image_delegate_fpnge.h",
+      "bytes": 230,
+      "sha256": "f1de1dc1141fc8dec47aaa8317937c9d68ec0dba13159afbdd20ab6e9089fb42"
+    },
+    {
+      "path": "src/utils/pam.c",
+      "bytes": 11988,
+      "sha256": "de27f034d18488250f4f985a1e9aab8ef80aebe91859d73689fa918dcd730cd5"
+    },
+    {
+      "path": "src/utils/pam.h",
+      "bytes": 4055,
+      "sha256": "a0092fd3402c993cec49fa15d5da26f52e5b72c50afddcc3e8903bf270786ff9"
+    },
+    {
+      "path": "src/utils/stb_image.h",
+      "bytes": 291252,
+      "sha256": "bbeb002b332bd1cba670ec5dc8d3bd65b4bd8f166f4dd72449b801ab5bbba8d0"
+    },
+    {
+      "path": "src/utils/stb_image_write.h",
+      "bytes": 72945,
+      "sha256": "17f339e7582ff4d4d56e40b0e87d77eda8d8f8e62806278ddf8fcf0b8b3d9a84"
+    },
+    {
+      "path": "src/utils/y4m.c",
+      "bytes": 8753,
+      "sha256": "da54d357aac457d58ae4ae664da1aeb4f99ddc7e3550a76ab6a859a7d05a8c2f"
+    },
+    {
+      "path": "src/utils/y4m.h",
+      "bytes": 2517,
+      "sha256": "c9ab49ee490b02fe2ffbc2ed0d60c19e67531a7c3ed33c4063e02afd04865347"
+    },
+    {
+      "path": "test/.gitignore",
+      "bytes": 9,
+      "sha256": "c390f43bdbd3de172a4f3e614ae2878489671da535eab67edaa1c55e1c9dcb7e"
+    },
+    {
+      "path": "test/common.sh",
+      "bytes": 1811,
+      "sha256": "1855021f135d23a1c2a0546fae5a6d691c6926bc059a74465c20ac7248a6488a"
+    },
+    {
+      "path": "test/decoder_gltex/gpujpeg_reformat.c",
+      "bytes": 25108,
+      "sha256": "5b38145cb2b461294a37f58cc784918467b37d429c2083b364814e1d2c0ae6d1"
+    },
+    {
+      "path": "test/decoder_gltex/gpujpeg_reformat.h",
+      "bytes": 603,
+      "sha256": "94ef104e2f41c1258a8eb653dee75d22ac3b8ea3b4a667780782ccbb133ec07f"
+    },
+    {
+      "path": "test/decoder_gltex/main.c",
+      "bytes": 6849,
+      "sha256": "c064b19f25059350abace23aa483ffed6084b076f7d7dedc9ccf8801c9fb39d7"
+    },
+    {
+      "path": "test/memcheck/Makefile.am",
+      "bytes": 1050,
+      "sha256": "c061b55660edcf0144535e3ebfbbd66c99daa6cbc5d1aa7609088568c933238d"
+    },
+    {
+      "path": "test/memcheck/Makefile.bkp",
+      "bytes": 601,
+      "sha256": "461bdd39f0532055ea16528714e6b77ac294681915538a5d4a79d71a9cdba5be"
+    },
+    {
+      "path": "test/memcheck/memcheck.cu",
+      "bytes": 1354,
+      "sha256": "abeba69fd33dd1af0edd9915b29af6eb8ea1af099cdcfaa9e4e0d1aa6d451053"
+    },
+    {
+      "path": "test/misc/README.md",
+      "bytes": 184,
+      "sha256": "6869a56ce59cfd1ebf6056bb7d4f11a2b5f6ac4c208b00027c2ac29fbc1158fe"
+    },
+    {
+      "path": "test/misc/mt_encode.c",
+      "bytes": 2302,
+      "sha256": "558a54f01a1fefadbcd41068e1447137f4a7a7349729f070b62f9c74dffb5472"
+    },
+    {
+      "path": "test/opengl_interop/Makefile.am",
+      "bytes": 906,
+      "sha256": "d4636eaf4c2c7c00886c12f0fb35bfd08bbbedd7a91665eea72c77a21dc736ab"
+    },
+    {
+      "path": "test/opengl_interop/Makefile.bkp",
+      "bytes": 3917,
+      "sha256": "347258605b2abdeb877b548f2199dd7bbf4a389cec64c6486d8d4d4d043c07bb"
+    },
+    {
+      "path": "test/opengl_interop/README",
+      "bytes": 262,
+      "sha256": "23fd3e1a1b1d61b9e3f915ea0ac3f9900817c9ec6f91f484c272a9488cf37c12"
+    },
+    {
+      "path": "test/opengl_interop/image.cu",
+      "bytes": 3185,
+      "sha256": "6e36696c4bff362e941dd964da7bec87d1fc20f9044a05df1e201ec63fb9948e"
+    },
+    {
+      "path": "test/opengl_interop/image.h",
+      "bytes": 2245,
+      "sha256": "74e55fb07af2704be93b52449ae046bc34c5f70d3262b67a63b104bcecdbc648"
+    },
+    {
+      "path": "test/opengl_interop/main.c",
+      "bytes": 11552,
+      "sha256": "cd80db4f18038ad2ff90b7e287760ffd8a64787f4c51b302dd94741e794e8a22"
+    },
+    {
+      "path": "test/opengl_interop/util.h",
+      "bytes": 2971,
+      "sha256": "c447337dbcf5ef8339dea867cba5577de6fb284013f3cf15153a775959e4f874"
+    },
+    {
+      "path": "test/opengl_interop/view.c",
+      "bytes": 8276,
+      "sha256": "78292dbeae9dd4b98e3be49461c51dc84fa569c6dec092cec210aa6a53f3ab3d"
+    },
+    {
+      "path": "test/opengl_interop/view.h",
+      "bytes": 3106,
+      "sha256": "136384589a547d3301773228acf9eb3d381b828c4366901c2698e8de50540eff"
+    },
+    {
+      "path": "test/regression/README.md",
+      "bytes": 193,
+      "sha256": "17ff9b19a6eea324cc24100c23abcf4cba40a9d457e6be5c61e50a00e6f09fa5"
+    },
+    {
+      "path": "test/regression/run_tests.sh",
+      "bytes": 6141,
+      "sha256": "2dfbdd607cfd3310ee64ef7895f15b11e291b47edce9b2ade1820d5b5e35b7c9"
+    },
+    {
+      "path": "test/unit/.gitignore",
+      "bytes": 11,
+      "sha256": "74dde8a06b515ac68e99a108f6b51ccbc0f274198cdb3c4bd49c2fc1eccb016f"
+    },
+    {
+      "path": "test/unit/Makefile",
+      "bytes": 253,
+      "sha256": "58815147f3c23f4d61e8bf2bfbd39e978f3c7b4be6eac0a07987705ed7576319"
+    },
+    {
+      "path": "test/unit/run_tests.c",
+      "bytes": 4814,
+      "sha256": "65d2e1c8bbb42acfd2be45526ef41fda16ed8510d581e7165e151eaf37387bc8"
+    },
+    {
+      "path": "test/unit/test_gh_95.c",
+      "bytes": 2633,
+      "sha256": "a9a30ec5bdb0d93c1510394d492e8801a7d93db9dc9b479badd391f9e17846fa"
+    }
+  ]
+}

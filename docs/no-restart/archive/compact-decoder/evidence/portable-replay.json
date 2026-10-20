@@ -1,0 +1,97 @@
+{
+  "steps": [
+    {
+      "name": "corpus",
+      "command": [
+        "<USER_PROFILE>/AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "<WORKSPACE>\\work\\compact-decode\\correctness\\generate_corpus.py",
+        "--encoder",
+        "<WORKSPACE>\\work\\build-baseline\\gpujpegtool.exe",
+        "--hd-rgb",
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+        "--large-rgb",
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.4k.8.ppm",
+        "--gray",
+        "<WORKSPACE>\\work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.pgm",
+        "--output",
+        "<WORKSPACE>\\work\\compact-decode\\portable-replay\\corpus"
+      ],
+      "returncode": 0,
+      "log": "<WORKSPACE>\\work\\compact-decode\\portable-replay\\corpus.log"
+    },
+    {
+      "name": "base",
+      "command": [
+        "<USER_PROFILE>/AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "<WORKSPACE>\\work\\compact-decode\\correctness\\generate_base.py",
+        "--fixtures-only",
+        "--reference-tool",
+        "<WORKSPACE>\\work\\build-baseline\\gpujpegtool.exe",
+        "--corpus-manifest",
+        "<WORKSPACE>\\work\\compact-decode\\portable-replay\\corpus\\manifest.json",
+        "--output",
+        "<WORKSPACE>\\work\\compact-decode\\portable-replay\\base",
+        "--pillow-path",
+        "<WORKSPACE>\\work\\test-python"
+      ],
+      "returncode": 0,
+      "log": "<WORKSPACE>\\work\\compact-decode\\portable-replay\\base.log"
+    },
+    {
+      "name": "stress",
+      "command": [
+        "<USER_PROFILE>/AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "<WORKSPACE>\\work\\compact-decode\\correctness\\make_stress.py",
+        "--output",
+        "<WORKSPACE>\\work\\compact-decode\\portable-replay\\stress"
+      ],
+      "returncode": 0,
+      "log": "<WORKSPACE>\\work\\compact-decode\\portable-replay\\stress.log"
+    },
+    {
+      "name": "fresh",
+      "command": [
+        "<USER_PROFILE>/AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "<WORKSPACE>\\work\\compact-decode\\correctness\\validate_compact.py",
+        "--old-reference-root",
+        "<WORKSPACE>\\work\\compact-decode\\portable-replay\\base",
+        "--regenerate-original-reference",
+        "--stress-manifest",
+        "<WORKSPACE>\\work\\compact-decode\\portable-replay\\stress\\manifest.json",
+        "--reference-harness",
+        "<WORKSPACE>\\work\\compact-decode\\correctness\\dump-baseline.exe",
+        "--candidate",
+        "replay=<WORKSPACE>\\work\\compact-decode\\correctness\\dump-combined.exe",
+        "--fresh-only",
+        "--output",
+        "<WORKSPACE>\\work\\compact-decode\\portable-replay\\checks",
+        "--source",
+        "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_huffman_gpu_decoder.cu",
+        "--library",
+        "input_helper=<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_huffman_staged_input.cuh"
+      ],
+      "returncode": 0,
+      "log": "<WORKSPACE>\\work\\compact-decode\\portable-replay\\fresh.log"
+    }
+  ],
+  "fixture_groups": [
+    {
+      "group": "corpus",
+      "files": 10,
+      "all_input_bytes_identical": true
+    },
+    {
+      "group": "base",
+      "files": 28,
+      "all_input_bytes_identical": true
+    },
+    {
+      "group": "stress",
+      "files": 10,
+      "all_input_bytes_identical": true
+    }
+  ],
+  "source_dump_reuse": false,
+  "fresh_coefficient_and_pixel_comparisons": 38,
+  "all_passed": true
+}

@@ -1,0 +1,14 @@
+{
+  "reference": {
+    "path": "<WORKSPACE>\\work\\encode-r0-validation\\gpujpeg-baseline.exe",
+    "sha256": "2e5e0373deee179fd8edc2f3c276a4483ef4524aaf50a790ea0535d09545d5f1"
+  },
+  "candidate": {
+    "path": "<WORKSPACE>\\work\\encode-r0-validation\\gpujpeg-off.exe",
+    "sha256": "6513daf1ac66fc3ccc0e18fe96f66048ae7ddab63981528843a26b2337db01a1"
+  },
+  "off_lib": {
+    "path": "work/build-encode-r0-off/gpujpeg.lib",
+    "sha256": "0293e957d7d66b70779a373beda038f2c392a8162c23cf51dee287d4e622a6db"
+  }
+}

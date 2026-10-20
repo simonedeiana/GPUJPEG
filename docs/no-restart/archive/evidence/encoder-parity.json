@@ -1,0 +1,1371 @@
+[
+  {
+    "case": "hd444q0",
+    "flags": [
+      "-q",
+      0,
+      "-r",
+      10,
+      "-i",
+      "--subsampled=444"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "7ee0d05035868af6acca7f05bb0b7238c72bab0c50614f41759a3c34fbddddf5",
+      "bytes": 67956,
+      "huffman_ms": [
+        0.3246,
+        0.3164,
+        0.3287
+      ],
+      "gpu_ms": [
+        1.5164,
+        0.6036,
+        0.8474
+      ]
+    },
+    "warp": {
+      "sha256": "7ee0d05035868af6acca7f05bb0b7238c72bab0c50614f41759a3c34fbddddf5",
+      "bytes": 67956,
+      "huffman_ms": [
+        0.2335,
+        0.2585,
+        0.5714
+      ],
+      "gpu_ms": [
+        1.1224,
+        0.6101,
+        1.062
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd444q1",
+    "flags": [
+      "-q",
+      1,
+      "-r",
+      10,
+      "-i",
+      "--subsampled=444"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "7ee0d05035868af6acca7f05bb0b7238c72bab0c50614f41759a3c34fbddddf5",
+      "bytes": 67956,
+      "huffman_ms": [
+        0.2502,
+        0.2427,
+        0.2468
+      ],
+      "gpu_ms": [
+        0.8946,
+        0.4847,
+        0.5563
+      ]
+    },
+    "warp": {
+      "sha256": "7ee0d05035868af6acca7f05bb0b7238c72bab0c50614f41759a3c34fbddddf5",
+      "bytes": 67956,
+      "huffman_ms": [
+        0.2304,
+        0.2533,
+        0.2376
+      ],
+      "gpu_ms": [
+        1.0324,
+        0.5203,
+        0.5031
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd444q50",
+    "flags": [
+      "-q",
+      50,
+      "-r",
+      10,
+      "-i",
+      "--subsampled=444"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "2e339d6c3379bca9cd70de56e8414d0e04da1813dcafcdb338994f49652eff3d",
+      "bytes": 249513,
+      "huffman_ms": [
+        0.2942,
+        0.3185,
+        0.2796
+      ],
+      "gpu_ms": [
+        1.1732,
+        0.6444,
+        0.5958
+      ]
+    },
+    "warp": {
+      "sha256": "2e339d6c3379bca9cd70de56e8414d0e04da1813dcafcdb338994f49652eff3d",
+      "bytes": 249513,
+      "huffman_ms": [
+        0.2714,
+        0.2908,
+        0.2499
+      ],
+      "gpu_ms": [
+        1.0052,
+        0.6552,
+        0.5227
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd444q75",
+    "flags": [
+      "-q",
+      75,
+      "-r",
+      10,
+      "-i",
+      "--subsampled=444"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "8163ba1b4be0ce435e345192e008b1ba8cbbf4c517fae511adb24351f3ae3f32",
+      "bytes": 385985,
+      "huffman_ms": [
+        0.338,
+        0.343,
+        0.3338
+      ],
+      "gpu_ms": [
+        1.0282,
+        0.6936,
+        0.6112
+      ]
+    },
+    "warp": {
+      "sha256": "8163ba1b4be0ce435e345192e008b1ba8cbbf4c517fae511adb24351f3ae3f32",
+      "bytes": 385985,
+      "huffman_ms": [
+        0.2744,
+        0.297,
+        0.3843
+      ],
+      "gpu_ms": [
+        1.0287,
+        0.5595,
+        0.6905
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd444q90",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      10,
+      "-i",
+      "--subsampled=444"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "c513302440d505f846808347ea15a8629a0b5727226cbee834bbe945f9c77c70",
+      "bytes": 700601,
+      "huffman_ms": [
+        0.384,
+        0.3594,
+        0.3638
+      ],
+      "gpu_ms": [
+        1.0764,
+        0.6305,
+        0.6425
+      ]
+    },
+    "warp": {
+      "sha256": "c513302440d505f846808347ea15a8629a0b5727226cbee834bbe945f9c77c70",
+      "bytes": 700601,
+      "huffman_ms": [
+        0.287,
+        0.3072,
+        0.3011
+      ],
+      "gpu_ms": [
+        1.2199,
+        0.6045,
+        0.5709
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd444q100",
+    "flags": [
+      "-q",
+      100,
+      "-r",
+      10,
+      "-i",
+      "--subsampled=444"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "e3f29efe2461b4229b399af6fc4f75be5ce6b7752d3856e016b7d3e510d4ae7b",
+      "bytes": 2917325,
+      "huffman_ms": [
+        0.5715,
+        0.5807,
+        0.5683
+      ],
+      "gpu_ms": [
+        1.2454,
+        0.8615,
+        0.8192
+      ]
+    },
+    "warp": {
+      "sha256": "e3f29efe2461b4229b399af6fc4f75be5ce6b7752d3856e016b7d3e510d4ae7b",
+      "bytes": 2917325,
+      "huffman_ms": [
+        0.4763,
+        0.4854,
+        0.4817
+      ],
+      "gpu_ms": [
+        1.1386,
+        0.7638,
+        0.745
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd420r1",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      1,
+      "-i",
+      "--subsampled=420"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "fd00eb2a5878747726bad2b0a261eb2c5c0853d508cd92c3f2f48e3e75bf50c6",
+      "bytes": 568026,
+      "huffman_ms": [
+        0.2583,
+        0.2255,
+        0.2399
+      ],
+      "gpu_ms": [
+        0.9104,
+        0.4096,
+        0.431
+      ]
+    },
+    "warp": {
+      "sha256": "fd00eb2a5878747726bad2b0a261eb2c5c0853d508cd92c3f2f48e3e75bf50c6",
+      "bytes": 568026,
+      "huffman_ms": [
+        0.2509,
+        0.2314,
+        0.2236
+      ],
+      "gpu_ms": [
+        1.1234,
+        0.4275,
+        0.4458
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd420r2",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      2,
+      "-i",
+      "--subsampled=420"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "a088bc623acb58815c974a90859ae115cf82209220c6f3bf42ecf647dc6649d4",
+      "bytes": 550220,
+      "huffman_ms": [
+        0.2509,
+        0.2305,
+        0.254
+      ],
+      "gpu_ms": [
+        0.8716,
+        0.4329,
+        0.5185
+      ]
+    },
+    "warp": {
+      "sha256": "a088bc623acb58815c974a90859ae115cf82209220c6f3bf42ecf647dc6649d4",
+      "bytes": 550220,
+      "huffman_ms": [
+        0.2406,
+        0.1966,
+        0.212
+      ],
+      "gpu_ms": [
+        0.9172,
+        0.4768,
+        0.4348
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd420r8",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      8,
+      "-i",
+      "--subsampled=420"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "cfa40b3b74940c8e33fa8a2641e709009198dedf3c3350871b39a29ee6937adf",
+      "bytes": 536864,
+      "huffman_ms": [
+        0.468,
+        0.451,
+        0.4434
+      ],
+      "gpu_ms": [
+        1.151,
+        0.6507,
+        0.6288
+      ]
+    },
+    "warp": {
+      "sha256": "cfa40b3b74940c8e33fa8a2641e709009198dedf3c3350871b39a29ee6937adf",
+      "bytes": 536864,
+      "huffman_ms": [
+        0.2519,
+        0.2529,
+        0.2223
+      ],
+      "gpu_ms": [
+        0.9173,
+        0.5035,
+        0.5199
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd420r1000",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      1000,
+      "-i",
+      "--subsampled=420"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "7ba89c0bcc06a3695238b7a50d4fc9b7811f4c03abeb07c69d8dab70d911b13f",
+      "bytes": 532515,
+      "huffman_ms": [
+        26.0956,
+        26.4202,
+        26.028
+      ],
+      "gpu_ms": [
+        26.7219,
+        26.6456,
+        26.258
+      ]
+    },
+    "warp": {
+      "sha256": "7ba89c0bcc06a3695238b7a50d4fc9b7811f4c03abeb07c69d8dab70d911b13f",
+      "bytes": 532515,
+      "huffman_ms": [
+        7.8736,
+        8.2353,
+        8.2545
+      ],
+      "gpu_ms": [
+        8.5176,
+        8.441,
+        8.5039
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd422r1",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      1,
+      "-i",
+      "--subsampled=422"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "945147c7be3cc55276b203be2969e7f8b6672fd3aedb4356283a1b571efbe661",
+      "bytes": 654703,
+      "huffman_ms": [
+        0.3164,
+        0.2877,
+        0.2877
+      ],
+      "gpu_ms": [
+        0.9444,
+        0.5074,
+        0.5075
+      ]
+    },
+    "warp": {
+      "sha256": "945147c7be3cc55276b203be2969e7f8b6672fd3aedb4356283a1b571efbe661",
+      "bytes": 654703,
+      "huffman_ms": [
+        0.2816,
+        0.2632,
+        0.2797
+      ],
+      "gpu_ms": [
+        0.9183,
+        0.5032,
+        0.5374
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd422r2",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      2,
+      "-i",
+      "--subsampled=422"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "0a760f275617f01074764fa1d66e727296ca325455bab9b05df5c60225388210",
+      "bytes": 618939,
+      "huffman_ms": [
+        0.2417,
+        0.2448,
+        0.2326
+      ],
+      "gpu_ms": [
+        0.9042,
+        0.5526,
+        0.4658
+      ]
+    },
+    "warp": {
+      "sha256": "0a760f275617f01074764fa1d66e727296ca325455bab9b05df5c60225388210",
+      "bytes": 618939,
+      "huffman_ms": [
+        0.2399,
+        0.2521,
+        0.2468
+      ],
+      "gpu_ms": [
+        0.9276,
+        0.4829,
+        0.482
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd422r8",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      8,
+      "-i",
+      "--subsampled=422"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "f0a24f6c67b50cd08b306d6ee9bfdcd3bc8bdb0453f60ea136f8c75ab3b81be7",
+      "bytes": 592033,
+      "huffman_ms": [
+        0.3728,
+        0.3721,
+        0.3576
+      ],
+      "gpu_ms": [
+        1.0305,
+        0.6283,
+        0.5774
+      ]
+    },
+    "warp": {
+      "sha256": "f0a24f6c67b50cd08b306d6ee9bfdcd3bc8bdb0453f60ea136f8c75ab3b81be7",
+      "bytes": 592033,
+      "huffman_ms": [
+        0.256,
+        0.2437,
+        0.2581
+      ],
+      "gpu_ms": [
+        0.9656,
+        0.4863,
+        0.4668
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd422r1000",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      1000,
+      "-i",
+      "--subsampled=422"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "12e923d38cec4a5c0a1f38478f5e38050a2ae85ed2b95f5ba109f8f54a320529",
+      "bytes": 583254,
+      "huffman_ms": [
+        16.3799,
+        16.3707,
+        16.3686
+      ],
+      "gpu_ms": [
+        17.1508,
+        16.5907,
+        16.6122
+      ]
+    },
+    "warp": {
+      "sha256": "12e923d38cec4a5c0a1f38478f5e38050a2ae85ed2b95f5ba109f8f54a320529",
+      "bytes": 583254,
+      "huffman_ms": [
+        5.0956,
+        4.9562,
+        5.7542
+      ],
+      "gpu_ms": [
+        6.0047,
+        5.2757,
+        6.0521
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd444r1",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      1,
+      "-i",
+      "--subsampled=444"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "1d3788b8326e79edee3d0fa2bdd505343a11adab0fe6cb7d55ba35997f1950d7",
+      "bytes": 831211,
+      "huffman_ms": [
+        0.7468,
+        0.9679,
+        0.4312
+      ],
+      "gpu_ms": [
+        1.7672,
+        1.2572,
+        0.6758
+      ]
+    },
+    "warp": {
+      "sha256": "1d3788b8326e79edee3d0fa2bdd505343a11adab0fe6cb7d55ba35997f1950d7",
+      "bytes": 831211,
+      "huffman_ms": [
+        0.4291,
+        0.4147,
+        0.4404
+      ],
+      "gpu_ms": [
+        1.1351,
+        0.695,
+        0.7244
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd444r2",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      2,
+      "-i",
+      "--subsampled=444"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "4e3a9765748038d3ad4199c80977303e5822e1423cbf0cb002c54737289f0bff",
+      "bytes": 758723,
+      "huffman_ms": [
+        0.3676,
+        0.3594,
+        0.3544
+      ],
+      "gpu_ms": [
+        1.0055,
+        0.6335,
+        0.6052
+      ]
+    },
+    "warp": {
+      "sha256": "4e3a9765748038d3ad4199c80977303e5822e1423cbf0cb002c54737289f0bff",
+      "bytes": 758723,
+      "huffman_ms": [
+        0.7383,
+        0.3441,
+        0.3359
+      ],
+      "gpu_ms": [
+        1.4278,
+        0.5953,
+        0.6024
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd444r8",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      8,
+      "-i",
+      "--subsampled=444"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "8476d2c013c27cec4db8ccba278f55c68a16040f397f60646353cb18568f0499",
+      "bytes": 704248,
+      "huffman_ms": [
+        0.34,
+        0.335,
+        0.3389
+      ],
+      "gpu_ms": [
+        0.979,
+        0.6057,
+        0.6105
+      ]
+    },
+    "warp": {
+      "sha256": "8476d2c013c27cec4db8ccba278f55c68a16040f397f60646353cb18568f0499",
+      "bytes": 704248,
+      "huffman_ms": [
+        0.3062,
+        0.2939,
+        0.5899
+      ],
+      "gpu_ms": [
+        1.0768,
+        0.5656,
+        1.0492
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd444r1000",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      1000,
+      "-i",
+      "--subsampled=444"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "4298223f8641f08af38a724cf45dc82015a38dcd6dd39df6b5f95ad82ea9d9f1",
+      "bytes": 686327,
+      "huffman_ms": [
+        10.7299,
+        11.093,
+        11.1291
+      ],
+      "gpu_ms": [
+        11.3934,
+        11.3377,
+        11.3922
+      ]
+    },
+    "warp": {
+      "sha256": "4298223f8641f08af38a724cf45dc82015a38dcd6dd39df6b5f95ad82ea9d9f1",
+      "bytes": 686327,
+      "huffman_ms": [
+        3.4191,
+        3.4458,
+        3.4447
+      ],
+      "gpu_ms": [
+        4.314,
+        3.7546,
+        3.7383
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "tinyr1",
+    "flags": [
+      "-q",
+      100,
+      "-r",
+      1
+    ],
+    "input": "work\\port-validation\\tiny.pnm",
+    "baseline": {
+      "sha256": "bc07b3d182311b69094c33ebd32a26d49e495089401906c08252feaa7f30382e",
+      "bytes": 869,
+      "huffman_ms": [
+        0.0751,
+        0.087,
+        0.0696
+      ],
+      "gpu_ms": [
+        0.6953,
+        0.2177,
+        0.187
+      ]
+    },
+    "warp": {
+      "sha256": "bc07b3d182311b69094c33ebd32a26d49e495089401906c08252feaa7f30382e",
+      "bytes": 869,
+      "huffman_ms": [
+        0.0669,
+        0.0594,
+        0.0584
+      ],
+      "gpu_ms": [
+        0.4977,
+        0.168,
+        0.1621
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "tinyr8",
+    "flags": [
+      "-q",
+      100,
+      "-r",
+      8
+    ],
+    "input": "work\\port-validation\\tiny.pnm",
+    "baseline": {
+      "sha256": "dc47181474bbdc00b5535457c1826cb95b63eff7fdcc3fb83b56bb3c88dae1ab",
+      "bytes": 869,
+      "huffman_ms": [
+        0.0841,
+        0.0666,
+        0.081
+      ],
+      "gpu_ms": [
+        0.5089,
+        0.1492,
+        0.1741
+      ]
+    },
+    "warp": {
+      "sha256": "dc47181474bbdc00b5535457c1826cb95b63eff7fdcc3fb83b56bb3c88dae1ab",
+      "bytes": 869,
+      "huffman_ms": [
+        0.0727,
+        0.0625,
+        0.0617
+      ],
+      "gpu_ms": [
+        0.51,
+        0.1468,
+        0.1569
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "tinyr1000",
+    "flags": [
+      "-q",
+      100,
+      "-r",
+      1000
+    ],
+    "input": "work\\port-validation\\tiny.pnm",
+    "baseline": {
+      "sha256": "8297729ae4b1a41165dc86dbb239a24ce8f7d6fecb325ce7e60044956840f048",
+      "bytes": 869,
+      "huffman_ms": [
+        0.0707,
+        0.0655,
+        0.0639
+      ],
+      "gpu_ms": [
+        0.4997,
+        0.1348,
+        0.1446
+      ]
+    },
+    "warp": {
+      "sha256": "8297729ae4b1a41165dc86dbb239a24ce8f7d6fecb325ce7e60044956840f048",
+      "bytes": 869,
+      "huffman_ms": [
+        0.0676,
+        0.0614,
+        0.0596
+      ],
+      "gpu_ms": [
+        0.5171,
+        0.1995,
+        0.1683
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "oddr1",
+    "flags": [
+      "-q",
+      100,
+      "-r",
+      1
+    ],
+    "input": "work\\port-validation\\odd.pnm",
+    "baseline": {
+      "sha256": "61e17da42c3422c1063e448c02b52dda5c813152bf15b4e4d7302e2497d11506",
+      "bytes": 2399,
+      "huffman_ms": [
+        0.0881,
+        0.0696,
+        0.0655
+      ],
+      "gpu_ms": [
+        0.6185,
+        0.1727,
+        0.1425
+      ]
+    },
+    "warp": {
+      "sha256": "61e17da42c3422c1063e448c02b52dda5c813152bf15b4e4d7302e2497d11506",
+      "bytes": 2399,
+      "huffman_ms": [
+        0.0841,
+        0.0597,
+        0.075
+      ],
+      "gpu_ms": [
+        0.553,
+        0.1343,
+        0.1457
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "oddr8",
+    "flags": [
+      "-q",
+      100,
+      "-r",
+      8
+    ],
+    "input": "work\\port-validation\\odd.pnm",
+    "baseline": {
+      "sha256": "06b6c28d3687bb7ae2edcfa681881f80ee7dd4ebb96f57710ca176ab4c9896e1",
+      "bytes": 2332,
+      "huffman_ms": [
+        0.1208,
+        0.1107,
+        0.1137
+      ],
+      "gpu_ms": [
+        0.5212,
+        0.2076,
+        0.2123
+      ]
+    },
+    "warp": {
+      "sha256": "06b6c28d3687bb7ae2edcfa681881f80ee7dd4ebb96f57710ca176ab4c9896e1",
+      "bytes": 2332,
+      "huffman_ms": [
+        0.1413,
+        0.2632,
+        0.129
+      ],
+      "gpu_ms": [
+        0.7035,
+        0.3891,
+        0.2535
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "oddr1000",
+    "flags": [
+      "-q",
+      100,
+      "-r",
+      1000
+    ],
+    "input": "work\\port-validation\\odd.pnm",
+    "baseline": {
+      "sha256": "0e22aafebbd204f459061a834b6e4f7419d6f23bb8d3f7cd758bc6e9b8ff9d9f",
+      "bytes": 2319,
+      "huffman_ms": [
+        0.1249,
+        0.1188,
+        0.1198
+      ],
+      "gpu_ms": [
+        0.6267,
+        0.2056,
+        0.217
+      ]
+    },
+    "warp": {
+      "sha256": "0e22aafebbd204f459061a834b6e4f7419d6f23bb8d3f7cd758bc6e9b8ff9d9f",
+      "bytes": 2319,
+      "huffman_ms": [
+        0.0942,
+        0.0865,
+        0.085
+      ],
+      "gpu_ms": [
+        0.5458,
+        0.1774,
+        0.1755
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "noiser1",
+    "flags": [
+      "-q",
+      100,
+      "-r",
+      1
+    ],
+    "input": "work\\port-validation\\noise.pnm",
+    "baseline": {
+      "sha256": "24b8f2456d6995ea8696f72c8cd0538f884edc878e9f7419f31a827259196347",
+      "bytes": 38846,
+      "huffman_ms": [
+        0.085,
+        0.077,
+        0.1055
+      ],
+      "gpu_ms": [
+        0.5386,
+        0.1677,
+        0.1873
+      ]
+    },
+    "warp": {
+      "sha256": "24b8f2456d6995ea8696f72c8cd0538f884edc878e9f7419f31a827259196347",
+      "bytes": 38846,
+      "huffman_ms": [
+        0.084,
+        0.0645,
+        0.0625
+      ],
+      "gpu_ms": [
+        0.7393,
+        0.1367,
+        0.1412
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "noiser8",
+    "flags": [
+      "-q",
+      100,
+      "-r",
+      8
+    ],
+    "input": "work\\port-validation\\noise.pnm",
+    "baseline": {
+      "sha256": "2d25e5d89f3ba3afaab77232e565d4182605ff4acaf353a8b26f31ef5386e1e9",
+      "bytes": 37854,
+      "huffman_ms": [
+        0.1468,
+        0.1434,
+        0.1423
+      ],
+      "gpu_ms": [
+        0.5816,
+        0.2144,
+        0.2217
+      ]
+    },
+    "warp": {
+      "sha256": "2d25e5d89f3ba3afaab77232e565d4182605ff4acaf353a8b26f31ef5386e1e9",
+      "bytes": 37854,
+      "huffman_ms": [
+        0.1085,
+        0.0983,
+        0.1208
+      ],
+      "gpu_ms": [
+        0.6953,
+        0.2102,
+        0.2548
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "noiser1000",
+    "flags": [
+      "-q",
+      100,
+      "-r",
+      1000
+    ],
+    "input": "work\\port-validation\\noise.pnm",
+    "baseline": {
+      "sha256": "e9f54bc381930ccece3611b3a1f5ff639a901f7fd0d91ec851ef7910cd56060d",
+      "bytes": 37723,
+      "huffman_ms": [
+        1.0969,
+        1.1039,
+        1.154
+      ],
+      "gpu_ms": [
+        1.5729,
+        1.2525,
+        1.282
+      ]
+    },
+    "warp": {
+      "sha256": "e9f54bc381930ccece3611b3a1f5ff639a901f7fd0d91ec851ef7910cd56060d",
+      "bytes": 37723,
+      "huffman_ms": [
+        0.3628,
+        0.3564,
+        0.3608
+      ],
+      "gpu_ms": [
+        1.2349,
+        0.5881,
+        0.5737
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "grayr1",
+    "flags": [
+      "-q",
+      100,
+      "-r",
+      1
+    ],
+    "input": "work\\port-validation\\gray.pnm",
+    "baseline": {
+      "sha256": "bf8de99a951ab6a1125fa815237c8b2f12d416f4b4757ac412f54d2e42e20cef",
+      "bytes": 4473,
+      "huffman_ms": [
+        0.0819,
+        0.074,
+        0.0696
+      ],
+      "gpu_ms": [
+        0.2437,
+        0.1837,
+        0.1493
+      ]
+    },
+    "warp": {
+      "sha256": "bf8de99a951ab6a1125fa815237c8b2f12d416f4b4757ac412f54d2e42e20cef",
+      "bytes": 4473,
+      "huffman_ms": [
+        0.0788,
+        0.0778,
+        0.0748
+      ],
+      "gpu_ms": [
+        0.2253,
+        0.1655,
+        0.1643
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "grayr8",
+    "flags": [
+      "-q",
+      100,
+      "-r",
+      8
+    ],
+    "input": "work\\port-validation\\gray.pnm",
+    "baseline": {
+      "sha256": "f592a03d6a79d4b37a85fc91d40fd3ca3b0ab76f7aaf60b812ca3beeed2df907",
+      "bytes": 4393,
+      "huffman_ms": [
+        0.1455,
+        0.1506,
+        0.1464
+      ],
+      "gpu_ms": [
+        0.3052,
+        0.2444,
+        0.235
+      ]
+    },
+    "warp": {
+      "sha256": "f592a03d6a79d4b37a85fc91d40fd3ca3b0ab76f7aaf60b812ca3beeed2df907",
+      "bytes": 4393,
+      "huffman_ms": [
+        0.084,
+        0.0721,
+        0.0758
+      ],
+      "gpu_ms": [
+        0.2191,
+        0.1732,
+        0.1574
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "grayr1000",
+    "flags": [
+      "-q",
+      100,
+      "-r",
+      1000
+    ],
+    "input": "work\\port-validation\\gray.pnm",
+    "baseline": {
+      "sha256": "ae3ba568f9df239e4856adc8ba9f17b3f1c66e91eaceccefc11e7ff2fcc04993",
+      "bytes": 4385,
+      "huffman_ms": [
+        0.3891,
+        0.4823,
+        0.3936
+      ],
+      "gpu_ms": [
+        0.5028,
+        0.5811,
+        0.6032
+      ]
+    },
+    "warp": {
+      "sha256": "ae3ba568f9df239e4856adc8ba9f17b3f1c66e91eaceccefc11e7ff2fcc04993",
+      "bytes": 4385,
+      "huffman_ms": [
+        0.1597,
+        0.1262,
+        0.1249
+      ],
+      "gpu_ms": [
+        0.3021,
+        0.2644,
+        0.2001
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "4k420",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      10,
+      "-i",
+      "--subsampled=420"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.4k.8.ppm",
+    "baseline": {
+      "sha256": "7ea93a4fd14aaf1fff4d520520f9859daf379b84a75d3302a27e2e47992fb1bd",
+      "bytes": 1560635,
+      "huffman_ms": [
+        0.6451,
+        0.6435,
+        0.6973
+      ],
+      "gpu_ms": [
+        1.6807,
+        1.1446,
+        1.2192
+      ]
+    },
+    "warp": {
+      "sha256": "7ea93a4fd14aaf1fff4d520520f9859daf379b84a75d3302a27e2e47992fb1bd",
+      "bytes": 1560635,
+      "huffman_ms": [
+        0.4968,
+        0.8101,
+        0.598
+      ],
+      "gpu_ms": [
+        1.4436,
+        1.4395,
+        1.327
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "4k422",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      10,
+      "-i",
+      "--subsampled=422"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.4k.8.ppm",
+    "baseline": {
+      "sha256": "fa5c480a9c2fa38b28e83f41bc9606783bbc9da7bf8248f83971c45283dff837",
+      "bytes": 1744416,
+      "huffman_ms": [
+        0.682,
+        0.6554,
+        0.6708
+      ],
+      "gpu_ms": [
+        1.6843,
+        1.3009,
+        1.353
+      ]
+    },
+    "warp": {
+      "sha256": "fa5c480a9c2fa38b28e83f41bc9606783bbc9da7bf8248f83971c45283dff837",
+      "bytes": 1744416,
+      "huffman_ms": [
+        0.6451,
+        0.6318,
+        0.597
+      ],
+      "gpu_ms": [
+        1.9466,
+        1.2583,
+        1.2239
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "4k444",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      10,
+      "-i",
+      "--subsampled=444"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.4k.8.ppm",
+    "baseline": {
+      "sha256": "f1bca76162bfec4bda4996e7684298446a3ec867494bdc4bc02ea6612d9e55dd",
+      "bytes": 2058919,
+      "huffman_ms": [
+        0.9605,
+        0.9711,
+        0.9893
+      ],
+      "gpu_ms": [
+        2.2309,
+        1.7921,
+        1.8595
+      ]
+    },
+    "warp": {
+      "sha256": "f1bca76162bfec4bda4996e7684298446a3ec867494bdc4bc02ea6612d9e55dd",
+      "bytes": 2058919,
+      "huffman_ms": [
+        0.8182,
+        0.8018,
+        0.8172
+      ],
+      "gpu_ms": [
+        2.0521,
+        1.5465,
+        1.6453
+      ]
+    },
+    "byte_identical": true
+  },
+  {
+    "case": "hd444planar",
+    "flags": [
+      "-q",
+      90,
+      "-r",
+      8,
+      "--subsampled=444"
+    ],
+    "input": "work\\fast_jpeg\\fast_jpeg.x64.0.21.1.0.exp-2027-01-26\\Images\\wild.8.ppm",
+    "baseline": {
+      "sha256": "dadbf47059cf364f8d52bde79c5dda47d3ddab0e573c14ba988d2bbac4b6dafa",
+      "bytes": 723969,
+      "huffman_ms": [
+        0.3482,
+        0.3226,
+        0.3226
+      ],
+      "gpu_ms": [
+        1.0699,
+        0.6075,
+        0.5978
+      ]
+    },
+    "warp": {
+      "sha256": "dadbf47059cf364f8d52bde79c5dda47d3ddab0e573c14ba988d2bbac4b6dafa",
+      "bytes": 723969,
+      "huffman_ms": [
+        0.3113,
+        0.2992,
+        0.3123
+      ],
+      "gpu_ms": [
+        1.111,
+        0.7014,
+        0.7132
+      ]
+    },
+    "byte_identical": true
+  }
+]

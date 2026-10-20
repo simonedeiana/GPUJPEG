@@ -1,0 +1,126 @@
+[
+  {
+    "document": "fast-jpeg-investigation.md",
+    "target": "gpujpeg-fastjpeg-techniques.patch"
+  },
+  {
+    "document": "fast-jpeg-investigation.md",
+    "target": "GPUJPEG-source.zip"
+  },
+  {
+    "document": "README.md",
+    "target": "decoder-no-restart/GPUJPEG-decoder-source.zip"
+  },
+  {
+    "document": "README.md",
+    "target": "decoder-no-restart/decoder-no-restart.patch"
+  },
+  {
+    "document": "README.md",
+    "target": "nvjpeg-no-restart/GPUJPEG-no-restart-source.zip"
+  },
+  {
+    "document": "README.md",
+    "target": "nvjpeg-no-restart/gpujpeg-no-restart.patch"
+  },
+  {
+    "document": "README.md",
+    "target": "nvjpeg-no-restart/gpujpegtool.exe"
+  },
+  {
+    "document": "README.md",
+    "target": "decoder-no-restart/encoder-locked-complete.bundle"
+  },
+  {
+    "document": "compact-decoder/report.md",
+    "target": "GPUJPEG-compact-source.zip"
+  },
+  {
+    "document": "compact-decoder/report.md",
+    "target": "gpujpeg-compact-decoder.patch"
+  },
+  {
+    "document": "compact-decoder/report.md",
+    "target": "gpujpeg-cumulative-upstream.patch"
+  },
+  {
+    "document": "compact-decoder/report.md",
+    "target": "evidence/main-logs.zip"
+  },
+  {
+    "document": "decoder-no-restart/README.md",
+    "target": "GPUJPEG-decoder-source.zip"
+  },
+  {
+    "document": "decoder-no-restart/README.md",
+    "target": "decoder-no-restart.patch"
+  },
+  {
+    "document": "decoder-no-restart/README.md",
+    "target": "decoder-development.bundle"
+  },
+  {
+    "document": "decoder-no-restart/README.md",
+    "target": "encoder-locked-complete.bundle"
+  },
+  {
+    "document": "decoder-no-restart/report.md",
+    "target": "encoder-locked-complete.bundle"
+  },
+  {
+    "document": "decoder-no-restart/report.md",
+    "target": "raw-evidence.zip"
+  },
+  {
+    "document": "decoder-no-restart/report.md",
+    "target": "GPUJPEG-decoder-source.zip"
+  },
+  {
+    "document": "decoder-no-restart/report.md",
+    "target": "decoder-no-restart.patch"
+  },
+  {
+    "document": "decoder-no-restart/report.md",
+    "target": "decoder-development.bundle"
+  },
+  {
+    "document": "decoder-no-restart/report.md",
+    "target": "gpujpegtool-experimental-sm86.exe"
+  },
+  {
+    "document": "decoder-no-restart/report.md",
+    "target": "fixtures.zip"
+  },
+  {
+    "document": "decoder-no-restart/report.md",
+    "target": "raw-evidence.zip"
+  },
+  {
+    "document": "nvjpeg-no-restart/report.md",
+    "target": "GPUJPEG-no-restart-source.zip"
+  },
+  {
+    "document": "nvjpeg-no-restart/report.md",
+    "target": "gpujpeg-no-restart.patch"
+  },
+  {
+    "document": "nvjpeg-no-restart/report.md",
+    "target": "gpujpegtool.exe"
+  },
+  {
+    "document": "staged-decoder/report.md",
+    "target": "GPUJPEG-staged-source.zip"
+  },
+  {
+    "document": "staged-decoder/report.md",
+    "target": "gpujpeg-staged-decoder.patch"
+  },
+  {
+    "document": "staged-decoder/report.md",
+    "target": "gpujpeg-cumulative-upstream.patch"
+  },
+  {
+    "document": "staged-decoder/report.md",
+    "target": "evidence/benchmark-logs.zip"
+  }
+]

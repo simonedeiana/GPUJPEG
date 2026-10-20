@@ -1,0 +1,21 @@
+Worker 0 pass 0 input 0 <WORKSPACE>\work\decoder-r0\fixtures\flat-512-1.jpg
+Worker 0 pass 0 input 1 <WORKSPACE>\work\decoder-r0\fixtures\flat-colored.jpg
+[GPUJPEG] [Info] Reinitializing decoder.
+Worker 0 pass 0 input 2 <WORKSPACE>\work\decoder-r0\fixtures\flat-green.jpg
+Worker 0 pass 0 input 3 <WORKSPACE>\work\decoder-r0\fixtures\flat-gray.jpg
+[GPUJPEG] [Info] Reinitializing decoder.
+Worker 0 pass 0 input 4 <WORKSPACE>\work\decoder-r0\fixtures\known-zero-gray.jpg
+[GPUJPEG] [Info] Reinitializing decoder.
+Worker 0 pass 0 input 5 <WORKSPACE>\work\decoder-r0\fixtures\known-zero-420.jpg
+[GPUJPEG] [Info] Reinitializing decoder.
+Worker 0 pass 1 input 0 <WORKSPACE>\work\decoder-r0\fixtures\flat-512-1.jpg
+[GPUJPEG] [Info] Reinitializing decoder.
+Worker 0 pass 1 input 1 <WORKSPACE>\work\decoder-r0\fixtures\flat-colored.jpg
+[GPUJPEG] [Info] Reinitializing decoder.
+Worker 0 pass 1 input 2 <WORKSPACE>\work\decoder-r0\fixtures\flat-green.jpg
+Worker 0 pass 1 input 3 <WORKSPACE>\work\decoder-r0\fixtures\flat-gray.jpg
+[GPUJPEG] [Info] Reinitializing decoder.
+Worker 0 pass 1 input 4 <WORKSPACE>\work\decoder-r0\fixtures\known-zero-gray.jpg
+[GPUJPEG] [Info] Reinitializing decoder.
+Worker 0 pass 1 input 5 <WORKSPACE>\work\decoder-r0\fixtures\known-zero-420.jpg
+[GPUJPEG] [Info] Reinitializing decoder.

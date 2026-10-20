@@ -1,0 +1,3390 @@
+[
+  {
+    "case": "hd444-r10",
+    "variant": "baseline",
+    "binary_sha256": "ebdf2a9a82fc00749d1a8d4b608d72db2d652c4197806b2a5459a811745caacf",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 2.2131429999999996,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.09332850000000001,
+        "mean_frame_sum_ms": 0.09344355,
+        "median_launch_ms": 0.031104,
+        "resources": [
+          {
+            "gridX": 2025,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_decoder_decode_kernel<(bool)0, (int)192>(gpujpeg_huffman_gpu_decoder, gpujpeg_component *, gpujpeg_segment *, int, int, unsigned char *, const unsigned long long *, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.48953800000000003,
+        "mean_frame_sum_ms": 0.5078702,
+        "median_launch_ms": 0.48953800000000003,
+        "resources": [
+          {
+            "gridX": 17,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 192,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 48,
+            "staticSharedMemory": 6144,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 192
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.075744,
+        "mean_frame_sum_ms": 0.07577455,
+        "median_launch_ms": 0.075744,
+        "resources": [
+          {
+            "gridX": 8100,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "hd444-r10",
+    "variant": "staged",
+    "binary_sha256": "03c40f0d6cc869aafc1ddfb436290ac4b21d9b9dfd8ec9ac677cc2025dc1c40c",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 2.444168,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "gpujpeg_huffman_parallel_unstuff_kernel(const gpujpeg_segment *, int, const unsigned char *, unsigned char *, unsigned int *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.019232,
+        "mean_frame_sum_ms": 0.01920335,
+        "median_launch_ms": 0.019232,
+        "resources": [
+          {
+            "gridX": 405,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 22,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_huffman_staged_rle_kernel(gpujpeg_huffman_gpu_decoder, const unsigned long long *, unsigned long long, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.1975525,
+        "mean_frame_sum_ms": 0.1977587,
+        "median_launch_ms": 0.1975525,
+        "resources": [
+          {
+            "gridX": 12150,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 30,
+            "staticSharedMemory": 2304,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.09132799999999999,
+        "mean_frame_sum_ms": 0.09252195,
+        "median_launch_ms": 0.03104,
+        "resources": [
+          {
+            "gridX": 2025,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_dc_kernel<(bool)0>(const unsigned int *, const unsigned long long *, const gpujpeg_segment *, int, int, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.0360325,
+        "mean_frame_sum_ms": 0.0364723,
+        "median_launch_ms": 0.0360325,
+        "resources": [
+          {
+            "gridX": 1215,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 27,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_tokens_kernel<(int)128, (bool)1, (bool)1>(gpujpeg_huffman_gpu_decoder, const gpujpeg_component *, const gpujpeg_segment *, int, const unsigned char *, const unsigned long long *, unsigned long long)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.5323534999999999,
+        "mean_frame_sum_ms": 0.56851065,
+        "median_launch_ms": 0.5323534999999999,
+        "resources": [
+          {
+            "gridX": 26,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 128,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 31,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.0756965,
+        "mean_frame_sum_ms": 0.076525,
+        "median_launch_ms": 0.0756965,
+        "resources": [
+          {
+            "gridX": 8100,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "hd444-r10",
+    "variant": "fastvideo",
+    "binary_sha256": "01735bf880587184119d70d56bda433ef01516e8d1139d880c765afca34dbac3",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 2.3960559999999997,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "BytestreamMarkupMarkerAndFFKernel(unsigned int *, unsigned int *, const uint2 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.00752,
+        "mean_frame_sum_ms": 0.0075472,
+        "median_launch_ms": 0.00752,
+        "resources": [
+          {
+            "gridX": 342,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 22,
+            "staticSharedMemory": 257,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "BytestreamMarkupMarkerAndFFRestKernel(unsigned int *, unsigned int *, const unsigned char *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.003616,
+        "mean_frame_sum_ms": 0.00361925,
+        "median_launch_ms": 0.003616,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 1,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 1
+          }
+        ]
+      },
+      {
+        "name": "BytestreamUnstuffKernel(unsigned int *, unsigned char *, const unsigned int *, const unsigned int *, const uint2 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.016224,
+        "mean_frame_sum_ms": 0.01623845,
+        "median_launch_ms": 0.016224,
+        "resources": [
+          {
+            "gridX": 342,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 35,
+            "staticSharedMemory": 256,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "BytestreamUnstuffRestKernel(unsigned int *, unsigned char *, const unsigned int *, const unsigned int *, const unsigned char *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.003296,
+        "mean_frame_sum_ms": 0.003288,
+        "median_launch_ms": 0.003296,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 1,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 1
+          }
+        ]
+      },
+      {
+        "name": "DCRestoreKernel(short *, const short *, const short *, unsigned int, unsigned int, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.006592000000000001,
+        "mean_frame_sum_ms": 0.0065888000000000006,
+        "median_launch_ms": 0.002176,
+        "resources": [
+          {
+            "gridX": 127,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 27,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "DCSumKernel(short *, const short *, unsigned int, unsigned int, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.0035519999999999996,
+        "mean_frame_sum_ms": 0.0035503999999999996,
+        "median_launch_ms": 0.001184,
+        "resources": [
+          {
+            "gridX": 13,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 25,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void BlockScanKernel_v2<short, (scanKind_t)1, scanProp>(T1 *, T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.008224,
+        "mean_frame_sum_ms": 0.008232,
+        "median_launch_ms": 0.002672,
+        "resources": [
+          {
+            "gridX": 64,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 128,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void BlockScanKernel_v2<unsigned int, (scanKind_t)0, scanProp>(T1 *, T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 40,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.002848,
+        "mean_frame_sum_ms": 0.00285125,
+        "median_launch_ms": 0.001408,
+        "resources": [
+          {
+            "gridX": 11,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 18,
+            "staticSharedMemory": 128,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void HuffmanDecodeKernel<SurfaceTrait<(fastSurfaceFormat_t)5>>(rleToken_t *, decoderError_t *, const unsigned int *, const unsigned int *, const huffmanState_t *, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, McuDesc)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.454113,
+        "mean_frame_sum_ms": 0.4540654,
+        "median_launch_ms": 0.454113,
+        "resources": [
+          {
+            "gridX": 13,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 48,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void InverseDCTColorKernel<SurfaceTrait<(fastSurfaceFormat_t)5>>(void *, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, const quantState_t *, unsigned int, const short *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.0996165,
+        "mean_frame_sum_ms": 0.09975545,
+        "median_launch_ms": 0.0996165,
+        "resources": [
+          {
+            "gridX": 1013,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 32,
+            "blockY": 8,
+            "blockZ": 1,
+            "registersPerThread": 48,
+            "staticSharedMemory": 8192,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void RleDecodeKernel<SurfaceTrait<(fastSurfaceFormat_t)5>>(short *, const rleToken_t *, unsigned int, unsigned int, unsigned int, McuDesc, McuDesc)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.13177650000000002,
+        "mean_frame_sum_ms": 0.13288695,
+        "median_launch_ms": 0.13177650000000002,
+        "resources": [
+          {
+            "gridX": 254,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 128,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 28,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void TopScanKernel_v2<short, scanProp>(T1 *, T1 *, const T1 *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.00432,
+        "mean_frame_sum_ms": 0.00431205,
+        "median_launch_ms": 0.00144,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 28,
+            "staticSharedMemory": 132,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void TopScanKernel_v2<unsigned int, scanProp>(T1 *, T1 *, const T1 *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 40,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.003072,
+        "mean_frame_sum_ms": 0.0030736,
+        "median_launch_ms": 0.001536,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 28,
+            "staticSharedMemory": 132,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void UpdateScanKernel_v2<short, scanProp>(T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.004543999999999999,
+        "mean_frame_sum_ms": 0.00453445,
+        "median_launch_ms": 0.001504,
+        "resources": [
+          {
+            "gridX": 64,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void UpdateScanKernel_v2<unsigned int, scanProp>(T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 40,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.002112,
+        "mean_frame_sum_ms": 0.00212165,
+        "median_launch_ms": 0.001056,
+        "resources": [
+          {
+            "gridX": 11,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "hd444-r10",
+    "variant": "unstuff_only",
+    "binary_sha256": "0f5763e14c3c400c651700191ae8e428ad094e70a2d1ffe9f5feebee4bdc7c5e",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 2.4136715,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "gpujpeg_huffman_parallel_unstuff_kernel(const gpujpeg_segment *, int, const unsigned char *, unsigned char *, unsigned int *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.019056,
+        "mean_frame_sum_ms": 0.0191168,
+        "median_launch_ms": 0.019056,
+        "resources": [
+          {
+            "gridX": 405,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 22,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_huffman_staged_rle_kernel(gpujpeg_huffman_gpu_decoder, const unsigned long long *, unsigned long long, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.19766450000000002,
+        "mean_frame_sum_ms": 0.1976293,
+        "median_launch_ms": 0.19766450000000002,
+        "resources": [
+          {
+            "gridX": 12150,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 30,
+            "staticSharedMemory": 2304,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.0912965,
+        "mean_frame_sum_ms": 0.0912756,
+        "median_launch_ms": 0.0309765,
+        "resources": [
+          {
+            "gridX": 2025,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_dc_kernel<(bool)0>(const unsigned int *, const unsigned long long *, const gpujpeg_segment *, int, int, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.03616,
+        "mean_frame_sum_ms": 0.036171299999999997,
+        "median_launch_ms": 0.03616,
+        "resources": [
+          {
+            "gridX": 1215,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 27,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_tokens_kernel<(int)128, (bool)0, (bool)1>(gpujpeg_huffman_gpu_decoder, const gpujpeg_component *, const gpujpeg_segment *, int, const unsigned char *, const unsigned long long *, unsigned long long)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.481474,
+        "mean_frame_sum_ms": 0.512885,
+        "median_launch_ms": 0.481474,
+        "resources": [
+          {
+            "gridX": 26,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 128,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 26,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.075648,
+        "mean_frame_sum_ms": 0.07588165,
+        "median_launch_ms": 0.075648,
+        "resources": [
+          {
+            "gridX": 8100,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "hd420-r10",
+    "variant": "baseline",
+    "binary_sha256": "ebdf2a9a82fc00749d1a8d4b608d72db2d652c4197806b2a5459a811745caacf",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 2.995209,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.049007999999999996,
+        "mean_frame_sum_ms": 0.048984,
+        "median_launch_ms": 0.008864,
+        "resources": [
+          {
+            "gridX": 2040,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          },
+          {
+            "gridX": 510,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_decoder_decode_kernel<(bool)0, (int)192>(gpujpeg_huffman_gpu_decoder, gpujpeg_component *, gpujpeg_segment *, int, int, unsigned char *, const unsigned long long *, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 1.3766440000000002,
+        "mean_frame_sum_ms": 1.4306428,
+        "median_launch_ms": 1.3766440000000002,
+        "resources": [
+          {
+            "gridX": 5,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 192,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 48,
+            "staticSharedMemory": 6144,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 192
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.070384,
+        "mean_frame_sum_ms": 0.07049645,
+        "median_launch_ms": 0.070384,
+        "resources": [
+          {
+            "gridX": 8100,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "hd420-r10",
+    "variant": "staged",
+    "binary_sha256": "03c40f0d6cc869aafc1ddfb436290ac4b21d9b9dfd8ec9ac677cc2025dc1c40c",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 2.897993,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "gpujpeg_huffman_parallel_unstuff_kernel(const gpujpeg_segment *, int, const unsigned char *, unsigned char *, unsigned int *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.021296000000000002,
+        "mean_frame_sum_ms": 0.02131685,
+        "median_launch_ms": 0.021296000000000002,
+        "resources": [
+          {
+            "gridX": 102,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 22,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_huffman_staged_rle_kernel(gpujpeg_huffman_gpu_decoder, const unsigned long long *, unsigned long long, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.1043845,
+        "mean_frame_sum_ms": 0.1323476,
+        "median_launch_ms": 0.1043845,
+        "resources": [
+          {
+            "gridX": 6120,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 30,
+            "staticSharedMemory": 2304,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.04704,
+        "mean_frame_sum_ms": 0.0470099,
+        "median_launch_ms": 0.008768,
+        "resources": [
+          {
+            "gridX": 2040,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          },
+          {
+            "gridX": 510,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_dc_kernel<(bool)0>(const unsigned int *, const unsigned long long *, const gpujpeg_segment *, int, int, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.021968,
+        "mean_frame_sum_ms": 0.021982500000000002,
+        "median_launch_ms": 0.021968,
+        "resources": [
+          {
+            "gridX": 306,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 27,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_tokens_kernel<(int)128, (bool)1, (bool)1>(gpujpeg_huffman_gpu_decoder, const gpujpeg_component *, const gpujpeg_segment *, int, const unsigned char *, const unsigned long long *, unsigned long long)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 1.1932200000000002,
+        "mean_frame_sum_ms": 1.2589752,
+        "median_launch_ms": 1.1932200000000002,
+        "resources": [
+          {
+            "gridX": 7,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 128,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 31,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.0693125,
+        "mean_frame_sum_ms": 0.06930735,
+        "median_launch_ms": 0.0693125,
+        "resources": [
+          {
+            "gridX": 8100,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "hd420-r10",
+    "variant": "fastvideo",
+    "binary_sha256": "01735bf880587184119d70d56bda433ef01516e8d1139d880c765afca34dbac3",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 3.125962,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "BytestreamMarkupMarkerAndFFKernel(unsigned int *, unsigned int *, const uint2 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.006096000000000001,
+        "mean_frame_sum_ms": 0.0061472,
+        "median_launch_ms": 0.006096000000000001,
+        "resources": [
+          {
+            "gridX": 262,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 22,
+            "staticSharedMemory": 257,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "BytestreamMarkupMarkerAndFFRestKernel(unsigned int *, unsigned int *, const unsigned char *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.007264,
+        "mean_frame_sum_ms": 0.00725125,
+        "median_launch_ms": 0.007264,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 1,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 1
+          }
+        ]
+      },
+      {
+        "name": "BytestreamUnstuffKernel(unsigned int *, unsigned char *, const unsigned int *, const unsigned int *, const uint2 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.012608,
+        "mean_frame_sum_ms": 0.0126752,
+        "median_launch_ms": 0.012608,
+        "resources": [
+          {
+            "gridX": 262,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 35,
+            "staticSharedMemory": 256,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "BytestreamUnstuffRestKernel(unsigned int *, unsigned char *, const unsigned int *, const unsigned int *, const unsigned char *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.006752,
+        "mean_frame_sum_ms": 0.00675045,
+        "median_launch_ms": 0.006752,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 1,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 1
+          }
+        ]
+      },
+      {
+        "name": "DCRestoreKernel(short *, const short *, const short *, unsigned int, unsigned int, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.004768,
+        "mean_frame_sum_ms": 0.0047583999999999994,
+        "median_launch_ms": 0.00144,
+        "resources": [
+          {
+            "gridX": 32,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 27,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "DCSumKernel(short *, const short *, unsigned int, unsigned int, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.00368,
+        "mean_frame_sum_ms": 0.0036992,
+        "median_launch_ms": 0.001152,
+        "resources": [
+          {
+            "gridX": 4,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 25,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "InverseDCTChannelKernel(unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, const quantState_t *, unsigned int, const short *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.052416,
+        "mean_frame_sum_ms": 0.0528242,
+        "median_launch_ms": 0.010272,
+        "resources": [
+          {
+            "gridX": 1020,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 32,
+            "blockY": 8,
+            "blockZ": 1,
+            "registersPerThread": 40,
+            "staticSharedMemory": 8192,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          },
+          {
+            "gridX": 255,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 32,
+            "blockY": 8,
+            "blockZ": 1,
+            "registersPerThread": 40,
+            "staticSharedMemory": 8192,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void BlockScanKernel_v2<short, (scanKind_t)1, scanProp>(T1 *, T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 120,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.009648,
+        "mean_frame_sum_ms": 0.0096417,
+        "median_launch_ms": 0.001536,
+        "resources": [
+          {
+            "gridX": 16,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 128,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void BlockScanKernel_v2<unsigned int, (scanKind_t)0, scanProp>(T1 *, T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 40,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.002848,
+        "mean_frame_sum_ms": 0.0028576,
+        "median_launch_ms": 0.001408,
+        "resources": [
+          {
+            "gridX": 9,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 18,
+            "staticSharedMemory": 128,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void ChromaReconstructionKernel<(fastJpegFormat_t)3>(uint2 *, const uint2 *, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 40,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.027536,
+        "mean_frame_sum_ms": 0.0281554,
+        "median_launch_ms": 0.0137445,
+        "resources": [
+          {
+            "gridX": 2040,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 22,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void HuffmanDecodeKernel<SurfaceTrait<(fastSurfaceFormat_t)5>>(rleToken_t *, decoderError_t *, const unsigned int *, const unsigned int *, const huffmanState_t *, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, McuDesc)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 1.1353,
+        "mean_frame_sum_ms": 1.14509,
+        "median_launch_ms": 1.1353,
+        "resources": [
+          {
+            "gridX": 4,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 48,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void ImageProcessing_4<SurfaceTrait<(fastSurfaceFormat_t)5>>(void *, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, const uint2 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.062736,
+        "mean_frame_sum_ms": 0.0632353,
+        "median_launch_ms": 0.062736,
+        "resources": [
+          {
+            "gridX": 1013,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 32,
+            "blockY": 8,
+            "blockZ": 1,
+            "registersPerThread": 39,
+            "staticSharedMemory": 6144,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void RleDecodeKernel<SurfaceTrait<(fastSurfaceFormat_t)5>>(short *, const rleToken_t *, unsigned int, unsigned int, unsigned int, McuDesc, McuDesc)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.13678449999999998,
+        "mean_frame_sum_ms": 0.13704675,
+        "median_launch_ms": 0.13678449999999998,
+        "resources": [
+          {
+            "gridX": 64,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 128,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 28,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void TopScanKernel_v2<short, scanProp>(T1 *, T1 *, const T1 *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 120,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.008576,
+        "mean_frame_sum_ms": 0.0085696,
+        "median_launch_ms": 0.00144,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 28,
+            "staticSharedMemory": 132,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void TopScanKernel_v2<unsigned int, scanProp>(T1 *, T1 *, const T1 *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 40,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.003072,
+        "mean_frame_sum_ms": 0.0030704,
+        "median_launch_ms": 0.001536,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 28,
+            "staticSharedMemory": 132,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void UpdateScanKernel_v2<short, scanProp>(T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 120,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.006368,
+        "mean_frame_sum_ms": 0.006376000000000001,
+        "median_launch_ms": 0.001056,
+        "resources": [
+          {
+            "gridX": 16,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void UpdateScanKernel_v2<unsigned int, scanProp>(T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 40,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.002112,
+        "mean_frame_sum_ms": 0.0021104,
+        "median_launch_ms": 0.001056,
+        "resources": [
+          {
+            "gridX": 9,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "hd420-r10",
+    "variant": "unstuff_only",
+    "binary_sha256": "0f5763e14c3c400c651700191ae8e428ad094e70a2d1ffe9f5feebee4bdc7c5e",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 2.5440240000000003,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "gpujpeg_huffman_parallel_unstuff_kernel(const gpujpeg_segment *, int, const unsigned char *, unsigned char *, unsigned int *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.02144,
+        "mean_frame_sum_ms": 0.0214384,
+        "median_launch_ms": 0.02144,
+        "resources": [
+          {
+            "gridX": 102,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 22,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_huffman_staged_rle_kernel(gpujpeg_huffman_gpu_decoder, const unsigned long long *, unsigned long long, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.104529,
+        "mean_frame_sum_ms": 0.10455085,
+        "median_launch_ms": 0.104529,
+        "resources": [
+          {
+            "gridX": 6120,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 30,
+            "staticSharedMemory": 2304,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.04704,
+        "mean_frame_sum_ms": 0.04698255,
+        "median_launch_ms": 0.008768,
+        "resources": [
+          {
+            "gridX": 2040,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          },
+          {
+            "gridX": 510,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_dc_kernel<(bool)0>(const unsigned int *, const unsigned long long *, const gpujpeg_segment *, int, int, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.021728,
+        "mean_frame_sum_ms": 0.02174245,
+        "median_launch_ms": 0.021728,
+        "resources": [
+          {
+            "gridX": 306,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 27,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_tokens_kernel<(int)128, (bool)0, (bool)1>(gpujpeg_huffman_gpu_decoder, const gpujpeg_component *, const gpujpeg_segment *, int, const unsigned char *, const unsigned long long *, unsigned long long)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.864371,
+        "mean_frame_sum_ms": 0.8831213,
+        "median_launch_ms": 0.864371,
+        "resources": [
+          {
+            "gridX": 7,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 128,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 26,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.0694085,
+        "mean_frame_sum_ms": 0.0694194,
+        "median_launch_ms": 0.0694085,
+        "resources": [
+          {
+            "gridX": 8100,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "4k444-r10",
+    "variant": "baseline",
+    "binary_sha256": "ebdf2a9a82fc00749d1a8d4b608d72db2d652c4197806b2a5459a811745caacf",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 6.177155,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.359905,
+        "mean_frame_sum_ms": 0.3672555,
+        "median_launch_ms": 0.1200485,
+        "resources": [
+          {
+            "gridX": 8100,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_decoder_decode_kernel<(bool)0, (int)192>(gpujpeg_huffman_gpu_decoder, gpujpeg_component *, gpujpeg_segment *, int, int, unsigned char *, const unsigned long long *, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.8513465,
+        "mean_frame_sum_ms": 0.85970345,
+        "median_launch_ms": 0.8513465,
+        "resources": [
+          {
+            "gridX": 68,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 192,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 48,
+            "staticSharedMemory": 6144,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 192
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.298065,
+        "mean_frame_sum_ms": 0.3914635,
+        "median_launch_ms": 0.298065,
+        "resources": [
+          {
+            "gridX": 32400,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "4k444-r10",
+    "variant": "staged",
+    "binary_sha256": "03c40f0d6cc869aafc1ddfb436290ac4b21d9b9dfd8ec9ac677cc2025dc1c40c",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 7.719992,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "gpujpeg_huffman_parallel_unstuff_kernel(const gpujpeg_segment *, int, const unsigned char *, unsigned char *, unsigned int *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.047168,
+        "mean_frame_sum_ms": 0.0463345,
+        "median_launch_ms": 0.047168,
+        "resources": [
+          {
+            "gridX": 1620,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 22,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_huffman_staged_rle_kernel(gpujpeg_huffman_gpu_decoder, const unsigned long long *, unsigned long long, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.730642,
+        "mean_frame_sum_ms": 0.7857384000000001,
+        "median_launch_ms": 0.730642,
+        "resources": [
+          {
+            "gridX": 48600,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 30,
+            "staticSharedMemory": 2304,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.3583535,
+        "mean_frame_sum_ms": 0.3640892,
+        "median_launch_ms": 0.119952,
+        "resources": [
+          {
+            "gridX": 8100,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_dc_kernel<(bool)0>(const unsigned int *, const unsigned long long *, const gpujpeg_segment *, int, int, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.13225599999999998,
+        "mean_frame_sum_ms": 0.16689005,
+        "median_launch_ms": 0.13225599999999998,
+        "resources": [
+          {
+            "gridX": 4860,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 27,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_tokens_kernel<(int)128, (bool)1, (bool)1>(gpujpeg_huffman_gpu_decoder, const gpujpeg_component *, const gpujpeg_segment *, int, const unsigned char *, const unsigned long long *, unsigned long long)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 1.4623725,
+        "mean_frame_sum_ms": 1.5783491,
+        "median_launch_ms": 1.4623725,
+        "resources": [
+          {
+            "gridX": 102,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 128,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 31,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.291281,
+        "mean_frame_sum_ms": 0.3683739,
+        "median_launch_ms": 0.291281,
+        "resources": [
+          {
+            "gridX": 32400,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "4k444-r10",
+    "variant": "fastvideo",
+    "binary_sha256": "01735bf880587184119d70d56bda433ef01516e8d1139d880c765afca34dbac3",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 6.553172,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "BytestreamMarkupMarkerAndFFKernel(unsigned int *, unsigned int *, const uint2 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.018624,
+        "mean_frame_sum_ms": 0.0186416,
+        "median_launch_ms": 0.018624,
+        "resources": [
+          {
+            "gridX": 1005,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 22,
+            "staticSharedMemory": 257,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "BytestreamMarkupMarkerAndFFRestKernel(unsigned int *, unsigned int *, const unsigned char *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.002464,
+        "mean_frame_sum_ms": 0.0025168,
+        "median_launch_ms": 0.002464,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 1,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 1
+          }
+        ]
+      },
+      {
+        "name": "BytestreamUnstuffKernel(unsigned int *, unsigned char *, const unsigned int *, const unsigned int *, const uint2 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.045616000000000004,
+        "mean_frame_sum_ms": 0.04539235,
+        "median_launch_ms": 0.045616000000000004,
+        "resources": [
+          {
+            "gridX": 1005,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 35,
+            "staticSharedMemory": 256,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "BytestreamUnstuffRestKernel(unsigned int *, unsigned char *, const unsigned int *, const unsigned int *, const unsigned char *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.002592,
+        "mean_frame_sum_ms": 0.00259845,
+        "median_launch_ms": 0.002592,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 1,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 1
+          }
+        ]
+      },
+      {
+        "name": "DCRestoreKernel(short *, const short *, const short *, unsigned int, unsigned int, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.014335999999999998,
+        "mean_frame_sum_ms": 0.014193649999999999,
+        "median_launch_ms": 0.004768,
+        "resources": [
+          {
+            "gridX": 507,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 27,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "DCSumKernel(short *, const short *, unsigned int, unsigned int, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.004672,
+        "mean_frame_sum_ms": 0.0046512,
+        "median_launch_ms": 0.001568,
+        "resources": [
+          {
+            "gridX": 51,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 25,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void BlockScanKernel_v2<short, (scanKind_t)1, scanProp>(T1 *, T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.018528,
+        "mean_frame_sum_ms": 0.01838085,
+        "median_launch_ms": 0.00608,
+        "resources": [
+          {
+            "gridX": 254,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 128,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void BlockScanKernel_v2<unsigned int, (scanKind_t)0, scanProp>(T1 *, T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 40,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.00328,
+        "mean_frame_sum_ms": 0.0032832,
+        "median_launch_ms": 0.001632,
+        "resources": [
+          {
+            "gridX": 32,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 18,
+            "staticSharedMemory": 128,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void HuffmanDecodeKernel<SurfaceTrait<(fastSurfaceFormat_t)5>>(rleToken_t *, decoderError_t *, const unsigned int *, const unsigned int *, const huffmanState_t *, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, McuDesc)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.925171,
+        "mean_frame_sum_ms": 0.9974384,
+        "median_launch_ms": 0.925171,
+        "resources": [
+          {
+            "gridX": 51,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 48,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void InverseDCTColorKernel<SurfaceTrait<(fastSurfaceFormat_t)5>>(void *, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, const quantState_t *, unsigned int, const short *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.3722735,
+        "mean_frame_sum_ms": 0.40661895,
+        "median_launch_ms": 0.3722735,
+        "resources": [
+          {
+            "gridX": 4050,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 32,
+            "blockY": 8,
+            "blockZ": 1,
+            "registersPerThread": 48,
+            "staticSharedMemory": 8192,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void RleDecodeKernel<SurfaceTrait<(fastSurfaceFormat_t)5>>(short *, const rleToken_t *, unsigned int, unsigned int, unsigned int, McuDesc, McuDesc)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.4213615,
+        "mean_frame_sum_ms": 0.4278862,
+        "median_launch_ms": 0.4213615,
+        "resources": [
+          {
+            "gridX": 1013,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 128,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 28,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void TopScanKernel_v2<short, scanProp>(T1 *, T1 *, const T1 *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.0044480000000000006,
+        "mean_frame_sum_ms": 0.00440165,
+        "median_launch_ms": 0.00144,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 28,
+            "staticSharedMemory": 132,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void TopScanKernel_v2<unsigned int, scanProp>(T1 *, T1 *, const T1 *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 40,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.0028799999999999997,
+        "mean_frame_sum_ms": 0.0028672,
+        "median_launch_ms": 0.00144,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 28,
+            "staticSharedMemory": 132,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void UpdateScanKernel_v2<short, scanProp>(T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.008736,
+        "mean_frame_sum_ms": 0.008644800000000001,
+        "median_launch_ms": 0.002912,
+        "resources": [
+          {
+            "gridX": 254,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void UpdateScanKernel_v2<unsigned int, scanProp>(T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 40,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.002336,
+        "mean_frame_sum_ms": 0.0023408,
+        "median_launch_ms": 0.001184,
+        "resources": [
+          {
+            "gridX": 32,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "4k444-r10",
+    "variant": "unstuff_only",
+    "binary_sha256": "0f5763e14c3c400c651700191ae8e428ad094e70a2d1ffe9f5feebee4bdc7c5e",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 7.8301365,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "gpujpeg_huffman_parallel_unstuff_kernel(const gpujpeg_segment *, int, const unsigned char *, unsigned char *, unsigned int *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.0472805,
+        "mean_frame_sum_ms": 0.047336249999999996,
+        "median_launch_ms": 0.0472805,
+        "resources": [
+          {
+            "gridX": 1620,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 22,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_huffman_staged_rle_kernel(gpujpeg_huffman_gpu_decoder, const unsigned long long *, unsigned long long, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.7322744999999999,
+        "mean_frame_sum_ms": 0.85074355,
+        "median_launch_ms": 0.7322744999999999,
+        "resources": [
+          {
+            "gridX": 48600,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 30,
+            "staticSharedMemory": 2304,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.358433,
+        "mean_frame_sum_ms": 0.40421555,
+        "median_launch_ms": 0.119968,
+        "resources": [
+          {
+            "gridX": 8100,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_dc_kernel<(bool)0>(const unsigned int *, const unsigned long long *, const gpujpeg_segment *, int, int, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.1333605,
+        "mean_frame_sum_ms": 0.1332117,
+        "median_launch_ms": 0.1333605,
+        "resources": [
+          {
+            "gridX": 4860,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 27,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_tokens_kernel<(int)128, (bool)0, (bool)1>(gpujpeg_huffman_gpu_decoder, const gpujpeg_component *, const gpujpeg_segment *, int, const unsigned char *, const unsigned long long *, unsigned long long)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 1.454324,
+        "mean_frame_sum_ms": 1.69536995,
+        "median_launch_ms": 1.454324,
+        "resources": [
+          {
+            "gridX": 102,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 128,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 26,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.29132899999999995,
+        "mean_frame_sum_ms": 0.32445555,
+        "median_launch_ms": 0.29132899999999995,
+        "resources": [
+          {
+            "gridX": 32400,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "4k420-r10",
+    "variant": "baseline",
+    "binary_sha256": "ebdf2a9a82fc00749d1a8d4b608d72db2d652c4197806b2a5459a811745caacf",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 5.9288665,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.18230449999999998,
+        "mean_frame_sum_ms": 0.1833367,
+        "median_launch_ms": 0.031296000000000004,
+        "resources": [
+          {
+            "gridX": 8100,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          },
+          {
+            "gridX": 2025,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_decoder_decode_kernel<(bool)0, (int)192>(gpujpeg_huffman_gpu_decoder, gpujpeg_component *, gpujpeg_segment *, int, int, unsigned char *, const unsigned long long *, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 1.095987,
+        "mean_frame_sum_ms": 1.09641775,
+        "median_launch_ms": 1.095987,
+        "resources": [
+          {
+            "gridX": 17,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 192,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 48,
+            "staticSharedMemory": 6144,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 192
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.272161,
+        "mean_frame_sum_ms": 0.272612,
+        "median_launch_ms": 0.272161,
+        "resources": [
+          {
+            "gridX": 32400,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "4k420-r10",
+    "variant": "staged",
+    "binary_sha256": "03c40f0d6cc869aafc1ddfb436290ac4b21d9b9dfd8ec9ac677cc2025dc1c40c",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 6.713781,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "gpujpeg_huffman_parallel_unstuff_kernel(const gpujpeg_segment *, int, const unsigned char *, unsigned char *, unsigned int *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.03856,
+        "mean_frame_sum_ms": 0.0386193,
+        "median_launch_ms": 0.03856,
+        "resources": [
+          {
+            "gridX": 405,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 22,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_huffman_staged_rle_kernel(gpujpeg_huffman_gpu_decoder, const unsigned long long *, unsigned long long, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.376241,
+        "mean_frame_sum_ms": 0.4191244,
+        "median_launch_ms": 0.376241,
+        "resources": [
+          {
+            "gridX": 24300,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 30,
+            "staticSharedMemory": 2304,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.180641,
+        "mean_frame_sum_ms": 0.2118342,
+        "median_launch_ms": 0.031296,
+        "resources": [
+          {
+            "gridX": 8100,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          },
+          {
+            "gridX": 2025,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_dc_kernel<(bool)0>(const unsigned int *, const unsigned long long *, const gpujpeg_segment *, int, int, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.0757445,
+        "mean_frame_sum_ms": 0.07611555,
+        "median_launch_ms": 0.0757445,
+        "resources": [
+          {
+            "gridX": 1215,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 27,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_tokens_kernel<(int)128, (bool)1, (bool)1>(gpujpeg_huffman_gpu_decoder, const gpujpeg_component *, const gpujpeg_segment *, int, const unsigned char *, const unsigned long long *, unsigned long long)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 1.3243565,
+        "mean_frame_sum_ms": 1.4303054,
+        "median_launch_ms": 1.3243565,
+        "resources": [
+          {
+            "gridX": 26,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 128,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 31,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.2724805,
+        "mean_frame_sum_ms": 0.30271939999999997,
+        "median_launch_ms": 0.2724805,
+        "resources": [
+          {
+            "gridX": 32400,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "4k420-r10",
+    "variant": "fastvideo",
+    "binary_sha256": "01735bf880587184119d70d56bda433ef01516e8d1139d880c765afca34dbac3",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 6.5900525000000005,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "BytestreamMarkupMarkerAndFFKernel(unsigned int *, unsigned int *, const uint2 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.013824,
+        "mean_frame_sum_ms": 0.01404645,
+        "median_launch_ms": 0.013824,
+        "resources": [
+          {
+            "gridX": 762,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 22,
+            "staticSharedMemory": 257,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "BytestreamMarkupMarkerAndFFRestKernel(unsigned int *, unsigned int *, const unsigned char *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.00368,
+        "mean_frame_sum_ms": 0.0037072,
+        "median_launch_ms": 0.00368,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 1,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 1
+          }
+        ]
+      },
+      {
+        "name": "BytestreamUnstuffKernel(unsigned int *, unsigned char *, const unsigned int *, const unsigned int *, const uint2 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.031135999999999997,
+        "mean_frame_sum_ms": 0.0324145,
+        "median_launch_ms": 0.031135999999999997,
+        "resources": [
+          {
+            "gridX": 762,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 35,
+            "staticSharedMemory": 256,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "BytestreamUnstuffRestKernel(unsigned int *, unsigned char *, const unsigned int *, const unsigned int *, const unsigned char *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.00368,
+        "mean_frame_sum_ms": 0.0038096000000000002,
+        "median_launch_ms": 0.00368,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 1,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 1
+          }
+        ]
+      },
+      {
+        "name": "DCRestoreKernel(short *, const short *, const short *, unsigned int, unsigned int, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.007168,
+        "mean_frame_sum_ms": 0.00742725,
+        "median_launch_ms": 0.002176,
+        "resources": [
+          {
+            "gridX": 127,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 27,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "DCSumKernel(short *, const short *, unsigned int, unsigned int, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.003552,
+        "mean_frame_sum_ms": 0.0036848000000000002,
+        "median_launch_ms": 0.001184,
+        "resources": [
+          {
+            "gridX": 13,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 25,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "InverseDCTChannelKernel(unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, const quantState_t *, unsigned int, const short *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.191504,
+        "mean_frame_sum_ms": 0.1929077,
+        "median_launch_ms": 0.0326725,
+        "resources": [
+          {
+            "gridX": 4050,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 32,
+            "blockY": 8,
+            "blockZ": 1,
+            "registersPerThread": 40,
+            "staticSharedMemory": 8192,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          },
+          {
+            "gridX": 1013,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 32,
+            "blockY": 8,
+            "blockZ": 1,
+            "registersPerThread": 40,
+            "staticSharedMemory": 8192,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void BlockScanKernel_v2<short, (scanKind_t)1, scanProp>(T1 *, T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 120,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.015216,
+        "mean_frame_sum_ms": 0.0156848,
+        "median_launch_ms": 0.002592,
+        "resources": [
+          {
+            "gridX": 64,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 128,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void BlockScanKernel_v2<unsigned int, (scanKind_t)0, scanProp>(T1 *, T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 40,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.00296,
+        "mean_frame_sum_ms": 0.0030032,
+        "median_launch_ms": 0.001488,
+        "resources": [
+          {
+            "gridX": 24,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 18,
+            "staticSharedMemory": 128,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void ChromaReconstructionKernel<(fastJpegFormat_t)3>(uint2 *, const uint2 *, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 40,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.12972850000000002,
+        "mean_frame_sum_ms": 0.1327686,
+        "median_launch_ms": 0.06497649999999999,
+        "resources": [
+          {
+            "gridX": 8100,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 22,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void HuffmanDecodeKernel<SurfaceTrait<(fastSurfaceFormat_t)5>>(rleToken_t *, decoderError_t *, const unsigned int *, const unsigned int *, const huffmanState_t *, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, McuDesc)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 1.034467,
+        "mean_frame_sum_ms": 1.069381,
+        "median_launch_ms": 1.034467,
+        "resources": [
+          {
+            "gridX": 13,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 48,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void ImageProcessing_4<SurfaceTrait<(fastSurfaceFormat_t)5>>(void *, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, const uint2 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.242113,
+        "mean_frame_sum_ms": 0.24492235,
+        "median_launch_ms": 0.242113,
+        "resources": [
+          {
+            "gridX": 4050,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 32,
+            "blockY": 8,
+            "blockZ": 1,
+            "registersPerThread": 39,
+            "staticSharedMemory": 6144,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void RleDecodeKernel<SurfaceTrait<(fastSurfaceFormat_t)5>>(short *, const rleToken_t *, unsigned int, unsigned int, unsigned int, McuDesc, McuDesc)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.28785700000000003,
+        "mean_frame_sum_ms": 0.2984282,
+        "median_launch_ms": 0.28785700000000003,
+        "resources": [
+          {
+            "gridX": 254,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 128,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 28,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void TopScanKernel_v2<short, scanProp>(T1 *, T1 *, const T1 *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 120,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.007888,
+        "mean_frame_sum_ms": 0.00816165,
+        "median_launch_ms": 0.001312,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 28,
+            "staticSharedMemory": 132,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void TopScanKernel_v2<unsigned int, scanProp>(T1 *, T1 *, const T1 *, unsigned int, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 40,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.002656,
+        "mean_frame_sum_ms": 0.002728,
+        "median_launch_ms": 0.001344,
+        "resources": [
+          {
+            "gridX": 1,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 28,
+            "staticSharedMemory": 132,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void UpdateScanKernel_v2<short, scanProp>(T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 120,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.008288,
+        "mean_frame_sum_ms": 0.0085664,
+        "median_launch_ms": 0.001376,
+        "resources": [
+          {
+            "gridX": 64,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      },
+      {
+        "name": "void UpdateScanKernel_v2<unsigned int, scanProp>(T1 *, const T1 *, unsigned int)",
+        "warm_frames": 20,
+        "warm_launches": 40,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.0020800000000000003,
+        "mean_frame_sum_ms": 0.00216,
+        "median_launch_ms": 0.001056,
+        "resources": [
+          {
+            "gridX": 24,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 512,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 512
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "4k420-r10",
+    "variant": "unstuff_only",
+    "binary_sha256": "0f5763e14c3c400c651700191ae8e428ad094e70a2d1ffe9f5feebee4bdc7c5e",
+    "frames": 30,
+    "warmup": 10,
+    "warm_median_window_ms": 6.7120049999999996,
+    "boundary": "First payload-sized H2D device activity after prior output, through full raw-output D2H completion; excludes CPU preprocessing before that H2D.",
+    "kernels": [
+      {
+        "name": "gpujpeg_huffman_parallel_unstuff_kernel(const gpujpeg_segment *, int, const unsigned char *, unsigned char *, unsigned int *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.038592,
+        "mean_frame_sum_ms": 0.03870725,
+        "median_launch_ms": 0.038592,
+        "resources": [
+          {
+            "gridX": 405,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 22,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_huffman_staged_rle_kernel(gpujpeg_huffman_gpu_decoder, const unsigned long long *, unsigned long long, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.376433,
+        "mean_frame_sum_ms": 0.40680115,
+        "median_launch_ms": 0.376433,
+        "resources": [
+          {
+            "gridX": 24300,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 30,
+            "staticSharedMemory": 2304,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)",
+        "warm_frames": 20,
+        "warm_launches": 60,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.18080049999999998,
+        "mean_frame_sum_ms": 0.2167205,
+        "median_launch_ms": 0.031264,
+        "resources": [
+          {
+            "gridX": 8100,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          },
+          {
+            "gridX": 2025,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 8,
+            "blockY": 8,
+            "blockZ": 2,
+            "registersPerThread": 30,
+            "staticSharedMemory": 4608,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_dc_kernel<(bool)0>(const unsigned int *, const unsigned long long *, const gpujpeg_segment *, int, int, short *)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.0759365,
+        "mean_frame_sum_ms": 0.07749645,
+        "median_launch_ms": 0.0759365,
+        "resources": [
+          {
+            "gridX": 1215,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 27,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_huffman_staged_tokens_kernel<(int)128, (bool)0, (bool)1>(gpujpeg_huffman_gpu_decoder, const gpujpeg_component *, const gpujpeg_segment *, int, const unsigned char *, const unsigned long long *, unsigned long long)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 1.229812,
+        "mean_frame_sum_ms": 1.3268811,
+        "median_launch_ms": 1.229812,
+        "resources": [
+          {
+            "gridX": 26,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 128,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 26,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 128
+          }
+        ]
+      },
+      {
+        "name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)",
+        "warm_frames": 20,
+        "warm_launches": 20,
+        "frames_present": 20,
+        "median_frame_sum_ms": 0.272321,
+        "mean_frame_sum_ms": 0.31192105000000003,
+        "median_launch_ms": 0.272321,
+        "resources": [
+          {
+            "gridX": 32400,
+            "gridY": 1,
+            "gridZ": 1,
+            "blockX": 256,
+            "blockY": 1,
+            "blockZ": 1,
+            "registersPerThread": 16,
+            "staticSharedMemory": 0,
+            "dynamicSharedMemory": 0,
+            "localMemoryPerThread": 0,
+            "localMemoryTotal": 9830400,
+            "threads_per_block": 256
+          }
+        ]
+      }
+    ]
+  }
+]

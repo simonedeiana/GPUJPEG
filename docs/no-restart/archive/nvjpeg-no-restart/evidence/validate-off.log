@@ -1,0 +1,2 @@
+hd-rgb-q90-420-interleaved PASS bytes 532477 stuffed 1579
+{'cases': 1, 'byte_identical': 1, 'all_true_ri0': True, 'all_public_pixels_identical': True, 'candidate_ff00_pairs': 1579, 'instrumented_benchmark_claim': False}

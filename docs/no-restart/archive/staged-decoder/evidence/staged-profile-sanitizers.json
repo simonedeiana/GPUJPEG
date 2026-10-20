@@ -1,0 +1,145 @@
+{
+  "candidate_sha256": "5f7d403716df8912401b6e54e65c5e2381b14a54490e0741eda7e3b0ef6c7f2e",
+  "sanitizers": [
+    {
+      "tool": "memcheck",
+      "case": "noise3-q100-r1-444-i1",
+      "log": "<WORKSPACE>\\work\\staged-final-transpose-checks\\memcheck.log",
+      "tail": " Image Bare:      10.6231 ms (without copy to/from GPU memory)\nDecode Image:           11.0283 ms\nDecompressed Size:      395,523 bytes 513x257 444-u8-p012 RGB\n\nAvg Decode Duration:   111.0547 ms\n\nGPUJPEG rev 78e5eee built Oct 20 2026 18:02:18 \n\nDecoding Image [<WORKSPACE>\\work\\staged-validation\\noise3-q100-r1-444-i1.jpg] to 444-u8-p012 (default CS)\nLoad Image:                1.17 ms\n\nIteration #1:\n\nIteration #2:\nSave Image:                0.83 ms\nImage Name:          <WORKSPACE>\\work\\staged-final-transpose-checks\\sanitizer.ppm\n========= ERROR SUMMARY: 0 errors\n"
+    },
+    {
+      "tool": "racecheck",
+      "case": "noise1-q75-r8-444-i0",
+      "log": "<WORKSPACE>\\work\\staged-final-transpose-checks\\racecheck.log",
+      "tail": " copy to/from GPU memory)\nDecode Image:          163.8545 ms\nDecompressed Size:      395,523 bytes 513x257 444-u8-p012 RGB\n\nAvg Decode Duration:   203.1297 ms\n\nGPUJPEG rev 78e5eee built Oct 20 2026 18:02:18 \n\nDecoding Image [<WORKSPACE>\\work\\staged-validation\\noise1-q75-r8-444-i0.jpg] to 444-u8-p012 (default CS)\nLoad Image:                0.99 ms\n\nIteration #1:\n\nIteration #2:\nSave Image:                0.74 ms\nImage Name:          <WORKSPACE>\\work\\staged-final-transpose-checks\\sanitizer.ppm\n========= RACECHECK SUMMARY: 0 hazards displayed (0 errors, 0 warnings)\n"
+    },
+    {
+      "tool": "synccheck",
+      "case": "optimized17",
+      "log": "<WORKSPACE>\\work\\staged-final-transpose-checks\\synccheck.log",
+      "tail": "ng)\nDecode Image Bare:       3.4245 ms (without copy to/from GPU memory)\nDecode Image:            3.6880 ms\nDecompressed Size:      400,155 bytes 515x259 444-u8-p012 RGB\n\nAvg Decode Duration:    34.1881 ms\n\nGPUJPEG rev 78e5eee built Oct 20 2026 18:02:18 \n\nDecoding Image [<WORKSPACE>\\work\\staged-validation\\optimized17.jpg] to 444-u8-p012 (default CS)\nLoad Image:                0.99 ms\n\nIteration #1:\n\nIteration #2:\nSave Image:                1.04 ms\nImage Name:          <WORKSPACE>\\work\\staged-final-transpose-checks\\sanitizer.ppm\n========= ERROR SUMMARY: 0 errors\n"
+    }
+  ],
+  "profiles": [
+    {
+      "kind": "fused",
+      "kernels": [
+        {
+          "Time (%)": "75.0",
+          "Total Time (ns)": "20595858",
+          "Instances": "40",
+          "Avg (ns)": "514896.5",
+          "Med (ns)": "494274.0",
+          "Min (ns)": "487682",
+          "Max (ns)": "923780",
+          "StdDev (ns)": "79810.6",
+          "Name": "void gpujpeg_huffman_decoder_decode_kernel<(bool)0, (int)192>(gpujpeg_huffman_gpu_decoder, gpujpeg_component *, gpujpeg_segment *, int, int, unsigned char *, const unsigned long long *, short *)"
+        },
+        {
+          "Time (%)": "13.8",
+          "Total Time (ns)": "3782155",
+          "Instances": "120",
+          "Avg (ns)": "31518.0",
+          "Med (ns)": "31104.0",
+          "Min (ns)": "30528",
+          "Max (ns)": "37856",
+          "StdDev (ns)": "1661.1",
+          "Name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)"
+        },
+        {
+          "Time (%)": "11.2",
+          "Total Time (ns)": "3067663",
+          "Instances": "40",
+          "Avg (ns)": "76691.6",
+          "Med (ns)": "76192.0",
+          "Min (ns)": "76032",
+          "Max (ns)": "83297",
+          "StdDev (ns)": "1599.6",
+          "Name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)"
+        },
+        {
+          "Time (%)": "0.0",
+          "Total Time (ns)": "11712",
+          "Instances": "1",
+          "Avg (ns)": "11712.0",
+          "Med (ns)": "11712.0",
+          "Min (ns)": "11712",
+          "Max (ns)": "11712",
+          "StdDev (ns)": "0.0",
+          "Name": "gpujpeg_huffman_decoder_table_kernel(gpujpeg_huffman_gpu_decoder, const gpujpeg_table_huffman_decoder *, const gpujpeg_table_huffman_decoder *, const gpujpeg_table_huffman_decoder *, const gpujpeg_table_huffman_decoder *)"
+        }
+      ]
+    },
+    {
+      "kind": "staged",
+      "kernels": [
+        {
+          "Time (%)": "57.9",
+          "Total Time (ns)": "22159384",
+          "Instances": "40",
+          "Avg (ns)": "553984.6",
+          "Med (ns)": "536322.0",
+          "Min (ns)": "529347",
+          "Max (ns)": "753059",
+          "StdDev (ns)": "54316.9",
+          "Name": "void gpujpeg_huffman_staged_tokens_kernel<(int)128>(gpujpeg_huffman_gpu_decoder, const gpujpeg_component *, const gpujpeg_segment *, int, const unsigned char *, const unsigned long long *, unsigned long long)"
+        },
+        {
+          "Time (%)": "20.7",
+          "Total Time (ns)": "7921056",
+          "Instances": "40",
+          "Avg (ns)": "198026.4",
+          "Med (ns)": "197856.5",
+          "Min (ns)": "197153",
+          "Max (ns)": "203968",
+          "StdDev (ns)": "1039.8",
+          "Name": "gpujpeg_huffman_staged_rle_kernel(gpujpeg_huffman_gpu_decoder, const unsigned long long *, unsigned long long, short *)"
+        },
+        {
+          "Time (%)": "9.6",
+          "Total Time (ns)": "3686220",
+          "Instances": "120",
+          "Avg (ns)": "30718.5",
+          "Med (ns)": "31009.0",
+          "Min (ns)": "28896",
+          "Max (ns)": "37568",
+          "StdDev (ns)": "1462.5",
+          "Name": "gpujpeg_idct_gpu_kernel(short *, unsigned char *, int, unsigned short *)"
+        },
+        {
+          "Time (%)": "8.0",
+          "Total Time (ns)": "3058829",
+          "Instances": "40",
+          "Avg (ns)": "76470.7",
+          "Med (ns)": "76000.5",
+          "Min (ns)": "75489",
+          "Max (ns)": "82817",
+          "StdDev (ns)": "1581.4",
+          "Name": "void gpujpeg_preprocessor_comp_to_raw_kernel<(gpujpeg_color_space)3, (gpujpeg_color_space)1, (gpujpeg_pixel_format)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)0, (unsigned char)0>(gpujpeg_preprocessor_data, unsigned char *, int, int, int)"
+        },
+        {
+          "Time (%)": "3.8",
+          "Total Time (ns)": "1460292",
+          "Instances": "40",
+          "Avg (ns)": "36507.3",
+          "Med (ns)": "36256.0",
+          "Min (ns)": "35616",
+          "Max (ns)": "46305",
+          "StdDev (ns)": "1605.9",
+          "Name": "void gpujpeg_huffman_staged_dc_kernel<(bool)0>(const unsigned int *, const unsigned long long *, const gpujpeg_segment *, int, int, short *)"
+        },
+        {
+          "Time (%)": "0.0",
+          "Total Time (ns)": "11712",
+          "Instances": "1",
+          "Avg (ns)": "11712.0",
+          "Med (ns)": "11712.0",
+          "Min (ns)": "11712",
+          "Max (ns)": "11712",
+          "StdDev (ns)": "0.0",
+          "Name": "gpujpeg_huffman_decoder_table_kernel(gpujpeg_huffman_gpu_decoder, const gpujpeg_table_huffman_decoder *, const gpujpeg_table_huffman_decoder *, const gpujpeg_table_huffman_decoder *, const gpujpeg_table_huffman_decoder *)"
+        }
+      ]
+    }
+  ]
+}

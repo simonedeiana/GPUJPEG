@@ -1,0 +1,24 @@
+{
+  "decoder_commit": "74911dfee71e4d5c278427ea04e84a63355bf082",
+  "locked_encoder_commit": "d94ed55e2922332958287a897bdcd83a7205a95e",
+  "branch": "decoder-r0-development",
+  "decoder_default": "OFF",
+  "supplied_binary_decoder": "ON",
+  "encoder_source_unchanged": true,
+  "locked_artifact_hashes_verified": true,
+  "binary_hashes": {
+    "gpujpeg.lib": "4293f5e763419c2c59032d71c7ea5bcb9d7ac899d9f229567d9aa09ae743fd88",
+    "gpujpegtool.exe": "00a6ea7f32419db42699aa96c50965e53b8ba3c78f754157486967a0440fa1c5",
+    "bench-candidate.exe": "e9a9cef14691de6e8dad67a3777876a5759e4d005d93f06e2430eb7b34963ca9",
+    "bench-locked.exe": "668f28af4f539130be541eb7ff3b155e2dfe4eee8276f98bdff8fb3f079897ef",
+    "dump-candidate.exe": "03cb1d117e44ecb386c23b0c60abfa05db290d2ea506ff9fa439b6919c05aeab"
+  },
+  "source_hashes": {
+    "CMakeLists.txt": "ea2cc6e8c53291240471f10a4d55bf90a121349f9d7b3f47fe6df5a69be94966",
+    "HUFFMAN_NO_RESTART_DECODER.md": "47029b4b918ea22193edd18036b5de9976bb27bcba2868d9d43aacc825d013b0",
+    "src/gpujpeg_decoder.c": "96678214d22b53ff014c06840adc5dde45d047872c7454c63d402ab82ebe7f3e",
+    "src/gpujpeg_huffman_gpu_decoder.cu": "99b997ada825b4187990fea05c9a9b94f61d3a78fe750e93d28acadea3230bbe",
+    "src/gpujpeg_huffman_gpu_decoder.h": "017a66326883ebe8544e5f15baec79f4e8972fcffb9ac799d65cf32f9efdbf83",
+    "src/gpujpeg_huffman_no_restart_decoder.cuh": "465bcec946f28a48abb1a809b8e41657fc6bb0a9bcce05b8938a0f81cf25a022"
+  }
+}

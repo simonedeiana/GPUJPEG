@@ -1,0 +1,10 @@
+{
+  "decoder": "Pillow 12.3.0",
+  "mode": "RGB",
+  "size": [
+    1920,
+    1080
+  ],
+  "pixels_equal": true,
+  "pixel_sha256": "a2f29ebd17edad844272593e5512b716ff6a9d406b2331e3ecf56097bdb7c906"
+}

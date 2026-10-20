@@ -1,0 +1,28 @@
+========= COMPUTE-SANITIZER
+CUDA driver version:   13.4
+CUDA runtime version:  13.4
+Using Device #0:       NVIDIA GeForce RTX 3050 (c.c. 8.6)
+[GPUJPEG] [Warning] 40 segments read, expected 41. Broken JPEG?
+Decode Image GPU:       10.0987 ms (only in-GPU processing)
+Decode Image Bare:      12.3454 ms (without copy to/from GPU memory)
+Decode Image:           12.4242 ms
+Decompressed Size:        2,624 bytes 8x328 u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+[GPUJPEG] [Warning] 40 segments read, expected 41. Broken JPEG?
+Decode Image GPU:        2.0285 ms (only in-GPU processing)
+Decode Image Bare:       2.7547 ms (without copy to/from GPU memory)
+Decode Image:            2.8183 ms
+Decompressed Size:        2,624 bytes 8x328 u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+
+Avg Decode Duration:     7.6213 ms
+
+GPUJPEG rev 78e5eee built Oct 20 2026 18:49:40 
+
+Decoding Image [work/compact-decode/correctness/negative/empty-segments.jpg] to u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+Load Image:                9.15 ms
+
+Iteration #1:
+
+Iteration #2:
+Save Image:                0.68 ms
+Image Name:          work/compact-decode/correctness/sanitizers/memcheck-negative-empty-strict.pgm
+========= ERROR SUMMARY: 0 errors

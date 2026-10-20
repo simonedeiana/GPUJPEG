@@ -1,0 +1,1632 @@
+[
+  {
+    "case": "hd444-r10",
+    "variant": "baseline",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 2.51135,
+      "mean_ms": 2.6417862,
+      "min_ms": 2.3271,
+      "max_ms": 10.3637,
+      "p95_ms": 3.161
+    },
+    "primary_round_medians_ms": [
+      2.4999000000000002,
+      2.4642,
+      2.48725,
+      2.83985,
+      2.4955
+    ],
+    "primary_median_round_ms": 2.4955,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 2.51135,
+      "mean_ms": 2.6417862,
+      "min_ms": 2.3271,
+      "max_ms": 10.3637,
+      "p95_ms": 3.161
+    },
+    "round_medians_ms": [
+      2.4999000000000002,
+      2.4642,
+      2.48725,
+      2.83985,
+      2.4955
+    ],
+    "median_round_ms": 2.4955,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 5.3431809090909095,
+      "mean_ms": 5.578181454545454,
+      "min_ms": 5.303505454545454,
+      "max_ms": 6.154621818181819,
+      "p95_ms": 6.154621818181819
+    },
+    "output_pixel_hashes": [
+      "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+    ]
+  },
+  {
+    "case": "hd444-r10",
+    "variant": "staged",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 2.7982,
+      "mean_ms": 2.855038,
+      "min_ms": 2.5868,
+      "max_ms": 3.8051,
+      "p95_ms": 3.2515
+    },
+    "primary_round_medians_ms": [
+      2.79755,
+      2.77445,
+      2.7366,
+      2.85875,
+      2.86315
+    ],
+    "primary_median_round_ms": 2.79755,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 2.7982,
+      "mean_ms": 2.855038,
+      "min_ms": 2.5868,
+      "max_ms": 3.8051,
+      "p95_ms": 3.2515
+    },
+    "round_medians_ms": [
+      2.79755,
+      2.77445,
+      2.7366,
+      2.85875,
+      2.86315
+    ],
+    "median_round_ms": 2.79755,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 5.668639090909091,
+      "mean_ms": 5.755139818181818,
+      "min_ms": 5.575042727272727,
+      "max_ms": 6.129705454545455,
+      "p95_ms": 6.129705454545455
+    },
+    "output_pixel_hashes": [
+      "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+    ]
+  },
+  {
+    "case": "hd444-r10",
+    "variant": "fastvideo",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 2.3975,
+      "mean_ms": 2.4606644,
+      "min_ms": 2.2179,
+      "max_ms": 3.5949,
+      "p95_ms": 2.8853
+    },
+    "primary_round_medians_ms": [
+      2.34,
+      2.3434999999999997,
+      2.36705,
+      2.5364000000000004,
+      2.3945
+    ],
+    "primary_median_round_ms": 2.36705,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 2.33,
+      "mean_ms": 2.3865,
+      "min_ms": 2.16,
+      "max_ms": 3.43,
+      "p95_ms": 2.8
+    },
+    "round_medians_ms": [
+      2.2800000000000002,
+      2.2800000000000002,
+      2.3099999999999996,
+      2.45,
+      2.33
+    ],
+    "median_round_ms": 2.3099999999999996,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 6.482140909090909,
+      "mean_ms": 6.424726,
+      "min_ms": 6.186045454545455,
+      "max_ms": 6.711491818181818,
+      "p95_ms": 6.711491818181818
+    },
+    "output_pixel_hashes": [
+      "20e569cb7b1c8f939789726da235084fef60542117ca420314a4681878fae252"
+    ],
+    "warm_qpc_intervening_gap": {
+      "count": 500,
+      "median_ms": 0.0002,
+      "mean_ms": 0.0002722,
+      "min_ms": 0.0,
+      "max_ms": 0.0104,
+      "p95_ms": 0.0004
+    },
+    "invalid_printed_load_plus_codec_sum": {
+      "count": 500,
+      "median_ms": 4.56,
+      "mean_ms": 4.55988,
+      "min_ms": 4.04,
+      "max_ms": 5.79,
+      "p95_ms": 5.13
+    }
+  },
+  {
+    "case": "hd420-r10",
+    "variant": "baseline",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 3.12075,
+      "mean_ms": 3.210831,
+      "min_ms": 2.9249,
+      "max_ms": 4.8641,
+      "p95_ms": 3.8049
+    },
+    "primary_round_medians_ms": [
+      3.0852500000000003,
+      3.0843,
+      3.0646,
+      3.21685,
+      3.207
+    ],
+    "primary_median_round_ms": 3.0852500000000003,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 3.12075,
+      "mean_ms": 3.210831,
+      "min_ms": 2.9249,
+      "max_ms": 4.8641,
+      "p95_ms": 3.8049
+    },
+    "round_medians_ms": [
+      3.0852500000000003,
+      3.0843,
+      3.0646,
+      3.21685,
+      3.207
+    ],
+    "median_round_ms": 3.0852500000000003,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 5.876081818181818,
+      "mean_ms": 5.9860798181818184,
+      "min_ms": 5.776876363636364,
+      "max_ms": 6.2789554545454545,
+      "p95_ms": 6.2789554545454545
+    },
+    "output_pixel_hashes": [
+      "fb95ba56c762d39784cabce0e8992e2d362e3cb88c25caa4d87a42b3de601a4f"
+    ]
+  },
+  {
+    "case": "hd420-r10",
+    "variant": "staged",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 3.0458499999999997,
+      "mean_ms": 3.1155038,
+      "min_ms": 2.8931,
+      "max_ms": 4.2433,
+      "p95_ms": 3.5424
+    },
+    "primary_round_medians_ms": [
+      3.032,
+      3.061,
+      3.0007,
+      3.16755,
+      3.02755
+    ],
+    "primary_median_round_ms": 3.032,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 3.0458499999999997,
+      "mean_ms": 3.1155038,
+      "min_ms": 2.8931,
+      "max_ms": 4.2433,
+      "p95_ms": 3.5424
+    },
+    "round_medians_ms": [
+      3.032,
+      3.061,
+      3.0007,
+      3.16755,
+      3.02755
+    ],
+    "median_round_ms": 3.032,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 5.869118181818181,
+      "mean_ms": 5.857549454545454,
+      "min_ms": 5.70763,
+      "max_ms": 5.974081818181818,
+      "p95_ms": 5.974081818181818
+    },
+    "output_pixel_hashes": [
+      "fb95ba56c762d39784cabce0e8992e2d362e3cb88c25caa4d87a42b3de601a4f"
+    ]
+  },
+  {
+    "case": "hd420-r10",
+    "variant": "fastvideo",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 3.0336999999999996,
+      "mean_ms": 3.1615986,
+      "min_ms": 2.8358,
+      "max_ms": 5.263,
+      "p95_ms": 3.8373
+    },
+    "primary_round_medians_ms": [
+      3.12115,
+      2.9718,
+      2.9816000000000003,
+      3.04565,
+      3.1778
+    ],
+    "primary_median_round_ms": 3.04565,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 2.965,
+      "mean_ms": 3.08576,
+      "min_ms": 2.79,
+      "max_ms": 5.109999999999999,
+      "p95_ms": 3.7199999999999998
+    },
+    "round_medians_ms": [
+      3.035,
+      2.92,
+      2.92,
+      2.9749999999999996,
+      3.09
+    ],
+    "median_round_ms": 2.9749999999999996,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 7.1834218181818175,
+      "mean_ms": 7.236729454545454,
+      "min_ms": 6.8698654545454545,
+      "max_ms": 7.652205454545455,
+      "p95_ms": 7.652205454545455
+    },
+    "output_pixel_hashes": [
+      "95f13fd25483680a12e5d1f9e554fdd4d6647bd4e3ba4216fd57f5472dd49d99"
+    ],
+    "warm_qpc_intervening_gap": {
+      "count": 500,
+      "median_ms": 0.0002,
+      "mean_ms": 0.000297,
+      "min_ms": 0.0,
+      "max_ms": 0.0102,
+      "p95_ms": 0.0004
+    },
+    "invalid_printed_load_plus_codec_sum": {
+      "count": 500,
+      "median_ms": 4.84,
+      "mean_ms": 4.95382,
+      "min_ms": 4.57,
+      "max_ms": 7.04,
+      "p95_ms": 5.6000000000000005
+    }
+  },
+  {
+    "case": "hd422-r10",
+    "variant": "baseline",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 2.6310000000000002,
+      "mean_ms": 2.7171894,
+      "min_ms": 2.4573,
+      "max_ms": 4.008,
+      "p95_ms": 3.1905
+    },
+    "primary_round_medians_ms": [
+      2.71995,
+      2.6426,
+      2.5862,
+      2.60015,
+      2.6868
+    ],
+    "primary_median_round_ms": 2.6426,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 2.6310000000000002,
+      "mean_ms": 2.7171894,
+      "min_ms": 2.4573,
+      "max_ms": 4.008,
+      "p95_ms": 3.1905
+    },
+    "round_medians_ms": [
+      2.71995,
+      2.6426,
+      2.5862,
+      2.60015,
+      2.6868
+    ],
+    "median_round_ms": 2.6426,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 5.534219090909091,
+      "mean_ms": 5.595359090909091,
+      "min_ms": 5.399848181818181,
+      "max_ms": 5.930284545454546,
+      "p95_ms": 5.930284545454546
+    },
+    "output_pixel_hashes": [
+      "bafacb07300d1fb896d04e4513c1ce308900b823c26b8fed744bbff9173d793f"
+    ]
+  },
+  {
+    "case": "hd422-r10",
+    "variant": "staged",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 2.8697999999999997,
+      "mean_ms": 3.014602,
+      "min_ms": 2.5473,
+      "max_ms": 4.4809,
+      "p95_ms": 3.9569
+    },
+    "primary_round_medians_ms": [
+      3.1057,
+      2.959,
+      2.977,
+      2.72715,
+      2.752
+    ],
+    "primary_median_round_ms": 2.959,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 2.8697999999999997,
+      "mean_ms": 3.014602,
+      "min_ms": 2.5473,
+      "max_ms": 4.4809,
+      "p95_ms": 3.9569
+    },
+    "round_medians_ms": [
+      3.1057,
+      2.959,
+      2.977,
+      2.72715,
+      2.752
+    ],
+    "median_round_ms": 2.959,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 5.768229090909091,
+      "mean_ms": 5.8739787272727275,
+      "min_ms": 5.559589090909091,
+      "max_ms": 6.45709,
+      "p95_ms": 6.45709
+    },
+    "output_pixel_hashes": [
+      "bafacb07300d1fb896d04e4513c1ce308900b823c26b8fed744bbff9173d793f"
+    ]
+  },
+  {
+    "case": "hd422-r10",
+    "variant": "fastvideo",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 2.6839,
+      "mean_ms": 2.7591244,
+      "min_ms": 2.4316,
+      "max_ms": 3.8293,
+      "p95_ms": 3.2287
+    },
+    "primary_round_medians_ms": [
+      2.60725,
+      2.65175,
+      2.6395,
+      2.77,
+      2.76985
+    ],
+    "primary_median_round_ms": 2.65175,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 2.6100000000000003,
+      "mean_ms": 2.6757,
+      "min_ms": 2.37,
+      "max_ms": 3.7199999999999998,
+      "p95_ms": 3.1
+    },
+    "round_medians_ms": [
+      2.54,
+      2.5700000000000003,
+      2.59,
+      2.66,
+      2.6550000000000002
+    ],
+    "median_round_ms": 2.59,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 6.787770909090909,
+      "mean_ms": 6.768955090909091,
+      "min_ms": 6.460966363636365,
+      "max_ms": 7.049625454545454,
+      "p95_ms": 7.049625454545454
+    },
+    "output_pixel_hashes": [
+      "30ad3a5334621e80ec88cce907cca94b0de77bb8ce41b7c5980f7f4886b92b44"
+    ],
+    "warm_qpc_intervening_gap": {
+      "count": 500,
+      "median_ms": 0.0002,
+      "mean_ms": 0.0003192,
+      "min_ms": 0.0,
+      "max_ms": 0.0139,
+      "p95_ms": 0.0004
+    },
+    "invalid_printed_load_plus_codec_sum": {
+      "count": 500,
+      "median_ms": 4.62,
+      "mean_ms": 5.0072,
+      "min_ms": 4.06,
+      "max_ms": 7.750000000000001,
+      "p95_ms": 6.8500000000000005
+    }
+  },
+  {
+    "case": "4k444-r10",
+    "variant": "baseline",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 7.33375,
+      "mean_ms": 7.4784792,
+      "min_ms": 6.9967,
+      "max_ms": 9.9121,
+      "p95_ms": 8.2657
+    },
+    "primary_round_medians_ms": [
+      7.5875,
+      7.24445,
+      7.28705,
+      7.44525,
+      7.26815
+    ],
+    "primary_median_round_ms": 7.28705,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 7.33375,
+      "mean_ms": 7.4784792,
+      "min_ms": 6.9967,
+      "max_ms": 9.9121,
+      "p95_ms": 8.2657
+    },
+    "round_medians_ms": [
+      7.5875,
+      7.24445,
+      7.28705,
+      7.44525,
+      7.26815
+    ],
+    "median_round_ms": 7.28705,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 11.026479090909092,
+      "mean_ms": 10.939050181818182,
+      "min_ms": 10.557,
+      "max_ms": 11.270908181818182,
+      "p95_ms": 11.270908181818182
+    },
+    "output_pixel_hashes": [
+      "110d9aa6c7c5946653a8ff4c288cdcea1a04c4bc06b9d61b52c058cd9fff72f6"
+    ]
+  },
+  {
+    "case": "4k444-r10",
+    "variant": "staged",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 8.990549999999999,
+      "mean_ms": 9.1161568,
+      "min_ms": 8.321,
+      "max_ms": 11.2347,
+      "p95_ms": 10.2535
+    },
+    "primary_round_medians_ms": [
+      8.64395,
+      9.34705,
+      9.312000000000001,
+      8.913900000000002,
+      8.8508
+    ],
+    "primary_median_round_ms": 8.913900000000002,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 8.990549999999999,
+      "mean_ms": 9.1161568,
+      "min_ms": 8.321,
+      "max_ms": 11.2347,
+      "p95_ms": 10.2535
+    },
+    "round_medians_ms": [
+      8.64395,
+      9.34705,
+      9.312000000000001,
+      8.913900000000002,
+      8.8508
+    ],
+    "median_round_ms": 8.913900000000002,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 12.513808181818183,
+      "mean_ms": 12.767462727272727,
+      "min_ms": 12.102848181818182,
+      "max_ms": 14.058065454545453,
+      "p95_ms": 14.058065454545453
+    },
+    "output_pixel_hashes": [
+      "110d9aa6c7c5946653a8ff4c288cdcea1a04c4bc06b9d61b52c058cd9fff72f6"
+    ]
+  },
+  {
+    "case": "4k444-r10",
+    "variant": "fastvideo",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 6.9204,
+      "mean_ms": 6.9945164,
+      "min_ms": 6.5431,
+      "max_ms": 9.3353,
+      "p95_ms": 7.5962
+    },
+    "primary_round_medians_ms": [
+      6.8485499999999995,
+      6.958600000000001,
+      7.07615,
+      6.84905,
+      6.9106000000000005
+    ],
+    "primary_median_round_ms": 6.9106000000000005,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 6.65,
+      "mean_ms": 6.72526,
+      "min_ms": 6.37,
+      "max_ms": 8.969999999999999,
+      "p95_ms": 7.29
+    },
+    "round_medians_ms": [
+      6.640000000000001,
+      6.640000000000001,
+      6.765,
+      6.619999999999999,
+      6.6450000000000005
+    ],
+    "median_round_ms": 6.640000000000001,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 11.597140000000001,
+      "mean_ms": 11.665501454545455,
+      "min_ms": 11.463853636363636,
+      "max_ms": 12.182824545454546,
+      "p95_ms": 12.182824545454546
+    },
+    "output_pixel_hashes": [
+      "aa3053172b4891f030007334a1234941a1e79d687f4285a7da3ea3033d937b42"
+    ],
+    "warm_qpc_intervening_gap": {
+      "count": 500,
+      "median_ms": 0.0003,
+      "mean_ms": 0.0004892,
+      "min_ms": 0.0001,
+      "max_ms": 0.0491,
+      "p95_ms": 0.0006
+    },
+    "invalid_printed_load_plus_codec_sum": {
+      "count": 500,
+      "median_ms": 11.15,
+      "mean_ms": 11.21836,
+      "min_ms": 10.7,
+      "max_ms": 13.52,
+      "p95_ms": 11.83
+    }
+  },
+  {
+    "case": "4k420-r10",
+    "variant": "baseline",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 6.73865,
+      "mean_ms": 6.83674,
+      "min_ms": 6.3518,
+      "max_ms": 8.6768,
+      "p95_ms": 7.4672
+    },
+    "primary_round_medians_ms": [
+      6.696199999999999,
+      6.8723,
+      6.75795,
+      6.84895,
+      6.6216
+    ],
+    "primary_median_round_ms": 6.75795,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 6.73865,
+      "mean_ms": 6.83674,
+      "min_ms": 6.3518,
+      "max_ms": 8.6768,
+      "p95_ms": 7.4672
+    },
+    "round_medians_ms": [
+      6.696199999999999,
+      6.8723,
+      6.75795,
+      6.84895,
+      6.6216
+    ],
+    "median_round_ms": 6.75795,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 10.30247909090909,
+      "mean_ms": 10.154493636363636,
+      "min_ms": 9.719125454545456,
+      "max_ms": 10.528946363636363,
+      "p95_ms": 10.528946363636363
+    },
+    "output_pixel_hashes": [
+      "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07"
+    ]
+  },
+  {
+    "case": "4k420-r10",
+    "variant": "staged",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 7.54555,
+      "mean_ms": 7.7121058,
+      "min_ms": 7.1289,
+      "max_ms": 15.4243,
+      "p95_ms": 8.7454
+    },
+    "primary_round_medians_ms": [
+      7.4346,
+      7.67335,
+      7.5253,
+      7.6043,
+      7.51515
+    ],
+    "primary_median_round_ms": 7.5253,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 7.54555,
+      "mean_ms": 7.7121058,
+      "min_ms": 7.1289,
+      "max_ms": 15.4243,
+      "p95_ms": 8.7454
+    },
+    "round_medians_ms": [
+      7.4346,
+      7.67335,
+      7.5253,
+      7.6043,
+      7.51515
+    ],
+    "median_round_ms": 7.5253,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 11.231057272727273,
+      "mean_ms": 11.268564,
+      "min_ms": 10.84316,
+      "max_ms": 11.755462727272727,
+      "p95_ms": 11.755462727272727
+    },
+    "output_pixel_hashes": [
+      "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07"
+    ]
+  },
+  {
+    "case": "4k420-r10",
+    "variant": "fastvideo",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 6.9030000000000005,
+      "mean_ms": 6.9918736,
+      "min_ms": 6.5373,
+      "max_ms": 8.6174,
+      "p95_ms": 7.6045
+    },
+    "primary_round_medians_ms": [
+      6.83345,
+      6.893800000000001,
+      7.08345,
+      6.9326,
+      6.818099999999999
+    ],
+    "primary_median_round_ms": 6.893800000000001,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 6.65,
+      "mean_ms": 6.7498000000000005,
+      "min_ms": 6.38,
+      "max_ms": 8.33,
+      "p95_ms": 7.34
+    },
+    "round_medians_ms": [
+      6.6,
+      6.65,
+      6.825,
+      6.6850000000000005,
+      6.57
+    ],
+    "median_round_ms": 6.65,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 11.785245454545453,
+      "mean_ms": 11.760756727272728,
+      "min_ms": 11.385683636363636,
+      "max_ms": 12.089120000000001,
+      "p95_ms": 12.089120000000001
+    },
+    "output_pixel_hashes": [
+      "31ccaf22be562a6869be7323da4a345a2eb50c98b65552c99b6e2b82d8228f0c"
+    ],
+    "warm_qpc_intervening_gap": {
+      "count": 500,
+      "median_ms": 0.0003,
+      "mean_ms": 0.000388,
+      "min_ms": 0.0001,
+      "max_ms": 0.0135,
+      "p95_ms": 0.0005
+    },
+    "invalid_printed_load_plus_codec_sum": {
+      "count": 500,
+      "median_ms": 10.42,
+      "mean_ms": 10.7227,
+      "min_ms": 9.959999999999999,
+      "max_ms": 13.09,
+      "p95_ms": 11.940000000000001
+    }
+  },
+  {
+    "case": "hdgray-r10",
+    "variant": "baseline",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 1.39805,
+      "mean_ms": 1.48731,
+      "min_ms": 1.2553,
+      "max_ms": 2.5501,
+      "p95_ms": 1.9419
+    },
+    "primary_round_medians_ms": [
+      1.3593,
+      1.49415,
+      1.40205,
+      1.4952,
+      1.3438
+    ],
+    "primary_median_round_ms": 1.40205,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 1.39805,
+      "mean_ms": 1.48731,
+      "min_ms": 1.2553,
+      "max_ms": 2.5501,
+      "p95_ms": 1.9419
+    },
+    "round_medians_ms": [
+      1.3593,
+      1.49415,
+      1.40205,
+      1.4952,
+      1.3438
+    ],
+    "median_round_ms": 1.40205,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 4.011740909090909,
+      "mean_ms": 4.021349818181818,
+      "min_ms": 3.7305681818181817,
+      "max_ms": 4.397379090909091,
+      "p95_ms": 4.397379090909091
+    },
+    "output_pixel_hashes": [
+      "d64f4cc561715c7bdd42a37293aa9a1aca4af25520c44cfd5f74e3a42ceaa112"
+    ]
+  },
+  {
+    "case": "hdgray-r10",
+    "variant": "staged",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 1.4885000000000002,
+      "mean_ms": 1.6941092,
+      "min_ms": 1.3131,
+      "max_ms": 18.2183,
+      "p95_ms": 2.1003
+    },
+    "primary_round_medians_ms": [
+      1.45355,
+      1.44235,
+      1.4902000000000002,
+      1.69515,
+      1.5149
+    ],
+    "primary_median_round_ms": 1.4902000000000002,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 1.4885000000000002,
+      "mean_ms": 1.6941092,
+      "min_ms": 1.3131,
+      "max_ms": 18.2183,
+      "p95_ms": 2.1003
+    },
+    "round_medians_ms": [
+      1.45355,
+      1.44235,
+      1.4902000000000002,
+      1.69515,
+      1.5149
+    ],
+    "median_round_ms": 1.4902000000000002,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 4.101585454545455,
+      "mean_ms": 4.3847819999999995,
+      "min_ms": 3.9208536363636366,
+      "max_ms": 5.806979999999999,
+      "p95_ms": 5.806979999999999
+    },
+    "output_pixel_hashes": [
+      "d64f4cc561715c7bdd42a37293aa9a1aca4af25520c44cfd5f74e3a42ceaa112"
+    ]
+  },
+  {
+    "case": "hdgray-r10",
+    "variant": "fastvideo",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 1.32275,
+      "mean_ms": 1.4134902,
+      "min_ms": 1.1573,
+      "max_ms": 8.2538,
+      "p95_ms": 1.8579
+    },
+    "primary_round_medians_ms": [
+      1.267,
+      1.4674,
+      1.2941,
+      1.3361999999999998,
+      1.28415
+    ],
+    "primary_median_round_ms": 1.2941,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 1.28,
+      "mean_ms": 1.35162,
+      "min_ms": 1.1199999999999999,
+      "max_ms": 4.56,
+      "p95_ms": 1.73
+    },
+    "round_medians_ms": [
+      1.23,
+      1.3900000000000001,
+      1.255,
+      1.28,
+      1.25
+    ],
+    "median_round_ms": 1.255,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 5.338107272727272,
+      "mean_ms": 5.254955090909091,
+      "min_ms": 4.865163636363636,
+      "max_ms": 5.514886363636364,
+      "p95_ms": 5.514886363636364
+    },
+    "output_pixel_hashes": [
+      "abff7686b59ceeb1a7a43564eaf75caf14d7d3fbbc85ff12f72efbd2d1cb344a"
+    ],
+    "warm_qpc_intervening_gap": {
+      "count": 500,
+      "median_ms": 0.0002,
+      "mean_ms": 0.0002516,
+      "min_ms": 0.0,
+      "max_ms": 0.0104,
+      "p95_ms": 0.0003
+    },
+    "invalid_printed_load_plus_codec_sum": {
+      "count": 500,
+      "median_ms": 3.0149999999999997,
+      "mean_ms": 3.10706,
+      "min_ms": 2.6700000000000004,
+      "max_ms": 10.260000000000002,
+      "p95_ms": 3.61
+    }
+  },
+  {
+    "case": "hd444-r1",
+    "variant": "baseline",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 3.2763999999999998,
+      "mean_ms": 3.3916354,
+      "min_ms": 2.9846,
+      "max_ms": 4.968,
+      "p95_ms": 4.164
+    },
+    "primary_round_medians_ms": [
+      3.25665,
+      3.18425,
+      3.3983,
+      3.3951000000000002,
+      3.24505
+    ],
+    "primary_median_round_ms": 3.25665,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 3.2763999999999998,
+      "mean_ms": 3.3916354,
+      "min_ms": 2.9846,
+      "max_ms": 4.968,
+      "p95_ms": 4.164
+    },
+    "round_medians_ms": [
+      3.25665,
+      3.18425,
+      3.3983,
+      3.3951000000000002,
+      3.24505
+    ],
+    "median_round_ms": 3.25665,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 6.319188181818181,
+      "mean_ms": 6.271486909090909,
+      "min_ms": 6.139714545454545,
+      "max_ms": 6.3973972727272725,
+      "p95_ms": 6.3973972727272725
+    },
+    "output_pixel_hashes": [
+      "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+    ]
+  },
+  {
+    "case": "hd444-r1",
+    "variant": "staged",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 3.4552,
+      "mean_ms": 3.6166462,
+      "min_ms": 3.1666,
+      "max_ms": 5.443,
+      "p95_ms": 4.6023
+    },
+    "primary_round_medians_ms": [
+      3.4046,
+      3.40605,
+      3.5258000000000003,
+      3.61345,
+      3.4057
+    ],
+    "primary_median_round_ms": 3.40605,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 3.4552,
+      "mean_ms": 3.6166462,
+      "min_ms": 3.1666,
+      "max_ms": 5.443,
+      "p95_ms": 4.6023
+    },
+    "round_medians_ms": [
+      3.4046,
+      3.40605,
+      3.5258000000000003,
+      3.61345,
+      3.4057
+    ],
+    "median_round_ms": 3.40605,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 6.395805454545454,
+      "mean_ms": 6.617874909090909,
+      "min_ms": 6.262643636363636,
+      "max_ms": 7.181833636363637,
+      "p95_ms": 7.181833636363637
+    },
+    "output_pixel_hashes": [
+      "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+    ]
+  },
+  {
+    "case": "hd444-r1",
+    "variant": "fastvideo",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 2.06895,
+      "mean_ms": 2.1232046,
+      "min_ms": 1.879,
+      "max_ms": 3.5912,
+      "p95_ms": 2.5152
+    },
+    "primary_round_medians_ms": [
+      2.0002500000000003,
+      2.0018000000000002,
+      2.09775,
+      2.1088,
+      2.12415
+    ],
+    "primary_median_round_ms": 2.09775,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 1.9900000000000002,
+      "mean_ms": 2.04334,
+      "min_ms": 1.82,
+      "max_ms": 3.4,
+      "p95_ms": 2.4
+    },
+    "round_medians_ms": [
+      1.9300000000000002,
+      1.94,
+      2.0300000000000002,
+      2.04,
+      2.04
+    ],
+    "median_round_ms": 2.0300000000000002,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 6.051796363636363,
+      "mean_ms": 6.121450909090909,
+      "min_ms": 5.802962727272727,
+      "max_ms": 6.437532727272727,
+      "p95_ms": 6.437532727272727
+    },
+    "output_pixel_hashes": [
+      "20e569cb7b1c8f939789726da235084fef60542117ca420314a4681878fae252"
+    ],
+    "warm_qpc_intervening_gap": {
+      "count": 500,
+      "median_ms": 0.0002,
+      "mean_ms": 0.0002686,
+      "min_ms": 0.0,
+      "max_ms": 0.0113,
+      "p95_ms": 0.0003
+    },
+    "invalid_printed_load_plus_codec_sum": {
+      "count": 500,
+      "median_ms": 4.33,
+      "mean_ms": 4.79002,
+      "min_ms": 3.97,
+      "max_ms": 7.31,
+      "p95_ms": 6.73
+    }
+  },
+  {
+    "case": "hd444-r32",
+    "variant": "baseline",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 3.5004999999999997,
+      "mean_ms": 3.7244156,
+      "min_ms": 3.1702,
+      "max_ms": 11.1419,
+      "p95_ms": 4.7273
+    },
+    "primary_round_medians_ms": [
+      3.34725,
+      3.53575,
+      3.52705,
+      4.12515,
+      3.3597
+    ],
+    "primary_median_round_ms": 3.52705,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 3.5004999999999997,
+      "mean_ms": 3.7244156,
+      "min_ms": 3.1702,
+      "max_ms": 11.1419,
+      "p95_ms": 4.7273
+    },
+    "round_medians_ms": [
+      3.34725,
+      3.53575,
+      3.52705,
+      4.12515,
+      3.3597
+    ],
+    "median_round_ms": 3.52705,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 6.611812727272727,
+      "mean_ms": 6.611638,
+      "min_ms": 6.180467272727273,
+      "max_ms": 7.447902727272727,
+      "p95_ms": 7.447902727272727
+    },
+    "output_pixel_hashes": [
+      "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+    ]
+  },
+  {
+    "case": "hd444-r32",
+    "variant": "staged",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 3.58,
+      "mean_ms": 3.6802608,
+      "min_ms": 3.2932,
+      "max_ms": 5.5537,
+      "p95_ms": 4.2959
+    },
+    "primary_round_medians_ms": [
+      3.5151000000000003,
+      3.5404999999999998,
+      3.66465,
+      3.7855,
+      3.4703
+    ],
+    "primary_median_round_ms": 3.5404999999999998,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 3.58,
+      "mean_ms": 3.6802608,
+      "min_ms": 3.2932,
+      "max_ms": 5.5537,
+      "p95_ms": 4.2959
+    },
+    "round_medians_ms": [
+      3.5151000000000003,
+      3.5404999999999998,
+      3.66465,
+      3.7855,
+      3.4703
+    ],
+    "median_round_ms": 3.5404999999999998,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 6.922529090909091,
+      "mean_ms": 6.8339929090909095,
+      "min_ms": 6.38531,
+      "max_ms": 7.0701563636363645,
+      "p95_ms": 7.0701563636363645
+    },
+    "output_pixel_hashes": [
+      "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+    ]
+  },
+  {
+    "case": "hd444-r32",
+    "variant": "fastvideo",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 3.5726,
+      "mean_ms": 3.6702162,
+      "min_ms": 3.2166,
+      "max_ms": 5.1241,
+      "p95_ms": 4.3511
+    },
+    "primary_round_medians_ms": [
+      3.81955,
+      3.4800500000000003,
+      3.6629,
+      3.51315,
+      3.49755
+    ],
+    "primary_median_round_ms": 3.51315,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 3.4799999999999995,
+      "mean_ms": 3.57646,
+      "min_ms": 3.1500000000000004,
+      "max_ms": 5.029999999999999,
+      "p95_ms": 4.24
+    },
+    "round_medians_ms": [
+      3.705,
+      3.38,
+      3.585,
+      3.41,
+      3.4349999999999996
+    ],
+    "median_round_ms": 3.4349999999999996,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 7.539299090909091,
+      "mean_ms": 7.7296487272727274,
+      "min_ms": 7.335382727272727,
+      "max_ms": 8.361175454545455,
+      "p95_ms": 8.361175454545455
+    },
+    "output_pixel_hashes": [
+      "20e569cb7b1c8f939789726da235084fef60542117ca420314a4681878fae252"
+    ],
+    "warm_qpc_intervening_gap": {
+      "count": 500,
+      "median_ms": 0.0002,
+      "mean_ms": 0.0003142,
+      "min_ms": 0.0,
+      "max_ms": 0.0099,
+      "p95_ms": 0.0005
+    },
+    "invalid_printed_load_plus_codec_sum": {
+      "count": 500,
+      "median_ms": 5.505,
+      "mean_ms": 5.59738,
+      "min_ms": 5.01,
+      "max_ms": 7.109999999999999,
+      "p95_ms": 6.32
+    }
+  },
+  {
+    "case": "hd444-r0",
+    "variant": "baseline",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 19.089,
+      "mean_ms": 20.0394492,
+      "min_ms": 17.811,
+      "max_ms": 47.8636,
+      "p95_ms": 25.0056
+    },
+    "primary_round_medians_ms": [
+      19.146549999999998,
+      18.57465,
+      19.209600000000002,
+      20.5733,
+      19.10275
+    ],
+    "primary_median_round_ms": 19.146549999999998,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 19.089,
+      "mean_ms": 20.0394492,
+      "min_ms": 17.811,
+      "max_ms": 47.8636,
+      "p95_ms": 25.0056
+    },
+    "round_medians_ms": [
+      19.146549999999998,
+      18.57465,
+      19.209600000000002,
+      20.5733,
+      19.10275
+    ],
+    "median_round_ms": 19.146549999999998,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 22.667272727272728,
+      "mean_ms": 23.196780545454544,
+      "min_ms": 21.53606090909091,
+      "max_ms": 26.14664727272727,
+      "p95_ms": 26.14664727272727
+    },
+    "output_pixel_hashes": [
+      "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+    ]
+  },
+  {
+    "case": "hd444-r0",
+    "variant": "staged",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 18.93535,
+      "mean_ms": 19.8527954,
+      "min_ms": 17.9417,
+      "max_ms": 37.0758,
+      "p95_ms": 26.9997
+    },
+    "primary_round_medians_ms": [
+      18.64845,
+      18.58095,
+      19.668300000000002,
+      19.660449999999997,
+      18.590400000000002
+    ],
+    "primary_median_round_ms": 18.64845,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 18.93535,
+      "mean_ms": 19.8527954,
+      "min_ms": 17.9417,
+      "max_ms": 37.0758,
+      "p95_ms": 26.9997
+    },
+    "round_medians_ms": [
+      18.64845,
+      18.58095,
+      19.668300000000002,
+      19.660449999999997,
+      18.590400000000002
+    ],
+    "median_round_ms": 18.64845,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 22.22319636363636,
+      "mean_ms": 22.854409272727274,
+      "min_ms": 21.63802090909091,
+      "max_ms": 24.775873636363638,
+      "p95_ms": 24.775873636363638
+    },
+    "output_pixel_hashes": [
+      "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+    ]
+  },
+  {
+    "case": "hd444-r0",
+    "variant": "fastvideo",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 28.328249999999997,
+      "mean_ms": 30.4427364,
+      "min_ms": 24.9439,
+      "max_ms": 54.5013,
+      "p95_ms": 41.547
+    },
+    "primary_round_medians_ms": [
+      26.9063,
+      26.7334,
+      29.660800000000002,
+      32.8613,
+      29.643099999999997
+    ],
+    "primary_median_round_ms": 29.643099999999997,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 28.205,
+      "mean_ms": 30.31234,
+      "min_ms": 24.84,
+      "max_ms": 54.339999999999996,
+      "p95_ms": 41.42
+    },
+    "round_medians_ms": [
+      26.795,
+      26.604999999999997,
+      29.53,
+      32.71,
+      29.53
+    ],
+    "median_round_ms": 29.53,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 35.25275909090909,
+      "mean_ms": 34.345116545454545,
+      "min_ms": 30.75417090909091,
+      "max_ms": 38.57004909090909,
+      "p95_ms": 38.57004909090909
+    },
+    "output_pixel_hashes": [
+      "20e569cb7b1c8f939789726da235084fef60542117ca420314a4681878fae252"
+    ],
+    "warm_qpc_intervening_gap": {
+      "count": 500,
+      "median_ms": 0.0003,
+      "mean_ms": 0.0004332,
+      "min_ms": 0.0002,
+      "max_ms": 0.0105,
+      "p95_ms": 0.0006
+    },
+    "invalid_printed_load_plus_codec_sum": {
+      "count": 500,
+      "median_ms": 30.515,
+      "mean_ms": 32.67624,
+      "min_ms": 26.970000000000002,
+      "max_ms": 57.87,
+      "p95_ms": 43.85
+    }
+  },
+  {
+    "case": "4k420-r0",
+    "variant": "baseline",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 41.71115,
+      "mean_ms": 43.0973532,
+      "min_ms": 39.8122,
+      "max_ms": 73.3709,
+      "p95_ms": 52.7481
+    },
+    "primary_round_medians_ms": [
+      41.47565,
+      40.974149999999995,
+      43.70725,
+      41.71405,
+      41.35765
+    ],
+    "primary_median_round_ms": 41.47565,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 41.71115,
+      "mean_ms": 43.0973532,
+      "min_ms": 39.8122,
+      "max_ms": 73.3709,
+      "p95_ms": 52.7481
+    },
+    "round_medians_ms": [
+      41.47565,
+      40.974149999999995,
+      43.70725,
+      41.71405,
+      41.35765
+    ],
+    "median_round_ms": 41.47565,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 45.80588272727273,
+      "mean_ms": 46.78521872727273,
+      "min_ms": 44.59854090909091,
+      "max_ms": 51.193152727272725,
+      "p95_ms": 51.193152727272725
+    },
+    "output_pixel_hashes": [
+      "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07"
+    ]
+  },
+  {
+    "case": "4k420-r0",
+    "variant": "staged",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 41.77545,
+      "mean_ms": 43.4104408,
+      "min_ms": 39.8158,
+      "max_ms": 72.2,
+      "p95_ms": 54.7688
+    },
+    "primary_round_medians_ms": [
+      41.51345,
+      41.15905,
+      42.7487,
+      42.5436,
+      41.849050000000005
+    ],
+    "primary_median_round_ms": 41.849050000000005,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 41.77545,
+      "mean_ms": 43.4104408,
+      "min_ms": 39.8158,
+      "max_ms": 72.2,
+      "p95_ms": 54.7688
+    },
+    "round_medians_ms": [
+      41.51345,
+      41.15905,
+      42.7487,
+      42.5436,
+      41.849050000000005
+    ],
+    "median_round_ms": 41.849050000000005,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 46.50185272727273,
+      "mean_ms": 46.700976909090905,
+      "min_ms": 44.77227272727273,
+      "max_ms": 48.564219090909084,
+      "p95_ms": 48.564219090909084
+    },
+    "output_pixel_hashes": [
+      "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07"
+    ]
+  },
+  {
+    "case": "4k420-r0",
+    "variant": "fastvideo",
+    "primary_valid": true,
+    "primary_boundary": "Continuous memory-input header-load START through completed host-pixel download STOP",
+    "warm_primary": {
+      "count": 500,
+      "median_ms": 62.0556,
+      "mean_ms": 64.227826,
+      "min_ms": 51.3482,
+      "max_ms": 114.041,
+      "p95_ms": 82.9515
+    },
+    "primary_round_medians_ms": [
+      62.73545,
+      57.56545,
+      62.964200000000005,
+      66.13425000000001,
+      61.64725
+    ],
+    "primary_median_round_ms": 62.73545,
+    "warm_transfer_inclusive": {
+      "count": 500,
+      "median_ms": 61.81,
+      "mean_ms": 63.95574,
+      "min_ms": 51.11,
+      "max_ms": 113.78999999999999,
+      "p95_ms": 82.61
+    },
+    "round_medians_ms": [
+      62.474999999999994,
+      57.3,
+      62.650000000000006,
+      65.88999999999999,
+      61.364999999999995
+    ],
+    "median_round_ms": 62.474999999999994,
+    "process_wall_per_iteration": {
+      "count": 5,
+      "median_ms": 69.87928818181818,
+      "mean_ms": 68.76903109090908,
+      "min_ms": 63.380619090909086,
+      "max_ms": 71.82314636363635,
+      "p95_ms": 71.82314636363635
+    },
+    "output_pixel_hashes": [
+      "31ccaf22be562a6869be7323da4a345a2eb50c98b65552c99b6e2b82d8228f0c"
+    ],
+    "warm_qpc_intervening_gap": {
+      "count": 500,
+      "median_ms": 0.0003,
+      "mean_ms": 0.0004458,
+      "min_ms": 0.0001,
+      "max_ms": 0.0155,
+      "p95_ms": 0.0006
+    },
+    "invalid_printed_load_plus_codec_sum": {
+      "count": 500,
+      "median_ms": 65.47999999999999,
+      "mean_ms": 67.63484,
+      "min_ms": 54.949999999999996,
+      "max_ms": 117.36999999999999,
+      "p95_ms": 86.39
+    }
+  }
+]

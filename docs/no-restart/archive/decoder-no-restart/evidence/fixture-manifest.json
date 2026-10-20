@@ -1,0 +1,1022 @@
+[
+  {
+    "filename": "4k-gray-q90-gray-interleaved-reference.jpg",
+    "sha256": "f5a4514993225d4d049331f958020f74d8af2b13c22291c3c340438e36ef2eff",
+    "bytes": 1338122,
+    "width": 3840,
+    "height": 2160,
+    "entropy_bytes": 1337751,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "4k-rgb-q90-420-interleaved-reference.jpg",
+    "sha256": "bc6a2477f7ce6844e077f0901417cf6e9ca42f76d9fca6c3b374ec76e4c79cac",
+    "bytes": 1546471,
+    "width": 3840,
+    "height": 2160,
+    "entropy_bytes": 1545805,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "4k-rgb-q90-422-interleaved-reference.jpg",
+    "sha256": "22a83a9f427031f9f576faeaf65c80abdb69f3a5cad97de66848359708513cf4",
+    "bytes": 1715689,
+    "width": 3840,
+    "height": 2160,
+    "entropy_bytes": 1715023,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "4k-rgb-q90-444-interleaved-reference.jpg",
+    "sha256": "c8519b688efec32a694102ff2118935a7fb394c980b3ed35b417ce3fb2489993",
+    "bytes": 2000816,
+    "width": 3840,
+    "height": 2160,
+    "entropy_bytes": 2000150,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-gray-q0-gray-interleaved-reference.jpg",
+    "sha256": "e3971979f98630a1ece685b56894d8c2046c56b420d062ea7990a432412c2480",
+    "bytes": 1224,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 854,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-gray-q1-gray-interleaved-reference.jpg",
+    "sha256": "e3971979f98630a1ece685b56894d8c2046c56b420d062ea7990a432412c2480",
+    "bytes": 1224,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 854,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-gray-q100-gray-interleaved-reference.jpg",
+    "sha256": "0c4c23ec8abe7c65450515006ba32bf1992b8a991f0afe2b0142d646a9fe111b",
+    "bytes": 3092,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 2720,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-gray-q75-gray-interleaved-reference.jpg",
+    "sha256": "f45bf6dee2a2f8990c93f94047139c3a63160061d2b46ee15fdb7320d509fae5",
+    "bytes": 2041,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 1670,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-gray-q90-gray-interleaved-reference.jpg",
+    "sha256": "5bd2d3fcf0edb9edad76f2104a5e58b6452111df77c980e33cd034e51fc2aad2",
+    "bytes": 2283,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 1912,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-rgb-q1-420-interleaved-reference.jpg",
+    "sha256": "69acfc2c7758ab157d0542ed0140d7b19c06aecaf3185c3d9a7f630419a6e9c4",
+    "bytes": 1677,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 1012,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-rgb-q1-444-interleaved-reference.jpg",
+    "sha256": "a6a7c647762110c51e732ba8d51190a693c307cdfb0e534745228857c84ec7ce",
+    "bytes": 2335,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 1670,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-rgb-q100-420-interleaved-reference.jpg",
+    "sha256": "01129fd7507b5cd99074951949402270e9f3a56c68d192228831a26e8716956a",
+    "bytes": 3711,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 3044,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-rgb-q100-420-planar-reference.jpg",
+    "sha256": "be2cda2184ac3483c76fcdbd4dc961fe80eba4c63cf7034057d14d0d2afac712",
+    "bytes": 4695,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 4012,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-rgb-q100-422-interleaved-reference.jpg",
+    "sha256": "7c21077602e02dff5dce6fe2f5f2dafaa93704e7f916836fc6f4da66bf2aeca1",
+    "bytes": 4945,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 4278,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-rgb-q100-422-planar-reference.jpg",
+    "sha256": "502efa78ce2d074e69b7898109d7c6f2a7fcfa719cc990a151c86fbcd66171c8",
+    "bytes": 5207,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 4524,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-rgb-q100-444-interleaved-reference.jpg",
+    "sha256": "0a2a3332b3b93a04083cd921c0fb3f2e83a5e264fb91c7cbb4f594ea98d10907",
+    "bytes": 5687,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 5020,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-rgb-q100-444-planar-reference.jpg",
+    "sha256": "ba113bf16428c47b307d8087312d0203fe87d9f724dfd48c114f56404cd9b5cf",
+    "bytes": 6107,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 5424,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-rgb-q75-420-interleaved-reference.jpg",
+    "sha256": "dec6894782f17ffc25443e34d99ac40afca9574286662ad971a6f4b032add5fa",
+    "bytes": 2670,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 2004,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-rgb-q75-420-planar-reference.jpg",
+    "sha256": "0552ab9de311b968b8b8cff48b7ccf947da5800b761f0c12dbeb1b08c706aa4c",
+    "bytes": 3070,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 2388,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-rgb-q75-422-planar-reference.jpg",
+    "sha256": "7da5867f040b06e2c03e972e97d4e541b45dc4316612cc71b530701532374ef8",
+    "bytes": 3390,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 2708,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-rgb-q75-444-interleaved-reference.jpg",
+    "sha256": "33152a9629ab34a53343848d16469f9727ff2c5fc9d2efcd845232470e184487",
+    "bytes": 4004,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 3338,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-rgb-q75-444-planar-reference.jpg",
+    "sha256": "79f8cf922f3e088570d8d40358e4f95c9576f620b1588110197570482835850f",
+    "bytes": 4030,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 3348,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-rgb-q90-420-interleaved-reference.jpg",
+    "sha256": "00099a72941894c24c727d437edce3857887072929500d230a07a71d163161f4",
+    "bytes": 3026,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 2360,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "checker-rgb-q90-444-interleaved-reference.jpg",
+    "sha256": "2eff06ffee87533d431a0936be7691515fc108564c6fc4d58a6ab2b50550d521",
+    "bytes": 4635,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 3969,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "flat-rgb-q1-420-interleaved-reference.jpg",
+    "sha256": "2812f5d6b7f9d8cd281a34a1fe27dadc815026368b4074c57f3b3fadce2e696c",
+    "bytes": 729,
+    "width": 64,
+    "height": 64,
+    "entropy_bytes": 64,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "flat-rgb-q1-444-interleaved-reference.jpg",
+    "sha256": "cb7f03c5bc25e7cc60ab91f816706990aeec780abf8c31be78efdafba977109f",
+    "bytes": 777,
+    "width": 64,
+    "height": 64,
+    "entropy_bytes": 112,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "flat-rgb-q100-420-interleaved-reference.jpg",
+    "sha256": "52337aaf843d3383ce40f2dfc60b595926e4011d19a2206dc269885426fa6be7",
+    "bytes": 732,
+    "width": 64,
+    "height": 64,
+    "entropy_bytes": 65,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "flat-rgb-q100-444-interleaved-reference.jpg",
+    "sha256": "c70d7722bce792d40a2a9b0f6c0e1f17181335166e1acac1e1682e067eb6508a",
+    "bytes": 780,
+    "width": 64,
+    "height": 64,
+    "entropy_bytes": 113,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "flat-rgb-q75-420-interleaved-reference.jpg",
+    "sha256": "c53e732812b2978e115ff7efcd22d4360d406e92bc474c06e65fc36edf9c2746",
+    "bytes": 731,
+    "width": 64,
+    "height": 64,
+    "entropy_bytes": 65,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "flat-rgb-q75-444-interleaved-reference.jpg",
+    "sha256": "6aa344c411556c46a4efc8210c312e315c7f90611313c6eaa23278d0da6c112d",
+    "bytes": 779,
+    "width": 64,
+    "height": 64,
+    "entropy_bytes": 113,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "flat-rgb-q90-420-interleaved-reference.jpg",
+    "sha256": "31c72b16325d4cfa9d3b642ea7d97d45b3268d38303fd869b88a119afc100d1d",
+    "bytes": 731,
+    "width": 64,
+    "height": 64,
+    "entropy_bytes": 65,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "flat-rgb-q90-444-interleaved-reference.jpg",
+    "sha256": "54f26bc8a4558924b53feb50b03ef7143f6c2c6bfe98b6fbc839b7dd20998d2d",
+    "bytes": 779,
+    "width": 64,
+    "height": 64,
+    "entropy_bytes": 113,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "hd-gray-q90-gray-interleaved-reference.jpg",
+    "sha256": "5c8ecb6902c0ab2ff30c8730b0556545ba0ba027e9cd12e3bf9c1e1f2191cf7f",
+    "bytes": 460526,
+    "width": 1920,
+    "height": 1080,
+    "entropy_bytes": 460155,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "hd-rgb-q90-420-interleaved-reference.jpg",
+    "sha256": "dd282579049253389bf4735ba71a9c4bb50968497e6fa6ac9f88d46f1e006b9d",
+    "bytes": 532477,
+    "width": 1920,
+    "height": 1080,
+    "entropy_bytes": 531811,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "hd-rgb-q90-422-interleaved-reference.jpg",
+    "sha256": "c616ed256f70ba298e9711471f466a30392d5e0cfaf5ce5b7fe3c658ce6cb102",
+    "bytes": 583209,
+    "width": 1920,
+    "height": 1080,
+    "entropy_bytes": 582543,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "hd-rgb-q90-444-interleaved-reference.jpg",
+    "sha256": "c93dc4d7230c3f8646b886a56f5c666fddd60c8a7712d94bfd3b6cbc75ac83e8",
+    "bytes": 686167,
+    "width": 1920,
+    "height": 1080,
+    "entropy_bytes": 685501,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-gray-q0-gray-interleaved-reference.jpg",
+    "sha256": "d601a7f074045145e94b9016de00c1f686b8c2bc8d299d490aa832987fd12188",
+    "bytes": 1495,
+    "width": 129,
+    "height": 65,
+    "entropy_bytes": 1125,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-gray-q1-gray-interleaved-reference.jpg",
+    "sha256": "d601a7f074045145e94b9016de00c1f686b8c2bc8d299d490aa832987fd12188",
+    "bytes": 1495,
+    "width": 129,
+    "height": 65,
+    "entropy_bytes": 1125,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-gray-q100-gray-interleaved-reference.jpg",
+    "sha256": "c22a48fda694c7ecb2dd3fdf980c416cddaaa1e639cb6a354002352dc6514569",
+    "bytes": 15262,
+    "width": 129,
+    "height": 65,
+    "entropy_bytes": 14890,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-gray-q75-gray-interleaved-reference.jpg",
+    "sha256": "493491aa0ef532663126b10890a2caaca340ee64759166516b8c04d78ddb50ad",
+    "bytes": 5558,
+    "width": 129,
+    "height": 65,
+    "entropy_bytes": 5187,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-gray-q90-gray-interleaved-reference.jpg",
+    "sha256": "6bbe94eff1e890c787104ad9050bc91d127fdedfda94ddd3ca46544ab5cb82df",
+    "bytes": 7783,
+    "width": 129,
+    "height": 65,
+    "entropy_bytes": 7412,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-rgb-q0-444-interleaved-reference.jpg",
+    "sha256": "2177aa5e5ccebbd7ee89bb1099d92b72c3a26b2dee331057db8b673e931030db",
+    "bytes": 1616,
+    "width": 127,
+    "height": 65,
+    "entropy_bytes": 951,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-rgb-q1-420-interleaved-reference.jpg",
+    "sha256": "45e773ae4838532f4d48029a4716eb041c6166eb49c3fd191f99157dad72692e",
+    "bytes": 1238,
+    "width": 127,
+    "height": 65,
+    "entropy_bytes": 573,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-rgb-q1-444-interleaved-reference.jpg",
+    "sha256": "2177aa5e5ccebbd7ee89bb1099d92b72c3a26b2dee331057db8b673e931030db",
+    "bytes": 1616,
+    "width": 127,
+    "height": 65,
+    "entropy_bytes": 951,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-rgb-q100-420-interleaved-reference.jpg",
+    "sha256": "3b7e159522847e199bb48ea43466df2388fa5ef98770fc5bca71ab2b76005b5c",
+    "bytes": 19913,
+    "width": 127,
+    "height": 65,
+    "entropy_bytes": 19246,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-rgb-q100-420-planar-reference.jpg",
+    "sha256": "b2ab941a8afdddb15b24809e02847f63801238a9bb68bba63813c882c53c006f",
+    "bytes": 19907,
+    "width": 127,
+    "height": 65,
+    "entropy_bytes": 19224,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-rgb-q100-422-planar-reference.jpg",
+    "sha256": "f1a3f04fdcf7cf486afe9a7d1520aeec4e1d6dd82d73f5d0d10161caa60ae83c",
+    "bytes": 25445,
+    "width": 127,
+    "height": 65,
+    "entropy_bytes": 24762,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-rgb-q100-444-interleaved-reference.jpg",
+    "sha256": "486dfb8a604af93cdf485435b2c18a34e2dfb0ef500c317c8214787dfca132e6",
+    "bytes": 37744,
+    "width": 127,
+    "height": 65,
+    "entropy_bytes": 37077,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-rgb-q100-444-planar-reference.jpg",
+    "sha256": "bb6e88923057ecfa624f7a6e6f318fcf97bbc48bcdaefff9f9d047b1de34bbc1",
+    "bytes": 37769,
+    "width": 127,
+    "height": 65,
+    "entropy_bytes": 37086,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-rgb-q75-420-interleaved-reference.jpg",
+    "sha256": "9b63a118928e24d514b891edb26b8b8e2e8c87aefff0f628d4769c6aaf43fce6",
+    "bytes": 6768,
+    "width": 127,
+    "height": 65,
+    "entropy_bytes": 6102,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-rgb-q75-420-planar-reference.jpg",
+    "sha256": "29effa42df93e9e6196393cc203ac35561901ba555bbb0ec0bd6ae9241870623",
+    "bytes": 6762,
+    "width": 127,
+    "height": 65,
+    "entropy_bytes": 6080,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-rgb-q75-422-planar-reference.jpg",
+    "sha256": "e97a93fcaf34a1f12488acd0faaeda693881c26396c21cbcaa268a608277091a",
+    "bytes": 8374,
+    "width": 127,
+    "height": 65,
+    "entropy_bytes": 7692,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-rgb-q75-444-interleaved-reference.jpg",
+    "sha256": "b6f7ca41f078b33c3adca8204ff088259fb48725bb85c874fdd87478384c84e1",
+    "bytes": 11819,
+    "width": 127,
+    "height": 65,
+    "entropy_bytes": 11153,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-rgb-q75-444-planar-reference.jpg",
+    "sha256": "8f2b92b6868cce6632e30b774de509ddb677dbace0adc114c7547f6b33f99ade",
+    "bytes": 11834,
+    "width": 127,
+    "height": 65,
+    "entropy_bytes": 11152,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-rgb-q90-420-interleaved-reference.jpg",
+    "sha256": "473c0830dbd703cb247768eee26a7702140719c3234af59d9240451e0aa2cdb2",
+    "bytes": 9636,
+    "width": 127,
+    "height": 65,
+    "entropy_bytes": 8970,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "noise-rgb-q90-444-interleaved-reference.jpg",
+    "sha256": "3dfb473491f10e1fb4f9b6fa93de5f757e5025f9cdeb9a6bb028bf8e1cf5a076",
+    "bytes": 17448,
+    "width": 127,
+    "height": 65,
+    "entropy_bytes": 16782,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q1-420-interleaved-reference.jpg",
+    "sha256": "ab719e0856588d6c0100cb34da5e82e105060fc70f65035a91b619ea2c2704e4",
+    "bytes": 710,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 45,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q1-422-interleaved-reference.jpg",
+    "sha256": "a5021b83c6b5263bd5b52a597f1d13cb77d89605f44a22742f71e4a631cecbb8",
+    "bytes": 719,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 54,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q1-444-interleaved-reference.jpg",
+    "sha256": "183b8e30ed6c8040ab3f4a7e3ef9b098d84f122f83e9305ffaf27809d3aed397",
+    "bytes": 732,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 67,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q100-420-interleaved-reference.jpg",
+    "sha256": "0af70e25354dcc25a502196cbea79af797b9524a9cb79a0ebc5ee3fb6292b62f",
+    "bytes": 1978,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 1311,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q100-420-planar-reference.jpg",
+    "sha256": "4d71fbbed0d629af836b019e7794134a7bf7e4e2de8942e254e1ec8661867322",
+    "bytes": 1983,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 1300,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q100-422-interleaved-reference.jpg",
+    "sha256": "f359b87dfcaaab0969648f6ea243db9ccf62a7d243ea429fdfead669ef5fee42",
+    "bytes": 2295,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 1628,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q100-422-planar-reference.jpg",
+    "sha256": "10ebde9edd9e24b7141e60ff07adeed82ab238bd050908c88649f7cc015a496d",
+    "bytes": 2307,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 1624,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q100-444-interleaved-reference.jpg",
+    "sha256": "d42ce6918d271ebf42a1c6b7ea58d68115222a7aa2d71cf0ddf753d269f3d80e",
+    "bytes": 2757,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 2090,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q100-444-planar-reference.jpg",
+    "sha256": "7babf543b2dc115a5bd114d93b655355ccdc8c621fc93c20d1ca6018d08244a2",
+    "bytes": 2774,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 2091,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q75-420-interleaved-reference.jpg",
+    "sha256": "272c3ae6278c2eb62da1d5146cc9b488406fd2956ce506ddb24ef0afb7644ba6",
+    "bytes": 1027,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 361,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q75-420-planar-reference.jpg",
+    "sha256": "82b538869634ba9e0acb267552ddaab6deb94f6cf2f7b4144788993d6c978fde",
+    "bytes": 1037,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 355,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q75-422-interleaved-reference.jpg",
+    "sha256": "ca32bcae4f4d79d6a97cdb558c9d8d06b8bf710b87e055ce6fced874738782de",
+    "bytes": 1099,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 433,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q75-422-planar-reference.jpg",
+    "sha256": "99c998e70cfbbe5d7f50837b45b732129354fae45917f870798c012bc0c8813c",
+    "bytes": 1112,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 430,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q75-444-interleaved-reference.jpg",
+    "sha256": "7b200dbfd2f766dfd458c18c72fa23fd65d3db689efee0d3a36a1183eff95ada",
+    "bytes": 1215,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 549,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q75-444-planar-reference.jpg",
+    "sha256": "955a89a2d8fd70353ed80c5d1ef1689235ebc8c4dc76b9a86c58d338a1dff224",
+    "bytes": 1230,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 548,
+    "scans": 3,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q90-420-interleaved-reference.jpg",
+    "sha256": "d3437c2dfc9096e892263827bfd29d4987613755b482bd25fdcaffffcfd6efbc",
+    "bytes": 1252,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 586,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q90-422-interleaved-reference.jpg",
+    "sha256": "a81c31df565a7b904241f5cf19269355f35d97c8a69ee8fd3b4616fc3c3c5b4c",
+    "bytes": 1376,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 710,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "odd-rgb-q90-444-interleaved-reference.jpg",
+    "sha256": "75f6dce51d68b43d21be988917c3ef3d8de4ce0f093eaa9379a5021bdaa97ada",
+    "bytes": 1564,
+    "width": 17,
+    "height": 19,
+    "entropy_bytes": 898,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "tiny-black-gray-q1-gray-interleaved-reference.jpg",
+    "sha256": "8e935ffe4ef07ac16fcd467b6b533b98014ca739e8975062a693e5a4ba23a8fa",
+    "bytes": 372,
+    "width": 1,
+    "height": 1,
+    "entropy_bytes": 2,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "tiny-black-gray-q100-gray-interleaved-reference.jpg",
+    "sha256": "ff09590dff0405d8307c2574ceaa6bd7c84c7e6a2590faaecaac29283ddb4e95",
+    "bytes": 376,
+    "width": 1,
+    "height": 1,
+    "entropy_bytes": 4,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "tiny-black-gray-q75-gray-interleaved-reference.jpg",
+    "sha256": "e1af8834f5eb3252ce7177bf408f8206506c88801b3f3a7d464cc76b3eacf479",
+    "bytes": 374,
+    "width": 1,
+    "height": 1,
+    "entropy_bytes": 3,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "tiny-black-gray-q90-gray-interleaved-reference.jpg",
+    "sha256": "123fa4db001aa0edc13e460cac14e97ff4cd7c21723b30e1a4afbbe2d5612403",
+    "bytes": 374,
+    "width": 1,
+    "height": 1,
+    "entropy_bytes": 3,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "tiny-white-q1-420-interleaved-reference.jpg",
+    "sha256": "dbee2df03245bbeefd31510592d1ca55d07f1f95fa925324e4ca72b14f7e0fd5",
+    "bytes": 671,
+    "width": 1,
+    "height": 1,
+    "entropy_bytes": 6,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "tiny-white-q1-444-interleaved-reference.jpg",
+    "sha256": "1d572661891d28a5c7166427054751ba630f4e9524f851a581957b68120f9584",
+    "bytes": 669,
+    "width": 1,
+    "height": 1,
+    "entropy_bytes": 4,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "tiny-white-q100-420-interleaved-reference.jpg",
+    "sha256": "b68138b929c6a915d2d54390b7d3b2c794898fc558bc90f6569e9e9f823dc0d3",
+    "bytes": 898,
+    "width": 1,
+    "height": 1,
+    "entropy_bytes": 231,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "tiny-white-q100-444-interleaved-reference.jpg",
+    "sha256": "e6141054af7d7c08a9558d3709815ce55b4fa7acdfcc6612cf5dbb8f38969c2b",
+    "bytes": 896,
+    "width": 1,
+    "height": 1,
+    "entropy_bytes": 229,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "tiny-white-q75-420-interleaved-reference.jpg",
+    "sha256": "301de29c95f26693c79f602df191f2f0ed9839760e5f804bec8fd5632d900317",
+    "bytes": 712,
+    "width": 1,
+    "height": 1,
+    "entropy_bytes": 46,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "tiny-white-q75-444-interleaved-reference.jpg",
+    "sha256": "b51770522bea229cf90c8c58ef1327d6f094190f81f61b9abbe03c44f0529a72",
+    "bytes": 710,
+    "width": 1,
+    "height": 1,
+    "entropy_bytes": 44,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "tiny-white-q90-420-interleaved-reference.jpg",
+    "sha256": "2ef31a6f367f1d035f9e6e0497956c541700770fe52a8058acecb4efe0f5a0f2",
+    "bytes": 758,
+    "width": 1,
+    "height": 1,
+    "entropy_bytes": 92,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "tiny-white-q90-444-interleaved-reference.jpg",
+    "sha256": "6edb48af1c184e967924687dd619434d2fb297363fd652f27a46aba2218cf262",
+    "bytes": 755,
+    "width": 1,
+    "height": 1,
+    "entropy_bytes": 89,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "hd-rgb-optimized-0.jpg",
+    "sha256": "8a1921f8fc7434ef005e22db312d654c86781488f9d9f452e9eedf3cb26e7160",
+    "bytes": 686300,
+    "width": 1920,
+    "height": 1080,
+    "entropy_bytes": 685908,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "hd-rgb-optimized-1.jpg",
+    "sha256": "5e78b62715f053310cb799fc08d324b74a55d039c127322d518c0c922337f4ba",
+    "bytes": 578586,
+    "width": 1920,
+    "height": 1080,
+    "entropy_bytes": 578199,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "hd-rgb-optimized-2.jpg",
+    "sha256": "47d24316e932d0df50c656c67d6bda838243410182c9ec5fdb862396b782d279",
+    "bytes": 523986,
+    "width": 1920,
+    "height": 1080,
+    "entropy_bytes": 523599,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "4k-rgb-optimized-0.jpg",
+    "sha256": "3a257cc018dbb96768a9698af02c7d73cb8b0d25a074b30ab88115e9eea8cefb",
+    "bytes": 2000865,
+    "width": 3840,
+    "height": 2160,
+    "entropy_bytes": 2000472,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "4k-rgb-optimized-1.jpg",
+    "sha256": "88a07e7ed2a6380d13bbc30d5812a55c38302499d530abb5cb593e15cdbe5b57",
+    "bytes": 1714388,
+    "width": 3840,
+    "height": 2160,
+    "entropy_bytes": 1713997,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "4k-rgb-optimized-2.jpg",
+    "sha256": "b8a80bc9f86fe0e4cb8493d2e7f7eea3f8d20935e85bd81e68c627b6d6396205",
+    "bytes": 1545152,
+    "width": 3840,
+    "height": 2160,
+    "entropy_bytes": 1544761,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "hd-gray-optimized-0.jpg",
+    "sha256": "494fb0361e6b6164cc8b1fdc10a4e70df58a012ebe10c25373c9d551f14ba45c",
+    "bytes": 463107,
+    "width": 1920,
+    "height": 1080,
+    "entropy_bytes": 462886,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "flat-1920-0.jpg",
+    "sha256": "cb7440bd3d3f1cac22cdf2755b70a13eb7cd935ed4b467f11b5eb4ef8a916c00",
+    "bytes": 33266,
+    "width": 1920,
+    "height": 1080,
+    "entropy_bytes": 32641,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "flat-1920-1.jpg",
+    "sha256": "5f7dbed13080c38e459dcd8b8fadb1d044f953e9a60c3cb215e5d47054192d6d",
+    "bytes": 12523,
+    "width": 1920,
+    "height": 1080,
+    "entropy_bytes": 12241,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "flat-512-0.jpg",
+    "sha256": "4e2aea7a8b957e7ce3bc83c17f91eb75ab495071bc9ac7ecceb9e4f7ba2e5ebe",
+    "bytes": 4722,
+    "width": 512,
+    "height": 512,
+    "entropy_bytes": 4097,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "flat-512-1.jpg",
+    "sha256": "024a79f2396bee6cd22dcaafea1bf8931b3ef3fd9f3e104974f36e6ab20074f4",
+    "bytes": 1819,
+    "width": 512,
+    "height": 512,
+    "entropy_bytes": 1537,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "flat-colored.jpg",
+    "sha256": "68ca526c5c9a4f5559f34422e99ed1fc9eb875aa0144ecce225e3b5c0ee23231",
+    "bytes": 12528,
+    "width": 1920,
+    "height": 1080,
+    "entropy_bytes": 12244,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "flat-green.jpg",
+    "sha256": "ee9cb7bfcec2a3cd53721d5f95d65e98448fb17addd8d6314e450505d33d92a3",
+    "bytes": 12528,
+    "width": 1920,
+    "height": 1080,
+    "entropy_bytes": 12244,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "flat-gray.jpg",
+    "sha256": "42bee7ddb2856901ed54688cd689e40048e16ff79d88dc5da6857b7982b3eff7",
+    "bytes": 8261,
+    "width": 1920,
+    "height": 1080,
+    "entropy_bytes": 8102,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "known-zero-gray.jpg",
+    "sha256": "c3e5c83d82ee3f6653cbbda4559035e61c76a5e041db40c19bc77627b0a253d7",
+    "bytes": 697,
+    "width": 257,
+    "height": 129,
+    "entropy_bytes": 561,
+    "scans": 1,
+    "true_ri0": true
+  },
+  {
+    "filename": "known-zero-420.jpg",
+    "sha256": "07e8d06d442fc07bfd4452466f06a0724b43ca7238de67afba943b8de594ab5a",
+    "bytes": 3512,
+    "width": 513,
+    "height": 257,
+    "entropy_bytes": 3366,
+    "scans": 1,
+    "true_ri0": true
+  }
+]

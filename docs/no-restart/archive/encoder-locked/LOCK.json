@@ -1,0 +1,23 @@
+{
+  "tag": "encoder-r0-locked-20261020",
+  "commit": "d94ed55e2922332958287a897bdcd83a7205a95e",
+  "development_branch": "decoder-r0-development",
+  "artifacts": [
+    {
+      "path": "outputs\\nvjpeg-no-restart\\GPUJPEG-no-restart-source.zip",
+      "sha256": "899881701071371d1543651b2e1620e3871b7008255dca8e7cf91cb1aeb6f7ea"
+    },
+    {
+      "path": "outputs\\nvjpeg-no-restart\\gpujpegtool.exe",
+      "sha256": "ac3b04c5e967cd783f0d68f1ba03ad44addaf5b3c8f05daa333bdee877ad7ad5"
+    },
+    {
+      "path": "outputs\\nvjpeg-no-restart\\manifest.json",
+      "sha256": "c18086fa7f1b5cbe5c362efb6e4b85f0b5702288a2fd01b75dce6f346af954eb"
+    },
+    {
+      "path": "outputs\\encoder-locked\\encoder-r0-locked.bundle",
+      "sha256": "8811abe050dcc6c378acf274838d4d99f22603ddd7838d41c88bd8d1ac6195a7"
+    }
+  ]
+}

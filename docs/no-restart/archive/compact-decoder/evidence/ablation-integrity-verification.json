@@ -1,0 +1,87 @@
+{
+  "all_match": true,
+  "entries": [
+    {
+      "role": "binary",
+      "name": "baseline",
+      "path": "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+      "before_sha256": "ebdf2a9a82fc00749d1a8d4b608d72db2d652c4197806b2a5459a811745caacf",
+      "after_sha256": "ebdf2a9a82fc00749d1a8d4b608d72db2d652c4197806b2a5459a811745caacf",
+      "bytes": 10831360,
+      "match": true
+    },
+    {
+      "role": "binary",
+      "name": "staged_off",
+      "path": "<WORKSPACE>\\work\\build-compact-control\\gpujpegtool.exe",
+      "before_sha256": "970ebfd82ad167658bac3575dddb72886bcba7201e3187d9cb060d4499eee11d",
+      "after_sha256": "970ebfd82ad167658bac3575dddb72886bcba7201e3187d9cb060d4499eee11d",
+      "bytes": 10880512,
+      "match": true
+    },
+    {
+      "role": "binary",
+      "name": "compact_only",
+      "path": "<WORKSPACE>\\work\\build-compact-only\\gpujpegtool.exe",
+      "before_sha256": "c90455a33d6183143a0161d6d83d62933f6cc7e707b30da081dd02f65bbe78fd",
+      "after_sha256": "c90455a33d6183143a0161d6d83d62933f6cc7e707b30da081dd02f65bbe78fd",
+      "bytes": 10886144,
+      "match": true
+    },
+    {
+      "role": "binary",
+      "name": "unstuff_only",
+      "path": "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+      "before_sha256": "0f5763e14c3c400c651700191ae8e428ad094e70a2d1ffe9f5feebee4bdc7c5e",
+      "after_sha256": "0f5763e14c3c400c651700191ae8e428ad094e70a2d1ffe9f5feebee4bdc7c5e",
+      "bytes": 10874368,
+      "match": true
+    },
+    {
+      "role": "binary",
+      "name": "combined",
+      "path": "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+      "before_sha256": "03c40f0d6cc869aafc1ddfb436290ac4b21d9b9dfd8ec9ac677cc2025dc1c40c",
+      "after_sha256": "03c40f0d6cc869aafc1ddfb436290ac4b21d9b9dfd8ec9ac677cc2025dc1c40c",
+      "bytes": 10876416,
+      "match": true
+    },
+    {
+      "role": "input",
+      "name": "hd444-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+      "before_sha256": "c513302440d505f846808347ea15a8629a0b5727226cbee834bbe945f9c77c70",
+      "after_sha256": "c513302440d505f846808347ea15a8629a0b5727226cbee834bbe945f9c77c70",
+      "bytes": 700601,
+      "match": true
+    },
+    {
+      "role": "input",
+      "name": "hd420-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+      "before_sha256": "9ac03460b511df96cbfea22dec890600c07830e5a4e7b94cebb721b8b28451de",
+      "after_sha256": "9ac03460b511df96cbfea22dec890600c07830e5a4e7b94cebb721b8b28451de",
+      "bytes": 536049,
+      "match": true
+    },
+    {
+      "role": "input",
+      "name": "4k444-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+      "before_sha256": "f1bca76162bfec4bda4996e7684298446a3ec867494bdc4bc02ea6612d9e55dd",
+      "after_sha256": "f1bca76162bfec4bda4996e7684298446a3ec867494bdc4bc02ea6612d9e55dd",
+      "bytes": 2058919,
+      "match": true
+    },
+    {
+      "role": "input",
+      "name": "4k420-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+      "before_sha256": "7ea93a4fd14aaf1fff4d520520f9859daf379b84a75d3302a27e2e47992fb1bd",
+      "after_sha256": "7ea93a4fd14aaf1fff4d520520f9859daf379b84a75d3302a27e2e47992fb1bd",
+      "bytes": 1560635,
+      "match": true
+    }
+  ],
+  "verified_utc": "2026-10-20T16:58:31.424591+00:00"
+}

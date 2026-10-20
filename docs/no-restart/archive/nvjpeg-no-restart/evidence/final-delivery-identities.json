@@ -1,0 +1,38 @@
+[
+  {
+    "path": "<WORKSPACE>\\work\\GPUJPEG\\CMakeLists.txt",
+    "sha256": "2b7e3ff7ba04dedbd386a24dfeb4a693755b7bb1f205da44c7688eed011861b4"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_encoder.c",
+    "sha256": "03c097c9f8f607f44c8808b1aa359d2bcce373ad6e970fbb2efbf1c47c0780c0"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_huffman_gpu_encoder.cu",
+    "sha256": "95311447e81eb6d672d82da9c4891717453c49a3837383b3b6d4fcf5bebe271d"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_huffman_gpu_encoder.h",
+    "sha256": "81ee4273b8ee69001e7b8c797938e2c6d0f8874918b5c7b8401969d2deece6aa"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\GPUJPEG\\src\\gpujpeg_huffman_no_restart.cuh",
+    "sha256": "eb432d305a363c66ee592d24e2de167df0278d4d1cc08ccef66620381c556ddb"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\GPUJPEG\\HUFFMAN_NO_RESTART.md",
+    "sha256": "889a4622ef1ca932a067891c729c37c5f4c8ae9289f7bb673999d18b85c2a27a"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\build-encode-r0\\gpujpeg.lib",
+    "sha256": "26ce0dda2939362b1bf97e4f7c5430a57e505b55604465ee80557bb9129a7252"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\build-encode-r0\\gpujpegtool.exe",
+    "sha256": "ac3b04c5e967cd783f0d68f1ba03ad44addaf5b3c8f05daa333bdee877ad7ad5"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\encode-r0-validation\\gpujpeg-candidate.exe",
+    "sha256": "c903d77a2eaffb3f74f19370b871764d600a2109010faa1af843732ea3e5db8f"
+  }
+]

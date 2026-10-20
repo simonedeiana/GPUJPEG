@@ -1,0 +1,15 @@
+========= COMPUTE-SANITIZER
+CUDA driver version:   13.4
+CUDA runtime version:  13.4
+Using Device #0:       NVIDIA GeForce RTX 3050 (c.c. 8.6)
+Encode Image GPU:      163.8369 ms (only in-GPU processing)
+Encode Image Bare:     186.2599 ms (without copy to/from GPU memory)
+Encode Image:          186.6143 ms
+Compressed Size:         38,116 bytes 127x65 YCbCr BT.601 256 Levels (YCbCr JPEG) 4:4:4 interleaved
+GPUJPEG rev 78e5eee built Oct 20 2026 17:42:16 
+
+Encoding Image [work/port-validation/noise.pnm]: 127x65 444-u8-p012 RGB
+Load Image:                1.00 ms
+Save Image:              0.7894 ms
+Image Name:          work/port-memcheck.jpg
+========= ERROR SUMMARY: 0 errors

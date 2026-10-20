@@ -1,0 +1,3 @@
+========= COMPUTE-SANITIZER
+{"width":1920,"height":1080,"output_bytes":6220800,"input_bytes":12528,"iterations":3,"warmup":1,"median_ms":18.669650000,"samples_ms":[81.017000000,18.676100000,18.663200000]}
+========= ERROR SUMMARY: 0 errors

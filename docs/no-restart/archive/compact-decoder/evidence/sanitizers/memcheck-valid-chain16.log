@@ -1,0 +1,216 @@
+========= COMPUTE-SANITIZER
+CUDA driver version:   13.4
+CUDA runtime version:  13.4
+Using Device #0:       NVIDIA GeForce RTX 3050 (c.c. 8.6)
+========= Launch #1
+=========   Kernel: _Z39gpujpeg_huffman_parallel_unstuff_kernelPK15gpujpeg_segmentiPKhPhPj
+=========   Grid:   (6, 1, 1)
+=========   Block:  (256, 1, 1)
+=========   Stream: 0x0
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x7fff8d22c048] in nvcuda64.dll
+=========         Host Frame:  [0xdc5e] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0b258eb] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0ae8261] in nvcudart_hybrid64.dll
+=========         Host Frame:  [0x10c0fa] in gpujpegtool.exe
+=========         Host Frame:  [0x96293] in gpujpegtool.exe
+=========         Host Frame:  [0x96c3d] in gpujpegtool.exe
+=========         Host Frame:  [0xbf2e] in gpujpegtool.exe
+=========         Host Frame:  [0x370b] in gpujpegtool.exe
+=========         Host Frame:  [0x10d81f] in gpujpegtool.exe
+=========         Host Frame: BaseThreadInitThunk [0x7ff805597124] in KERNEL32.DLL
+=========         Host Frame: RtlUserThreadStart [0x7ff8056dcc91] in ntdll.dll
+========= 
+========= Launch #2
+=========   Kernel: _Z36gpujpeg_huffman_staged_tokens_kernelILi128ELb1ELb1EEv27gpujpeg_huffman_gpu_decoderPK17gpujpeg_componentPK15gpujpeg_segmentiPKhPKyy
+=========   Grid:   (1, 1, 1)
+=========   Block:  (128, 1, 1)
+=========   Stream: 0x0
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x7fff8d22c048] in nvcuda64.dll
+=========         Host Frame:  [0xdc5e] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0b258eb] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0ae8261] in nvcudart_hybrid64.dll
+=========         Host Frame:  [0x10c0fa] in gpujpegtool.exe
+=========         Host Frame:  [0x95f6e] in gpujpegtool.exe
+=========         Host Frame:  [0x96d4e] in gpujpegtool.exe
+=========         Host Frame:  [0xbf2e] in gpujpegtool.exe
+=========         Host Frame:  [0x370b] in gpujpegtool.exe
+=========         Host Frame:  [0x10d81f] in gpujpegtool.exe
+=========         Host Frame: BaseThreadInitThunk [0x7ff805597124] in KERNEL32.DLL
+=========         Host Frame: RtlUserThreadStart [0x7ff8056dcc91] in ntdll.dll
+========= 
+========= Launch #3
+=========   Kernel: _Z33gpujpeg_huffman_staged_rle_kernel27gpujpeg_huffman_gpu_decoderPKyyPs
+=========   Grid:   (86, 1, 1)
+=========   Block:  (256, 1, 1)
+=========   Stream: 0x0
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x7fff8d22c048] in nvcuda64.dll
+=========         Host Frame:  [0xdc5e] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0b258eb] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0ae8261] in nvcudart_hybrid64.dll
+=========         Host Frame:  [0x10c0fa] in gpujpegtool.exe
+=========         Host Frame:  [0x9640c] in gpujpegtool.exe
+=========         Host Frame:  [0x96e27] in gpujpegtool.exe
+=========         Host Frame:  [0xbf2e] in gpujpegtool.exe
+=========         Host Frame:  [0x370b] in gpujpegtool.exe
+=========         Host Frame:  [0x10d81f] in gpujpegtool.exe
+=========         Host Frame: BaseThreadInitThunk [0x7ff805597124] in KERNEL32.DLL
+=========         Host Frame: RtlUserThreadStart [0x7ff8056dcc91] in ntdll.dll
+========= 
+========= Launch #4
+=========   Kernel: _Z32gpujpeg_huffman_staged_dc_kernelILb1EEvPKjPKyPK15gpujpeg_segmentiiPs
+=========   Grid:   (6, 1, 1)
+=========   Block:  (256, 1, 1)
+=========   Stream: 0x0
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x7fff8d22c048] in nvcuda64.dll
+=========         Host Frame:  [0xdc5e] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0b258eb] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0ae8261] in nvcudart_hybrid64.dll
+=========         Host Frame:  [0x10c0fa] in gpujpegtool.exe
+=========         Host Frame:  [0x95c22] in gpujpegtool.exe
+=========         Host Frame:  [0x96eed] in gpujpegtool.exe
+=========         Host Frame:  [0xbf2e] in gpujpegtool.exe
+=========         Host Frame:  [0x370b] in gpujpegtool.exe
+=========         Host Frame:  [0x10d81f] in gpujpegtool.exe
+=========         Host Frame: BaseThreadInitThunk [0x7ff805597124] in KERNEL32.DLL
+=========         Host Frame: RtlUserThreadStart [0x7ff8056dcc91] in ntdll.dll
+========= 
+========= Launch #5 (filtered: not in include list)
+=========   Kernel: _Z23gpujpeg_idct_gpu_kernelPsPhiPt
+=========   Grid:   (43, 1, 1)
+=========   Block:  (8, 8, 2)
+=========   Stream: 0x0
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x7fff8d22c048] in nvcuda64.dll
+=========         Host Frame:  [0xdc5e] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0b258eb] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0ae8261] in nvcudart_hybrid64.dll
+=========         Host Frame:  [0x10c0fa] in gpujpegtool.exe
+=========         Host Frame:  [0x917c4] in gpujpegtool.exe
+=========         Host Frame:  [0x91b49] in gpujpegtool.exe
+=========         Host Frame:  [0xbfb9] in gpujpegtool.exe
+=========         Host Frame:  [0x370b] in gpujpegtool.exe
+=========         Host Frame:  [0x10d81f] in gpujpegtool.exe
+=========         Host Frame: BaseThreadInitThunk [0x7ff805597124] in KERNEL32.DLL
+=========         Host Frame: RtlUserThreadStart [0x7ff8056dcc91] in ntdll.dll
+========= 
+Decode Image GPU:       31.9517 ms (only in-GPU processing)
+Decode Image Bare:      35.4429 ms (without copy to/from GPU memory)
+Decode Image:           36.3608 ms
+Decompressed Size:       43,584 bytes 8x5448 u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+========= Launch #6
+=========   Kernel: _Z39gpujpeg_huffman_parallel_unstuff_kernelPK15gpujpeg_segmentiPKhPhPj
+=========   Grid:   (6, 1, 1)
+=========   Block:  (256, 1, 1)
+=========   Stream: 0x0
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x7fff8d22c048] in nvcuda64.dll
+=========         Host Frame:  [0xdc5e] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0b258eb] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0ae8261] in nvcudart_hybrid64.dll
+=========         Host Frame:  [0x10c0fa] in gpujpegtool.exe
+=========         Host Frame:  [0x96293] in gpujpegtool.exe
+=========         Host Frame:  [0x96c3d] in gpujpegtool.exe
+=========         Host Frame:  [0xbf2e] in gpujpegtool.exe
+=========         Host Frame:  [0x370b] in gpujpegtool.exe
+=========         Host Frame:  [0x10d81f] in gpujpegtool.exe
+=========         Host Frame: BaseThreadInitThunk [0x7ff805597124] in KERNEL32.DLL
+=========         Host Frame: RtlUserThreadStart [0x7ff8056dcc91] in ntdll.dll
+========= 
+========= Launch #7
+=========   Kernel: _Z36gpujpeg_huffman_staged_tokens_kernelILi128ELb1ELb1EEv27gpujpeg_huffman_gpu_decoderPK17gpujpeg_componentPK15gpujpeg_segmentiPKhPKyy
+=========   Grid:   (1, 1, 1)
+=========   Block:  (128, 1, 1)
+=========   Stream: 0x0
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x7fff8d22c048] in nvcuda64.dll
+=========         Host Frame:  [0xdc5e] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0b258eb] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0ae8261] in nvcudart_hybrid64.dll
+=========         Host Frame:  [0x10c0fa] in gpujpegtool.exe
+=========         Host Frame:  [0x95f6e] in gpujpegtool.exe
+=========         Host Frame:  [0x96d4e] in gpujpegtool.exe
+=========         Host Frame:  [0xbf2e] in gpujpegtool.exe
+=========         Host Frame:  [0x370b] in gpujpegtool.exe
+=========         Host Frame:  [0x10d81f] in gpujpegtool.exe
+=========         Host Frame: BaseThreadInitThunk [0x7ff805597124] in KERNEL32.DLL
+=========         Host Frame: RtlUserThreadStart [0x7ff8056dcc91] in ntdll.dll
+========= 
+========= Launch #8
+=========   Kernel: _Z33gpujpeg_huffman_staged_rle_kernel27gpujpeg_huffman_gpu_decoderPKyyPs
+=========   Grid:   (86, 1, 1)
+=========   Block:  (256, 1, 1)
+=========   Stream: 0x0
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x7fff8d22c048] in nvcuda64.dll
+=========         Host Frame:  [0xdc5e] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0b258eb] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0ae8261] in nvcudart_hybrid64.dll
+=========         Host Frame:  [0x10c0fa] in gpujpegtool.exe
+=========         Host Frame:  [0x9640c] in gpujpegtool.exe
+=========         Host Frame:  [0x96e27] in gpujpegtool.exe
+=========         Host Frame:  [0xbf2e] in gpujpegtool.exe
+=========         Host Frame:  [0x370b] in gpujpegtool.exe
+=========         Host Frame:  [0x10d81f] in gpujpegtool.exe
+=========         Host Frame: BaseThreadInitThunk [0x7ff805597124] in KERNEL32.DLL
+=========         Host Frame: RtlUserThreadStart [0x7ff8056dcc91] in ntdll.dll
+========= 
+========= Launch #9
+=========   Kernel: _Z32gpujpeg_huffman_staged_dc_kernelILb1EEvPKjPKyPK15gpujpeg_segmentiiPs
+=========   Grid:   (6, 1, 1)
+=========   Block:  (256, 1, 1)
+=========   Stream: 0x0
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x7fff8d22c048] in nvcuda64.dll
+=========         Host Frame:  [0xdc5e] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0b258eb] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0ae8261] in nvcudart_hybrid64.dll
+=========         Host Frame:  [0x10c0fa] in gpujpegtool.exe
+=========         Host Frame:  [0x95c22] in gpujpegtool.exe
+=========         Host Frame:  [0x96eed] in gpujpegtool.exe
+=========         Host Frame:  [0xbf2e] in gpujpegtool.exe
+=========         Host Frame:  [0x370b] in gpujpegtool.exe
+=========         Host Frame:  [0x10d81f] in gpujpegtool.exe
+=========         Host Frame: BaseThreadInitThunk [0x7ff805597124] in KERNEL32.DLL
+=========         Host Frame: RtlUserThreadStart [0x7ff8056dcc91] in ntdll.dll
+========= 
+========= Launch #10 (filtered: not in include list)
+=========   Kernel: _Z23gpujpeg_idct_gpu_kernelPsPhiPt
+=========   Grid:   (43, 1, 1)
+=========   Block:  (8, 8, 2)
+=========   Stream: 0x0
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x7fff8d22c048] in nvcuda64.dll
+=========         Host Frame:  [0xdc5e] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0b258eb] in nvcudart_hybrid64.dll
+=========         Host Frame: _cudaGetProcAddress [0x7fffd0ae8261] in nvcudart_hybrid64.dll
+=========         Host Frame:  [0x10c0fa] in gpujpegtool.exe
+=========         Host Frame:  [0x917c4] in gpujpegtool.exe
+=========         Host Frame:  [0x91b49] in gpujpegtool.exe
+=========         Host Frame:  [0xbfb9] in gpujpegtool.exe
+=========         Host Frame:  [0x370b] in gpujpegtool.exe
+=========         Host Frame:  [0x10d81f] in gpujpegtool.exe
+=========         Host Frame: BaseThreadInitThunk [0x7ff805597124] in KERNEL32.DLL
+=========         Host Frame: RtlUserThreadStart [0x7ff8056dcc91] in ntdll.dll
+========= 
+Decode Image GPU:       10.9460 ms (only in-GPU processing)
+Decode Image Bare:      11.6298 ms (without copy to/from GPU memory)
+Decode Image:           12.7935 ms
+Decompressed Size:       43,584 bytes 8x5448 u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+
+Avg Decode Duration:    24.5772 ms
+
+GPUJPEG rev 78e5eee built Oct 20 2026 18:49:40 
+
+Decoding Image [work/compact-decode/correctness/stress/chain16-r17.jpg] to u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+Load Image:                1.44 ms
+
+Iteration #1:
+
+Iteration #2:
+Save Image:                0.77 ms
+Image Name:          work/compact-decode/correctness/sanitizers/memcheck-valid-chain16.pgm
+========= ERROR SUMMARY: 10 errors

@@ -1,0 +1,101 @@
+fresh hd444-r10 PASS segments 3240
+fresh hd420-r10 PASS segments 816
+fresh hd422-r10 PASS segments 1620
+fresh 4k444-r10 PASS segments 12960
+fresh 4k420-r10 PASS segments 3240
+fresh hdgray-r10 PASS segments 3240
+fresh hd444-r1 PASS segments 32400
+fresh hd444-r32 PASS segments 1013
+fresh hd444-r0 PASS segments 1
+fresh 4k420-r0 PASS segments 1
+fresh odd-444-opt0 PASS segments 695
+fresh odd-444-opt1 PASS segments 695
+fresh odd-422-opt0 PASS segments 352
+fresh odd-422-opt1 PASS segments 352
+fresh odd-420-opt0 PASS segments 176
+fresh odd-420-opt1 PASS segments 176
+fresh threshold-gray-31 PASS segments 31
+fresh threshold-gray-32 PASS segments 32
+fresh threshold-gray-33 PASS segments 33
+fresh dc-tile-carry-420 PASS segments 38
+fresh dc-tile-carry-444 PASS segments 148
+fresh dense64tokens PASS segments 1024
+fresh dense-opt-custom-dht PASS segments 342
+fresh sparse-eob PASS segments 1620
+fresh no-restart-optimized PASS segments 1
+fresh planar-444 PASS segments 4860
+fresh planar-422 PASS segments 3260
+fresh planar-420 PASS segments 2440
+single 0 hd444-r10 PASS segments 3240
+single 0 hd420-r10 PASS segments 816
+single 0 hd422-r10 PASS segments 1620
+single 0 4k444-r10 PASS segments 12960
+single 0 4k420-r10 PASS segments 3240
+single 0 hdgray-r10 PASS segments 3240
+single 0 hd444-r1 PASS segments 32400
+single 0 hd444-r32 PASS segments 1013
+single 0 odd-444-opt0 PASS segments 695
+single 0 odd-444-opt1 PASS segments 695
+single 0 odd-422-opt0 PASS segments 352
+single 0 odd-422-opt1 PASS segments 352
+single 0 odd-420-opt0 PASS segments 176
+single 0 odd-420-opt1 PASS segments 176
+single 0 threshold-gray-32 PASS segments 32
+single 0 threshold-gray-33 PASS segments 33
+single 0 dc-tile-carry-420 PASS segments 38
+single 0 dc-tile-carry-444 PASS segments 148
+single 0 dense64tokens PASS segments 1024
+single 0 dense-opt-custom-dht PASS segments 342
+single 0 sparse-eob PASS segments 1620
+single 0 planar-444 PASS segments 4860
+single 0 planar-422 PASS segments 3260
+single 0 planar-420 PASS segments 2440
+dual 0 hd444-r10 PASS segments 3240
+dual 0 hd420-r10 PASS segments 816
+dual 0 hd422-r10 PASS segments 1620
+dual 0 4k444-r10 PASS segments 12960
+dual 0 4k420-r10 PASS segments 3240
+dual 0 hdgray-r10 PASS segments 3240
+dual 0 hd444-r1 PASS segments 32400
+dual 0 hd444-r32 PASS segments 1013
+dual 0 odd-444-opt0 PASS segments 695
+dual 0 odd-444-opt1 PASS segments 695
+dual 0 odd-422-opt0 PASS segments 352
+dual 0 odd-422-opt1 PASS segments 352
+dual 0 odd-420-opt0 PASS segments 176
+dual 0 odd-420-opt1 PASS segments 176
+dual 0 threshold-gray-32 PASS segments 32
+dual 0 threshold-gray-33 PASS segments 33
+dual 0 dc-tile-carry-420 PASS segments 38
+dual 0 dc-tile-carry-444 PASS segments 148
+dual 0 dense64tokens PASS segments 1024
+dual 0 dense-opt-custom-dht PASS segments 342
+dual 0 sparse-eob PASS segments 1620
+dual 0 planar-444 PASS segments 4860
+dual 0 planar-422 PASS segments 3260
+dual 0 planar-420 PASS segments 2440
+dual 1 hd444-r10 PASS segments 3240
+dual 1 hd420-r10 PASS segments 816
+dual 1 hd422-r10 PASS segments 1620
+dual 1 4k444-r10 PASS segments 12960
+dual 1 4k420-r10 PASS segments 3240
+dual 1 hdgray-r10 PASS segments 3240
+dual 1 hd444-r1 PASS segments 32400
+dual 1 hd444-r32 PASS segments 1013
+dual 1 odd-444-opt0 PASS segments 695
+dual 1 odd-444-opt1 PASS segments 695
+dual 1 odd-422-opt0 PASS segments 352
+dual 1 odd-422-opt1 PASS segments 352
+dual 1 odd-420-opt0 PASS segments 176
+dual 1 odd-420-opt1 PASS segments 176
+dual 1 threshold-gray-32 PASS segments 32
+dual 1 threshold-gray-33 PASS segments 33
+dual 1 dc-tile-carry-420 PASS segments 38
+dual 1 dc-tile-carry-444 PASS segments 148
+dual 1 dense64tokens PASS segments 1024
+dual 1 dense-opt-custom-dht PASS segments 342
+dual 1 sparse-eob PASS segments 1620
+dual 1 planar-444 PASS segments 4860
+dual 1 planar-422 PASS segments 3260
+dual 1 planar-420 PASS segments 2440
+100 coefficient and public pixel comparisons passed across 28 inputs.

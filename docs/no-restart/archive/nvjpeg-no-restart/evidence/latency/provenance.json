@@ -1,0 +1,10 @@
+{
+  "before": {
+    "baseline": "2e5e0373deee179fd8edc2f3c276a4483ef4524aaf50a790ea0535d09545d5f1",
+    "candidate": "f11692097089eaba117fb7ee531eea5c954418461bc4233c746b71e3f7149692"
+  },
+  "after": {
+    "baseline": "2e5e0373deee179fd8edc2f3c276a4483ef4524aaf50a790ea0535d09545d5f1",
+    "candidate": "f11692097089eaba117fb7ee531eea5c954418461bc4233c746b71e3f7149692"
+  }
+}

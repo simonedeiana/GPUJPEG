@@ -1,0 +1,16 @@
+{
+  "zip_sha256": "85fca1592b6cfff2b0919c9db3c08cb239ccf1674ee08f15d00559bc1a00c94f",
+  "executable_sha256": "01735bf880587184119d70d56bda433ef01516e8d1139d880c765afca34dbac3",
+  "cpu_decoder_sha256": "bb4e83b23511c5bebfe81ce6c08214cfea2e1d5dd16533d722c96fce0c8e43ae",
+  "gpu": "NVIDIA GeForce RTX 3050, 8 GiB, SM86, WDDM",
+  "driver": "617.42",
+  "cuda": "13.4",
+  "rea_package": "6.7.0",
+  "rea_source_commit": "0ba4d6f43ad610dacc861a1548be1a5c4712cd61",
+  "gpujpeg_base_commit": "78e5eee3f75e0a2a2e6c1409000ac05d679b4af8",
+  "date": "2026-10-20",
+  "notes": [
+    "Raw PTX, SASS, binaries and captured proprietary entropy payload remain in work/, not in this deliverable.",
+    "Timing records are profiler observations, not independent REA Evidence. REA Evidence identifiers apply only to indexed REA operations."
+  ]
+}

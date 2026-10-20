@@ -1,0 +1,457 @@
+{
+  "rea": [
+    {
+      "path": "rea-encode-api.json",
+      "evidence_id": "ev_9d6bfd3ba7923d74877445009fa7b2216f0a00f7fa72d77c8ab20be69bc7910a",
+      "sha256": "568b7d3868621a8efc163fc452b807bc63edfa9c51cc5d7a763cff2fdfa3f619",
+      "subject": {
+        "name": "nvjpeg64_13.dll",
+        "digest": {
+          "sha256": "957bb73818e62883ac4bfc0aa15204bba5e341a8f7964a11b0289742df4e0da2"
+        },
+        "local_path": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4\\bin\\x64\\nvjpeg64_13.dll",
+        "format": "unknown",
+        "architecture": null
+      },
+      "parameters": {
+        "path": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.4/bin/x64/nvjpeg64_13.dll",
+        "command": "pdj 80 @ 0x18001eb60;pdj 60 @ 0x180020370;pdj 50 @ 0x180020a20",
+        "provider_executable": "<WORKSPACE>\\work\\rizin\\rizin-win-installer-vs2019_static-64\\bin\\rizin.exe",
+        "command_arguments": [
+          "-N",
+          "-q",
+          "-c",
+          "pdj 80 @ 0x18001eb60;pdj 60 @ 0x180020370;pdj 50 @ 0x180020a20",
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4\\bin\\x64\\nvjpeg64_13.dll"
+        ]
+      },
+      "artifact_changed": false
+    },
+    {
+      "path": "rea-exports.json",
+      "evidence_id": "ev_eeb83d403c536eab54e949a18452cf4650fbb249648c97b1391865958ab1f9b9",
+      "sha256": "cf7115af0f721a9dbe574c282946d6ac444108c1fd8c0accab5bc66ba2586301",
+      "subject": {
+        "name": "nvjpeg64_13.dll",
+        "digest": {
+          "sha256": "957bb73818e62883ac4bfc0aa15204bba5e341a8f7964a11b0289742df4e0da2"
+        },
+        "local_path": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4\\bin\\x64\\nvjpeg64_13.dll",
+        "format": "unknown",
+        "architecture": null
+      },
+      "parameters": {
+        "path": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.4/bin/x64/nvjpeg64_13.dll",
+        "command": "iEj",
+        "provider_executable": "<WORKSPACE>\\work\\rizin\\rizin-win-installer-vs2019_static-64\\bin\\rizin.exe",
+        "command_arguments": [
+          "-N",
+          "-q",
+          "-c",
+          "iEj",
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4\\bin\\x64\\nvjpeg64_13.dll"
+        ]
+      },
+      "artifact_changed": false
+    },
+    {
+      "path": "rea-info-strings.json",
+      "evidence_id": "ev_726a024647055bfcf4d42f30087e9493bd92ed53e406080253a7aedddc950d87",
+      "sha256": "7f67eb426143597a936235dd4ce4547ada7fc5c0e5d6832768bf87971b8a50da",
+      "subject": {
+        "name": "nvjpeg64_13.dll",
+        "digest": {
+          "sha256": "957bb73818e62883ac4bfc0aa15204bba5e341a8f7964a11b0289742df4e0da2"
+        },
+        "local_path": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4\\bin\\x64\\nvjpeg64_13.dll",
+        "format": "unknown",
+        "architecture": null
+      },
+      "parameters": {
+        "path": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.4/bin/x64/nvjpeg64_13.dll",
+        "command": "iIj;izj",
+        "provider_executable": "<WORKSPACE>\\work\\rizin\\rizin-win-installer-vs2019_static-64\\bin\\rizin.exe",
+        "command_arguments": [
+          "-N",
+          "-q",
+          "-c",
+          "iIj;izj",
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4\\bin\\x64\\nvjpeg64_13.dll"
+        ]
+      },
+      "artifact_changed": false
+    }
+  ],
+  "files": [
+    {
+      "path": "build.cmd",
+      "bytes": 474,
+      "sha256": "3d403dd10612bf0e4e77cd0f45296ec189add475796dc96da85d5b737c23a39a",
+      "redistribute": true
+    },
+    {
+      "path": "elf-list.txt",
+      "bytes": 4831,
+      "sha256": "952b6309feff69e5bcf84f77350efdbf3c6a2fe570de8dfc4059b8fcd47ebff7",
+      "redistribute": true
+    },
+    {
+      "path": "encoding-sm86.sass",
+      "bytes": 210361,
+      "sha256": "c6db493d91d9f49458b45943738330b31fff12a9ce096ecdcad8ba7b6145317f",
+      "redistribute": false
+    },
+    {
+      "path": "nvjpeg.ptx",
+      "bytes": 2611927,
+      "sha256": "a1b9405cc267a1535b1c723b2c4cb8132fd9559355fa382eabd58b1430bf258b",
+      "redistribute": false
+    },
+    {
+      "path": "nvjpeg_encode.cpp",
+      "bytes": 7528,
+      "sha256": "dea60ae888637ed180cbec20b4de9cbe1d60fe0ec322b5c2593f0f8397b5037a",
+      "redistribute": true
+    },
+    {
+      "path": "nvjpeg_encode.exe",
+      "bytes": 291328,
+      "sha256": "f53e206472a649573739729a544bb2a01e863769542d42a1eef8b0107d5d3d49",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\4k420-unprofiled.jpg",
+      "bytes": 1539208,
+      "sha256": "1d2c0832a7f84389014bbee6718a12143b98e9bd384d9c53fac89e7f3dcf6ad1",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\4k420-unprofiled.json",
+      "bytes": 1065,
+      "sha256": "97c114d86c6b59c157808ab4510b957fb0fb56a765aeb805154c8cffd79c8b6f",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\4k420.jpg",
+      "bytes": 1539208,
+      "sha256": "1d2c0832a7f84389014bbee6718a12143b98e9bd384d9c53fac89e7f3dcf6ad1",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\4k420.nsys-rep",
+      "bytes": 102693,
+      "sha256": "7627f817912ea0e8d8b698c327389f14792ce00c53c2f4810015d3510c351d71",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\4k420.profile.log",
+      "bytes": 946,
+      "sha256": "55b9e94edbc84aa3d408873ecd12679473ae7bcd66b38ae22049e88803573302",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\4k420.sqlite",
+      "bytes": 405504,
+      "sha256": "f6f534e083bb6f072fa95d969998b83ef6d1f65864e5520a0d7125fd571c6266",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\4k444-unprofiled.jpg",
+      "bytes": 2000957,
+      "sha256": "81c36dee29dcda7e0c97c18e3012be7a5b0056e7a2e8371f8371885e56815b91",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\4k444-unprofiled.json",
+      "bytes": 1068,
+      "sha256": "13c0027b87688ca1833e75a4a09224745227c59f208e1cb87ae0ae54b22718fa",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\4k444.jpg",
+      "bytes": 2000957,
+      "sha256": "81c36dee29dcda7e0c97c18e3012be7a5b0056e7a2e8371f8371885e56815b91",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\4k444.nsys-rep",
+      "bytes": 102191,
+      "sha256": "d160f72e20204fc4f1ff88318008f47953785ddc110301329898f08b78f3122d",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\4k444.profile.log",
+      "bytes": 946,
+      "sha256": "4933ba345adb44e7791bbb95d86b2eb14d8260cb3d6ff4d3c47d6f919544d51c",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\4k444.sqlite",
+      "bytes": 405504,
+      "sha256": "15571cf8252423307b4bae390b63bfddc7a3b739c447b4ac7ea8bc6fc8528153",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\hd420-unprofiled.jpg",
+      "bytes": 524623,
+      "sha256": "42085b64e434d969d2b56e1face43f53e60b544e1237a23593f376be2503124a",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\hd420-unprofiled.json",
+      "bytes": 1063,
+      "sha256": "b3ed9c1a8d698cf05284dc3a93c569c1582a209cc7b993a31ddddf42909069b6",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\hd420.jpg",
+      "bytes": 524623,
+      "sha256": "42085b64e434d969d2b56e1face43f53e60b544e1237a23593f376be2503124a",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\hd420.nsys-rep",
+      "bytes": 102700,
+      "sha256": "4e9344e5fc3ef5150e64a9e846cf6a4435658f6a6961e766ac43dd5cdd106dd3",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\hd420.profile.log",
+      "bytes": 946,
+      "sha256": "1ebb7ebf3e8d290870337622f99661c9bbb6f9697dcfcb119b16f158780bbbcf",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\hd420.sqlite",
+      "bytes": 405504,
+      "sha256": "d85b4054b6ea9a7e82ee9054823fe44eccc1c398a72fd11805f8bc07bd8a33a4",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\hd444-unprofiled.jpg",
+      "bytes": 686179,
+      "sha256": "6cfa98c5c9c5903a2261225acbaaeca37914aa8e39e70b1949043fd2e4f1ad38",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\hd444-unprofiled.json",
+      "bytes": 1063,
+      "sha256": "ebfd4deed7ccdda0518f833763b8920f7632fec35bd38df5cc5326ce2b61d161",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\hd444.jpg",
+      "bytes": 686179,
+      "sha256": "6cfa98c5c9c5903a2261225acbaaeca37914aa8e39e70b1949043fd2e4f1ad38",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\hd444.nsys-rep",
+      "bytes": 102018,
+      "sha256": "15ca9669d87c146b18b2ccfd8ff68c5b0f84a84f6f91eff932f32432c7a5dcad",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\hd444.profile.log",
+      "bytes": 946,
+      "sha256": "d236ed404f2d0fb25de875e636c7a7a026eaeb93847b255b6f51f54852010320",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\hd444.sqlite",
+      "bytes": 405504,
+      "sha256": "851ea1e2aad1b8f0805831dcebe0705a924327902cce03b00662f13c9cd2d2fb",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\integrity.json",
+      "bytes": 1874,
+      "sha256": "e853e13b349e6ef87951fe6893cacc9c9e2c981c71d8fefff725cbf71c505fd6",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\profiles.json",
+      "bytes": 1325185,
+      "sha256": "8a37dfd5bc778b01a21ef7b866ac99ae66f372fd22ff3ddea9628b9f99f713eb",
+      "redistribute": true
+    },
+    {
+      "path": "ptx-list.txt",
+      "bytes": 404,
+      "sha256": "5191eab0727c144a2475c17bbe4fdc7d4086ae119b1b5a500545bc3bd416ed1b",
+      "redistribute": true
+    },
+    {
+      "path": "strings-stdout.txt",
+      "bytes": 6557262,
+      "sha256": "46d74dbb9a8353ce10e34564c844207a9dfac803fca77d25ec79f5c8303e1fc6",
+      "redistribute": true
+    },
+    {
+      "path": "summarize_stages.py",
+      "bytes": 3901,
+      "sha256": "6150bac5388c7374794fa164e6b616ba6612d46f30e7bca938dbde43566d9136",
+      "redistribute": true
+    },
+    {
+      "path": "profiles\\stage-summary.json",
+      "bytes": 147742,
+      "sha256": "6d528c6fca24ff3453f5f5e4866d374105d33b6a867eebd607b46d153b566fb0",
+      "redistribute": true
+    },
+    {
+      "path": "rea-evidence-summary.json",
+      "bytes": 13055,
+      "sha256": "c5e08d91c46e9ad7eb9b3bdf6fd38785d187aa568613ad18940646b8cf33e840",
+      "redistribute": true
+    },
+    {
+      "path": "README-reproduce.md",
+      "bytes": 4476,
+      "sha256": "d514837d078c6ed63790babc0babbba60a82d63ca1aea024882d33f4eaedc666",
+      "redistribute": true
+    },
+    {
+      "path": "cuobjdump-version.txt",
+      "bytes": 239,
+      "sha256": "34f1ef2cc44446b389d322ab2380d513558890706c4a4091ed3e3f294cf809e0",
+      "redistribute": true
+    },
+    {
+      "path": "analysis.md",
+      "bytes": 17905,
+      "sha256": "497e6494feb057a345391c2c9d013ed11d4231b3e1b159d72a7b7e82b0647f0c",
+      "redistribute": true
+    },
+    {
+      "path": "profile_candidate.py",
+      "bytes": 5457,
+      "sha256": "fd400a830e25557166f545affd4a4a937ac7e36675db3a18e2c56c8a58950618",
+      "redistribute": true
+    },
+    {
+      "path": "compare_stages.py",
+      "bytes": 6403,
+      "sha256": "480c71c53ec67c53be3b8aa184d0ec0153fc89fb2fbfd66444c3569382e3d5a3",
+      "redistribute": true
+    },
+    {
+      "path": "paired-stage-comparison.json",
+      "bytes": 190129,
+      "sha256": "69ab358675b9812772af4e8bd78126d31fe49d591a15b31b40a6549ec8c4c2aa",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\4k420.jpg",
+      "bytes": 1546471,
+      "sha256": "bc6a2477f7ce6844e077f0901417cf6e9ca42f76d9fca6c3b374ec76e4c79cac",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\4k420.nsys-rep",
+      "bytes": 94569,
+      "sha256": "f6047cce6c1b662d7b7c37091deaef71ab58fd0caadfe29e95ef96ecd6670cfd",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\4k420.profile.log",
+      "bytes": 956,
+      "sha256": "5dfa8903c70a08e6027a588814077422d42fc1f50945c1f2ca9115490524c4d9",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\4k420.sqlite",
+      "bytes": 389120,
+      "sha256": "6b453ab7e6ed988a64020dfed906e17ac5dfe07f62a0d902e208de9743ce1823",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\4k444.jpg",
+      "bytes": 2000816,
+      "sha256": "c8519b688efec32a694102ff2118935a7fb394c980b3ed35b417ce3fb2489993",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\4k444.nsys-rep",
+      "bytes": 94571,
+      "sha256": "8db700f1a7bff84a101dbacb41fa377d3ab56702c3314998c174dc03052afb40",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\4k444.profile.log",
+      "bytes": 956,
+      "sha256": "6630fc0395280a3b00e5ed852f87ab3e35a98f28c2078c506e6588dbda62e1d2",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\4k444.sqlite",
+      "bytes": 389120,
+      "sha256": "b2092dcb3415e6f0df05c357e4f6471c998718ec181b412d0838ff98a25d983c",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\hd420.jpg",
+      "bytes": 532477,
+      "sha256": "dd282579049253389bf4735ba71a9c4bb50968497e6fa6ac9f88d46f1e006b9d",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\hd420.nsys-rep",
+      "bytes": 94302,
+      "sha256": "1a26d4968b102027107fd948e384578d085401482254b440514cce1c982c756d",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\hd420.profile.log",
+      "bytes": 956,
+      "sha256": "1827f3190b9befa7e0d20d93a7c26a144ad2eb7c446226de693e5c669cb56109",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\hd420.sqlite",
+      "bytes": 389120,
+      "sha256": "4793f1661fbc95b0f0ccb015743412170ead67f8dc5f7235e3d1050baf4f5cbe",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\hd444.jpg",
+      "bytes": 686167,
+      "sha256": "c93dc4d7230c3f8646b886a56f5c666fddd60c8a7712d94bfd3b6cbc75ac83e8",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\hd444.nsys-rep",
+      "bytes": 94207,
+      "sha256": "a47972dd170fcffbc4a935f168d1fbf31c06057fcbc4467fe35c138e9f40a77b",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\hd444.profile.log",
+      "bytes": 956,
+      "sha256": "87a61b9925d1903f0743a6fbddfd9f165bb26ca727479aa2c5725921873a7331",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\hd444.sqlite",
+      "bytes": 389120,
+      "sha256": "cfbca51275ae0a99bc6313b2931ea6a8f8c65516f0a477467d5dc672a57e2f2b",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\integrity.json",
+      "bytes": 2611,
+      "sha256": "4af3b2ecaabc95c7f4e58e4694ff18a28c7613ab9f0d71e6ecd8d8cc26711989",
+      "redistribute": true
+    },
+    {
+      "path": "candidate-profiles\\profiles.json",
+      "bytes": 1310197,
+      "sha256": "01a2d801bcaaf362811dc8300689e7f5c99f3e2ab8148b184d6dfbc2896156fb",
+      "redistribute": true
+    }
+  ],
+  "private_warning": "Full vendor PTX/SASS and original DLL are private investigative inputs; package normalized facts, REA evidence and independent harness source instead.",
+  "publication_policy": "Do not redistribute full REA info/strings record (embedded PTX). Use rea-evidence-summary.json; retain full record hashes and IDs for regeneration.",
+  "candidate_identity_manifest": "candidate-profiles/integrity.json",
+  "reference_identity_manifest": "profiles/integrity.json"
+}

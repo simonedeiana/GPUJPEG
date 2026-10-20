@@ -1,0 +1,46 @@
+{
+  "original": {
+    "mcus": 32400,
+    "blocks": 97200,
+    "segments": 1,
+    "coefficients_sha256": "970ef1ab0e07422c1688ba6df547f856cc1a3aa3e5bbc47b41dcf7961a1b0b01",
+    "first20_consumed_bits": [
+      5473457
+    ],
+    "total_consumed_bits": 5473457
+  },
+  "captured_as_dri16": {
+    "mcus": 32400,
+    "blocks": 97200,
+    "segments": 2025,
+    "coefficients_sha256": "970ef1ab0e07422c1688ba6df547f856cc1a3aa3e5bbc47b41dcf7961a1b0b01",
+    "first20_consumed_bits": [
+      697,
+      688,
+      691,
+      757,
+      702,
+      715,
+      797,
+      896,
+      860,
+      939,
+      1077,
+      846,
+      1071,
+      1495,
+      1444,
+      731,
+      781,
+      706,
+      941,
+      688
+    ],
+    "total_consumed_bits": 5505437
+  },
+  "difference_count": 0,
+  "first20_differences": [],
+  "original_entropy_offset": 664,
+  "original_entropy_size": 685503,
+  "captured_size": 694474
+}

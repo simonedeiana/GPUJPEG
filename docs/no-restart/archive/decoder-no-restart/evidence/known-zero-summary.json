@@ -1,0 +1,10 @@
+[
+  {
+    "filename": "known-zero-gray.jpg",
+    "all_coefficients_zero": true
+  },
+  {
+    "filename": "known-zero-420.jpg",
+    "all_coefficients_zero": true
+  }
+]

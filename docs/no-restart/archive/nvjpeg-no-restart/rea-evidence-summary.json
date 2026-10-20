@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "purpose": "Focused facts/provenance from private REA observations; full string record contains embedded vendor code and is intentionally omitted.",
+  "rea_version": "6.7.0",
+  "records": [
+    {
+      "private_record_name": "rea-exports.json",
+      "private_record_bytes": 51152,
+      "private_record_sha256": "cf7115af0f721a9dbe574c282946d6ac444108c1fd8c0accab5bc66ba2586301",
+      "evidence_id": "ev_eeb83d403c536eab54e949a18452cf4650fbb249648c97b1391865958ab1f9b9",
+      "operation": "execute_rizin_command",
+      "parameters": {
+        "path": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.4/bin/x64/nvjpeg64_13.dll",
+        "command": "iEj",
+        "provider_executable": "<WORKSPACE>\\work\\rizin\\rizin-win-installer-vs2019_static-64\\bin\\rizin.exe",
+        "command_arguments": [
+          "-N",
+          "-q",
+          "-c",
+          "iEj",
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4\\bin\\x64\\nvjpeg64_13.dll"
+        ]
+      },
+      "target": {
+        "name": "nvjpeg64_13.dll",
+        "digest": {
+          "sha256": "957bb73818e62883ac4bfc0aa15204bba5e341a8f7964a11b0289742df4e0da2"
+        },
+        "local_path": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4\\bin\\x64\\nvjpeg64_13.dll",
+        "format": "unknown",
+        "architecture": null
+      },
+      "artifact_sha256_after": "957bb73818e62883ac4bfc0aa15204bba5e341a8f7964a11b0289742df4e0da2",
+      "artifact_changed": false,
+      "completion_status": "complete",
+      "output_truncated": false
+    },
+    {
+      "private_record_name": "rea-info-strings.json",
+      "private_record_bytes": 15500930,
+      "private_record_sha256": "7f67eb426143597a936235dd4ce4547ada7fc5c0e5d6832768bf87971b8a50da",
+      "evidence_id": "ev_726a024647055bfcf4d42f30087e9493bd92ed53e406080253a7aedddc950d87",
+      "operation": "execute_rizin_command",
+      "parameters": {
+        "path": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.4/bin/x64/nvjpeg64_13.dll",
+        "command": "iIj;izj",
+        "provider_executable": "<WORKSPACE>\\work\\rizin\\rizin-win-installer-vs2019_static-64\\bin\\rizin.exe",
+        "command_arguments": [
+          "-N",
+          "-q",
+          "-c",
+          "iIj;izj",
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4\\bin\\x64\\nvjpeg64_13.dll"
+        ]
+      },
+      "target": {
+        "name": "nvjpeg64_13.dll",
+        "digest": {
+          "sha256": "957bb73818e62883ac4bfc0aa15204bba5e341a8f7964a11b0289742df4e0da2"
+        },
+        "local_path": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4\\bin\\x64\\nvjpeg64_13.dll",
+        "format": "unknown",
+        "architecture": null
+      },
+      "artifact_sha256_after": "957bb73818e62883ac4bfc0aa15204bba5e341a8f7964a11b0289742df4e0da2",
+      "artifact_changed": false,
+      "completion_status": "complete",
+      "output_truncated": false
+    },
+    {
+      "private_record_name": "rea-encode-api.json",
+      "private_record_bytes": 120058,
+      "private_record_sha256": "568b7d3868621a8efc163fc452b807bc63edfa9c51cc5d7a763cff2fdfa3f619",
+      "evidence_id": "ev_9d6bfd3ba7923d74877445009fa7b2216f0a00f7fa72d77c8ab20be69bc7910a",
+      "operation": "execute_rizin_command",
+      "parameters": {
+        "path": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.4/bin/x64/nvjpeg64_13.dll",
+        "command": "pdj 80 @ 0x18001eb60;pdj 60 @ 0x180020370;pdj 50 @ 0x180020a20",
+        "provider_executable": "<WORKSPACE>\\work\\rizin\\rizin-win-installer-vs2019_static-64\\bin\\rizin.exe",
+        "command_arguments": [
+          "-N",
+          "-q",
+          "-c",
+          "pdj 80 @ 0x18001eb60;pdj 60 @ 0x180020370;pdj 50 @ 0x180020a20",
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4\\bin\\x64\\nvjpeg64_13.dll"
+        ]
+      },
+      "target": {
+        "name": "nvjpeg64_13.dll",
+        "digest": {
+          "sha256": "957bb73818e62883ac4bfc0aa15204bba5e341a8f7964a11b0289742df4e0da2"
+        },
+        "local_path": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4\\bin\\x64\\nvjpeg64_13.dll",
+        "format": "unknown",
+        "architecture": null
+      },
+      "artifact_sha256_after": "957bb73818e62883ac4bfc0aa15204bba5e341a8f7964a11b0289742df4e0da2",
+      "artifact_changed": false,
+      "completion_status": "complete",
+      "output_truncated": false
+    }
+  ],
+  "selected_exports": [
+    {
+      "name": "nvjpegEncodeImage",
+      "preferred_va": "0x18001eb60",
+      "file_offset": 122720
+    },
+    {
+      "name": "nvjpegEncodeRetrieveBitstream",
+      "preferred_va": "0x18001f0c0",
+      "file_offset": 124096
+    },
+    {
+      "name": "nvjpegEncodeYUV",
+      "preferred_va": "0x18001f480",
+      "file_offset": 125056
+    },
+    {
+      "name": "nvjpegEncoderParamsSetRestartInterval",
+      "preferred_va": "0x180020370",
+      "file_offset": 128880
+    },
+    {
+      "name": "nvjpegEncoderStateCreateWithBackend",
+      "preferred_va": "0x180020a20",
+      "file_offset": 130592
+    }
+  ],
+  "selected_registration_strings": [
+    {
+      "preferred_va": "0x18011dee8",
+      "string": "Restart interval not supported by software encoder backend"
+    },
+    {
+      "preferred_va": "0x180127fd8",
+      "string": "Restart interval is not supported yet"
+    },
+    {
+      "preferred_va": "0x180128020",
+      "string": "_ZN6nvjpeg8encoding34GenerateOptimizeHuffmanTableKernelILi4ELi256ELi32EEEvNS0_10HistogramsIXT_EEEPh"
+    },
+    {
+      "preferred_va": "0x180128090",
+      "string": "_ZN6nvjpeg8encoding34GenerateOptimizeHuffmanTableKernelILi2ELi256ELi32EEEvNS0_10HistogramsIXT_EEEPh"
+    },
+    {
+      "preferred_va": "0x180128100",
+      "string": "_ZN6nvjpeg8encoding19BlockAssembleKernelINS_20ScanOrderInterleavedEEEvT_PjPKyPKjyPKiyyi"
+    },
+    {
+      "preferred_va": "0x180128160",
+      "string": "_ZN6nvjpeg8encoding19BlockAssembleKernelINS_9ScanOrderEEEvT_PjPKyPKjyPKiyyi"
+    },
+    {
+      "preferred_va": "0x1801281b0",
+      "string": "_ZN6nvjpeg8encoding18ScanEOBBlockKernelINS_20ScanOrderInterleavedELNS0_8WARP_COME0EEEvT_PiPyS6_iii"
+    },
+    {
+      "preferred_va": "0x180128220",
+      "string": "_ZN6nvjpeg8encoding18ScanEOBBlockKernelINS_9ScanOrderELNS0_8WARP_COME0EEEvT_PiPyS6_iii"
+    },
+    {
+      "preferred_va": "0x180128280",
+      "string": "_ZN6nvjpeg8encoding18OutputOffsetKernelINS_20ScanOrderInterleavedELNS0_8WARP_COME0EEEvT_PyS5_PKiyyi"
+    },
+    {
+      "preferred_va": "0x1801282f0",
+      "string": "_ZN6nvjpeg8encoding18OutputOffsetKernelINS_9ScanOrderELNS0_8WARP_COME0EEEvT_PyS5_PKiyyi"
+    },
+    {
+      "preferred_va": "0x180128348",
+      "string": "_ZN6nvjpeg8encoding18UpdateBlocksKernelILi32ELi8EEEvPyPKyi"
+    },
+    {
+      "preferred_va": "0x180128388",
+      "string": "_ZN6nvjpeg8encoding15SumBlocksKernelILNS0_8WARP_COME0EEEvPyi"
+    },
+    {
+      "preferred_va": "0x1801283d0",
+      "string": "_ZN6nvjpeg8encoding17BlockLengthKernelILNS0_8WARP_COME0ELi32ELi8EEEvPyS3_PKhi"
+    },
+    {
+      "preferred_va": "0x180128420",
+      "string": "_ZN6nvjpeg8encoding20ACRefineGatherKernelILi8ELNS0_8WARP_COME0EEEvbPiS3_iiPKsyii"
+    },
+    {
+      "preferred_va": "0x180128480",
+      "string": "_ZN6nvjpeg8encoding14ACRefineKernelILi8ELNS0_8WARP_COME0EEEvbPjPiiiPKsyiPK5uint2i"
+    },
+    {
+      "preferred_va": "0x1801284e0",
+      "string": "_ZN6nvjpeg8encoding14ACGatherKernelILi8ELNS0_8WARP_COME0EEEvbPiS3_iiPKsyiiii"
+    },
+    {
+      "preferred_va": "0x180128530",
+      "string": "_ZN6nvjpeg8encoding8ACKernelILi8ELNS0_8WARP_COME0EEEvbPjPiyyPKsyiPK5uint2iii"
+    },
+    {
+      "preferred_va": "0x180128580",
+      "string": "_ZN6nvjpeg8encoding14DCGatherKernelILNS0_8WARP_COME0EEEvNS_9ScanOrderEPKsyPiiiii"
+    },
+    {
+      "preferred_va": "0x1801285e0",
+      "string": "_ZN6nvjpeg8encoding8DCKernelILNS0_8WARP_COME0EEEvNS_9ScanOrderEPKsyPjPiPK5uint2yyii"
+    },
+    {
+      "preferred_va": "0x180128640",
+      "string": "_ZN6nvjpeg8encoding21Huffman_Table_ShuffleEP5uint2S2_PKhS4_S4_S4_"
+    },
+    {
+      "preferred_va": "0x180128688",
+      "string": "_ZN6nvjpeg8encoding27Merge_Histogram_ChrominanceEPiS1_S1_S1_"
+    },
+    {
+      "preferred_va": "0x1801286c8",
+      "string": "_ZN6nvjpeg8encoding18ByteStuffingKernelEPhPKyPKhi"
+    },
+    {
+      "preferred_va": "0x180128700",
+      "string": "_ZN6nvjpeg8encoding16GatherEOBnKernelEPiS1_iii"
+    },
+    {
+      "preferred_va": "0x180128730",
+      "string": "_ZN6nvjpeg8encoding18GenerateEOBnKernelEPiPjS1_PK5uint2iii"
+    },
+    {
+      "preferred_va": "0x180128770",
+      "string": "_ZN6nvjpeg8encoding21UpdateEOBBlocksKernelEPKiPKyPyPii"
+    },
+    {
+      "preferred_va": "0x1801287b0",
+      "string": "_ZN6nvjpeg8encoding14DCRefineKernelENS_9ScanOrderEPKsyPjPiPK5uint2yii"
+    }
+  ],
+  "executed_kernel_names": [
+    "void nvjpeg::format_to_ycbcr_kernel<(nvjpegInputFormat_t)5, (nvjpegChromaSubsampling_t)0, nvjpeg::ColorModelToYUV::LaunchParams<(int)32, (int)8>>(nvjpegImage_t, NppiSize, nvjpegImage_t, NppiSize)",
+    "void nvjpeg::forwardDct32x8Kernel<uchar2, (int)1, (int)32, (int)8>(nvjpeg::FwdDctParams)",
+    "void nvjpeg::encoding::ACKernel<(int)8, (nvjpeg::encoding::WARP_COM)0>(bool, unsigned int *, int *, unsigned long long, unsigned long long, const short *, unsigned long long, int, const uint2 *, int, int, int)",
+    "void nvjpeg::encoding::DCKernel<(nvjpeg::encoding::WARP_COM)0>(nvjpeg::ScanOrder, const short *, unsigned long long, unsigned int *, int *, const uint2 *, unsigned long long, unsigned long long, int, int)",
+    "void nvjpeg::encoding::OutputOffsetKernel<nvjpeg::ScanOrderInterleaved, (nvjpeg::encoding::WARP_COM)0>(T1, unsigned long long *, unsigned long long *, const int *, unsigned long long, unsigned long long, int)",
+    "void nvjpeg::encoding::SumBlocksKernel<(nvjpeg::encoding::WARP_COM)0>(unsigned long long *, int)",
+    "void nvjpeg::encoding::UpdateBlocksKernel<(int)32, (int)8>(unsigned long long *, const unsigned long long *, int)",
+    "void nvjpeg::encoding::BlockAssembleKernel<nvjpeg::ScanOrderInterleaved>(T1, unsigned int *, const unsigned long long *, const unsigned int *, unsigned long long, const int *, unsigned long long, unsigned long long, int)",
+    "void nvjpeg::encoding::BlockLengthKernel<(nvjpeg::encoding::WARP_COM)0, (int)32, (int)8>(unsigned long long *, unsigned long long *, const unsigned char *, int)",
+    "nvjpeg::encoding::ByteStuffingKernel(unsigned char *, const unsigned long long *, const unsigned char *, int)",
+    "void nvjpeg::format_to_ycbcr_kernel<(nvjpegInputFormat_t)5, (nvjpegChromaSubsampling_t)2, nvjpeg::ColorModelToYUV::LaunchParams<(int)32, (int)8>>(nvjpegImage_t, NppiSize, nvjpegImage_t, NppiSize)"
+  ],
+  "instruction_facts": [
+    {
+      "artifact": "private compute121 PTX",
+      "location": "nvjpeg.ptx:55298",
+      "fact": "DC difference subtracts predecessor quantized coefficient from current coefficient."
+    },
+    {
+      "artifact": "private compute121 PTX",
+      "location": "nvjpeg.ptx:58067-58215",
+      "fact": "Scan-order block lengths undergo64-bit hierarchical inclusive prefix sum."
+    },
+    {
+      "artifact": "private compute121 PTX",
+      "location": "nvjpeg.ptx:59134",
+      "fact": "Fragment beginning equals inclusive end bit offset minus private fragment length."
+    },
+    {
+      "artifact": "private SM86 SASS",
+      "location": "encoding-sm86.sass:675; BlockAssemble+0x10a0",
+      "fact": "Atomic bitwise-OR reduction merges output word contributions; additional OR instructions occur at+0x13c0,+0x16e0,+0x1a00,+0x1ce0,+0x1e70,+0x1f40."
+    },
+    {
+      "artifact": "private compute121 PTX",
+      "location": "nvjpeg.ptx:59342-59396",
+      "fact": "Only final block adds one-bit padding to reach byte alignment."
+    },
+    {
+      "artifact": "private compute121 PTX",
+      "location": "nvjpeg.ptx:57371-57394,54609-54668",
+      "fact": "Four-byte groups compute expanded lengths fromFF counts; scanned preceding endpoint allocates each independent byte-stuffing range."
+    }
+  ],
+  "limitations": [
+    "Instruction semantics are reconstructed from embedded PTX; actual SM86 SASS corroborates the atomic-OR merge and runtime traces establish executed kernel names.",
+    "No original NVIDIA source was recovered.",
+    "Full vendor DLL, PTX, SASS and unfiltered REA strings remain private investigative inputs.",
+    "Selected names and instruction facts do not reconstruct all host layouts, allocation rules, optimized-table behavior or other JPEG modes."
+  ]
+}

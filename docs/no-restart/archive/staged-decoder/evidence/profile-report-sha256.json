@@ -1,0 +1,62 @@
+[
+  {
+    "path": "4k420-r10-baseline.nsys-rep",
+    "bytes": 103247,
+    "sha256": "bf98e31af6bbd5d89cba09926ea5612b4d6c213d11dabb938a6a17243ee74257"
+  },
+  {
+    "path": "4k420-r10-fastvideo.nsys-rep",
+    "bytes": 128363,
+    "sha256": "2a8c8168234658ef83494453a78fa9fca652ba72d91f93a816992fbf3666b5db"
+  },
+  {
+    "path": "4k420-r10-staged.nsys-rep",
+    "bytes": 107348,
+    "sha256": "6b36940575bd39cecd3a28a7e6bc3ff37da0e8854d202f36e99c3130e4a91ac9"
+  },
+  {
+    "path": "4k444-r10-baseline.nsys-rep",
+    "bytes": 103271,
+    "sha256": "1bce0ca799fd80d6f2db2436fa2342b2273cd9c766b6091fe73d3230da849368"
+  },
+  {
+    "path": "4k444-r10-fastvideo.nsys-rep",
+    "bytes": 109657,
+    "sha256": "6a5e43e3b7aafd8a67d9e03a5650fe48dd1bd5f13883a765f5ecdfacf1eef7d3"
+  },
+  {
+    "path": "4k444-r10-staged.nsys-rep",
+    "bytes": 107401,
+    "sha256": "6d4b819c61914a84198f4a726cba04e0685db43bec46207c2057594fe90443ed"
+  },
+  {
+    "path": "hd420-r10-baseline.nsys-rep",
+    "bytes": 103412,
+    "sha256": "c307070fbb6690133191b2f8462903112dba3f5e2275eb6a739aeaac41d54787"
+  },
+  {
+    "path": "hd420-r10-fastvideo.nsys-rep",
+    "bytes": 128190,
+    "sha256": "5f7acf2ea41c8c6223b859b1654b3fc0ae71327cef397b067dc400a6cfaf5ca2"
+  },
+  {
+    "path": "hd420-r10-staged.nsys-rep",
+    "bytes": 107395,
+    "sha256": "65f59a093e49291b39858d534a52643982686df991b58c7fcacf6473da447b03"
+  },
+  {
+    "path": "hd444-r10-baseline.nsys-rep",
+    "bytes": 103306,
+    "sha256": "a64d7271a89daa96495009f2fd3e724f3059ccd46ff7ef521daadd07cd9b083d"
+  },
+  {
+    "path": "hd444-r10-fastvideo.nsys-rep",
+    "bytes": 109614,
+    "sha256": "ddffd7f0f502a23fa3dddbd96c2ee2e9ae97511b91c48f1fc5d06a8f870b10fa"
+  },
+  {
+    "path": "hd444-r10-staged.nsys-rep",
+    "bytes": 107271,
+    "sha256": "c0257254894b6d342f23ec89fd125c94d50ebff9b7c53edf1956c8a9e1ad0849"
+  }
+]

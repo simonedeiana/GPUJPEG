@@ -1,0 +1,8 @@
+{
+  "cases": 86,
+  "byte_identical": 86,
+  "all_true_ri0": true,
+  "all_public_pixels_identical": true,
+  "candidate_ff00_pairs": 27079,
+  "instrumented_benchmark_claim": false
+}

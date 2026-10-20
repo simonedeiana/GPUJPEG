@@ -1,0 +1,38 @@
+[
+  {
+    "Tool": "memcheck",
+    "Case": "valid-chain16",
+    "Exit": 0,
+    "Log": "work/compact-decode/correctness/sanitizers/memcheck-valid-chain16-strict.log"
+  },
+  {
+    "Tool": "racecheck",
+    "Case": "valid-chain16",
+    "Exit": 0,
+    "Log": "work/compact-decode/correctness/sanitizers/racecheck-valid-chain16-strict.log"
+  },
+  {
+    "Tool": "synccheck",
+    "Case": "valid-chain16",
+    "Exit": 0,
+    "Log": "work/compact-decode/correctness/sanitizers/synccheck-valid-chain16-strict.log"
+  },
+  {
+    "Tool": "memcheck",
+    "Case": "valid-holes16",
+    "Exit": 0,
+    "Log": "work/compact-decode/correctness/sanitizers/memcheck-valid-holes16-strict.log"
+  },
+  {
+    "Tool": "memcheck",
+    "Case": "negative-empty",
+    "Exit": 0,
+    "Log": "work/compact-decode/correctness/sanitizers/memcheck-negative-empty-strict.log"
+  },
+  {
+    "Tool": "memcheck",
+    "Case": "negative-unused-prefix",
+    "Exit": 0,
+    "Log": "work/compact-decode/correctness/sanitizers/memcheck-negative-unused-prefix-strict.log"
+  }
+]

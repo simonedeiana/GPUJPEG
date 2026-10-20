@@ -1,0 +1,26 @@
+========= COMPUTE-SANITIZER
+CUDA driver version:   13.4
+CUDA runtime version:  13.4
+Using Device #0:       NVIDIA GeForce RTX 3050 (c.c. 8.6)
+Decode Image GPU:       16.2314 ms (only in-GPU processing)
+Decode Image Bare:      17.0669 ms (without copy to/from GPU memory)
+Decode Image:           17.6294 ms
+Decompressed Size:       43,584 bytes 8x5448 u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+Decode Image GPU:        1.5688 ms (only in-GPU processing)
+Decode Image Bare:       2.0472 ms (without copy to/from GPU memory)
+Decode Image:            2.3005 ms
+Decompressed Size:       43,584 bytes 8x5448 u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+
+Avg Decode Duration:     9.9650 ms
+
+GPUJPEG rev 78e5eee built Oct 20 2026 18:49:40 
+
+Decoding Image [work/compact-decode/correctness/stress/chain16-r17.jpg] to u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+Load Image:                1.11 ms
+
+Iteration #1:
+
+Iteration #2:
+Save Image:                0.95 ms
+Image Name:          work/compact-decode/correctness/sanitizers/synccheck-valid-chain16-strict.pgm
+========= ERROR SUMMARY: 0 errors

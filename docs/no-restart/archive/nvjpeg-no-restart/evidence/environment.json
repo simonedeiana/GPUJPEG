@@ -1,0 +1,20 @@
+{
+  "gpu": "NVIDIA GeForce RTX 3050, 617.42, 8192 MiB, 00000000:04:00.0, P2",
+  "cpu": "Intel(R) Xeon(R) CPU E5-1650 v4 @ 3.60GHz",
+  "os": {
+    "Caption": "Microsoft Windows 10 Pro for Workstations",
+    "Version": "10.0.19045",
+    "BuildNumber": "19045"
+  },
+  "nvjpeg_version": {
+    "FileVersion": "6,14,11,1322",
+    "ProductVersion": "6,14,11,1322"
+  },
+  "cuda": [
+    "nvcc: NVIDIA (R) Cuda compiler driver",
+    "Copyright (c) 2005-2026 NVIDIA Corporation",
+    "Built on Sun_Aug_03_13:24:32_Pacific_Standard_Time_2026",
+    "Cuda compilation tools, release 13.4, V13.4.59",
+    "Build cuda_13.4.r13.4/compiler.38657139_0"
+  ]
+}

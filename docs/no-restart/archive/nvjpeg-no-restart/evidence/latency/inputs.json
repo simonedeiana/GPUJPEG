@@ -1,0 +1,42 @@
+[
+  {
+    "name": "tiny-black-gray",
+    "raw": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\tiny-black-gray.raw",
+    "pnm": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\tiny-black-gray.pnm",
+    "width": 1,
+    "height": 1,
+    "channels": 1,
+    "input_bytes": 1,
+    "raw_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+    "pnm_sha256": "c562b0556e17c4350801ae74c04e04e921db5117692e0a6f5d42fb9798b5edcd",
+    "derived": "deterministic synthetic black"
+  },
+  {
+    "name": "noise-rgb",
+    "raw": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\noise-rgb.raw",
+    "pnm": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\noise-rgb.pnm",
+    "width": 127,
+    "height": 65,
+    "channels": 3,
+    "input_bytes": 24765,
+    "raw_sha256": "70afec42acb79e0cb9bcd6d38f022748f7a267d61cbd5aed36ec3ae75e20aeda",
+    "pnm_sha256": "a3f76147a395b6bee4a0e1ec96f307a37946d342bd03bf3d7d4cb40f41b5afd4",
+    "derived": "deterministic synthetic noise"
+  },
+  {
+    "name": "gray32",
+    "width": 32,
+    "height": 32,
+    "channels": 1,
+    "raw": "<WORKSPACE>\\work\\encode-r0-validation\\latency\\gray32.raw",
+    "raw_sha256": "471fecdbe81766457df78d955ae26f23aca682dceb776aef0ddd1764e56fb779"
+  },
+  {
+    "name": "noise512",
+    "width": 512,
+    "height": 512,
+    "channels": 3,
+    "raw": "<WORKSPACE>\\work\\encode-r0-validation\\latency\\noise512.raw",
+    "raw_sha256": "6a00887e778044244a3097a9f9be4cc6d06458f4419fb72a5d328b4e7bb39978"
+  }
+]

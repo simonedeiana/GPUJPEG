@@ -1,0 +1,1292 @@
+{
+  "created_utc": "2026-10-20T16:57:43.293229+00:00",
+  "manifest_sha256": "35d44acce5683befa7b5abe56739290fa0ab1513f5337b5dd8049bd2e0fffdf0",
+  "inputs": [
+    {
+      "name": "hd444-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+      "source": "wild.8.ppm",
+      "source_sha256": "0b81de9b0664606f92748b3744a9ce3259b0a95dcbe0007491f0017fbf30b5ec",
+      "sha256": "c513302440d505f846808347ea15a8629a0b5727226cbee834bbe945f9c77c70",
+      "bytes": 700601,
+      "width": 1920,
+      "height": 1080,
+      "channels": 3,
+      "sampling": "444",
+      "quality": 90,
+      "restart_interval": 10,
+      "producer": "unmodified GPUJPEG 78e5eee, interleaved",
+      "expected_output_bytes": 6220800
+    },
+    {
+      "name": "hd420-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+      "source": "wild.8.ppm",
+      "source_sha256": "0b81de9b0664606f92748b3744a9ce3259b0a95dcbe0007491f0017fbf30b5ec",
+      "sha256": "9ac03460b511df96cbfea22dec890600c07830e5a4e7b94cebb721b8b28451de",
+      "bytes": 536049,
+      "width": 1920,
+      "height": 1080,
+      "channels": 3,
+      "sampling": "420",
+      "quality": 90,
+      "restart_interval": 10,
+      "producer": "unmodified GPUJPEG 78e5eee, interleaved",
+      "expected_output_bytes": 6220800
+    },
+    {
+      "name": "4k444-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+      "source": "wild.4k.8.ppm",
+      "source_sha256": "6d9f58033df2d95b266371099faa404cbab12c7678c06dd0cf8f99867d8a53b0",
+      "sha256": "f1bca76162bfec4bda4996e7684298446a3ec867494bdc4bc02ea6612d9e55dd",
+      "bytes": 2058919,
+      "width": 3840,
+      "height": 2160,
+      "channels": 3,
+      "sampling": "444",
+      "quality": 90,
+      "restart_interval": 10,
+      "producer": "unmodified GPUJPEG 78e5eee, interleaved",
+      "expected_output_bytes": 24883200
+    },
+    {
+      "name": "4k420-r10",
+      "path": "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+      "source": "wild.4k.8.ppm",
+      "source_sha256": "6d9f58033df2d95b266371099faa404cbab12c7678c06dd0cf8f99867d8a53b0",
+      "sha256": "7ea93a4fd14aaf1fff4d520520f9859daf379b84a75d3302a27e2e47992fb1bd",
+      "bytes": 1560635,
+      "width": 3840,
+      "height": 2160,
+      "channels": 3,
+      "sampling": "420",
+      "quality": 90,
+      "restart_interval": 10,
+      "producer": "unmodified GPUJPEG 78e5eee, interleaved",
+      "expected_output_bytes": 24883200
+    }
+  ],
+  "binaries": {
+    "baseline": {
+      "path": "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+      "sha256": "ebdf2a9a82fc00749d1a8d4b608d72db2d652c4197806b2a5459a811745caacf",
+      "cmake_options": {
+        "CMAKE_BUILD_TYPE:STRING": "Release",
+        "CMAKE_CUDA_ARCHITECTURES:BOOL": "86",
+        "HUFFMAN_GPU_CONST_TABLES:BOOL": "OFF",
+        "HUFFMAN_GPU_WARP_SERIALIZATION:BOOL": "OFF"
+      }
+    },
+    "staged_off": {
+      "path": "<WORKSPACE>\\work\\build-compact-control\\gpujpegtool.exe",
+      "sha256": "970ebfd82ad167658bac3575dddb72886bcba7201e3187d9cb060d4499eee11d",
+      "cmake_options": {
+        "CMAKE_BUILD_TYPE:STRING": "Release",
+        "CMAKE_CUDA_ARCHITECTURES:BOOL": "86",
+        "HUFFMAN_GPU_COMPACT_TABLES:BOOL": "OFF",
+        "HUFFMAN_GPU_CONST_TABLES:BOOL": "OFF",
+        "HUFFMAN_GPU_PARALLEL_UNSTUFF:BOOL": "OFF",
+        "HUFFMAN_GPU_STAGED_DECODER:BOOL": "ON",
+        "HUFFMAN_GPU_WARP_SERIALIZATION:BOOL": "OFF"
+      }
+    },
+    "compact_only": {
+      "path": "<WORKSPACE>\\work\\build-compact-only\\gpujpegtool.exe",
+      "sha256": "c90455a33d6183143a0161d6d83d62933f6cc7e707b30da081dd02f65bbe78fd",
+      "cmake_options": {
+        "CMAKE_BUILD_TYPE:STRING": "Release",
+        "CMAKE_CUDA_ARCHITECTURES:BOOL": "86",
+        "HUFFMAN_GPU_COMPACT_TABLES:BOOL": "ON",
+        "HUFFMAN_GPU_CONST_TABLES:BOOL": "OFF",
+        "HUFFMAN_GPU_PARALLEL_UNSTUFF:BOOL": "OFF",
+        "HUFFMAN_GPU_STAGED_DECODER:BOOL": "ON",
+        "HUFFMAN_GPU_WARP_SERIALIZATION:BOOL": "OFF"
+      }
+    },
+    "unstuff_only": {
+      "path": "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+      "sha256": "0f5763e14c3c400c651700191ae8e428ad094e70a2d1ffe9f5feebee4bdc7c5e",
+      "cmake_options": {
+        "CMAKE_BUILD_TYPE:STRING": "Release",
+        "CMAKE_CUDA_ARCHITECTURES:BOOL": "86",
+        "HUFFMAN_GPU_COMPACT_TABLES:BOOL": "OFF",
+        "HUFFMAN_GPU_CONST_TABLES:BOOL": "OFF",
+        "HUFFMAN_GPU_PARALLEL_UNSTUFF:BOOL": "ON",
+        "HUFFMAN_GPU_STAGED_DECODER:BOOL": "ON",
+        "HUFFMAN_GPU_WARP_SERIALIZATION:BOOL": "OFF"
+      }
+    },
+    "combined": {
+      "path": "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+      "sha256": "03c40f0d6cc869aafc1ddfb436290ac4b21d9b9dfd8ec9ac677cc2025dc1c40c",
+      "cmake_options": {
+        "CMAKE_BUILD_TYPE:STRING": "Release",
+        "CMAKE_CUDA_ARCHITECTURES:BOOL": "86",
+        "HUFFMAN_GPU_COMPACT_TABLES:BOOL": "ON",
+        "HUFFMAN_GPU_CONST_TABLES:BOOL": "OFF",
+        "HUFFMAN_GPU_PARALLEL_UNSTUFF:BOOL": "ON",
+        "HUFFMAN_GPU_STAGED_DECODER:BOOL": "ON",
+        "HUFFMAN_GPU_WARP_SERIALIZATION:BOOL": "OFF"
+      }
+    }
+  },
+  "rounds": 3,
+  "iterations": 60,
+  "warmup": 10,
+  "candidate_label": "combined",
+  "candidate_description": "Selected experimental GPUJPEG binary; the label is an alias, and recorded CMake options identify the actual compact/unstuff feature configuration.",
+  "fastvideo_qpc_helper": null,
+  "boundary_notes": {
+    "primary": "With the QPC helper: CONTINUOUS actual Fastvideo memory-stream header-load QPC START through codec completed-download QPC STOP vs GPUJPEG Decode Image. This includes the intervening host gap and excludes the cached initial disk-read time that Fastvideo adds to every printed JFIF-load value. Without the QPC helper Fastvideo printed load+codec is INVALID as per-frame latency.",
+    "GPUJPEG_reported": "Host wall time: JPEG parsing, decoder work, H2D and synchronous output D2H; no input/output file I/O.",
+    "Fastvideo_reported": "Printed Decode time + Device-To-Host time. Native QPC brackets SDK decode, processing and synchronous output download, excludes JPEG header/SOS loading. Includes no-RST host entropy transcode.",
+    "Fastvideo_plus_load": "INVALID for per-frame latency: the printed JFIF-load value equals actual per-repeat memory parsing/copy time plus a cached one-time initial disk-load charge. Native bytes add node+0x6c at0x1400072fc. Retained only as a diagnostic; use direct QPC observations for the complete-memory primary interval.",
+    "process_wall": "Python perf_counter around child execution until process exit: initialization, all iterations, input parsing/I/O, final output write, console printing and cleanup. Wall/iterations amortizes these costs; first iterations remain included.",
+    "warmup": "Discard the first warmup samples within each process, independently per variant.",
+    "output": "Returned CPU image bytes and final P5/P6 output required. No Fastvideo -discard. Output channel count and pixel-byte size checked.",
+    "environment": "Sequential child runs, rotating variant order; corpus SHA256 verified. File-cache warmness uncontrolled beyond reading/hash-checking every input before runs. No GPU clock locking."
+  },
+  "plan": [
+    {
+      "round": 0,
+      "case": "hd444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r10",
+      "variant": "staged_off",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-staged_off.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-control\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-staged_off.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r10",
+      "variant": "compact_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-compact_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-compact_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd444-r10",
+      "variant": "combined",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-combined.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-combined.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd420-r10",
+      "variant": "staged_off",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-staged_off.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-control\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-staged_off.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd420-r10",
+      "variant": "compact_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-compact_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-compact_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "hd420-r10",
+      "variant": "combined",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-combined.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-combined.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k444-r10",
+      "variant": "staged_off",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-staged_off.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-control\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-staged_off.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k444-r10",
+      "variant": "compact_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-compact_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-compact_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k444-r10",
+      "variant": "combined",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-combined.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-combined.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k420-r10",
+      "variant": "staged_off",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-staged_off.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-control\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-staged_off.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k420-r10",
+      "variant": "compact_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-compact_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-compact_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 0,
+      "case": "4k420-r10",
+      "variant": "combined",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-combined.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-combined.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k420-r10",
+      "variant": "staged_off",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-staged_off.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-control\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-staged_off.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k420-r10",
+      "variant": "compact_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-compact_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-compact_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k420-r10",
+      "variant": "combined",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-combined.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-combined.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k444-r10",
+      "variant": "staged_off",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-staged_off.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-control\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-staged_off.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k444-r10",
+      "variant": "compact_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-compact_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-compact_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k444-r10",
+      "variant": "combined",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-combined.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-combined.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "4k444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd420-r10",
+      "variant": "staged_off",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-staged_off.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-control\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-staged_off.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd420-r10",
+      "variant": "compact_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-compact_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-compact_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd420-r10",
+      "variant": "combined",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-combined.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-combined.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r10",
+      "variant": "staged_off",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-staged_off.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-control\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-staged_off.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r10",
+      "variant": "compact_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-compact_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-compact_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r10",
+      "variant": "combined",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-combined.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-combined.ppm"
+      ]
+    },
+    {
+      "round": 1,
+      "case": "hd444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r10",
+      "variant": "compact_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-compact_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-compact_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r10",
+      "variant": "combined",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-combined.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-combined.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd444-r10",
+      "variant": "staged_off",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-staged_off.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-control\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd444-r10-staged_off.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd420-r10",
+      "variant": "compact_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-compact_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-compact_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd420-r10",
+      "variant": "combined",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-combined.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-combined.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "hd420-r10",
+      "variant": "staged_off",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-staged_off.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-control\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\hd420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\hd420-r10-staged_off.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k444-r10",
+      "variant": "compact_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-compact_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-compact_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k444-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k444-r10",
+      "variant": "combined",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-combined.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-combined.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k444-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k444-r10",
+      "variant": "staged_off",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-staged_off.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-control\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k444-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k444-r10-staged_off.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k420-r10",
+      "variant": "compact_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-compact_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-compact_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k420-r10",
+      "variant": "unstuff_only",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-unstuff_only.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-unstuff-only\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-unstuff_only.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k420-r10",
+      "variant": "combined",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-combined.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-unstuff\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-combined.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k420-r10",
+      "variant": "baseline",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-baseline.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-decoder-cache\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-baseline.ppm"
+      ]
+    },
+    {
+      "round": 2,
+      "case": "4k420-r10",
+      "variant": "staged_off",
+      "output": "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-staged_off.ppm",
+      "command": [
+        "<WORKSPACE>\\work\\build-compact-control\\gpujpegtool.exe",
+        "-d",
+        "-n",
+        "60",
+        "-v",
+        "-c",
+        "rgb",
+        "-f",
+        "444-u8-p012",
+        "<WORKSPACE>\\work\\new-decode-benchmark\\corpus\\4k420-r10.jpg",
+        "<WORKSPACE>\\work\\compact-decode\\ablation\\images\\4k420-r10-staged_off.ppm"
+      ]
+    }
+  ]
+}

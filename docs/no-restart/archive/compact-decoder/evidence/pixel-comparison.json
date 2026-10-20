@@ -1,0 +1,222 @@
+[
+  {
+    "case": "hd444-r10",
+    "staged_pixels_identical": true,
+    "gpujpeg_outputs_identical": {
+      "staged": true,
+      "unstuff_only": true
+    },
+    "pixel_bytes": 6220800,
+    "pixel_sha256": {
+      "baseline": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc",
+      "staged": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc",
+      "fastvideo": "20e569cb7b1c8f939789726da235084fef60542117ca420314a4681878fae252",
+      "unstuff_only": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+    },
+    "fastvideo_vs_gpujpeg": {
+      "max_abs_error": 6,
+      "mean_abs_error": 0.38175877700617283,
+      "rmse": 0.6238011908202198,
+      "psnr_db": 52.22987961910377,
+      "differing_samples": 2351934
+    }
+  },
+  {
+    "case": "hd420-r10",
+    "staged_pixels_identical": true,
+    "gpujpeg_outputs_identical": {
+      "staged": true,
+      "unstuff_only": true
+    },
+    "pixel_bytes": 6220800,
+    "pixel_sha256": {
+      "baseline": "fb95ba56c762d39784cabce0e8992e2d362e3cb88c25caa4d87a42b3de601a4f",
+      "staged": "fb95ba56c762d39784cabce0e8992e2d362e3cb88c25caa4d87a42b3de601a4f",
+      "fastvideo": "95f13fd25483680a12e5d1f9e554fdd4d6647bd4e3ba4216fd57f5472dd49d99",
+      "unstuff_only": "fb95ba56c762d39784cabce0e8992e2d362e3cb88c25caa4d87a42b3de601a4f"
+    },
+    "fastvideo_vs_gpujpeg": {
+      "max_abs_error": 3,
+      "mean_abs_error": 0.06581854423868312,
+      "rmse": 0.290526320142381,
+      "psnr_db": 58.86709394301248,
+      "differing_samples": 351861
+    }
+  },
+  {
+    "case": "hd422-r10",
+    "staged_pixels_identical": true,
+    "gpujpeg_outputs_identical": {
+      "staged": true,
+      "unstuff_only": true
+    },
+    "pixel_bytes": 6220800,
+    "pixel_sha256": {
+      "baseline": "bafacb07300d1fb896d04e4513c1ce308900b823c26b8fed744bbff9173d793f",
+      "staged": "bafacb07300d1fb896d04e4513c1ce308900b823c26b8fed744bbff9173d793f",
+      "fastvideo": "30ad3a5334621e80ec88cce907cca94b0de77bb8ce41b7c5980f7f4886b92b44",
+      "unstuff_only": "bafacb07300d1fb896d04e4513c1ce308900b823c26b8fed744bbff9173d793f"
+    },
+    "fastvideo_vs_gpujpeg": {
+      "max_abs_error": 3,
+      "mean_abs_error": 0.06527681327160494,
+      "rmse": 0.28821647617705287,
+      "psnr_db": 58.93642752754113,
+      "differing_samples": 350900
+    }
+  },
+  {
+    "case": "4k444-r10",
+    "staged_pixels_identical": true,
+    "gpujpeg_outputs_identical": {
+      "staged": true,
+      "unstuff_only": true
+    },
+    "pixel_bytes": 24883200,
+    "pixel_sha256": {
+      "baseline": "110d9aa6c7c5946653a8ff4c288cdcea1a04c4bc06b9d61b52c058cd9fff72f6",
+      "staged": "110d9aa6c7c5946653a8ff4c288cdcea1a04c4bc06b9d61b52c058cd9fff72f6",
+      "fastvideo": "aa3053172b4891f030007334a1234941a1e79d687f4285a7da3ea3033d937b42",
+      "unstuff_only": "110d9aa6c7c5946653a8ff4c288cdcea1a04c4bc06b9d61b52c058cd9fff72f6"
+    },
+    "fastvideo_vs_gpujpeg": {
+      "max_abs_error": 2,
+      "mean_abs_error": 0.387030647183642,
+      "rmse": 0.6278211470495504,
+      "psnr_db": 52.17408480757727,
+      "differing_samples": 9541868
+    }
+  },
+  {
+    "case": "4k420-r10",
+    "staged_pixels_identical": true,
+    "gpujpeg_outputs_identical": {
+      "staged": true,
+      "unstuff_only": true
+    },
+    "pixel_bytes": 24883200,
+    "pixel_sha256": {
+      "baseline": "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07",
+      "staged": "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07",
+      "fastvideo": "31ccaf22be562a6869be7323da4a345a2eb50c98b65552c99b6e2b82d8228f0c",
+      "unstuff_only": "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07"
+    },
+    "fastvideo_vs_gpujpeg": {
+      "max_abs_error": 3,
+      "mean_abs_error": 0.05457187982253087,
+      "rmse": 0.267124489447625,
+      "psnr_db": 59.596529506475036,
+      "differing_samples": 1149372
+    }
+  },
+  {
+    "case": "hdgray-r10",
+    "staged_pixels_identical": true,
+    "gpujpeg_outputs_identical": {
+      "staged": true,
+      "unstuff_only": true
+    },
+    "pixel_bytes": 2073600,
+    "pixel_sha256": {
+      "baseline": "d64f4cc561715c7bdd42a37293aa9a1aca4af25520c44cfd5f74e3a42ceaa112",
+      "staged": "d64f4cc561715c7bdd42a37293aa9a1aca4af25520c44cfd5f74e3a42ceaa112",
+      "fastvideo": "abff7686b59ceeb1a7a43564eaf75caf14d7d3fbbc85ff12f72efbd2d1cb344a",
+      "unstuff_only": "d64f4cc561715c7bdd42a37293aa9a1aca4af25520c44cfd5f74e3a42ceaa112"
+    },
+    "fastvideo_vs_gpujpeg": {
+      "max_abs_error": 1,
+      "mean_abs_error": 0.016831114969135804,
+      "rmse": 0.12973478704316665,
+      "psnr_db": 65.86967474309544,
+      "differing_samples": 34901
+    }
+  },
+  {
+    "case": "hd444-r1",
+    "staged_pixels_identical": true,
+    "gpujpeg_outputs_identical": {
+      "staged": true,
+      "unstuff_only": true
+    },
+    "pixel_bytes": 6220800,
+    "pixel_sha256": {
+      "baseline": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc",
+      "staged": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc",
+      "fastvideo": "20e569cb7b1c8f939789726da235084fef60542117ca420314a4681878fae252",
+      "unstuff_only": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+    },
+    "fastvideo_vs_gpujpeg": {
+      "max_abs_error": 6,
+      "mean_abs_error": 0.38175877700617283,
+      "rmse": 0.6238011908202198,
+      "psnr_db": 52.22987961910377,
+      "differing_samples": 2351934
+    }
+  },
+  {
+    "case": "hd444-r32",
+    "staged_pixels_identical": true,
+    "gpujpeg_outputs_identical": {
+      "staged": true,
+      "unstuff_only": true
+    },
+    "pixel_bytes": 6220800,
+    "pixel_sha256": {
+      "baseline": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc",
+      "staged": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc",
+      "fastvideo": "20e569cb7b1c8f939789726da235084fef60542117ca420314a4681878fae252",
+      "unstuff_only": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+    },
+    "fastvideo_vs_gpujpeg": {
+      "max_abs_error": 6,
+      "mean_abs_error": 0.38175877700617283,
+      "rmse": 0.6238011908202198,
+      "psnr_db": 52.22987961910377,
+      "differing_samples": 2351934
+    }
+  },
+  {
+    "case": "hd444-r0",
+    "staged_pixels_identical": true,
+    "gpujpeg_outputs_identical": {
+      "staged": true,
+      "unstuff_only": true
+    },
+    "pixel_bytes": 6220800,
+    "pixel_sha256": {
+      "baseline": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc",
+      "staged": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc",
+      "fastvideo": "20e569cb7b1c8f939789726da235084fef60542117ca420314a4681878fae252",
+      "unstuff_only": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc"
+    },
+    "fastvideo_vs_gpujpeg": {
+      "max_abs_error": 6,
+      "mean_abs_error": 0.38175877700617283,
+      "rmse": 0.6238011908202198,
+      "psnr_db": 52.22987961910377,
+      "differing_samples": 2351934
+    }
+  },
+  {
+    "case": "4k420-r0",
+    "staged_pixels_identical": true,
+    "gpujpeg_outputs_identical": {
+      "staged": true,
+      "unstuff_only": true
+    },
+    "pixel_bytes": 24883200,
+    "pixel_sha256": {
+      "baseline": "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07",
+      "staged": "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07",
+      "fastvideo": "31ccaf22be562a6869be7323da4a345a2eb50c98b65552c99b6e2b82d8228f0c",
+      "unstuff_only": "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07"
+    },
+    "fastvideo_vs_gpujpeg": {
+      "max_abs_error": 3,
+      "mean_abs_error": 0.05457187982253087,
+      "rmse": 0.267124489447625,
+      "psnr_db": 59.596529506475036,
+      "differing_samples": 1149372
+    }
+  }
+]

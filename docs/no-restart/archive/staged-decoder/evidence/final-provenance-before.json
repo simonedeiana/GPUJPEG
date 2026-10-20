@@ -1,0 +1,50 @@
+{
+  "recorded_at_utc": "2026-10-20T16:18:18.346857+00:00",
+  "variant": "final shared transpose RLE tile[64][9], raw amplitude tokens, separate DC prefix scan",
+  "files": {
+    "work/GPUJPEG/src/gpujpeg_huffman_gpu_decoder.cu": {
+      "sha256": "60f818594dac29d4920bb905797318218109347bb82909c013767e0d7dbd7d64",
+      "bytes": 45267
+    },
+    "work/GPUJPEG/CMakeLists.txt": {
+      "sha256": "cdc55d77d0330cb29fda8eac6807c62e74bab574173ea80f13f8009a8043dcfa",
+      "bytes": 12081
+    },
+    "work/build-baseline/gpujpeg.lib": {
+      "sha256": "5ea5ca9025c33884551f9dc8dff1836453cc009e815c04850d996444ce0b901d",
+      "bytes": 21787332
+    },
+    "work/build-staged/gpujpeg.lib": {
+      "sha256": "5f053f74bcce465630eebcbcdee246e90e6708716da702f451919de31009a132",
+      "bytes": 21857784
+    },
+    "work/build-staged-const/gpujpeg.lib": {
+      "sha256": "d733eae5b55769fb7e3717f7b2bdfebb72e89af71e9d26796fa6a736bee56d49",
+      "bytes": 21870268
+    },
+    "work/new-decode-benchmark/correctness/decoder_dump.cu": {
+      "sha256": "00f7aa6510f4c05fcf46b553d98ef83e6a695caeca85a328b90e62d5281610be",
+      "bytes": 6121
+    },
+    "work/new-decode-benchmark/correctness/validate_decoder.py": {
+      "sha256": "1fdc89071eeba5d8c8223361e74b31ec9ad4ec03d88749a597d017e233010db2",
+      "bytes": 9311
+    },
+    "work/new-decode-benchmark/correctness/dump-baseline.exe": {
+      "sha256": "068dc715e85c829754cef2da2ccf395db44161ccad26902c3dc35c1893e6e9a4",
+      "bytes": 10690048
+    },
+    "work/new-decode-benchmark/correctness/dump-staged.exe": {
+      "sha256": "01da8fb287d8c8006642256b9de7938461bcc0f21877d6892d930a6a72481981",
+      "bytes": 10739200
+    },
+    "work/new-decode-benchmark/correctness/dump-staged-const.exe": {
+      "sha256": "bf002d22dc26b9f9fad99531bf9883f9152eacf5eb42438f0b198a4e47da9487",
+      "bytes": 10749952
+    },
+    "work/new-decode-benchmark/correctness/run/manifest.json": {
+      "sha256": "5b10be2ff933dfd06684e6febb5cc8c55fbdb32dbf3a2e9e6bced92830f113c2",
+      "bytes": 10524
+    }
+  }
+}

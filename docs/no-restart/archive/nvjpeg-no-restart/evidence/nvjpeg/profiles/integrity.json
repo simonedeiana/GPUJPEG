@@ -1,0 +1,32 @@
+[
+  {
+    "path": "<WORKSPACE>\\work\\nvjpeg-analysis\\nvjpeg_encode.exe",
+    "before_sha256": "f53e206472a649573739729a544bb2a01e863769542d42a1eef8b0107d5d3d49",
+    "after_sha256": "f53e206472a649573739729a544bb2a01e863769542d42a1eef8b0107d5d3d49"
+  },
+  {
+    "path": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4\\bin\\x64\\nvjpeg64_13.dll",
+    "before_sha256": "957bb73818e62883ac4bfc0aa15204bba5e341a8f7964a11b0289742df4e0da2",
+    "after_sha256": "957bb73818e62883ac4bfc0aa15204bba5e341a8f7964a11b0289742df4e0da2"
+  },
+  {
+    "path": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4\\include\\nvjpeg.h",
+    "before_sha256": "46982c4b4a34070a219668719d3d75797abfba5860ec6042a89ffdb4c0890570",
+    "after_sha256": "46982c4b4a34070a219668719d3d75797abfba5860ec6042a89ffdb4c0890570"
+  },
+  {
+    "path": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.4\\lib\\x64\\nvjpeg.lib",
+    "before_sha256": "90ede3e2b85cc5e4cd05bca72dc17bba6e7f52b98d8b1a6605935ed68402f269",
+    "after_sha256": "90ede3e2b85cc5e4cd05bca72dc17bba6e7f52b98d8b1a6605935ed68402f269"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\hd-rgb.raw",
+    "before_sha256": "80445a3b75cbc31f06c27121a7dc88076b5d3e076285e60fc7941db3c47e13bc",
+    "after_sha256": "80445a3b75cbc31f06c27121a7dc88076b5d3e076285e60fc7941db3c47e13bc"
+  },
+  {
+    "path": "<WORKSPACE>\\work\\encode-r0-validation\\inputs\\4k-rgb.raw",
+    "before_sha256": "866d444cac19fbb64ca706c17768d74f9e29cda4c2e3d9e98f95a0310f3beefb",
+    "after_sha256": "866d444cac19fbb64ca706c17768d74f9e29cda4c2e3d9e98f95a0310f3beefb"
+  }
+]

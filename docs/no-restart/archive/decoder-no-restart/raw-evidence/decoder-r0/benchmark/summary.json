@@ -1,0 +1,437 @@
+[
+  {
+    "case": "hd-rgb-q90-444-interleaved",
+    "output_sha256": "3d7fe715455b8c3b734bb672e64452cede162bdda0d6fd7de8ce4a9214d3f7cc",
+    "locked": {
+      "median_ms": 19.336,
+      "round_medians": [
+        19.92935,
+        19.861,
+        19.0697,
+        19.336,
+        19.2837
+      ],
+      "min_round_median_ms": 19.0697,
+      "max_round_median_ms": 19.92935
+    },
+    "candidate": {
+      "median_ms": 3.68485,
+      "round_medians": [
+        3.5388,
+        3.6899,
+        3.5499,
+        3.68485,
+        3.7135
+      ],
+      "min_round_median_ms": 3.5388,
+      "max_round_median_ms": 3.7135
+    },
+    "speedup": 5.2474320528651095
+  },
+  {
+    "case": "hd-rgb-q90-422-interleaved",
+    "output_sha256": "bafacb07300d1fb896d04e4513c1ce308900b823c26b8fed744bbff9173d793f",
+    "locked": {
+      "median_ms": 15.92325,
+      "round_medians": [
+        15.92325,
+        15.77215,
+        15.74165,
+        16.11335,
+        16.0694
+      ],
+      "min_round_median_ms": 15.74165,
+      "max_round_median_ms": 16.11335
+    },
+    "candidate": {
+      "median_ms": 3.6874,
+      "round_medians": [
+        3.7609,
+        3.6874,
+        3.7857,
+        3.56595,
+        3.64295
+      ],
+      "min_round_median_ms": 3.56595,
+      "max_round_median_ms": 3.7857
+    },
+    "speedup": 4.318286597602647
+  },
+  {
+    "case": "hd-rgb-q90-420-interleaved",
+    "output_sha256": "fb95ba56c762d39784cabce0e8992e2d362e3cb88c25caa4d87a42b3de601a4f",
+    "locked": {
+      "median_ms": 14.06855,
+      "round_medians": [
+        13.9326,
+        14.06855,
+        14.3844,
+        14.3023,
+        14.04925
+      ],
+      "min_round_median_ms": 13.9326,
+      "max_round_median_ms": 14.3844
+    },
+    "candidate": {
+      "median_ms": 4.56775,
+      "round_medians": [
+        4.61135,
+        4.5121,
+        4.48155,
+        4.56775,
+        4.5818
+      ],
+      "min_round_median_ms": 4.48155,
+      "max_round_median_ms": 4.61135
+    },
+    "speedup": 3.079973728859942
+  },
+  {
+    "case": "hd-gray-q90-gray-interleaved",
+    "output_sha256": "d64f4cc561715c7bdd42a37293aa9a1aca4af25520c44cfd5f74e3a42ceaa112",
+    "locked": {
+      "median_ms": 10.93365,
+      "round_medians": [
+        11.02345,
+        10.78305,
+        10.93365,
+        10.4593,
+        10.9414
+      ],
+      "min_round_median_ms": 10.4593,
+      "max_round_median_ms": 11.02345
+    },
+    "candidate": {
+      "median_ms": 2.199,
+      "round_medians": [
+        2.1751,
+        2.1265,
+        2.23575,
+        2.2302,
+        2.199
+      ],
+      "min_round_median_ms": 2.1265,
+      "max_round_median_ms": 2.23575
+    },
+    "speedup": 4.9721009549795365
+  },
+  {
+    "case": "4k-rgb-q90-444-interleaved",
+    "output_sha256": "110d9aa6c7c5946653a8ff4c288cdcea1a04c4bc06b9d61b52c058cd9fff72f6",
+    "locked": {
+      "median_ms": 62.29515,
+      "round_medians": [
+        62.7628,
+        63.11585,
+        61.30425,
+        61.58715,
+        62.29515
+      ],
+      "min_round_median_ms": 61.30425,
+      "max_round_median_ms": 63.11585
+    },
+    "candidate": {
+      "median_ms": 11.0818,
+      "round_medians": [
+        10.9729,
+        11.08415,
+        11.0767,
+        11.0818,
+        11.1303
+      ],
+      "min_round_median_ms": 10.9729,
+      "max_round_median_ms": 11.1303
+    },
+    "speedup": 5.621392734032377
+  },
+  {
+    "case": "4k-rgb-q90-422-interleaved",
+    "output_sha256": "40012140cd5fc387e3f67fbe397604fa0b7a6e7d7bfa068a5d2d3e3234882646",
+    "locked": {
+      "median_ms": 51.03685,
+      "round_medians": [
+        50.54445,
+        51.03685,
+        52.74705,
+        50.65915,
+        51.6351
+      ],
+      "min_round_median_ms": 50.54445,
+      "max_round_median_ms": 52.74705
+    },
+    "candidate": {
+      "median_ms": 9.97405,
+      "round_medians": [
+        9.97405,
+        9.9447,
+        9.9786,
+        9.8916,
+        10.0302
+      ],
+      "min_round_median_ms": 9.8916,
+      "max_round_median_ms": 10.0302
+    },
+    "speedup": 5.11696352033527
+  },
+  {
+    "case": "4k-rgb-q90-420-interleaved",
+    "output_sha256": "45ac57692868116094e425402ee30111d11c2e89e9dc8c750db67200ecfb8e07",
+    "locked": {
+      "median_ms": 44.61055,
+      "round_medians": [
+        43.24115,
+        45.7009,
+        44.61055,
+        45.25885,
+        44.1971
+      ],
+      "min_round_median_ms": 43.24115,
+      "max_round_median_ms": 45.7009
+    },
+    "candidate": {
+      "median_ms": 10.6329,
+      "round_medians": [
+        10.6238,
+        10.63975,
+        10.6379,
+        10.60975,
+        10.6329
+      ],
+      "min_round_median_ms": 10.60975,
+      "max_round_median_ms": 10.63975
+    },
+    "speedup": 4.195520507105305
+  },
+  {
+    "case": "4k-gray-q90-gray-interleaved",
+    "output_sha256": "3ab9bd2950a39838efbbfb72be020c6b09aae0e26c9f2b451642b0ae0d9e8d88",
+    "locked": {
+      "median_ms": 33.8967,
+      "round_medians": [
+        33.8967,
+        34.64945,
+        33.13085,
+        33.95235,
+        33.0164
+      ],
+      "min_round_median_ms": 33.0164,
+      "max_round_median_ms": 34.64945
+    },
+    "candidate": {
+      "median_ms": 5.30795,
+      "round_medians": [
+        5.2694,
+        5.30795,
+        5.3991,
+        5.28855,
+        5.4507
+      ],
+      "min_round_median_ms": 5.2694,
+      "max_round_median_ms": 5.4507
+    },
+    "speedup": 6.386024736480186
+  },
+  {
+    "case": "hd-rgb-optimized-2",
+    "output_sha256": "ccb602f351b7b3e501179688e829632c6c5de96df07f77f592ee2d0a275d1f6d",
+    "locked": {
+      "median_ms": 13.90445,
+      "round_medians": [
+        13.90445,
+        14.19125,
+        13.90335,
+        13.7644,
+        14.1689
+      ],
+      "min_round_median_ms": 13.7644,
+      "max_round_median_ms": 14.19125
+    },
+    "candidate": {
+      "median_ms": 4.5459,
+      "round_medians": [
+        4.48245,
+        4.5459,
+        4.6398,
+        4.5274,
+        4.5897
+      ],
+      "min_round_median_ms": 4.48245,
+      "max_round_median_ms": 4.6398
+    },
+    "speedup": 3.0586792494335557
+  },
+  {
+    "case": "4k-rgb-optimized-2",
+    "output_sha256": "425fd8fa368a23dbfde46ed218c72bae80995ebd2e2393c05b022070c5ea4112",
+    "locked": {
+      "median_ms": 43.75095,
+      "round_medians": [
+        43.75095,
+        43.74195,
+        44.7169,
+        44.7847,
+        43.69945
+      ],
+      "min_round_median_ms": 43.69945,
+      "max_round_median_ms": 44.7847
+    },
+    "candidate": {
+      "median_ms": 10.67145,
+      "round_medians": [
+        10.72825,
+        10.5792,
+        10.69535,
+        10.66545,
+        10.67145
+      ],
+      "min_round_median_ms": 10.5792,
+      "max_round_median_ms": 10.72825
+    },
+    "speedup": 4.099813052584232
+  },
+  {
+    "case": "flat-512-0",
+    "output_sha256": "060b63dbef085d2f8b890afbee9b12936f7ede1ef78155b085cd8ae31700e66b",
+    "locked": {
+      "median_ms": 0.7154,
+      "round_medians": [
+        0.6986,
+        0.69505,
+        0.7154,
+        0.72315,
+        0.71735
+      ],
+      "min_round_median_ms": 0.69505,
+      "max_round_median_ms": 0.72315
+    },
+    "candidate": {
+      "median_ms": 1.2095,
+      "round_medians": [
+        1.1857,
+        1.2095,
+        1.35325,
+        1.22255,
+        1.1911
+      ],
+      "min_round_median_ms": 1.1857,
+      "max_round_median_ms": 1.35325
+    },
+    "speedup": 0.5914840843323688
+  },
+  {
+    "case": "flat-512-1",
+    "output_sha256": "060b63dbef085d2f8b890afbee9b12936f7ede1ef78155b085cd8ae31700e66b",
+    "locked": {
+      "median_ms": 0.70375,
+      "round_medians": [
+        0.71635,
+        0.7061,
+        0.6901,
+        0.70375,
+        0.68225
+      ],
+      "min_round_median_ms": 0.68225,
+      "max_round_median_ms": 0.71635
+    },
+    "candidate": {
+      "median_ms": 1.84805,
+      "round_medians": [
+        1.8601,
+        1.96625,
+        1.72805,
+        1.6718,
+        1.84805
+      ],
+      "min_round_median_ms": 1.6718,
+      "max_round_median_ms": 1.96625
+    },
+    "speedup": 0.38080679635291254
+  },
+  {
+    "case": "flat-1920-0",
+    "output_sha256": "3201ffd337e7bd2f0a76e566da7595593447d173ee8a56edafd9e0a0c4b59f5e",
+    "locked": {
+      "median_ms": 3.4219,
+      "round_medians": [
+        3.4996,
+        3.4259,
+        3.419,
+        3.4219,
+        3.39465
+      ],
+      "min_round_median_ms": 3.39465,
+      "max_round_median_ms": 3.4996
+    },
+    "candidate": {
+      "median_ms": 2.57385,
+      "round_medians": [
+        2.56635,
+        2.67685,
+        2.5807,
+        2.57385,
+        2.5606
+      ],
+      "min_round_median_ms": 2.5606,
+      "max_round_median_ms": 2.67685
+    },
+    "speedup": 1.3294869553392776
+  },
+  {
+    "case": "flat-1920-1",
+    "output_sha256": "3201ffd337e7bd2f0a76e566da7595593447d173ee8a56edafd9e0a0c4b59f5e",
+    "locked": {
+      "median_ms": 3.3705,
+      "round_medians": [
+        3.3705,
+        3.4041,
+        3.40815,
+        3.3562,
+        3.34255
+      ],
+      "min_round_median_ms": 3.34255,
+      "max_round_median_ms": 3.40815
+    },
+    "candidate": {
+      "median_ms": 2.87905,
+      "round_medians": [
+        2.86075,
+        2.8285,
+        2.87905,
+        2.8833,
+        2.94685
+      ],
+      "min_round_median_ms": 2.8285,
+      "max_round_median_ms": 2.94685
+    },
+    "speedup": 1.1706986679633906
+  },
+  {
+    "case": "tiny-gray-1x1",
+    "output_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+    "locked": {
+      "median_ms": 0.1183,
+      "round_medians": [
+        0.1424,
+        0.1133,
+        0.1183,
+        0.148,
+        0.11535
+      ],
+      "min_round_median_ms": 0.1133,
+      "max_round_median_ms": 0.148
+    },
+    "candidate": {
+      "median_ms": 0.2517,
+      "round_medians": [
+        0.2497,
+        0.25095,
+        0.2517,
+        0.25375,
+        0.2854
+      ],
+      "min_round_median_ms": 0.2497,
+      "max_round_median_ms": 0.2854
+    },
+    "speedup": 0.4700039729837108
+  }
+]

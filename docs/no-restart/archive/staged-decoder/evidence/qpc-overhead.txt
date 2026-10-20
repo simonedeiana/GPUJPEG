@@ -1,0 +1,8 @@
+frequency=10000000
+round=0 baseline_ns=14.838 observer_plus_record_ns=25.194 conservative_four_call_delta_us=0.041422
+round=1 baseline_ns=14.876 observer_plus_record_ns=24.561 conservative_four_call_delta_us=0.038742
+round=2 baseline_ns=14.915 observer_plus_record_ns=24.614 conservative_four_call_delta_us=0.038798
+round=3 baseline_ns=14.790 observer_plus_record_ns=24.541 conservative_four_call_delta_us=0.039008
+round=4 baseline_ns=15.732 observer_plus_record_ns=26.143 conservative_four_call_delta_us=0.041648
+round=5 baseline_ns=15.618 observer_plus_record_ns=27.117 conservative_four_call_delta_us=0.045996
+round=6 baseline_ns=15.734 observer_plus_record_ns=26.108 conservative_four_call_delta_us=0.041498

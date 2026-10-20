@@ -1,0 +1,50 @@
+1/49 PASS tiny.pnm -q 1 -r 1
+2/49 PASS tiny.pnm -q 1 -r 8
+3/49 PASS tiny.pnm -q 1 -r 1000
+4/49 PASS tiny.pnm -q 75 -r 1
+5/49 PASS tiny.pnm -q 75 -r 8
+6/49 PASS tiny.pnm -q 75 -r 1000
+7/49 PASS tiny.pnm -q 100 -r 1
+8/49 PASS tiny.pnm -q 100 -r 8
+9/49 PASS tiny.pnm -q 100 -r 1000
+10/49 PASS odd.pnm -q 1 -r 1
+11/49 PASS odd.pnm -q 1 -r 8
+12/49 PASS odd.pnm -q 1 -r 1000
+13/49 PASS odd.pnm -q 75 -r 1
+14/49 PASS odd.pnm -q 75 -r 8
+15/49 PASS odd.pnm -q 75 -r 1000
+16/49 PASS odd.pnm -q 100 -r 1
+17/49 PASS odd.pnm -q 100 -r 8
+18/49 PASS odd.pnm -q 100 -r 1000
+19/49 PASS noise.pnm -q 1 -r 1
+20/49 PASS noise.pnm -q 1 -r 8
+21/49 PASS noise.pnm -q 1 -r 1000
+22/49 PASS noise.pnm -q 75 -r 1
+23/49 PASS noise.pnm -q 75 -r 8
+24/49 PASS noise.pnm -q 75 -r 1000
+25/49 PASS noise.pnm -q 100 -r 1
+26/49 PASS noise.pnm -q 100 -r 8
+27/49 PASS noise.pnm -q 100 -r 1000
+28/49 PASS gray.pnm -q 1 -r 1
+29/49 PASS gray.pnm -q 1 -r 8
+30/49 PASS gray.pnm -q 1 -r 1000
+31/49 PASS gray.pnm -q 75 -r 1
+32/49 PASS gray.pnm -q 75 -r 8
+33/49 PASS gray.pnm -q 75 -r 1000
+34/49 PASS gray.pnm -q 100 -r 1
+35/49 PASS gray.pnm -q 100 -r 8
+36/49 PASS gray.pnm -q 100 -r 1000
+37/49 PASS noise.pnm -q 0 -r 10 -i --subsampled=420
+38/49 PASS noise.pnm -q 50 -r 10 -i --subsampled=420
+39/49 PASS noise.pnm -q 90 -r 10 -i --subsampled=420
+40/49 PASS noise.pnm -q 100 -r 10 -i --subsampled=420
+41/49 PASS noise.pnm -q 0 -r 10 -i --subsampled=422
+42/49 PASS noise.pnm -q 50 -r 10 -i --subsampled=422
+43/49 PASS noise.pnm -q 90 -r 10 -i --subsampled=422
+44/49 PASS noise.pnm -q 100 -r 10 -i --subsampled=422
+45/49 PASS noise.pnm -q 0 -r 10 -i --subsampled=444
+46/49 PASS noise.pnm -q 50 -r 10 -i --subsampled=444
+47/49 PASS noise.pnm -q 90 -r 10 -i --subsampled=444
+48/49 PASS noise.pnm -q 100 -r 10 -i --subsampled=444
+49/49 PASS noise.pnm -q 90 -r 0 -i
+All 49 cases produced identical JPEG bytes.

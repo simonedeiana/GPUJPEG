@@ -1,0 +1,8 @@
+{
+  "base_commit": "78e5eee3f75e0a2a2e6c1409000ac05d679b4af8",
+  "patch_applies": true,
+  "compared_source_files": 149,
+  "comparison": "All source bytes compared after CRLF-to-LF normalization",
+  "source_archive_crc_and_sha256": true,
+  "patch_sha256": "0dec4ffb2c2e129fb8633a8e3aba1ab9e84db5afa98e96b531442dc1f8da2180"
+}

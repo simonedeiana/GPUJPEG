@@ -1,0 +1,32 @@
+[
+  {
+    "name": "_Z19HuffmanDecodeKernelI12SurfaceTraitIL19fastSurfaceFormat_t5EEEvP10rleToken_tP14decoderError_tPKjS8_PK14huffmanState_tjjjjj7McuDesc",
+    "line": 5709,
+    "file": "HuffmanDecodeKernel.ptx"
+  },
+  {
+    "name": "_Z33BytestreamMarkupMarkerAndFFKernelPjS_PK5uint2j",
+    "line": 160141,
+    "file": "BytestreamMarkupMarkerAndFFKernel.ptx"
+  },
+  {
+    "name": "_Z37BytestreamMarkupMarkerAndFFRestKernelPjS_PKhjj",
+    "line": 160595,
+    "file": "BytestreamMarkupMarkerAndFFRestKernel.ptx"
+  },
+  {
+    "name": "_Z23BytestreamUnstuffKernelPjPhPKjS2_PK5uint2j",
+    "line": 161091,
+    "file": "BytestreamUnstuffKernel.ptx"
+  },
+  {
+    "name": "_Z27BytestreamUnstuffRestKernelPjPhPKjS2_PKhjj",
+    "line": 162191,
+    "file": "BytestreamUnstuffRestKernel.ptx"
+  },
+  {
+    "name": "_Z15RleDecodeKernelI12SurfaceTraitIL19fastSurfaceFormat_t5EEEvPsPK10rleToken_tjjj7McuDescS7_",
+    "line": 182351,
+    "file": "RleDecodeKernel.ptx"
+  }
+]

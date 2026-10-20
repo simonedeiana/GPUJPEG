@@ -1,0 +1,578 @@
+[
+  {
+    "case": "4k-rgb-q90-422-interleaved",
+    "encoders": {
+      "baseline": {
+        "median_of_round_medians_ms": 84.87395,
+        "round_medians_ms": [
+          84.87395,
+          83.4376,
+          87.71415,
+          79.42825,
+          86.4821
+        ],
+        "min_round_median_ms": 79.42825,
+        "max_round_median_ms": 87.71415,
+        "output_bytes": 1715689,
+        "source_quality": {
+          "decoded_pixels_sha256": "9714a592b9f25881657242e60424cfe5af1c29d647835a2fbf92222b5151f2f5",
+          "mse_to_input": 5.776036683384774,
+          "psnr_db_to_input": 40.51450418110172,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 50
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "candidate": {
+        "median_of_round_medians_ms": 9.39385,
+        "round_medians_ms": [
+          9.4748,
+          9.39385,
+          9.3408,
+          9.35035,
+          9.49845
+        ],
+        "min_round_median_ms": 9.3408,
+        "max_round_median_ms": 9.49845,
+        "output_bytes": 1715689,
+        "source_quality": {
+          "decoded_pixels_sha256": "9714a592b9f25881657242e60424cfe5af1c29d647835a2fbf92222b5151f2f5",
+          "mse_to_input": 5.776036683384774,
+          "psnr_db_to_input": 40.51450418110172,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 50
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "nvjpeg": {
+        "median_of_round_medians_ms": 8.6029,
+        "round_medians_ms": [
+          8.5916,
+          8.6597,
+          8.58055,
+          8.6029,
+          8.69595
+        ],
+        "min_round_median_ms": 8.58055,
+        "max_round_median_ms": 8.69595,
+        "output_bytes": 1710456,
+        "source_quality": {
+          "decoded_pixels_sha256": "d4aa20dbeb4ee50c4ccc9e0ebf4ccb2a14a92dad063896fc2bc059a9b5af3277",
+          "mse_to_input": 5.5876341467335395,
+          "psnr_db_to_input": 40.65852398153098,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 41
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      }
+    },
+    "candidate_byte_identical_to_baseline": true,
+    "nvjpeg_component_quantizers_equal_to_baseline": true,
+    "speedup_original_over_candidate": 9.035054849715504,
+    "candidate_over_nvjpeg_latency_ratio": 1.0919399272338397
+  },
+  {
+    "case": "hd-rgb-q90-444-interleaved",
+    "encoders": {
+      "candidate": {
+        "median_of_round_medians_ms": 2.88955,
+        "round_medians_ms": [
+          3.6495,
+          2.88955,
+          3.05565,
+          2.8427,
+          2.84845
+        ],
+        "min_round_median_ms": 2.8427,
+        "max_round_median_ms": 3.6495,
+        "output_bytes": 686167,
+        "source_quality": {
+          "decoded_pixels_sha256": "a2f29ebd17edad844272593e5512b716ff6a9d406b2331e3ecf56097bdb7c906",
+          "mse_to_input": 10.583449717078189,
+          "psnr_db_to_input": 37.88453110097507,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 41
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "nvjpeg": {
+        "median_of_round_medians_ms": 2.6558,
+        "round_medians_ms": [
+          2.7452,
+          2.6585,
+          2.6558,
+          2.65055,
+          2.6557
+        ],
+        "min_round_median_ms": 2.65055,
+        "max_round_median_ms": 2.7452,
+        "output_bytes": 686179,
+        "source_quality": {
+          "decoded_pixels_sha256": "8002b6bfc253c4fff5725043f7756f2dc9831dee5755aae3450ee26e420e1f33",
+          "mse_to_input": 10.565621463477367,
+          "psnr_db_to_input": 37.891853137889825,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 42
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "baseline": {
+        "median_of_round_medians_ms": 30.08105,
+        "round_medians_ms": [
+          29.64795,
+          30.3671,
+          30.08105,
+          29.96975,
+          30.1051
+        ],
+        "min_round_median_ms": 29.64795,
+        "max_round_median_ms": 30.3671,
+        "output_bytes": 686167,
+        "source_quality": {
+          "decoded_pixels_sha256": "a2f29ebd17edad844272593e5512b716ff6a9d406b2331e3ecf56097bdb7c906",
+          "mse_to_input": 10.583449717078189,
+          "psnr_db_to_input": 37.88453110097507,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 41
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      }
+    },
+    "candidate_byte_identical_to_baseline": true,
+    "nvjpeg_component_quantizers_equal_to_baseline": true,
+    "speedup_original_over_candidate": 10.410288799294008,
+    "candidate_over_nvjpeg_latency_ratio": 1.0880149107613524
+  },
+  {
+    "case": "4k-rgb-q90-444-interleaved",
+    "encoders": {
+      "nvjpeg": {
+        "median_of_round_medians_ms": 9.4898,
+        "round_medians_ms": [
+          9.54145,
+          9.2816,
+          9.4898,
+          9.35115,
+          9.54705
+        ],
+        "min_round_median_ms": 9.2816,
+        "max_round_median_ms": 9.54705,
+        "output_bytes": 2000957,
+        "source_quality": {
+          "decoded_pixels_sha256": "2aac0fa70cc990dd22782268e0087e3b7087842192fedaabb449ea1ca51f8e18",
+          "mse_to_input": 4.609843428497943,
+          "psnr_db_to_input": 41.493941858674425,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 32
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "candidate": {
+        "median_of_round_medians_ms": 10.5235,
+        "round_medians_ms": [
+          10.5235,
+          10.57415,
+          10.58715,
+          10.4212,
+          10.5017
+        ],
+        "min_round_median_ms": 10.4212,
+        "max_round_median_ms": 10.58715,
+        "output_bytes": 2000816,
+        "source_quality": {
+          "decoded_pixels_sha256": "005480d0e76c03785ca7de365be1db5a9c7344b47985948df84f34f2bc37bc43",
+          "mse_to_input": 4.610978652263374,
+          "psnr_db_to_input": 41.49287249324209,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 33
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "baseline": {
+        "median_of_round_medians_ms": 113.75345,
+        "round_medians_ms": [
+          113.75345,
+          112.315,
+          116.1887,
+          106.03725,
+          113.8727
+        ],
+        "min_round_median_ms": 106.03725,
+        "max_round_median_ms": 116.1887,
+        "output_bytes": 2000816,
+        "source_quality": {
+          "decoded_pixels_sha256": "005480d0e76c03785ca7de365be1db5a9c7344b47985948df84f34f2bc37bc43",
+          "mse_to_input": 4.610978652263374,
+          "psnr_db_to_input": 41.49287249324209,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 33
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      }
+    },
+    "candidate_byte_identical_to_baseline": true,
+    "nvjpeg_component_quantizers_equal_to_baseline": true,
+    "speedup_original_over_candidate": 10.809469283033211,
+    "candidate_over_nvjpeg_latency_ratio": 1.1089274800311912
+  },
+  {
+    "case": "hd-rgb-q90-422-interleaved",
+    "encoders": {
+      "candidate": {
+        "median_of_round_medians_ms": 2.60255,
+        "round_medians_ms": [
+          2.5807,
+          2.63835,
+          2.68125,
+          2.6013,
+          2.60255
+        ],
+        "min_round_median_ms": 2.5807,
+        "max_round_median_ms": 2.68125,
+        "output_bytes": 583209,
+        "source_quality": {
+          "decoded_pixels_sha256": "9f568581d131ad27930eb2bd1915f554a4a1eee6af652d0001cefae9604807c6",
+          "mse_to_input": 13.927128825874485,
+          "psnr_db_to_input": 36.6921876803351,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 78
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "baseline": {
+        "median_of_round_medians_ms": 23.6472,
+        "round_medians_ms": [
+          22.97375,
+          24.5616,
+          23.6472,
+          24.34715,
+          23.59325
+        ],
+        "min_round_median_ms": 22.97375,
+        "max_round_median_ms": 24.5616,
+        "output_bytes": 583209,
+        "source_quality": {
+          "decoded_pixels_sha256": "9f568581d131ad27930eb2bd1915f554a4a1eee6af652d0001cefae9604807c6",
+          "mse_to_input": 13.927128825874485,
+          "psnr_db_to_input": 36.6921876803351,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 78
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "nvjpeg": {
+        "median_of_round_medians_ms": 2.4915,
+        "round_medians_ms": [
+          2.4647,
+          2.4915,
+          2.5084,
+          2.4289,
+          2.5478
+        ],
+        "min_round_median_ms": 2.4289,
+        "max_round_median_ms": 2.5478,
+        "output_bytes": 577297,
+        "source_quality": {
+          "decoded_pixels_sha256": "2219f22885501fa5953a0d7e5c34f0d43575f2c766810acfff71fdeded8878ab",
+          "mse_to_input": 13.290342560442387,
+          "psnr_db_to_input": 36.89544185779767,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 56
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      }
+    },
+    "candidate_byte_identical_to_baseline": true,
+    "nvjpeg_component_quantizers_equal_to_baseline": true,
+    "speedup_original_over_candidate": 9.086165491537146,
+    "candidate_over_nvjpeg_latency_ratio": 1.04457154324704
+  },
+  {
+    "case": "hd-rgb-q90-420-interleaved",
+    "encoders": {
+      "candidate": {
+        "median_of_round_medians_ms": 2.4702,
+        "round_medians_ms": [
+          2.5015,
+          2.50925,
+          2.41385,
+          2.4702,
+          2.42695
+        ],
+        "min_round_median_ms": 2.41385,
+        "max_round_median_ms": 2.50925,
+        "output_bytes": 532477,
+        "source_quality": {
+          "decoded_pixels_sha256": "dcb8d68dce6297188b6ddea38a9d8960e9bacebc095efdb1f90483d26ff4a5d1",
+          "mse_to_input": 17.531830632716048,
+          "psnr_db_to_input": 35.69253094393183,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 86
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "nvjpeg": {
+        "median_of_round_medians_ms": 2.41555,
+        "round_medians_ms": [
+          2.4597,
+          2.41555,
+          2.3476,
+          2.3994,
+          2.5384
+        ],
+        "min_round_median_ms": 2.3476,
+        "max_round_median_ms": 2.5384,
+        "output_bytes": 524623,
+        "source_quality": {
+          "decoded_pixels_sha256": "3526bef8d346be8cbc49658161d9f46591e79a7a17906adefe06fa108da342d2",
+          "mse_to_input": 16.310998746141976,
+          "psnr_db_to_input": 36.00599806531592,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 68
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "baseline": {
+        "median_of_round_medians_ms": 20.4644,
+        "round_medians_ms": [
+          21.04135,
+          20.98125,
+          20.4644,
+          20.31625,
+          20.4184
+        ],
+        "min_round_median_ms": 20.31625,
+        "max_round_median_ms": 21.04135,
+        "output_bytes": 532477,
+        "source_quality": {
+          "decoded_pixels_sha256": "dcb8d68dce6297188b6ddea38a9d8960e9bacebc095efdb1f90483d26ff4a5d1",
+          "mse_to_input": 17.531830632716048,
+          "psnr_db_to_input": 35.69253094393183,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 86
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      }
+    },
+    "candidate_byte_identical_to_baseline": true,
+    "nvjpeg_component_quantizers_equal_to_baseline": true,
+    "speedup_original_over_candidate": 8.284511375597118,
+    "candidate_over_nvjpeg_latency_ratio": 1.0226242470658857
+  },
+  {
+    "case": "hd-gray-q90-gray-interleaved",
+    "encoders": {
+      "nvjpeg": {
+        "median_of_round_medians_ms": 1.14585,
+        "round_medians_ms": [
+          1.4341,
+          1.19015,
+          1.1456,
+          1.1068,
+          1.14585
+        ],
+        "min_round_median_ms": 1.1068,
+        "max_round_median_ms": 1.4341,
+        "output_bytes": 460593,
+        "source_quality": {
+          "decoded_pixels_sha256": "fca57d15bd63e65a5ca97e0f6e103692e16afbefc531eb769a3b40ccbe3b9292",
+          "mse_to_input": 5.724672550154321,
+          "psnr_db_to_input": 40.553297106818675,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 19
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "baseline": {
+        "median_of_round_medians_ms": 15.49235,
+        "round_medians_ms": [
+          15.49235,
+          15.31885,
+          15.7612,
+          15.51625,
+          15.41375
+        ],
+        "min_round_median_ms": 15.31885,
+        "max_round_median_ms": 15.7612,
+        "output_bytes": 460526,
+        "source_quality": {
+          "decoded_pixels_sha256": "979a7326b35eda33e90b2f86a9f255945b14f892f1e423e7d4300a53eade63e8",
+          "mse_to_input": 5.724746817129629,
+          "psnr_db_to_input": 40.553240765555365,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 19
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "candidate": {
+        "median_of_round_medians_ms": 1.188,
+        "round_medians_ms": [
+          1.1838,
+          1.17605,
+          1.188,
+          1.21975,
+          1.2104
+        ],
+        "min_round_median_ms": 1.17605,
+        "max_round_median_ms": 1.21975,
+        "output_bytes": 460526,
+        "source_quality": {
+          "decoded_pixels_sha256": "979a7326b35eda33e90b2f86a9f255945b14f892f1e423e7d4300a53eade63e8",
+          "mse_to_input": 5.724746817129629,
+          "psnr_db_to_input": 40.553240765555365,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 19
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      }
+    },
+    "candidate_byte_identical_to_baseline": true,
+    "nvjpeg_component_quantizers_equal_to_baseline": true,
+    "speedup_original_over_candidate": 13.040698653198653,
+    "candidate_over_nvjpeg_latency_ratio": 1.03678491949208
+  },
+  {
+    "case": "4k-rgb-q90-420-interleaved",
+    "encoders": {
+      "baseline": {
+        "median_of_round_medians_ms": 68.7372,
+        "round_medians_ms": [
+          64.8499,
+          68.7372,
+          69.7891,
+          70.0709,
+          66.6405
+        ],
+        "min_round_median_ms": 64.8499,
+        "max_round_median_ms": 70.0709,
+        "output_bytes": 1546471,
+        "source_quality": {
+          "decoded_pixels_sha256": "7285fc8da0213e5b0743bba3055850d0a4e9ae78efdd80e438f459766a48bce7",
+          "mse_to_input": 7.294153886959877,
+          "psnr_db_to_input": 39.50105439352101,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 51
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "nvjpeg": {
+        "median_of_round_medians_ms": 8.38305,
+        "round_medians_ms": [
+          8.3711,
+          8.38305,
+          8.34385,
+          8.4086,
+          8.4037
+        ],
+        "min_round_median_ms": 8.34385,
+        "max_round_median_ms": 8.4086,
+        "output_bytes": 1539208,
+        "source_quality": {
+          "decoded_pixels_sha256": "85cc209325efb4829416e448aaf0ab2760d54e0f42dc09a432b00567916fa99c",
+          "mse_to_input": 6.881617637602881,
+          "psnr_db_to_input": 39.753898225586454,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 47
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "candidate": {
+        "median_of_round_medians_ms": 8.9113,
+        "round_medians_ms": [
+          9.09145,
+          8.7638,
+          8.83975,
+          8.9113,
+          8.9981
+        ],
+        "min_round_median_ms": 8.7638,
+        "max_round_median_ms": 9.09145,
+        "output_bytes": 1546471,
+        "source_quality": {
+          "decoded_pixels_sha256": "7285fc8da0213e5b0743bba3055850d0a4e9ae78efdd80e438f459766a48bce7",
+          "mse_to_input": 7.294153886959877,
+          "psnr_db_to_input": 39.50105439352101,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 51
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      }
+    },
+    "candidate_byte_identical_to_baseline": true,
+    "nvjpeg_component_quantizers_equal_to_baseline": true,
+    "speedup_original_over_candidate": 7.713487369968466,
+    "candidate_over_nvjpeg_latency_ratio": 1.0630140581292011
+  },
+  {
+    "case": "4k-gray-q90-gray-interleaved",
+    "encoders": {
+      "baseline": {
+        "median_of_round_medians_ms": 50.6007,
+        "round_medians_ms": [
+          49.96015,
+          50.6007,
+          50.932,
+          50.4346,
+          52.36575
+        ],
+        "min_round_median_ms": 49.96015,
+        "max_round_median_ms": 52.36575,
+        "output_bytes": 1338122,
+        "source_quality": {
+          "decoded_pixels_sha256": "93d688ddd7ef7626a95563eac01c87012a40ba3003ea3bb46e53ca5002da6390",
+          "mse_to_input": 2.9589391637731484,
+          "psnr_db_to_input": 43.419443247742684,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 18
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "nvjpeg": {
+        "median_of_round_medians_ms": 3.4993,
+        "round_medians_ms": [
+          3.4993,
+          3.50055,
+          3.5372,
+          3.42895,
+          3.474
+        ],
+        "min_round_median_ms": 3.42895,
+        "max_round_median_ms": 3.5372,
+        "output_bytes": 1338450,
+        "source_quality": {
+          "decoded_pixels_sha256": "306653cc5223a6872fed762b06e5895a48b22f43e0cee6d46e153ddabeda71ba",
+          "mse_to_input": 2.9588939525462963,
+          "psnr_db_to_input": 43.41950960644513,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 18
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      },
+      "candidate": {
+        "median_of_round_medians_ms": 3.9436,
+        "round_medians_ms": [
+          4.0316,
+          3.9436,
+          3.9416,
+          3.9186,
+          3.9742
+        ],
+        "min_round_median_ms": 3.9186,
+        "max_round_median_ms": 4.0316,
+        "output_bytes": 1338122,
+        "source_quality": {
+          "decoded_pixels_sha256": "93d688ddd7ef7626a95563eac01c87012a40ba3003ea3bb46e53ca5002da6390",
+          "mse_to_input": 2.9589391637731484,
+          "psnr_db_to_input": 43.419443247742684,
+          "lossless_pixels": false,
+          "max_abs_pixel_error": 18
+        },
+        "stable_jpeg_bytes_across_rounds": true
+      }
+    },
+    "candidate_byte_identical_to_baseline": true,
+    "nvjpeg_component_quantizers_equal_to_baseline": true,
+    "speedup_original_over_candidate": 12.83109341718227,
+    "candidate_over_nvjpeg_latency_ratio": 1.1269682507930159
+  }
+]

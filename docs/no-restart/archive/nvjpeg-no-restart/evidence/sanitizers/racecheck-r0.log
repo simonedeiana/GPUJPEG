@@ -1,0 +1,651 @@
+========= COMPUTE-SANITIZER
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x650
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x660
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x670
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x680
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x690
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6a0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6b0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6c0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x650
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x660
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x670
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x680
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x690
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6a0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6b0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6c0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x650
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x660
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x670
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x680
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x690
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6a0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6b0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6c0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x650
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x660
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x670
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x680
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x690
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6a0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6b0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6c0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x650
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x660
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x670
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x680
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x690
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6a0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6b0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6c0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x650
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x660
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x670
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x680
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x690
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6a0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6b0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6c0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x650
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x660
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x670
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x680
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x690
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6a0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6b0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6c0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [576 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [576 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x650
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x660
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x670
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x680
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x690
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6a0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6b0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6c0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x650
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x660
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x670
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x680
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x690
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6a0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6b0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6d0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+========= Warning: Race reported between Write access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6c0
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6e0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x6f0 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x700 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x710 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x720 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x730 [160 hazards]
+=========     and Read access at void gpujpeg_dct_gpu_kernel<(int)4>(int, int, unsigned char *, unsigned int, short *, int, const float *)+0x740 [160 hazards]
+========= 
+{"library":"GPUJPEG","restart_interval_requested":0,"width":127,"height":65,"channels":3,"sampling":"420","interleaved":0,"quality":100,"optimized":0,"pinned":0,"input_bytes":24765,"output_bytes":19907,"iterations":3,"warmup":1,"setup_ms":5174.9164,"primary_ms":[793.176,757.4255,749.9028],"warm_primary":{"count":2,"median_ms":753.66415,"mean_ms":753.66415,"min_ms":749.9028,"max_ms":757.4255}}
+========= RACECHECK SUMMARY: 72 hazards displayed (0 errors, 72 warnings)

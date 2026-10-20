@@ -1,0 +1,26 @@
+========= COMPUTE-SANITIZER
+CUDA driver version:   13.4
+CUDA runtime version:  13.4
+Using Device #0:       NVIDIA GeForce RTX 3050 (c.c. 8.6)
+Decode Image GPU:       75.0459 ms (only in-GPU processing)
+Decode Image Bare:      75.9090 ms (without copy to/from GPU memory)
+Decode Image:           76.4785 ms
+Decompressed Size:       43,584 bytes 8x5448 u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+Decode Image GPU:       57.3368 ms (only in-GPU processing)
+Decode Image Bare:      57.7601 ms (without copy to/from GPU memory)
+Decode Image:           58.6397 ms
+Decompressed Size:       43,584 bytes 8x5448 u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+
+Avg Decode Duration:    67.5591 ms
+
+GPUJPEG rev 78e5eee built Oct 20 2026 18:49:40 
+
+Decoding Image [work/compact-decode/correctness/stress/chain16-r17.jpg] to u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+Load Image:                1.09 ms
+
+Iteration #1:
+
+Iteration #2:
+Save Image:                0.79 ms
+Image Name:          work/compact-decode/correctness/sanitizers/racecheck-valid-chain16-strict.pgm
+========= RACECHECK SUMMARY: 0 hazards displayed (0 errors, 0 warnings)

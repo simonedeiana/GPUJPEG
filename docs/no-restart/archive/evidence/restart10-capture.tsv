@@ -1,0 +1,58 @@
+subscribe	0
+enable	0
+copy	cudaMemcpy	104857600	0000000204200000
+copy	cudaMemcpyAsync	4480	00000002049F1100
+copy	cudaMemcpyAsync	4	0000000204200200
+copy	cudaMemcpyAsync	1	0000000204200400
+copy	cudaMemcpyAsync	1792	0000000204200600
+copy	cudaMemcpyAsync	5376	0000000204200E00
+copy	cudaMemcpyAsync	13056	0000000204202400
+copy	cudaMemcpyAsync	22016	0000000204205800
+copy	cudaMemcpyAsync	39904	000000020420AE00
+copy	cudaMemcpyAsync	69600	0000000204214A00
+copy	cudaMemcpyAsync	122304	0000000204225A00
+copy	cudaMemcpyAsync	216720	0000000204243800
+copy	cudaMemcpyAsync	385776	0000000204355000
+copy	cudaMemcpyAsync	690080	0000000205800000
+copy	cudaMemcpyAsync	2052	00000002049F0400
+copy	cudaMemcpyAsync	697456	00000002058A8800
+kernel	_Z33BytestreamMarkupMarkerAndFFKernelPjS_PK5uint2j	341,1,1	256,1,1
+kernel	_Z37BytestreamMarkupMarkerAndFFRestKernelPjS_PKhjj	1,1,1	1,1,1
+kernel	_Z18BlockScanKernel_v2IjL10scanKind_t0E8scanPropEvPT_S3_PKS2_j	11,1,1	512,1,1
+kernel	_Z16TopScanKernel_v2Ij8scanPropEvPT_S2_PKS1_jj	1,1,1	512,1,1
+kernel	_Z19UpdateScanKernel_v2Ij8scanPropEvPT_PKS1_j	11,1,1	512,1,1
+kernel	_Z18BlockScanKernel_v2IjL10scanKind_t0E8scanPropEvPT_S3_PKS2_j	11,1,1	512,1,1
+kernel	_Z16TopScanKernel_v2Ij8scanPropEvPT_S2_PKS1_jj	1,1,1	512,1,1
+kernel	_Z19UpdateScanKernel_v2Ij8scanPropEvPT_PKS1_j	11,1,1	512,1,1
+kernel	_Z23BytestreamUnstuffKernelPjPhPKjS2_PK5uint2j	341,1,1	256,1,1
+kernel	_Z27BytestreamUnstuffRestKernelPjPhPKjS2_PKhjj	1,1,1	1,1,1
+copy	cudaMemcpyAsync	4	000000CD18CFDDBC
+kernel	_Z19HuffmanDecodeKernelI12SurfaceTraitIL19fastSurfaceFormat_t5EEEvP10rleToken_tP14decoderError_tPKjS8_PK14huffmanState_tjjjjj7McuDesc	13,1,1	256,1,1
+arg	0	006cbb0613000000
+arg	1	8068f70813000000
+arg	2	004c370813000000
+arg	3	006ef50813000000
+arg	4	805cf50813000000
+arg	5	00010100
+arg	6	00010100
+arg	7	907e0000
+arg	8	0a000000
+arg	9	a07e0000
+arg	10	01010100010101000101010000010200
+kernel	_Z15RleDecodeKernelI12SurfaceTraitIL19fastSurfaceFormat_t5EEEvPsPK10rleToken_tjjj7McuDescS7_	254,1,1	128,1,1
+kernel	_Z18BlockScanKernel_v2IsL10scanKind_t1E8scanPropEvPT_S3_PKS2_j	64,1,1	512,1,1
+kernel	_Z16TopScanKernel_v2Is8scanPropEvPT_S2_PKS1_jj	1,1,1	512,1,1
+kernel	_Z19UpdateScanKernel_v2Is8scanPropEvPT_PKS1_j	64,1,1	512,1,1
+kernel	_Z11DCSumKernelPsPKsjjjj	13,1,1	256,1,1
+kernel	_Z15DCRestoreKernelPsPKsS1_jjjj	127,1,1	256,1,1
+kernel	_Z18BlockScanKernel_v2IsL10scanKind_t1E8scanPropEvPT_S3_PKS2_j	64,1,1	512,1,1
+kernel	_Z16TopScanKernel_v2Is8scanPropEvPT_S2_PKS1_jj	1,1,1	512,1,1
+kernel	_Z19UpdateScanKernel_v2Is8scanPropEvPT_PKS1_j	64,1,1	512,1,1
+kernel	_Z11DCSumKernelPsPKsjjjj	13,1,1	256,1,1
+kernel	_Z15DCRestoreKernelPsPKsS1_jjjj	127,1,1	256,1,1
+kernel	_Z18BlockScanKernel_v2IsL10scanKind_t1E8scanPropEvPT_S3_PKS2_j	64,1,1	512,1,1
+kernel	_Z16TopScanKernel_v2Is8scanPropEvPT_S2_PKS1_jj	1,1,1	512,1,1
+kernel	_Z19UpdateScanKernel_v2Is8scanPropEvPT_PKS1_j	64,1,1	512,1,1
+kernel	_Z11DCSumKernelPsPKsjjjj	13,1,1	256,1,1
+kernel	_Z15DCRestoreKernelPsPKsS1_jjjj	127,1,1	256,1,1
+kernel	_Z21InverseDCTColorKernelI12SurfaceTraitIL19fastSurfaceFormat_t5EEEvPvjjjjjPK12quantState_tjPKsj	1013,1,1	32,8,1

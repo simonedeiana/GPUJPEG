@@ -1,0 +1,26 @@
+========= COMPUTE-SANITIZER
+CUDA driver version:   13.4
+CUDA runtime version:  13.4
+Using Device #0:       NVIDIA GeForce RTX 3050 (c.c. 8.6)
+Decode Image GPU:        9.6860 ms (only in-GPU processing)
+Decode Image Bare:      12.4755 ms (without copy to/from GPU memory)
+Decode Image:           12.5718 ms
+Decompressed Size:        2,624 bytes 8x328 u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+Decode Image GPU:        1.9405 ms (only in-GPU processing)
+Decode Image Bare:       3.0135 ms (without copy to/from GPU memory)
+Decode Image:            3.0862 ms
+Decompressed Size:        2,624 bytes 8x328 u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+
+Avg Decode Duration:     7.8290 ms
+
+GPUJPEG rev 78e5eee built Oct 20 2026 18:49:40 
+
+Decoding Image [work/compact-decode/correctness/negative/unused-prefix.jpg] to u8 YCbCr BT.601 256 Levels (YCbCr JPEG)
+Load Image:               11.36 ms
+
+Iteration #1:
+
+Iteration #2:
+Save Image:                0.75 ms
+Image Name:          work/compact-decode/correctness/sanitizers/memcheck-negative-unused-prefix-strict.pgm
+========= ERROR SUMMARY: 0 errors
