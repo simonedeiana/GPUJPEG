@@ -11,6 +11,8 @@ cmake --build build --config Release
 
 Set the CUDA architecture for your GPU. On Windows use a Visual Studio x64 developer shell and a compatible CUDA toolkit. Both new paths require CUDA 11+ and SM3+; this version was validated with CUDA 13.4 on an RTX 3050, SM86. The new encoder option defaults ON; the experimental decoder option defaults OFF and must be explicitly enabled. Existing eligibility checks and fallback routes remain in force. Build directories should be separate when comparing ON/OFF configurations.
 
+The [Windows CLI fix and regression instructions](windows-cli.md) cover raw RGB24 encoding, Unicode paths, and consistent Windows/CRT character types. The console executable can perform the full JPEG → RGB24 → JPEG round trip directly; the earlier demonstration's public-API runner workaround is no longer required.
+
 Set `restart_interval=0` through the public API or encode with `gpujpegtool --encode --restart=0 input.ppm output.jpg`. Normal decoding selects the new path for eligible restart-free JPEGs when compiled ON. Positive restart intervals retain the existing implementations. No new public API is required. [Encoder algorithm and limits](../../HUFFMAN_NO_RESTART.md) and [decoder algorithm, correctness argument and limits](../../HUFFMAN_NO_RESTART_DECODER.md) describe the code in this branch.
 
 ## Results and evidence
